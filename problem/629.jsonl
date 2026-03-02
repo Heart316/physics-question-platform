@@ -1,0 +1,17 @@
+{
+  "problem_id": "629",
+  "problem_text_cn": "参考系S'相对惯性系S以v匀速运动，直尺A'B'和AB静长相同，分别静置于S'和S系。A'与A相遇时两钟调零，B'与B相遇时两钟调零。A与A'相遇时A发出光讯号，B'接收时B'钟读数1。求：1. B接收讯号时B钟的读数；2.（a）A'接收应答讯号时A'钟的读数；（b）A接收应答讯号时A钟的读数（用β=v/c表述）。",
+  "problem_text_en": "Reference frame S' moves uniformly at speed v relative to inertial frame S，straight rulers A'B' and AB have the same rest length，stationary in S' and S respectively。When A' meets A，both clocks are set to zero；when B' meets B，both clocks are set to zero。When A meets A'，A emits a light signal，and the reading of clock B' is 1 when B' receives the signal。Find：1. The reading of clock B when B receives the signal；2.（a）The reading of clock A' when A' receives the response signal；（b）The reading of clock A when A receives the response signal（expressed in β=v/c）.",
+  "problem_img": [
+    "629_1.png"
+  ],
+  "problem_img_process": [
+    "629_1_process.png"
+  ],
+  "problem_solution_cn": "（1）B钟读数：\n- S'系中AB动长l₀√(1-β²)，B'与B相遇早于A'与A相遇的时间Δt'=l₀(1-√(1-β²))/v。\n- 光讯号传播时间l₀/c，B'钟读数1=l₀(1-√(1-β²))/(v c) + l₀/c，解得l₀/c=β/(β+1-√(1-β²))。\n- S系中B钟读数t_B=√[(1-β)/(1+β)]。\\n（2）应答讯号读数：\\n- （a）A'钟读数t_A'=2β/(β+1-√(1-β²))=1+√[(1-β)/(1+β)]；\\n- （b）A钟读数t_A=1+√[(1+β)/(1-β)]。",
+  "problem_solution_en": "（1）Reading of clock B：\n- The moving length of AB in S' is l₀√(1-β²)，the time Δt' when B' meets B earlier than A' meets A is Δt'=l₀(1-√(1-β²))/v。\n- Light signal propagation time l₀/c，reading of clock B' 1=l₀(1-√(1-β²))/(v c) + l₀/c，solving gives l₀/c=β/(β+1-√(1-β²))。\\n- Reading of clock B in S is t_B=√[(1-β)/(1+β)]。\\n（2）Reading of response signal：\\n- （a）Reading of clock A' t_A'=2β/(β+1-√(1-β²))=1+√[(1-β)/(1+β)]；\\n- （b）Reading of clock A t_A=1+√[(1+β)/(1-β)]。",
+  "problem_answer": "1. B钟读数$t_B=\\sqrt{\\frac{1-\\beta}{1+\\beta}}$；2.（a）A'钟读数$t_{A'}=1+\\sqrt{\\frac{1-\\beta}{1+\\beta}}$；（b）A钟读数$t_A=1+\\sqrt{\\frac{1+\\beta}{1-\\beta}}$",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

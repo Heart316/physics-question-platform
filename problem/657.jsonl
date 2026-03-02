@@ -1,0 +1,21 @@
+{
+  "problem_id": "657",
+  "problem_text_cn": "质量M的圆环用细线悬挂，环上套两个质量m的小球，从顶端静止向两侧滑下（摩擦可略）。1. 圆环不动时，画T随cosθ的曲线，求T_min及对应θ；2. 求m/M的最小值使圆环可能上升，画临界情形T随cosθ的曲线，求圆环开始上升时的θ。",
+  "problem_text_en": "A ring of mass M is suspended by a thin string，two balls of mass m are sleeved on the ring，sliding down from the top to both sides from rest（friction negligible）。1. When the ring is stationary，draw the curve of T versus cosθ，find T_min and corresponding θ；2. Find the minimum value of m/M for the ring to possibly rise，draw the curve of T versus cosθ in the critical case，find θ when the ring starts to rise.",
+  "problem_img": [
+    "657_1.png",
+    "657_2.png",
+    "657_3.png"
+  ],
+  "problem_img_process": [
+    "657_1_process.png",
+    "657_2_process.png",
+    "657_3_process.png"
+  ],
+  "problem_solution_cn": "（1）圆环不动时的T：\n- 小球机械能守恒得$v^2=2gl(1-\\cos\\theta)$，动力学方程得$N=mg(3\\cos\\theta-2)$；\n- 圆环受力平衡$T=Mg+2N_y=Mg+2mg(2-3\\cos\\theta)$；\n- $T_{min}=Mg-\\frac{2}{3}mg$，对应$\\cos\\theta=\\frac{1}{3}$，$\\theta≈70.5°$。\n（2）圆环上升条件：\n- 上升条件T≤0，临界时$\\frac{m}{M}=\\frac{3}{2}$；\n- 临界情形$T=Mg+2mg(2-3\\cos\\theta)$，当$\\cos\\theta=\\frac{2}{3}$时T=0，圆环开始上升，$\\theta≈48.2°$。",
+  "problem_solution_en": "（1）T when the ring is stationary：\n- Ball energy conservation gives $v^2=2gl(1-\\cos\\theta)$，dynamic equation gives $N=mg(3\\cos\\theta-2)$；\n- Ring force balance $T=Mg+2N_y=Mg+2mg(2-3\\cos\\theta)$；\n- $T_{min}=Mg-\\frac{2}{3}mg$，corresponding to $\\cos\\theta=\\frac{1}{3}$，$\\theta≈70.5°$。\n（2）Condition for ring to rise：\n- Rise condition T≤0，critical $\\frac{m}{M}=\\frac{3}{2}$；\n- Critical case $T=Mg+2mg(2-3\\cos\\theta)$，T=0 when $\\cos\\theta=\\frac{2}{3}$，the ring starts to rise，$\\theta≈48.2°$。",
+  "problem_answer": "1. $T_{min}=M g - \\frac{2}{3} m g$，对应$\\theta≈70.5^\\circ$；2. 最小质量比$\\frac{m}{M}=\\frac{3}{2}$，开始上升时$\\theta≈48.2^\\circ$",
+  "problem_tags": [
+    "Mechanics"
+  ]
+}

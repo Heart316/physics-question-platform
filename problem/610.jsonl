@@ -1,0 +1,19 @@
+{
+  "problem_id": "610",
+  "problem_text_cn": "1. 导出二维金属曲面的欧姆定律微分形式$j^*=\\sigma^*E$，给出$\\sigma^*$与$n^*$、$e$、$m$、$\\lambda^*$、$v^*$的关系；2. 二维电阻率$\\rho^*=1/\\sigma^*$的金属几何面（侧面是高$H$、半径$R_2$的圆柱面，上下端面是内$R_1$、外$R_2$的环面），电流从上端内圆流入、下端内圆流出，求电阻$R$。",
+  "problem_text_en": "1. Derive the differential form of Ohm's law $j^*=\\sigma^*E$ for a two-dimensional metal surface，and give the relationship between $\\sigma^*$ and $n^*$、$e$、$m$、$\\lambda^*$、$v^*$；2. A two-dimensional metal geometric surface with resistivity $\\rho^*=1/\\sigma^*$（the side surface is a cylindrical surface with height $H$ and radius $R_2$，the upper and lower end surfaces are annular surfaces with inner radius $R_1$ and outer radius $R_2$），current flows in from the inner circle of the upper end and out from the inner circle of the lower end，find the resistance $R$.",
+  "problem_img": [
+    "610_1.png",
+    "610_2.png"
+  ],
+  "problem_img_process": [
+    "610_1_process.png",
+    "610_2_process.png"
+  ],
+  "problem_solution_cn": "（1）二维欧姆定律：\n- 电子漂移速度$u^*=e\\lambda^*E/(2mv^*)$，二维电流密度$j^*=n^*e u^*$，得$j^*=\\sigma^*E$，$\\sigma^*=n^*e^2\\lambda^*/(2mv^*)$（$n^*$为电子面密度，$\\lambda^*$为二维平均自由程，$v^*$为热运动平均速率）。\n（2）二维电阻计算：\n- 上端面电阻$\\Delta R_1=\\rho^*\\ln(R_2/R_1)/\\pi$，圆柱面电阻$\\Delta R_2=\\rho^*H/(2\\pi R_2)$，下端面电阻$\\Delta R_3=\\Delta R_1$。\n- 总电阻$R=\\Delta R_1+\\Delta R_2+\\Delta R_3=\\rho^*[2\\ln(R_2/R_1) + H/R_2]/\\pi$。",
+  "problem_solution_en": "（1）Two-dimensional Ohm's law：\n- Electron drift velocity $u^*=e\\lambda^*E/(2mv^*)$，two-dimensional current density $j^*=n^*e u^*$，obtaining $j^*=\\sigma^*E$，$\\sigma^*=n^*e^2\\lambda^*/(2mv^*)$（$n^*$ is electron surface density，$\\lambda^*$ is two-dimensional mean free path，$v^*$ is thermal motion mean speed）。\n（2）Two-dimensional resistance calculation：\n- Resistance of upper end surface $\\Delta R_1=\\rho^*\\ln(R_2/R_1)/\\pi$，resistance of cylindrical surface $\\Delta R_2=\\rho^*H/(2\\pi R_2)$，resistance of lower end surface $\\Delta R_3=\\Delta R_1$。\n- Total resistance $R=\\Delta R_1+\\Delta R_2+\\Delta R_3=\\rho^*[2\\ln(R_2/R_1) + H/R_2]/\\pi$。",
+  "problem_answer": "1. 二维欧姆定律$j^*=\\sigma^* E$，$\\sigma^*=\\frac{n^* e^2 \\lambda^*}{2 m v^*}$；2. 总电阻$R=\\frac{\\rho^*}{\\pi}\\left(2\\ln\\frac{R_2}{R_1} + \\frac{H}{R_2}\\right)$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

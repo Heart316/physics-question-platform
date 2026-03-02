@@ -1,0 +1,33 @@
+{
+  "problem_id": "616",
+  "problem_text_cn": "1. 画出四端完全网络，及含1个内节点、8个电阻（无串并联）的四端非完全网络；2. 三端非完全网络（每段电阻R）等效为三端完全网络，求等效电阻；3. 无限内接三角形网络（单位长度电阻r，大三角形边长a），求A、B间等效电阻R_AB。",
+  "problem_text_en": "1. Draw a four-terminal complete network and a four-terminal incomplete network with 1 internal node and 8 resistors（no series-parallel connection）；2. A three-terminal incomplete network（each segment resistance R）is equivalent to a three-terminal complete network，find the equivalent resistance；3. An infinite inscribed triangle network（unit length resistance r，side length of large triangle a），find the equivalent resistance R_AB between A and B.",
+  "problem_img": [
+    "616_1.png",
+    "616_2.png",
+    "616_3.png",
+    "616_4.png",
+    "616_5.png",
+    "616_6.png",
+    "616_7.png",
+    "616_8.png",
+    "616_9.png"
+  ],
+  "problem_img_process": [
+    "616_1_process.png",
+    "616_2_process.png",
+    "616_3_process.png",
+    "616_4_process.png",
+    "616_5_process.png",
+    "616_6_process.png",
+    "616_7_process.png",
+    "616_8_process.png",
+    "616_9_process.png"
+  ],
+  "problem_solution_cn": "（1）网络绘制：\n- 四端完全网络：4个外接端两两相连；四端非完全网络：4个外接端接1个内节点，共8个电阻。\n（2）三端网络等效：\n- 利用对称性，C端断开时原网络R_AB=10R/9，等效△网络R_AB=2R'/3，解得R'=5R/3。\\n（3）无限内接三角形网络：\\n- 等效变换后建立递推关系，R_PQ=R_AB/2，解得R_AB=(√7-1)ar/3，最终结合右侧网络得R_AB=(5√7-7)ar/12。",
+  "problem_solution_en": "（1）Network drawing：\n- Four-terminal complete network：4 external terminals connected pairwise；Four-terminal incomplete network：4 external terminals connected to 1 internal node，total 8 resistors。\\n（2）Equivalence of three-terminal network：\\n- Using symmetry，when terminal C is open，R_AB=10R/9 for the original network，and R_AB=2R'/3 for the equivalent △ network，solving gives R'=5R/3。\\n（3）Infinite inscribed triangle network：\\n- Establish recursive relation after equivalent transformation，R_PQ=R_AB/2，solving gives R_AB=(√7-1)ar/3，finally combining with the right network to get R_AB=(5√7-7)ar/12。",
+  "problem_answer": "1. 网络图见解析；2. 等效三端完全网络电阻$R'=\\frac{5}{3}R$；3. A、B间等效电阻$R_{AB}=\\frac{5\\sqrt{7}-7}{12}ar$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

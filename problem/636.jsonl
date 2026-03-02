@@ -1,0 +1,20 @@
+{
+  "problem_id": "636",
+  "problem_text_cn": "隧道A₁B₁长L₁，火车A₂B₂静长L₂（L₂>L₁）。1. 火车匀速v驶进隧道，地面S₁系中A₂与A₁相遇时B₂与B₁也相遇，求v；2. 火车系S₂中求A₁与A₂、B₁与B₂相遇的时间间隔Δt₂；3. 隧道A₁端封闭、B₁端有大门，S₁系中关闭大门装入火车，S₂系中假设带动事件以速度u从A₂传递到B₂，确定u的可取值并证明u≤c（用β=v/c表述）。",
+  "problem_text_en": "Tunnel A₁B₁ has length L₁，train A₂B₂ has rest length L₂（L₂>L₁）。1. The train moves into the tunnel at uniform speed v，A₂ meets A₁ and B₂ meets B₁ simultaneously in the ground frame S₁，find v；2. Find the time interval Δt₂ between A₁ meeting A₂ and B₁ meeting B₂ in the train frame S₂；3. Tunnel end A₁ is closed and end B₁ has a gate，the gate is closed to load the train in frame S₁，assuming the driving event propagates from A₂ to B₂ at speed u in frame S₂，determine the possible values of u and prove u≤c（expressed in β=v/c）.",
+  "problem_img": [
+    "636_1.png",
+    "636_2.png"
+  ],
+  "problem_img_process": [
+    "636_1_process.png",
+    "636_2_process.png"
+  ],
+  "problem_solution_cn": "（1）火车速度v：\n- S₁系中火车动长L₂'=L₂√(1-β²)，由L₂'=L₁，解得v=c√(1-(L₁/L₂)²)。\n（2）时间间隔Δt₂：\n- S₂系中隧道动长L₁'=L₁²/L₂，Δt₂=(L₂-L₁')/v=L₂√(1-(L₁/L₂)²)/c。\n（3）u的取值与证明：\n- 要求uΔt₂≤L₂，得u≤c/√(1-(L₁/L₂)²)=c²/v；\n- 反证法：假设u>c，选取L₂使v=c/α（α>1），则u>c²/v=αc>c，与u≤c²/v矛盾，故u≤c。",
+  "problem_solution_en": "（1）Train speed v：\n- The moving length of the train in frame S₁ is L₂'=L₂√(1-β²)，from L₂'=L₁，solving gives v=c√(1-(L₁/L₂)²)。\n（2）Time interval Δt₂：\n- The moving length of the tunnel in frame S₂ is L₁'=L₁²/L₂，Δt₂=(L₂-L₁')/v=L₂√(1-(L₁/L₂)²)/c。\n（3）Possible values of u and proof：\n- Requiring uΔt₂≤L₂，obtaining u≤c/√(1-(L₁/L₂)²)=c²/v；\n- Proof by contradiction：Assume u>c，select L₂ such that v=c/α（α>1），then u>c²/v=αc>c，contradicting u≤c²/v，thus u≤c。",
+  "problem_answer": "1. 火车速度$v=c \\sqrt{1-\\left(\\frac{L_1}{L_2}\\right)^2}$；2. 时间间隔$\\Delta t_2=\\frac{L_2 \\sqrt{1-\\left(\\frac{L_1}{L_2}\\right)^2}}{c}$；3. u的取值范围$u \\leq \\frac{c^2}{v}$，证明见解析",
+  "problem_tags": [
+    "Modern Physics",
+    "Mechanics"
+  ]
+}

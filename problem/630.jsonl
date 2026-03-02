@@ -1,0 +1,17 @@
+{
+  "problem_id": "630",
+  "problem_text_cn": "低速K⁻介子与静止质子P碰撞生成π⁺介子和未知粒子x，匀强磁场B=1.70Wb/m²，π⁺介子径迹曲率半径R₁=34.0cm。1. 确定x粒子径迹曲率半径R₂；2. 参考粒子表确认x为何种粒子。",
+  "problem_text_en": "A low-speed K⁻ meson collides with a stationary proton P to produce a π⁺ meson and an unknown particle x，uniform magnetic field B=1.70Wb/m²，the curvature radius of the π⁺ meson track R₁=34.0cm。1. Determine the curvature radius R₂ of the x particle track；2. Identify the x particle with reference to the particle table.",
+  "problem_img": [
+    "630_1.png"
+  ],
+  "problem_img_process": [
+    "630_1_process.png"
+  ],
+  "problem_solution_cn": "（1）曲率半径R₂：\n- 电荷守恒x带-e，动量守恒m₁v₁=m₂v₂，洛伦兹力提供向心力evB=mv/R，故R₂=R₁=34.0cm。\n（2）粒子识别：\n- π⁺介子静质量139.6MeV/c²，计算v₁=2.34×10⁸m/s，能量E₁=223MeV。\\n- 能量守恒Eₓ=(m_K + m_P)c² - E₁=1209.1MeV，计算x静质量mₓ₀c²≈1196MeV，查表为Σ⁻粒子。",
+  "problem_solution_en": "（1）Curvature radius R₂：\n- Charge conservation x carries -e，momentum conservation m₁v₁=m₂v₂，Lorentz force provides centripetal force evB=mv/R，thus R₂=R₁=34.0cm。\\n（2）Particle identification：\\n- Rest mass of π⁺ meson 139.6MeV/c²，calculating v₁=2.34×10⁸m/s，energy E₁=223MeV。\\n- Energy conservation Eₓ=(m_K + m_P)c² - E₁=1209.1MeV，calculating the rest mass of x mₓ₀c²≈1196MeV，which is Σ⁻ particle from the table。",
+  "problem_answer": "1. x粒子曲率半径$R_2=34.0\\ \\text{cm}$；2. x粒子为$\\Sigma^-$粒子",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

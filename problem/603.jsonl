@@ -1,0 +1,24 @@
+{
+  "problem_id": "603",
+  "problem_text_cn": "质量均为$m$、电量分别为$q$和$-q$的两带电质点相距$2R$，质心$C$静止在原点，在$xy$平面绕$C$顺时针作圆运动（$t=0$时为图示位置）。加沿$z$轴的弱匀强磁场$B$，求：1. 质心速度分量$v_x$、$v_y$随$t$的变化；2. 质心位置$x$、$y$随$t$的变化；3. 定性画出质心运动轨迹。",
+  "problem_text_en": "Two charged particles with mass $m$ each, charges $q$ and $-q$ respectively, are separated by $2R$. Their center of mass $C$ is at rest at the origin and moves in a circular motion around $C$ clockwise in the $xy$ plane (as shown in the figure at $t=0$). A weak uniform magnetic field $B$ along the $z$-axis is applied. Find: 1. The variation of the center-of-mass velocity components $v_x$、$v_y$ with $t$；2. The variation of the center-of-mass position $x$、$y$ with $t$；3. Qualitatively draw the center-of-mass motion trajectory.",
+  "problem_img": [
+    "603_1.png",
+    "603_2.png",
+    "603_3.png",
+    "603_4.png"
+  ],
+  "problem_img_process": [
+    "603_1_process.png",
+    "603_2_process.png",
+    "603_3_process.png",
+    "603_4_process.png"
+  ],
+  "problem_solution_cn": "（1）质心速度变化：\n- 洛伦兹力合力$F=2q\\omega RB$（大小恒定，随$\\omega$旋转），$\\omega=q/[4R\\sqrt{(\\pi\\varepsilon_0mR)}]$。\n- 运动方程$2m dv_x/dt=F \\sin\\omega t$，$2m dv_y/dt=F \\cos\\omega t$，积分得$v_x=(qBR/m)(1-\\cos\\omega t)$，$v_y=(qBR/m)\\sin\\omega t$。\n（2）质心位置变化：\n- 积分速度得$x=(qBR/m)(t - \\sin\\omega t/\\omega)$，$y=(qBR)/(m\\omega)(1 - \\cos\\omega t)$。\n（3）运动轨迹：滚轮线（圆轮纯滚动边缘点轨迹），由水平匀速运动和匀速圆周运动合成。",
+  "problem_solution_en": "（1）Variation of center-of-mass velocity：\n- The resultant Lorentz force $F=2q\\omega RB$（constant magnitude, rotating with $\\omega$），$\\omega=q/[4R\\sqrt{(\\pi\\varepsilon_0mR)}]$。\n- Motion equations $2m dv_x/dt=F \\sin\\omega t$，$2m dv_y/dt=F \\cos\\omega t$，integrating gives $v_x=(qBR/m)(1-\\cos\\omega t)$，$v_y=(qBR/m)\\sin\\omega t$。\n（2）Variation of center-of-mass position：\n- Integrating the velocity gives $x=(qBR/m)(t - \\sin\\omega t/\\omega)$，$y=(qBR)/(m\\omega)(1 - \\cos\\omega t)$。\n（3）Motion trajectory：Cycloid（trajectory of the edge point of a purely rolling circular wheel），composed of horizontal uniform motion and uniform circular motion。",
+  "problem_answer": "1. 速度分量$v_x = \\frac{q B R}{m}(1 - \\cos\\omega t)$，$v_y = \\frac{q B R}{m} \\sin\\omega t$（$\\omega=\\frac{q}{4R\\sqrt{\\pi \\varepsilon_0 m R}}$）；2. 位置$x=\\frac{q B R}{m}\\left(t - \\frac{\\sin\\omega t}{\\omega}\\right)$，$y=\\frac{q B R}{m \\omega}(1 - \\cos\\omega t)$；3. 轨迹为滚轮线（见解析）",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

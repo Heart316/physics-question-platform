@@ -1,0 +1,18 @@
+{
+  "problem_id": "539",
+  "problem_text_cn": "入射光以入射角$i$射到一不透光的表面上，入射光的能流密度为$I$。设表面对光的能量反射率为$R$。试求该表面单位面积所受的光压和切向力。",
+  "problem_text_en": "A light beam is incident on an opaque surface at an angle of incidence $i$, with an energy flux density of $I$. The surface has an energy reflectivity of $R$. Determine the radiation pressure and tangential force per unit area acting on the surface.",
+  "problem_img": [
+    "539.png"
+  ],
+  "problem_img_process": [
+    "539_process.png"
+  ],
+  "problem_solution_cn": "（1）分析思路：将光看作光子流，光子被反射时动量变化会给予表面动量，被吸收时动量全部转移给表面。通过计算单位面积表面在单位时间内获得的动量，其法向分量为光压，切向分量为切向力。\n（2）光子数与能流密度关系：设入射光照射面积为$S$，单位时间入射光子数为$N$，由能流密度定义$Nh\\nu = IS\\cos i$，得$N = \\frac{IS\\cos i}{h\\nu}$（$\\nu$为入射光频率）。\n（3）动量转移计算：\n- 反射过程：一个光子给予表面的动量为$\\frac{h\\nu}{c}(\\boldsymbol{k} - \\boldsymbol{k}')$（$\\boldsymbol{k}$、$\\boldsymbol{k}'$分别为入射、反射光单位矢量），单位时间$NR$个光子反射的总动量为$NR\\frac{h\\nu}{c}(\\boldsymbol{k} - \\boldsymbol{k}')$。\n- 吸收过程：一个光子给予表面的动量为$\\frac{h\\nu}{c}\\boldsymbol{k}$，单位时间$N(1-R)$个光子吸收的总动量为$N(1-R)\\frac{h\\nu}{c}\\boldsymbol{k}$。\n（4）总动量与受力推导：单位时间$S$面获得的总动量为$N\\frac{h\\nu}{c}(\\boldsymbol{k} - R\\boldsymbol{k}') = \\frac{IS}{c}\\cos i \\cdot (\\boldsymbol{k} - R\\boldsymbol{k}')$。由动量定理，$S$面受力$F = \\frac{IS}{c}\\cos i \\cdot (\\boldsymbol{k} - R\\boldsymbol{k}')$，单位面积受力$\\frac{F}{S} = \\frac{I}{c}\\cos i \\cdot (\\boldsymbol{k} - R\\boldsymbol{k}')$。\n（5）光压与切向力计算：\n- 光压（法向投影）：$P = \\frac{I}{c}(1+R)\\cos^2 i$；\n- 切向力（切向投影）：$T = \\frac{I}{c}\\cos i(\\sin i - R\\sin i) = \\frac{I}{2c}(1-R)\\sin 2i$。",
+  "problem_solution_en": "（1）Analysis: Treat light as a photon stream. When photons are reflected, their momentum change imparts momentum to the surface; when absorbed, all their momentum is transferred to the surface. By calculating the momentum gained by the unit area surface per unit time, its normal component is radiation pressure, and the tangential component is tangential force.\n（2）Relationship between photon number and energy flux density: Let the incident light irradiate an area $S$, with $N$ photons incident per unit time. From the definition of energy flux density $Nh\\nu = IS\\cos i$, we get $N = \\frac{IS\\cos i}{h\\nu}$ ($\\nu$ is the frequency of incident light).\n（3）Momentum transfer calculation:\n- Reflection process: The momentum imparted by one photon to the surface is $\\frac{h\\nu}{c}(\\boldsymbol{k} - \\boldsymbol{k}')$ ($\\boldsymbol{k}$, $\\boldsymbol{k}'$ are unit vectors of incident and reflected light respectively), and the total momentum from $NR$ photons reflected per unit time is $NR\\frac{h\\nu}{c}(\\boldsymbol{k} - \\boldsymbol{k}')$.\n- Absorption process: The momentum imparted by one photon to the surface is $\\frac{h\\nu}{c}\\boldsymbol{k}$, and the total momentum from $N(1-R)$ photons absorbed per unit time is $N(1-R)\\frac{h\\nu}{c}\\boldsymbol{k}$.\n（4）Derivation of total momentum and force: The total momentum gained by surface $S$ per unit time is $N\\frac{h\\nu}{c}(\\boldsymbol{k} - R\\boldsymbol{k}') = \\frac{IS}{c}\\cos i \\cdot (\\boldsymbol{k} - R\\boldsymbol{k}')$. By the momentum theorem, the force on surface $S$ is $F = \\frac{IS}{c}\\cos i \\cdot (\\boldsymbol{k} - R\\boldsymbol{k}')$, and the force per unit area is $\\frac{F}{S} = \\frac{I}{c}\\cos i \\cdot (\\boldsymbol{k} - R\\boldsymbol{k}')$.\n（5）Calculation of radiation pressure and tangential force:\n- Radiation pressure (normal projection): $P = \\frac{I}{c}(1+R)\\cos^2 i$;\n- Tangential force (tangential projection): $T = \\frac{I}{c}\\cos i(\\sin i - R\\sin i) = \\frac{I}{2c}(1-R)\\sin 2i$.",
+  "problem_answer": "光压：$P = \\dfrac{I}{c}(1+R)\\cos^2 i$；切向力：$T = \\dfrac{I}{2c}(1-R)\\sin 2i$",
+  "problem_tags": [
+    "Optics",
+    "Modern Physics"
+  ]
+}

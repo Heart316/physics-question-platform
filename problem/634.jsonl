@@ -1,0 +1,23 @@
+{
+  "problem_id": "634",
+  "problem_text_cn": "交流电路中，三个电源ε₁=ε₀cos(ωt/2+30°)，ε₂=ε₀cos(ωt+45°)，ε₃=ε₀cos(2ωt+60°)，ωL=1/(ωC)=R。求通过电阻R的电流i及电阻消耗的平均功率$\\overline{P}$。",
+  "problem_text_en": "In an AC circuit，three power supplies ε₁=ε₀cos(ωt/2+30°)，ε₂=ε₀cos(ωt+45°)，ε₃=ε₀cos(2ωt+60°)，ωL=1/(ωC)=R。Find the current i through the resistor R and the average power$\\overline{P}$ consumed by the resistor.",
+  "problem_img": [
+    "634_1.png",
+    "634_2.png",
+    "634_3.png",
+    "634_4.png"
+  ],
+  "problem_img_process": [
+    "634_1_process.png",
+    "634_2_process.png",
+    "634_3_process.png",
+    "634_4_process.png"
+  ],
+  "problem_solution_cn": "（1）分电源求电流：\n- ε₁单独作用：Z₁=R(1+2j/3)，i₁=3ε₀cos(ωt/2-3.7°)/(√13 R)；\n- ε₂单独作用：Z₂=R(1+j)/2，i₂=ε₀cos(ωt-45°)/R；\n- ε₃单独作用：Z₃=R(8-j)/10，i₃=4ε₀cos(2ωt+93.7°)/(√13 R)。\\n（2）总电流与平均功率：\\n- 总电流i=i₁+i₂+i₃；\\n- 平均功率$\\overline{P}$=Σ$\\overline{P}_i$= (9+13+8)ε₀²/(26R)=19ε₀²/(13R)。",
+  "problem_solution_en": "（1）Finding current by power supply：\n- ε₁ acting alone：Z₁=R(1+2j/3)，i₁=3ε₀cos(ωt/2-3.7°)/(√13 R)；\n- ε₂ acting alone：Z₂=R(1+j)/2，i₂=ε₀cos(ωt-45°)/R；\\n- ε₃ acting alone：Z₃=R(8-j)/10，i₃=4ε₀cos(2ωt+93.7°)/(√13 R)。\\n（2）Total current and average power：\\n- Total current i=i₁+i₂+i₃；\\n- Average power$\\overline{P}$=Σ$\\overline{P}_i$= (9+13+8)ε₀²/(26R)=19ε₀²/(13R)。",
+  "problem_answer": "总电流$i=\\frac{\\varepsilon_0}{R}\\left[\\frac{3}{\\sqrt{13}}\\cos\\left(\\frac{\\omega t}{2}-3.7^\\circ\\right)+\\cos\\left(\\omega t-45^\\circ\\right)+\\frac{4}{\\sqrt{13}}\\cos\\left(2\\omega t+93.7^\\circ\\right)\\right]$；平均功率$\\overline{P}=\\frac{19\\varepsilon_0^2}{13R}$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

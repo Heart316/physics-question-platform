@@ -1,0 +1,17 @@
+{
+  "problem_id": "659",
+  "problem_text_cn": "无穷长直导线（半径R、电导率σ、稳恒电流I）。1. 指出能流密度方向；2. 计算单位时间通过长度l的导线表面流入的能量；3. 证明该能量等于导线释放的热功率。",
+  "problem_text_en": "Infinite straight wire（radius R、conductivity σ、steady current I）。1. Indicate the direction of energy flow density；2. Calculate the energy flowing into the wire through the surface of length l per unit time；3. Prove that this energy is equal to the thermal power released by the wire.",
+  "problem_img": [
+    "659.png"
+  ],
+  "problem_img_process": [
+    "659_process.png"
+  ],
+  "problem_solution_cn": "（1）能流密度方向：\n- 导线内E沿电流方向，B垂直纸面向里，坡印亭矢量$\\vec{S}=\\frac{\\vec{E}×\\vec{B}}{\\mu_0}$，方向指向导线中心轴。\n（2）流入能量计算：\n- 表面电场$E=\\frac{I}{\\sigma\\pi R^2}$，磁场$H=\\frac{I}{2\\pi R}$，$S=EH=\\frac{I^2}{2\\pi^2\\sigma R^3}$；\n- 单位时间流入能量$P=S·2\\pi Rl=\\frac{I^2 l}{\\sigma\\pi R^2}=I^2 R'$（R'为长度l的导线电阻）。\n（3）热功率验证：\n- 焦耳热功率$P_热=\\int(\\sigma E^2)·\\pi R^2 l dr=I^2 R'$，与流入能量相等。",
+  "problem_solution_en": "（1）Direction of energy flow density：\n- E inside the wire is along the current direction，B is perpendicular to the paper inward，Poynting vector $\\vec{S}=\\frac{\\vec{E}×\\vec{B}}{\\mu_0}$，direction pointing to the wire's central axis。\n（2）Calculation of inflowing energy：\n- Surface electric field $E=\\frac{I}{\\sigma\\pi R^2}$，magnetic field $H=\\frac{I}{2\\pi R}$，$S=EH=\\frac{I^2}{2\\pi^2\\sigma R^3}$；\n- Energy flowing in per unit time $P=S·2\\pi Rl=\\frac{I^2 l}{\\sigma\\pi R^2}=I^2 R'$（R' is the resistance of the wire of length l）。\n（3）Verification of thermal power：\n- Joule thermal power $P_{thermal}=\\int(\\sigma E^2)·\\pi R^2 l dr=I^2 R'$，equal to the inflowing energy。",
+  "problem_answer": "1. 能流密度方向指向导线中心轴；2. 单位时间流入能量$P=I^2 \\frac{l}{\\sigma \\pi R^2}$；3. 证明见解析",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

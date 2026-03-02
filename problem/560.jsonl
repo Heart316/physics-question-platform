@@ -1,0 +1,18 @@
+{
+  "problem_id": "627",
+  "problem_text_cn": "中子束经三块单晶片B、C、D（平面S与水平面S₀夹角φ），路径BCE和BDE（BC=CE=BD=DE=l，BE与BC、BD夹角均为θ），重力影响不对称产生干涉。1. 证明相位差δ=qsinφ（q=kλl²sin2θ，确定k）；2. 中子动能3.9×10⁻²eV，l=4cm，θ=22.5°，φ从-90°到90°，求计数器读数极大次数。",
+  "problem_text_en": "Neutron beam passes through three single crystal wafers B、C、D（plane S makes an angle φ with horizontal plane S₀），paths BCE and BDE（BC=CE=BD=DE=l，the angle between BE and BC、BD is θ），asymmetric gravity effect produces interference。1. Prove the phase difference δ=qsinφ（q=kλl²sin2θ，determine k）；2. Neutron kinetic energy 3.9×10⁻²eV，l=4cm，θ=22.5°，φ from -90° to 90°，find the number of maximum readings of the counter.",
+  "problem_img": [
+    "627_1.png"
+  ],
+  "problem_img_process": [
+    "627_1_process.png"
+  ],
+  "problem_solution_cn": "（1）相位差证明：\n- 中子速度v₁=√(2Eₖ/m)，v₂≈v₁-g l sin2θ sinφ/v₁，波长λ₁=h/(mv₁)，λ₂=h/(mv₂)。\n- 相位差δ=2πl(1/λ₁ - 1/λ₂)=m²gλl²sin2θ sinφ/ħ²，故k=m²g/(2πħ²)。\\n（2）极大次数：\\n- 计算λ=0.145nm，q/(2π)≈10.3，δ从-q到q，极大次数为21次。",
+  "problem_solution_en": "（1）Proof of phase difference：\n- Neutron velocity v₁=√(2Eₖ/m)，v₂≈v₁-g l sin2θ sinφ/v₁，wavelength λ₁=h/(mv₁)，λ₂=h/(mv₂)。\n- Phase difference δ=2πl(1/λ₁ - 1/λ₂)=m²gλl²sin2θ sinφ/ħ²，thus k=m²g/(2πħ²)。\\n（2）Number of maxima：\\n- Calculating λ=0.145nm，q/(2π)≈10.3，δ from -q to q，the number of maxima is 21。",
+  "problem_answer": "1. 常量$k=\\frac{m^2 g}{2\\pi \\hbar^2}$，相位差$\\delta=q \\sin\\phi$；2. 极大次数21次",
+  "problem_tags": [
+    "Modern Physics",
+    "Mechanics"
+  ]
+}

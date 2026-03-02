@@ -1,0 +1,21 @@
+{
+  "problem_id": "660",
+  "problem_text_cn": "空心汉字“王”作为衍射屏，导出其夫琅禾费衍射场表达式，粗略画出衍射图样主要特征。",
+  "problem_text_en": "The hollow Chinese character \"Wang\" is used as a diffraction screen，derive the expression of its Fraunhofer diffraction field，and roughly draw the main characteristics of the diffraction pattern.",
+  "problem_img": [
+    "660_1.png",
+    "660_2.png",
+    "660_3.png"
+  ],
+  "problem_img_process": [
+    "660_1_process.png",
+    "660_2_process.png",
+    "660_3_process.png"
+  ],
+  "problem_solution_cn": "（1）衍射屏分解：\n- “王”字分解为3个矩孔（a×3a）和2个方孔（a×a），利用矩孔衍射公式和位移-相移关系。\n（2）衍射场推导：\n- 矩孔衍射场$U_1=U_0( \\frac{\\sin\\alpha}{\\alpha})(\\frac{\\sin3\\beta'}{\\beta'})$，方孔衍射场$U_2=U_0( \\frac{\\sin\\alpha}{\\alpha})(\\frac{\\sin\\beta'}{\\beta'})$；\n- 总衍射场$U=U_1 + U_2·[e^{ik·2a \\sin\\theta_2} + e^{-ik·2a \\sin\\theta_2}]$，其中$\\alpha=\\frac{\\pi a \\sin\\theta_1}{\\lambda}$，$\\beta'=\\frac{\\pi a \\sin\\theta_2}{\\lambda}$。\n（3）衍射图样特征：\n- 主极大沿$\\theta_1$、$\\theta_2$方向分布，次极大强度较弱，存在暗纹，整体呈现“王”字轮廓的衍射调制。",
+  "problem_solution_en": "（1）Decomposition of diffraction screen：\n- The character \"Wang\" is decomposed into 3 rectangular apertures（a×3a）and 2 square apertures（a×a），using the rectangular aperture diffraction formula and displacement-phase shift relationship。\n（2）Derivation of diffraction field：\n- Rectangular aperture diffraction field $U_1=U_0( \\frac{\\sin\\alpha}{\\alpha})(\\frac{\\sin3\\beta'}{\\beta'})$，square aperture diffraction field $U_2=U_0( \\frac{\\sin\\alpha}{\\alpha})(\\frac{\\sin\\beta'}{\\beta'})$；\n- Total diffraction field $U=U_1 + U_2·[e^{ik·2a \\sin\\theta_2} + e^{-ik·2a \\sin\\theta_2}]$，where $\\alpha=\\frac{\\pi a \\sin\\theta_1}{\\lambda}$，$\\beta'=\\frac{\\pi a \\sin\\theta_2}{\\lambda}$。\n（3）Characteristics of diffraction pattern：\n- The principal maxima are distributed along $\\theta_1$、$\\theta_2$ directions，the secondary maxima are weak，there are dark fringes，and the overall pattern shows diffraction modulation of the \"Wang\" character outline。",
+  "problem_answer": "夫琅禾费衍射场$U=U_0 \\frac{\\sin\\alpha}{\\alpha} \\left[ \\frac{\\sin3\\beta' + 2 \\cos(2k a \\sin\\theta_2) \\sin\\beta'}{\\beta'} \\right]$（$\\alpha=\\frac{\\pi a \\sin\\theta_1}{\\lambda}$，$\\beta'=\\frac{\\pi a \\sin\\theta_2}{\\lambda}$），衍射图样特征见解析",
+  "problem_tags": [
+    "Optics"
+  ]
+}

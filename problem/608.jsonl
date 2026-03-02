@@ -1,0 +1,25 @@
+{
+  "problem_id": "608",
+  "problem_text_cn": "平面$\\Sigma_1$与$\\Sigma_2$相交于$MN$，夹角$\\varphi=45°$，匀强磁场$B$平行于$\\Sigma_1$且垂直于$MN$。$\\Sigma_2$上有长方形电阻网络（7根电阻丝，长均为$l$），电阻$R_{ab}=R_{fc}=R_{ed}=R$，$R_{af}=R_{bc}=2R$，$R_{fe}=R_{cd}=4R$，电流$I$从$a$流入、$d$流出，求网络所受安培力大小$F$。",
+  "problem_text_en": "Plane $\\Sigma_1$ intersects plane $\\Sigma_2$ at $MN$ with an angle $\\varphi=45°$. A uniform magnetic field $B$ is parallel to $\\Sigma_1$ and perpendicular to $MN$. There is a rectangular resistor network on $\\Sigma_2$（7 resistance wires, all length $l$）with resistances $R_{ab}=R_{fc}=R_{ed}=R$，$R_{af}=R_{bc}=2R$，$R_{fe}=R_{cd}=4R$. Current $I$ flows in from $a$ and out from $d$, find the magnitude $F$ of the Ampere force on the network.",
+  "problem_img": [
+    "608_1.png",
+    "608_2.png",
+    "608_3.png",
+    "608_4.png",
+    "608_5.png"
+  ],
+  "problem_img_process": [
+    "608_1_process.png",
+    "608_2_process.png",
+    "608_3_process.png",
+    "608_4_process.png",
+    "608_5_process.png"
+  ],
+  "problem_solution_cn": "（1）等效电流路径：\n- 网络可等效为电流$I$从$a$到$d$的直线电流（闭合回路安培力为零），$ad$长度$l_{ad}=\\sqrt{5} l$。\n（2）安培力计算：\n- 磁场$B$与$ad$的夹角$\\theta$满足$\\sin\\theta=\\sqrt{3}/\\sqrt{5}$，安培力$F=I l_{ad} B \\sin\\theta=\\sqrt{3} I l B$。",
+  "problem_solution_en": "（1）Equivalent current path：\n- The network can be equivalent to a straight-line current $I$ from $a$ to $d$（the Ampere force of a closed loop is zero），length $l_{ad}=\\sqrt{5} l$。\n（2）Ampere force calculation：\n- The angle $\\theta$ between magnetic field $B$ and $ad$ satisfies $\\sin\\theta=\\sqrt{3}/\\sqrt{5}$，Ampere force $F=I l_{ad} B \\sin\\theta=\\sqrt{3} I l B$。",
+  "problem_answer": "网络所受安培力大小$F=\\sqrt{3} I l B$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

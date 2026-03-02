@@ -1,0 +1,25 @@
+{
+  "problem_id": "613",
+  "problem_text_cn": "$R-L$网络（每段为$R$、$L$串联，$\\omega L=\\sqrt{3}R$）。1. 求$A$、$B$间等效电抗$Z_{AB}$；2. $A$输入、$D$输出，串联电容$C_1$使功率因数$\\cos\\varphi=\\sqrt{2}/2$，求最小$C_1$；3. 支路无电容，$D$外串联$C_2$使总功率因数$\\cos\\varphi=\\sqrt{2}/2$，求最小$C_2$。",
+  "problem_text_en": "$R-L$ network（each branch is $R$、$L$ in series，$\\omega L=\\sqrt{3}R$）。1. Find the equivalent reactance $Z_{AB}$ between $A$ and $B$；2. Input at $A$、output at $D$，series capacitor $C_1$ to make power factor $\\cos\\varphi=\\sqrt{2}/2$，find the minimum $C_1$；3. No capacitor in branches，series capacitor $C_2$ outside $D$ to make the total power factor $\\cos\\varphi=\\sqrt{2}/2$，find the minimum $C_2$.",
+  "problem_img": [
+    "613_1.png",
+    "613_2.png",
+    "613_3.png",
+    "613_4.png",
+    "613_5.png"
+  ],
+  "problem_img_process": [
+    "613_1_process.png",
+    "613_2_process.png",
+    "613_3_process.png",
+    "613_4_process.png",
+    "613_5_process.png"
+  ],
+  "problem_solution_cn": "（1）等效电抗$Z_{AB}$：\n- 对称支路拆去，网络简化后，$Z=R+j\\omega L=2R$，等效$Z_{AB}=8Z/15=16R/15$。\n（2）支路串联$C_1$：\n- 原功率因数$\\cos\\varphi_0=1/2$，要求$1/\\omega C_1>\\omega L$，由$\\cos\\varphi=R/\\sqrt{[R^2+(1/(\\omega C_1)-\\omega L)^2]}$，解得$C_1=1/[(\\sqrt{3}+1)\\omega R]$。\n（3）$D$外串联$C_2$：\n- 求$A$、$D$等效阻抗$Z_{AD}=11Z/15$，得$C_2=15/[11(\\sqrt{3}+1)\\omega R]$。",
+  "problem_solution_en": "（1）Equivalent reactance $Z_{AB}$：\n- Symmetric branches are removed，after network simplification，$Z=R+j\\omega L=2R$，equivalent $Z_{AB}=8Z/15=16R/15$。\n（2）Series capacitor $C_1$ in branches：\n- Original power factor $\\cos\\varphi_0=1/2$，requiring $1/\\omega C_1>\\omega L$，from $\\cos\\varphi=R/\\sqrt{[R^2+(1/(\\omega C_1)-\\omega L)^2]}$，solving gives $C_1=1/[(\\sqrt{3}+1)\\omega R]$。\n（3）Series capacitor $C_2$ outside $D$：\n- Calculating the equivalent impedance $Z_{AD}=11Z/15$ between $A$ and $D$，obtaining $C_2=15/[11(\\sqrt{3}+1)\\omega R]$。",
+  "problem_answer": "1. 等效电抗$Z_{AB}=\\frac{16}{15}R$；2. 最小电容$C_1=\\frac{1}{(\\sqrt{3}+1)\\omega R}$；3. 最小电容$C_2=\\frac{15}{11(\\sqrt{3}+1)\\omega R}$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

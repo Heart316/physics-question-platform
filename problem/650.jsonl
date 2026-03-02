@@ -1,0 +1,25 @@
+{
+  "problem_id": "650",
+  "problem_text_cn": "长方体匀质木料（正截面正方形，长边平行水平面）浮于水面。1. 求平衡条件；2. 对称浮于水面且仅一条长边浸没，讨论平衡稳定性。",
+  "problem_text_en": "Homogeneous cuboid wood（square cross-section，long side parallel to horizontal plane）floats on water。1. Find the equilibrium conditions；2. Floats symmetrically on water with only one long side submerged，discuss the stability of equilibrium.",
+  "problem_img": [
+    "650_1.png",
+    "650_2.png",
+    "650_3.png",
+    "650_4.png",
+    "650_5.png"
+  ],
+  "problem_img_process": [
+    "650_1_process.png",
+    "650_2_process.png",
+    "650_3_process.png",
+    "650_4_process.png",
+    "650_5_process.png"
+  ],
+  "problem_solution_cn": "（1）平衡条件：\n- 条件1：木料密度ρ<水的密度ρ₀；\n- 条件2：重力=浮力（mg=ρ₀gS，S为水下截面积）；\n- 条件3：木料重心O与浮力力心C在同一直线上。\n（2）平衡稳定性：\n- 设正方形边长2a，浸没边长p₀=q₀，扰动后p≠q；\n- 定义y(x)=(a−x/3)x，若y(p)>y(q)，C点偏移使力矩阻碍扰动，为稳定平衡；反之不稳定；\n- 当p₀=q₀≤3a/2时稳定，p₀=q₀>3a/2时不稳定。",
+  "problem_solution_en": "（1）Equilibrium conditions：\n- Condition 1：Wood density ρ<water density ρ₀；\n- Condition 2：Gravity=buoyancy（mg=ρ₀gS，S is the underwater cross-sectional area）；\n- Condition 3：The center of gravity O of the wood and the center of buoyancy C are on the same straight line。\n（2）Stability of equilibrium：\n- Let the square side length be 2a，submerged side length p₀=q₀，p≠q after disturbance；\n- Define y(x)=(a−x/3)x，if y(p)>y(q)，the offset of point C makes the torque hinder the disturbance，which is stable equilibrium；otherwise unstable；\n- Stable when p₀=q₀≤3a/2，unstable when p₀=q₀>3a/2。",
+  "problem_answer": "1. 平衡条件：$\\rho<\\rho_0$、$mg=\\rho_0 g S$、O与C共线；2. 稳定性见解析",
+  "problem_tags": [
+    "Mechanics"
+  ]
+}

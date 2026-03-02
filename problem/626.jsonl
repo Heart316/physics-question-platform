@@ -1,0 +1,13 @@
+{
+  "problem_id": "626",
+  "problem_text_cn": "1. 摩尔质量μ的理想气体，温度T，导出中心频率ν₀谱线的多普勒展宽频率分布函数F(ν)；2. 氩气中钠蒸气（原子量23，直径0.1nm），T=200°C，p=10mmHg，吸收谱线λ₀=589.6nm。（a）求多普勒波长展宽；（b）估算碰撞展宽。",
+  "problem_text_en": "1. An ideal gas with molar mass μ，temperature T，derive the Doppler-broadened frequency distribution function F(ν) of the central frequency ν₀；2. Sodium vapor（atomic weight 23，diameter 0.1nm）in argon gas，T=200°C，p=10mmHg，absorption line λ₀=589.6nm。（a）Find the Doppler wavelength broadening；（b）Estimate the collision broadening.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "problem_solution_cn": "（1）多普勒展宽分布函数：\n- 经典多普勒频移ν=ν₀(1+vₓ/c)，一维麦克斯韦速度分布F(vₓ)，变换得F(ν)=(1/ν₀)√(μc²/(2πRT))exp[-μc²(ν-ν₀)²/(2RTν₀²)]。\n（2）波长展宽计算：\\n- （a）多普勒展宽：Δν=2ν₀√(RTln2/(μc²))，Δλ=|Δν|λ₀/c≈1.36×10⁻³nm；\\n- （b）碰撞展宽：Δt为平均碰撞时间，Δν=1/Δt，Δλ=λ₀²Δν/c≈6.0×10⁻⁶nm。",
+  "problem_solution_en": "（1）Doppler-broadened distribution function：\\n- Classical Doppler shift ν=ν₀(1+vₓ/c)，one-dimensional Maxwell velocity distribution F(vₓ)，transforming to get F(ν)=(1/ν₀)√(μc²/(2πRT))exp[-μc²(ν-ν₀)²/(2RTν₀²)]。\\n（2）Wavelength broadening calculation：\\n- （a）Doppler broadening：Δν=2ν₀√(RTln2/(μc²))，Δλ=|Δν|λ₀/c≈1.36×10⁻³nm；\\n- （b）Collision broadening：Δt is the mean collision time，Δν=1/Δt，Δλ=λ₀²Δν/c≈6.0×10⁻⁶nm。",
+  "problem_answer": "1. 频率分布函数$F(\\nu)=\\frac{1}{\\nu_0}\\sqrt{\\frac{\\mu c^2}{2\\pi R T}}\\exp\\left[-\\frac{\\mu c^2(\\nu-\\nu_0)^2}{2 R T \\nu_0^2}\\right]$；2.（a）多普勒波长展宽$|\\Delta \\lambda|≈1.36×10^{-3}\\ \\text{nm}$；（b）碰撞展宽$|\\Delta \\lambda|≈6.0×10^{-6}\\ \\text{nm}$",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

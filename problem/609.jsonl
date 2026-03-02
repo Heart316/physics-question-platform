@@ -1,0 +1,22 @@
+{
+  "problem_id": "609",
+  "problem_text_cn": "半径$R$的光滑绝缘圆环固定在水平面，环内有均匀带电细杆$ab$（质量$m$、电量$Q$，杆中心距环心$R/2$，两端约束在环上）。$t=0$时杆静止，磁场$B=B_0\\sin\\omega_0 t$竖直向下变化，杆交替逆时针、顺时针转$2\\pi$角。1. 确定$\\omega_0$与$m$、$Q$、$B_0$的关系；2. 确定杆通过$a$、$b$端对环的作用力$N_a$、$N_b$随$t$的变化规律。",
+  "problem_text_en": "A smooth insulating ring of radius $R$ is fixed on a horizontal plane. There is a uniformly charged thin rod $ab$ inside the ring（mass $m$、charge $Q$，the distance from the rod center to the ring center is $R/2$，both ends are constrained on the ring）. The rod is at rest at $t=0$，the magnetic field $B=B_0\\sin\\omega_0 t$ changes vertically downward，and the rod rotates $2\\pi$ angles counterclockwise and clockwise alternately. 1. Determine the relationship between $\\omega_0$ and $m$、$Q$、$B_0$；2. Determine the variation law of the forces $N_a$、$N_b$ exerted by the rod on the ring through ends $a$ and $b$ with $t$.",
+  "problem_img": [
+    "609_1.png",
+    "609_2.png",
+    "609_3.png"
+  ],
+  "problem_img_process": [
+    "609_1_process.png",
+    "609_2_process.png",
+    "609_3_process.png"
+  ],
+  "problem_solution_cn": "（1）$\\omega_0$的确定：\n- 变化磁场产生涡旋电场$E=(1/2)B_0\\omega_0\\cos\\omega_0 t · r$，杆受涡旋电场力矩$M=Q B_0\\omega_0 D^2 \\cos\\omega_0 t$（$D=R/2$）。\n- 转动惯量$I=2mD^2$，由转动定理得$\\beta=Q B_0\\omega_0 \\cos\\omega_0 t/(2m)$，积分得转角$\\theta=Q B_0(1 - \\cos\\omega_0 t)/(2m\\omega_0)$。\n- 题设$\\theta_{max}=2\\pi$，故$Q B_0/(2m\\omega_0)=2\\pi$，解得$\\omega_0=Q B_0/(4\\pi m)$。\n（2）作用力$N_a$、$N_b$：\n- 洛伦兹力提供向心力，环的作用力$N_a=Q^2 B_0^2 R \\sin^2\\omega_0 t/(8m)$，$N_b=-N_a$。",
+  "problem_solution_en": "（1）Determination of $\\omega_0$：\n- The varying magnetic field generates an eddy electric field $E=(1/2)B_0\\omega_0\\cos\\omega_0 t · r$，the rod is subjected to an eddy electric field torque $M=Q B_0\\omega_0 D^2 \\cos\\omega_0 t$（$D=R/2$）。\n- Moment of inertia $I=2mD^2$，from the rotation theorem $\\beta=Q B_0\\omega_0 \\cos\\omega_0 t/(2m)$，integrating gives the rotation angle $\\theta=Q B_0(1 - \\cos\\omega_0 t)/(2m\\omega_0)$。\n- Given $\\theta_{max}=2\\pi$，so $Q B_0/(2m\\omega_0)=2\\pi$，solving gives $\\omega_0=Q B_0/(4\\pi m)$。\n（2）Forces $N_a$、$N_b$：\n- The Lorentz force provides the centripetal force，the force exerted by the ring $N_a=Q^2 B_0^2 R \\sin^2\\omega_0 t/(8m)$，$N_b=-N_a$。",
+  "problem_answer": "1. $\\omega_0$与$m$、$Q$、$B_0$的关系$\\omega_0=\\frac{Q B_0}{4\\pi m}$；2. 作用力$N_a=\\frac{Q^2 B_0^2 R}{8m} \\sin^2\\omega_0 t$，$N_b=-\\frac{Q^2 B_0^2 R}{8m} \\sin^2\\omega_0 t$",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

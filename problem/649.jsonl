@@ -1,0 +1,23 @@
+{
+  "problem_id": "649",
+  "problem_text_cn": "1. 不规则薄平板刚体，P₁P₂=2l、P₂P₃=l、P₃P₁=√3 l，已知I₁=I_C+ml²、I₂=I_C+3ml²，求I₃；2.（a）匀质薄球壳（质量m、半径R），求绕直径的转动惯量I_R；（b）椭圆细环（半长轴A、半短轴B、质量m），已知I_A，求I_B；3. 匀质立方体（边长a、质量m），求绕对角线PQ的转动惯量I。",
+  "problem_text_en": "1. Irregular thin plate rigid body，P₁P₂=2l、P₂P₃=l、P₃P₁=√3 l，given I₁=I_C+ml²、I₂=I_C+3ml²，find I₃；2.（a）Homogeneous thin spherical shell（mass m、radius R），find the moment of inertia I_R about its diameter；（b）Elliptical thin ring（semi-major axis A、semi-minor axis B、mass m），given I_A，find I_B；3. Homogeneous cube（side length a、mass m），find the moment of inertia I about the diagonal PQ.",
+  "problem_img": [
+    "649_1.png",
+    "649_2.png",
+    "649_3.png",
+    "649_4.png"
+  ],
+  "problem_img_process": [
+    "649_1_process.png",
+    "649_2_process.png",
+    "649_3_process.png",
+    "649_4_process.png"
+  ],
+  "problem_solution_cn": "（1）I₃的求解：\n- 由平行轴定理，质心C在两圆交点，△P₁P₂P₃为直角三角形，计算得I₃=I_C+2ml²；\n- 联立I₁、I₂解得I_C=I₁−ml²，故I₃=I₁+ml²。\n（2）转动惯量计算：\n- （a）球壳：I_x=I_y=I_z=I_R，I_x+I_y+I_z=2mR²，得I_R=2mR²/3；\n- （b）椭圆环：I_A=∑m_i y_i²、I_B=∑m_i x_i²，结合椭圆方程x²/A²+y²/B²=1，得I_A/B² + I_B/A² = m。\n（3）立方体转动惯量：\n- 等分为8个小立方体，利用平行轴定理求和，得I=ma²/6。",
+  "problem_solution_en": "（1）Solution of I₃：\n- By parallel axis theorem，the center of mass C is at the intersection of two circles，△P₁P₂P₃ is a right triangle，calculating to get I₃=I_C+2ml²；\n- Combining I₁、I₂ to solve I_C=I₁−ml²，thus I₃=I₁+ml²。\n（2）Calculation of moment of inertia：\n- （a）Spherical shell：I_x=I_y=I_z=I_R，I_x+I_y+I_z=2mR²，obtaining I_R=2mR²/3；\n- （b）Elliptical ring：I_A=∑m_i y_i²、I_B=∑m_i x_i²，combining with ellipse equation x²/A²+y²/B²=1，obtaining I_A/B² + I_B/A² = m。\n（3）Moment of inertia of cube：\n- Divide into 8 small cubes，sum using parallel axis theorem，obtaining I=ma²/6。",
+  "problem_answer": "1. 转动惯量$I_3=I_1+ml^2$；2.（a）$I_R=\\frac{2}{3}mR^2$；（b）$\\frac{I_A}{B^2} + \\frac{I_B}{A^2} = m$；3. $I=\\frac{1}{6}ma^2$",
+  "problem_tags": [
+    "Mechanics"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "problem_id": "605",
+  "problem_text_cn": "电荷线密度$\\lambda>0$、半径$R$的均匀带电圆环固定在光滑水平绝缘桌面，质量$m$、电量$q>0$的小球静止在环中心$O$附近（$r_0\\ll R$），判断小球运动是否为振动，若为振动，估算振动周期$T$。",
+  "problem_text_en": "A uniformly charged ring with linear charge density $\\lambda>0$ and radius $R$ is fixed on a smooth horizontal insulating table. A small ball of mass $m$ and charge $q>0$ is at rest near the ring center $O$（$r_0\\ll R$）. Determine whether the ball's motion is vibration; if yes, estimate the vibration period $T$.",
+  "problem_img": [
+    "605_1.png",
+    "605_2.png"
+  ],
+  "problem_img_process": [
+    "605_1_process.png",
+    "605_2_process.png"
+  ],
+  "problem_solution_cn": "（1）振动判断：\n- 由高斯定理，环心$O$附近电场线指向$O$点，小球受指向平衡位置$O$的线性恢复力$F=-k'r$，故运动为简谐振动。\n（2）周期估算：\n- 取以$O$为中心、$r$为半径、长$2l$（$l\\ll R$）的圆柱为高斯面，积分得电场$E=-\\lambda r/(4\\varepsilon_0R^2)$，恢复力$F=qE=-\\lambda qr/(4\\varepsilon_0R^2)$。\n- 角频率$\\omega=\\sqrt{[\\lambda q/(4\\varepsilon_0mR^2)]}$，振动周期$T=2\\pi/\\omega=4\\pi R\\sqrt{(\\varepsilon_0m/(\\lambda q))}$。",
+  "problem_solution_en": "（1）Vibration judgment：\n- By Gauss's theorem, the electric field lines near the ring center $O$ point to $O$, and the ball is subjected to a linear restoring force $F=-k'r$ pointing to the equilibrium position $O$, so the motion is simple harmonic vibration。\n（2）Period estimation：\n- Take a cylinder with $O$ as the center, $r$ as the radius, and length $2l$（$l\\ll R$）as the Gaussian surface. Integrating gives the electric field $E=-\\lambda r/(4\\varepsilon_0R^2)$, and the restoring force $F=qE=-\\lambda qr/(4\\varepsilon_0R^2)$。\n- Angular frequency $\\omega=\\sqrt{[\\lambda q/(4\\varepsilon_0mR^2)]}$，vibration period $T=2\\pi/\\omega=4\\pi R\\sqrt{(\\varepsilon_0m/(\\lambda q))}$。",
+  "problem_answer": "小球运动为简谐振动，振动周期$T=4\\pi R \\sqrt{\\frac{\\varepsilon_0 m}{\\lambda q}}$",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

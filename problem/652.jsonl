@@ -1,0 +1,19 @@
+{
+  "problem_id": "652",
+  "problem_text_cn": "光滑水平大圆环内侧，发射装置P（空质量m，珠子总质量m）静止，连续发射珠子（相对P速率u，单位时间发射质量常量），发射完时与首颗珠子相遇。1. 求P相对圆环转过的总角度θ；2. P吞入珠子后不再发射，求最终速率vₑ。",
+  "problem_text_en": "Inside a smooth horizontal large ring，the launching device P（empty mass m，total mass of beads m）is stationary，continuously launching beads（relative speed u to P，constant mass launched per unit time），and meets the first bead when launching is completed。1. Find the total angle θ rotated by P relative to the ring；2. P swallows the beads and no longer launches，find the final speed vₑ.",
+  "problem_img": [
+    "652_1.png",
+    "652_2.png"
+  ],
+  "problem_img_process": [
+    "652_1_process.png",
+    "652_2_process.png"
+  ],
+  "problem_solution_cn": "（1）转过角度θ：\n- 系统角动量守恒，列变质量角动量方程，积分得P的速率v与质量M的关系$v=u\\ln(\\frac{m_0}{M})$；\n- 发射时间$T=\\frac{m}{\\lambda}$，P走过路程$l=\\int_0^T vdt=u\\ln2$，首颗珠子路程$l_0=uT$；\n- 由$l+l_0=2\\pi R$，得$\\theta=\\frac{l}{R}=85°$。\n（2）最终速率vₑ：\n- 系统初始角动量为零，吞入全部珠子后总角动量仍为零；\n- 故P最终速率$v_e=0$。",
+  "problem_solution_en": "（1）Rotated angle θ：\n- System angular momentum conservation，listing variable mass angular momentum equation，integrating to get the relationship between P's speed v and mass M $v=u\\ln(\\frac{m_0}{M})$；\n- Launch time $T=\\frac{m}{\\lambda}$，distance traveled by P $l=\\int_0^T vdt=u\\ln2$，distance traveled by the first bead $l_0=uT$；\n- From $l+l_0=2\\pi R$，obtaining $\\theta=\\frac{l}{R}=85°$。\n（2）Final speed vₑ：\n- The initial angular momentum of the system is zero，and the total angular momentum remains zero after swallowing all beads；\n- Thus the final speed of P $v_e=0$。",
+  "problem_answer": "1. 转过角度$\\theta=85^\\circ$；2. 最终速率$v_e=0$",
+  "problem_tags": [
+    "Mechanics"
+  ]
+}

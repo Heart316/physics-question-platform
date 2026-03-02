@@ -1,0 +1,13 @@
+{
+  "problem_id": "628",
+  "problem_text_cn": "Pb原子核（82质子，半径7.1fm）与81电子、1μ⁻子构成μ介子原子，μ⁻子基态轨道在第一激发态内，第一激发态在电子轨道内。μ⁻子从第一激发态跃迁到基态辐射光子能量6.0MeV，估算μ⁻子基态轨道半径（μ⁻子质量=207电子质量）。",
+  "problem_text_en": "A μ-meson atom consists of a Pb nucleus（82 protons，radius 7.1fm），81 electrons and 1 μ⁻ meson，the ground state orbit of μ⁻ meson is inside the first excited state，and the first excited state is inside the electron orbits。The μ⁻ meson radiates a photon of energy 6.0MeV when transitioning from the first excited state to the ground state，estimate the ground state orbital radius of the μ⁻ meson（mass of μ⁻ meson=207 electron mass）.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "problem_solution_cn": "（1）玻尔模型近似：\n- 第一激发态n=2，基态n=1，假设轨道在核外，r₁=ε₀h²/(πmᵤZe²)=3.49fm（小于核半径7.1fm，矛盾）。\\n（2）核内电场修正：\\n- 核内电场E(r)=Zer/(4πε₀R³)，基态能量E₁=Ze²(2r₁²/R² - 3)/(8πε₀R)。\\n- 第一激发态r₂=4r₁=13.96fm（核外），E₂=-Ze²/(8πε₀r₂)，ΔE=E₂-E₁=6.0MeV，解得r₁≈6.4fm。",
+  "problem_solution_en": "（1）Bohr model approximation：\n- First excited state n=2，ground state n=1，assuming the orbit is outside the nucleus，r₁=ε₀h²/(πmᵤZe²)=3.49fm（smaller than nuclear radius 7.1fm，contradiction）。\\n（2）Correction of electric field inside the nucleus：\\n- Electric field inside the nucleus E(r)=Zer/(4πε₀R³)，ground state energy E₁=Ze²(2r₁²/R² - 3)/(8πε₀R)。\\n- First excited state r₂=4r₁=13.96fm（outside the nucleus），E₂=-Ze²/(8πε₀r₂)，ΔE=E₂-E₁=6.0MeV，solving gives r₁≈6.4fm。",
+  "problem_answer": "μ⁻子基态轨道半径$r_1≈6.4\\ \\text{fm}$",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

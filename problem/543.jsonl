@@ -1,0 +1,20 @@
+{
+  "problem_id": "543",
+  "problem_text_cn": "一表面涂黑的圆筒形容器，直径$d=5.0\\ \\text{cm}$，高$l=10.0\\ \\text{cm}$，筒内盛有液氦（温度为氨的沸点$4.2\\ \\text{K}$）。圆筒外包绝热材料，绝热材料与圆筒间空隙抽成真空，绝热材料维持在液氮温度$77\\ \\text{K}$，其总辐射本领是同温度下黑体的$\\frac{1}{2}$。试问每小时有多少液氦蒸发掉？（液氦在$4.2\\ \\text{K}$时的汽化热$L=2.1 \\times 10^4\\ \\text{J/kg}$，忽略气体、固体传热，汽化的氨气立即逸出）",
+  "problem_text_en": "A cylindrical container with a blackened surface has a diameter $d=5.0\\ \\text{cm}$ and height $l=10.0\\ \\text{cm}$, containing liquid helium (at the boiling point of helium, $4.2\\ \\text{K}$). The container is wrapped with thermal insulation material, and the gap between the insulation material and the container is evacuated. The insulation material is maintained at liquid nitrogen temperature $77\\ \\text{K}$, and its total radiant power is $\\frac{1}{2}$ that of a black body at the same temperature. Find the mass of liquid helium that evaporates per hour? (The latent heat of vaporization of liquid helium at $4.2\\ \\text{K}$ is $L=2.1 \\times 10^4\\ \\text{J/kg}$, ignoring gas and solid heat transfer, and the vaporized helium escapes immediately).",
+  "problem_img": [
+    "543_1.png",
+    "543_2.png"
+  ],
+  "problem_img_process": [
+    "543_1_process.png",
+    "543_2_process.png"
+  ],
+  "problem_solution_cn": "（1）辐射传热分析：\n- 容器特性：表面涂黑视为黑体，总辐射本领$R_1 = \\sigma T_1^4$（$T_1=4.2\\ \\text{K}$）；绝热材料非黑体，总辐射本领$R_2 = \\alpha\\sigma T_2^4$（$\\alpha=\\frac{1}{2}$，$T_2=77\\ \\text{K}$）。\n- 净能流密度：单位时间从绝热材料流向容器的净能流密度$\\dot{Q} = R_2 + (1-\\alpha)R_1 - R_1 = \\alpha\\sigma(T_2^4 - T_1^4)$（$(1-\\alpha)R_1$为绝热材料对容器辐射的反射能）。\n（2）容器表面积计算：\n容器与绝热材料的接触面积$A = \\pi dl + \\pi(\\frac{d}{2})^2 = \\pi d(l + \\frac{d}{4})$，代入$d=0.05\\ \\text{m}$、$l=0.1\\ \\text{m}$，得$A \\approx 1.77 \\times 10^{-2}\\ \\text{m}^2$。\n（3）蒸发质量计算：\n- 1小时内容器吸收的总热量$Q_{总} = \\dot{Q} A t = \\alpha\\sigma A(T_2^4 - T_1^4)t$（$t=3600\\ \\text{s}$）。\n- 汽化质量关系：$Q_{总} = mL$，故$m = \\frac{\\alpha\\sigma A(T_2^4 - T_1^4)t}{L}$。\n- 代入数据：$\\sigma=5.67 \\times 10^{-8}\\ \\text{W/(m}^2\\cdot\\text{K}^4\\text{)}$，计算得$m \\approx 3.0 \\times 10^{-3}\\ \\text{kg}$（即3.0g）。",
+  "problem_solution_en": "（1）Analysis of radiative heat transfer:\n- Container characteristics: The blackened surface is treated as a black body, with total radiant power $R_1 = \\sigma T_1^4$ ($T_1=4.2\\ \\text{K}$); the insulation material is a non-black body, with total radiant power $R_2 = \\alpha\\sigma T_2^4$ ($\\alpha=\\frac{1}{2}$, $T_2=77\\ \\text{K}$).\n- Net energy flux density: The net energy flux density from the insulation material to the container per unit time is $\\dot{Q} = R_2 + (1-\\alpha)R_1 - R_1 = \\alpha\\sigma(T_2^4 - T_1^4)$ ($(1-\\alpha)R_1$ is the reflected energy of the insulation material to the container's radiation).\n（2）Calculation of container surface area:\nThe contact area between the container and the insulation material is $A = \\pi dl + \\pi(\\frac{d}{2})^2 = \\pi d(l + \\frac{d}{4})$. Substituting $d=0.05\\ \\text{m}$ and $l=0.1\\ \\text{m}$, we get $A \\approx 1.77 \\times 10^{-2}\\ \\text{m}^2$.\n（3）Calculation of evaporated mass:\n- Total heat absorbed by the container in 1 hour: $Q_{总} = \\dot{Q} A t = \\alpha\\sigma A(T_2^4 - T_1^4)t$ ($t=3600\\ \\text{s}$).\n- Vaporization mass relation: $Q_{总} = mL$, so $m = \\frac{\\alpha\\sigma A(T_2^4 - T_1^4)t}{L}$.\n- Substituting data: $\\sigma=5.67 \\times 10^{-8}\\ \\text{W/(m}^2\\cdot\\text{K}^4\\text{)}$, calculating to get $m \\approx 3.0 \\times 10^{-3}\\ \\text{kg}$ (i.e., 3.0g). ",
+  "problem_answer": "每小时液氦蒸发量约为$3.0 \\times 10^{-3}\\ \\text{kg}$（或3.0g）",
+  "problem_tags": [
+    "Thermodynamics",
+    "Modern Physics"
+  ]
+}

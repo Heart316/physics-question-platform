@@ -1,0 +1,18 @@
+{
+  "problem_id": "541",
+  "problem_text_cn": "一个用理想黑色物质制成的均匀球，半径$r=1\\ \\text{mm}$，受均匀平行激光束全面照射，激光为圆偏振光，波长$\\lambda=10^4\\ \\text{nm}$。球初始在无重力空间实验室中静止悬浮，经激光照射后开始平动和转动，球上除与激光束平行的一条直径外，每一部位沿螺旋轨道运动。试求螺旋轨道的螺距$h$（圆偏振光光子角动量大小为$\\hbar = \\frac{h}{2\\pi}$，方向与动量平行或反平行，所有光子角动量方向一致）。",
+  "problem_text_en": "A uniform sphere made of an ideal black material has a radius $r=1\\ \\text{mm}$ and is fully irradiated by a uniform parallel laser beam. The laser is circularly polarized light with a wavelength $\\lambda=10^4\\ \\text{nm}$. Initially, the sphere is stationary and suspended in a gravity-free space laboratory. After being irradiated by the laser, it starts to translate and rotate. Except for a diameter parallel to the laser beam, every part of the sphere moves along a helical orbit. Find the pitch $h$ of the helical orbit (the angular momentum magnitude of a circularly polarized photon is $\\hbar = \\frac{h}{2\\pi}$, with direction parallel or antiparallel to momentum, and all photons have the same angular momentum direction).",
+  "problem_img": [
+    "541.png"
+  ],
+  "problem_img_process": [
+    "541_process.png"
+  ],
+  "problem_solution_cn": "（1）平动加速度推导：\n设单位时间入射到球上的光子数为$n$，$dt$时间内入射光子数$ndt$。单个光子动量$p_{photon} = \\frac{h}{\\lambda}$，由动量守恒，球的动量增量$dp = \\frac{h}{\\lambda}ndt$。设球质量为$m$，速度增量$dv = \\frac{dp}{m}$，故平动加速度$a = \\frac{dv}{dt} = \\frac{nh}{m\\lambda}$。\n（2）角加速度推导：\n单个光子角动量$L_{photon} = \\hbar = \\frac{h}{2\\pi}$，$dt$时间内球的角动量增量$dL = \\frac{h}{2\\pi}ndt$。球绕中心直径的转动惯量$I = \\frac{2}{5}mr^2$，角速度增量$d\\omega = \\frac{dL}{I}$，故角加速度$\\beta = \\frac{d\\omega}{dt} = \\frac{nh}{2\\pi I} = \\frac{5nh}{8\\pi mr^2}$。\n（3）螺距计算：\n- $t$时刻平动位移$x = \\frac{1}{2}at^2 = \\frac{nht^2}{2m\\lambda}$；\n- $t$时刻转过角度$\\phi = \\frac{1}{2}\\beta t^2 = \\frac{5nht^2}{8\\pi mr^2}$；\n- 联立得$x = \\frac{4\\pi r^2}{5\\lambda}\\phi$。螺距为$\\phi$增加$2\\pi$时的$x$增量，即$h = \\frac{4\\pi r^2}{5\\lambda} \\times 2\\pi = \\frac{8\\pi^2 r^2}{5\\lambda}$。\n- 代入数据：$r=10^{-3}\\ \\text{m}$，$\\lambda=10^{-5}\\ \\text{m}$，得$h \\approx 1.6\\ \\text{m}$。",
+  "problem_solution_en": "（1）Derivation of translational acceleration:\nLet $n$ be the number of photons incident on the sphere per unit time, and the number of incident photons in time $dt$ is $ndt$. The momentum of a single photon is $p_{photon} = \\frac{h}{\\lambda}$. By conservation of momentum, the momentum increment of the sphere is $dp = \\frac{h}{\\lambda}ndt$. Let the mass of the sphere be $m$, the velocity increment $dv = \\frac{dp}{m}$, so the translational acceleration $a = \\frac{dv}{dt} = \\frac{nh}{m\\lambda}$.\n（2）Derivation of angular acceleration:\nThe angular momentum of a single photon is $L_{photon} = \\hbar = \\frac{h}{2\\pi}$, and the angular momentum increment of the sphere in time $dt$ is $dL = \\frac{h}{2\\pi}ndt$. The moment of inertia of the sphere about its central diameter is $I = \\frac{2}{5}mr^2$, the angular velocity increment $d\\omega = \\frac{dL}{I}$, so the angular acceleration $\\beta = \\frac{d\\omega}{dt} = \\frac{nh}{2\\pi I} = \\frac{5nh}{8\\pi mr^2}$.\n（3）Calculation of pitch:\n- Translational displacement at time $t$: $x = \\frac{1}{2}at^2 = \\frac{nht^2}{2m\\lambda}$;\n- Rotation angle at time $t$: $\\phi = \\frac{1}{2}\\beta t^2 = \\frac{5nht^2}{8\\pi mr^2}$;\n- Combining to get $x = \\frac{4\\pi r^2}{5\\lambda}\\phi$. The pitch is the increment of $x$ when $\\phi$ increases by $2\\pi$, i.e., $h = \\frac{4\\pi r^2}{5\\lambda} \\times 2\\pi = \\frac{8\\pi^2 r^2}{5\\lambda}$.\n- Substituting data: $r=10^{-3}\\ \\text{m}$, $\\lambda=10^{-5}\\ \\text{m}$, obtaining $h \\approx 1.6\\ \\text{m}$. ",
+  "problem_answer": "螺旋轨道的螺距$h = \\dfrac{8\\pi^2 r^2}{5\\lambda} \\approx 1.6\\ \\text{m}$",
+  "problem_tags": [
+    "Modern Physics",
+    "Mechanics"
+  ]
+}

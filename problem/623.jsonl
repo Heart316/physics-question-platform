@@ -1,0 +1,21 @@
+{
+  "problem_id": "623",
+  "problem_text_cn": "薄凸透镜切去宽度a的中间部分后粘合，直径D=2.0cm，焦距f=20cm。单色点光源S（λ=500nm）在中心轴上，与透镜距离20cm，幕上干涉条纹间距Δx=0.20mm。求：1. 切去部分的宽度a；2. 幕离透镜多远时干涉条纹数最多。",
+  "problem_text_en": "A thin convex lens is cut off the middle part of width a and glued together，diameter D=2.0cm，focal length f=20cm。A monochromatic point light source S（λ=500nm）is on the central axis，20cm away from the lens，and the interference fringe spacing on the screen is Δx=0.20mm。Find：1. The width a of the cut-off part；2. How far is the screen from the lens when the number of interference fringes is the largest.",
+  "problem_img": [
+    "623_1.png",
+    "623_2.png",
+    "623_3.png"
+  ],
+  "problem_img_process": [
+    "623_1_process.png",
+    "623_2_process.png",
+    "623_3_process.png"
+  ],
+  "problem_solution_cn": "（1）切去宽度a：\n- 上下半透镜的平行光夹角θ满足sinθ=a/(2f)，干涉条纹间距Δx=λ/(2sinθ)，解得a=λf/Δx=0.50mm。\n（2）条纹数最多时的幕距：\n- 两束平行光重叠区最大时条纹最多，几何关系得d=Df/(2a)=4.0m。",
+  "problem_solution_en": "（1）Width a of the cut-off part：\n- The angle θ between the parallel light from the upper and lower half-lenses satisfies sinθ=a/(2f)，interference fringe spacing Δx=λ/(2sinθ)，solving gives a=λf/Δx=0.50mm。\\n（2）Screen distance when the number of fringes is the largest：\\n- The number of fringes is the largest when the overlapping area of the two parallel lights is maximum，geometric relation gives d=Df/(2a)=4.0m。",
+  "problem_answer": "1. 切去部分宽度$a=0.50\\ \\text{mm}$；2. 幕离透镜距离$d=4.0\\ \\text{m}$",
+  "problem_tags": [
+    "Optics"
+  ]
+}

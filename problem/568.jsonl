@@ -1,0 +1,26 @@
+{
+  "problem_id": "635",
+  "problem_text_cn": "平面径向向心静电场E(r)=-kr^(-β)r/r（β≠1），带电粒子（q>0、m）从S点发射，理想情况以横向速度v₀绕O点匀速圆周运动。1. 确定S点到O点的距离r₀；2. 粒子束有小散射角α（速率仍v₀），求β的取值范围、聚焦角φ₁、转过φ₁/2时的径向宽度Δr₁，及β=-13时的轨迹；3. 粒子束无散射但横向速度分布v₀~v₀+Δv₀，求聚焦角φ₂、转过φ₂/2时的径向宽度Δr₂，及β=-13时的轨迹。",
+  "problem_text_en": "Planar radial centripetal electrostatic field E(r)=-kr^(-β)r/r（β≠1），charged particles（q>0、m）are emitted from point S，moving in uniform circular motion around point O with transverse velocity v₀ in the ideal case。1. Determine the distance r₀ from point S to point O；2. The particle beam has a small scattering angle α（speed remains v₀），find the range of β、focusing angle φ₁、radial width Δr₁ when rotating φ₁/2，and the trajectory when β=-13；3. The particle beam has no scattering but the transverse velocity distributes from v₀ to v₀+Δv₀，find the focusing angle φ₂、radial width Δr₂ when rotating φ₂/2，and the trajectory when β=-13.",
+  "problem_img": [
+    "635_1.png",
+    "635_2.png",
+    "635_3.png",
+    "635_4.png",
+    "635_5.png"
+  ],
+  "problem_img_process": [
+    "635_1_process.png",
+    "635_2_process.png",
+    "635_3_process.png",
+    "635_4_process.png",
+    "635_5_process.png"
+  ],
+  "problem_solution_cn": "（1）r₀的确定：\n- 圆周运动向心力由电场力提供，qkr₀^(-β)=mv₀²/r₀，解得r₀=(kq/(mv₀²))^(1/(β-1))。\n（2）散射角α时的聚焦特性：\n- 径向小振动要求3-β>0，故β<3；\n- 聚焦角φ₁=π/√(3-β)，径向宽度Δr₁=αr₀/√(3-β)；\n- β=-13时，φ₁=π/4，Δr₁=αr₀/4，轨迹每经π/4聚焦一次。\n（3）速度分布时的聚焦特性：\n- 聚焦角φ₂=2π/√(3-β)，径向宽度Δr₂=4r₀Δv₀/[(3-β)v₀]；\n- β=-13时，φ₂=π/2，轨迹每经π/2聚焦一次。",
+  "problem_solution_en": "（1）Determination of r₀：\n- The centripetal force of circular motion is provided by the electric field force，qkr₀^(-β)=mv₀²/r₀，solving gives r₀=(kq/(mv₀²))^(1/(β-1))。\n（2）Focusing characteristics with scattering angle α：\n- Radial small vibration requires 3-β>0，thus β<3；\n- Focusing angle φ₁=π/√(3-β)，radial width Δr₁=αr₀/√(3-β)；\n- When β=-13，φ₁=π/4，Δr₁=αr₀/4，the trajectory focuses every π/4。\n（3）Focusing characteristics with velocity distribution：\n- Focusing angle φ₂=2π/√(3-β)，radial width Δr₂=4r₀Δv₀/[(3-β)v₀]；\n- When β=-13，φ₂=π/2，the trajectory focuses every π/2。",
+  "problem_answer": "1. S点到O点的距离$r_0=\\left(\\frac{k q}{m v_0^2}\\right)^{\\frac{1}{\\beta-1}}$；2. β的取值范围$\\beta<3$，聚焦角$\\phi_1=\\frac{\\pi}{\\sqrt{3-\\beta}}$，径向宽度$\\Delta r_1=\\frac{\\alpha r_0}{\\sqrt{3-\\beta}}$；3. 聚焦角$\\phi_2=\\frac{2\\pi}{\\sqrt{3-\\beta}}$，径向宽度$\\Delta r_2=\\frac{4 r_0 \\Delta v_0}{(3-\\beta) v_0}$，轨迹见解析",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

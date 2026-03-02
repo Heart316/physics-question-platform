@@ -1,0 +1,19 @@
+{
+  "problem_id": "624",
+  "problem_text_cn": "玻璃基底上涂两层薄膜，厚度t₁、t₂，折射率n₀<n₁<n₂>n₃，单色光垂直入射，三束反射光振幅相等。为使反射光总强度为零，求t₁的最小值及对应的t₂最小值。",
+  "problem_text_en": "Two thin films are coated on a glass substrate，thicknesses t₁、t₂，refractive indices n₀<n₁<n₂>n₃，monochromatic light is incident vertically，and the amplitudes of the three reflected lights are equal。To make the total intensity of the reflected light zero，find the minimum value of t₁ and the corresponding minimum value of t₂.",
+  "problem_img": [
+    "624_1.png",
+    "624_2.png"
+  ],
+  "problem_img_process": [
+    "624_1_process.png",
+    "624_2_process.png"
+  ],
+  "problem_solution_cn": "（1）相位条件：\n- 三束反射光振幅矢量夹角120°时合矢量为零，A₂比A₁落后2π/3，A₃比A₂落后2π/3。\n（2）t₁的最小值：\n- 第一、二反射光无附加光程差，2n₁t₁=λ/6，得t₁=λ/(6n₁)。\n（3）t₂的最小值：\n- 第二、三反射光有附加光程差λ/2，2n₁t₁+2n₂t₂=5λ/12，代入t₁得t₂=5λ/(12n₂)。",
+  "problem_solution_en": "（1）Phase condition：\n- When the angle between the amplitude vectors of the three reflected lights is 120°，the resultant vector is zero，A₂ lags A₁ by 2π/3，A₃ lags A₂ by 2π/3。\n（2）Minimum value of t₁：\n- No additional optical path difference between the first and second reflected lights，2n₁t₁=λ/6，obtaining t₁=λ/(6n₁)。\\n（3）Minimum value of t₂：\\n- There is an additional optical path difference λ/2 between the second and third reflected lights，2n₁t₁+2n₂t₂=5λ/12，substituting t₁ gives t₂=5λ/(12n₂)。",
+  "problem_answer": "t₁的最小值$t_1=\\frac{\\lambda}{6n_1}$；对应的t₂最小值$t_2=\\frac{5\\lambda}{12n_2}$",
+  "problem_tags": [
+    "Optics"
+  ]
+}

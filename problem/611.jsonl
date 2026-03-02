@@ -1,0 +1,37 @@
+{
+  "problem_id": "611",
+  "problem_text_cn": "1. 平面电阻丝网络（每段直导线和圆弧电阻均为$r$），求$A$、$B$间等效电阻$R_{AB}$；2. 无限内接正方形金属丝网络（最外侧边电阻$R_0$），求（a）$A$、$C$间等效电阻$R_{AC}$；（b）$E$、$G$间等效电阻$R_{EG}$。",
+  "problem_text_en": "1. A planar resistance wire network（each straight wire and arc resistance is $r$），find the equivalent resistance $R_{AB}$ between $A$ and $B$；2. An infinite inscribed square metal wire network（resistance of the outermost side is $R_0$），find（a）the equivalent resistance $R_{AC}$ between $A$ and $C$；（b）the equivalent resistance $R_{EG}$ between $E$ and $G$.",
+  "problem_img": [
+    "611_1.png",
+    "611_2.png",
+    "611_3.png",
+    "611_4.png",
+    "611_5.png",
+    "611_6.png",
+    "611_7.png",
+    "611_8.png",
+    "611_9.png",
+    "611_10.png",
+    "611_11.png"
+  ],
+  "problem_img_process": [
+    "611_1_process.png",
+    "611_2_process.png",
+    "611_3_process.png",
+    "611_4_process.png",
+    "611_5_process.png",
+    "611_6_process.png",
+    "611_7_process.png",
+    "611_8_process.png",
+    "611_9_process.png",
+    "611_10_process.png",
+    "611_11_process.png"
+  ],
+  "problem_solution_cn": "（1）$A$、$B$间等效电阻$R_{AB}$：\n- 网络等效变形为立方体网络，再简化为平面网络，计算得$R_{AB}=3r/4$。\n（2）无限内接正方形网络：\n- （a）$A$、$C$间：等势点拆分等效，递推得$R_{AC}=(\\sqrt{3}+1-\\sqrt{2})R_0/2$；\n- （b）$E$、$G$间：利用对称性和$R_{AC}$结果，得$R_{EG}=(\\sqrt{3}-\\sqrt{2})R_0$。",
+  "problem_solution_en": "（1）Equivalent resistance $R_{AB}$ between $A$ and $B$：\n- The network is equivalently transformed into a cube network，then simplified into a planar network，calculating $R_{AB}=3r/4$。\n（2）Infinite inscribed square network：\n- (a) Between $A$ and $C$：equivalent splitting of equipotential points，recursively obtaining $R_{AC}=(\\sqrt{3}+1-\\sqrt{2})R_0/2$；\n- (b) Between $E$ and $G$：using symmetry and $R_{AC}$ result，obtaining $R_{EG}=(\\sqrt{3}-\\sqrt{2})R_0$。",
+  "problem_answer": "1. $A$、$B$间等效电阻$R_{AB}=\\frac{3}{4}r$；2.（a）$A$、$C$间等效电阻$R_{AC}=\\frac{\\sqrt{3}+1-\\sqrt{2}}{2}R_0$；（b）$E$、$G$间等效电阻$R_{EG}=(\\sqrt{3}-\\sqrt{2})R_0$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "problem_id": "653",
+  "problem_text_cn": "二维平面世界，库仑力$F=\\frac{Qq}{2\\pi\\varepsilon_0 r}$（径向）。1. 导出真空静电场高斯定理；2. 验证场能密度w∝E²；3. 均匀带电圆环（Q>0、半径R），求环上电场强度E_R；4. 证明非零有限区域均匀带电时，全空间电场能量发散。",
+  "problem_text_en": "Two-dimensional plane world，Coulomb force $F=\\frac{Qq}{2\\pi\\varepsilon_0 r}$（radial）。1. Derive Gauss's theorem for vacuum electrostatic field；2. Verify that the field energy density w∝E²；3. Uniformly charged ring（Q>0、radius R），find the electric field intensity E_R on the ring；4. Prove that when a non-zero finite region is uniformly charged，the total space electric field energy diverges.",
+  "problem_img": [
+    "653_1.png",
+    "653_2.png",
+    "653_3.png",
+    "653_4.png",
+    "653_5.png",
+    "653_6.png",
+    "653_7.png",
+    "653_8.png"
+  ],
+  "problem_img_process": [
+    "653_1_process.png",
+    "653_2_process.png",
+    "653_3_process.png",
+    "653_4_process.png",
+    "653_5_process.png",
+    "653_6_process.png",
+    "653_7_process.png",
+    "653_8_process.png"
+  ],
+  "problem_solution_cn": "（1）高斯定理：\n- 闭合曲线L的通量$\\Phi=\\oint \\vec{E}·d\\vec{l}$，点电荷Q在L内时$\\Phi=\\frac{Q}{\\varepsilon_0^*}$，L外时Φ=0，得$\\oint \\vec{E}·d\\vec{l}=\\frac{\\sum Q_内}{\\varepsilon_0^*}$。\n（2）w∝E²验证：\n- 平行带电直线（线密度±λ）间为匀强电场$E=\\frac{\\lambda}{\\varepsilon_0^*}$，外力做功转化为场能，得$w=\\frac{1}{2}\\varepsilon_0^* E^2$。\n（3）环上电场E_R：\n- 环外$E=\\frac{Q}{2\\pi\\varepsilon_0^* r}$，外力使电荷内移dl，场能增量等于外力做功，得$E_R=\\frac{Q}{4\\pi\\varepsilon_0^* R}$。\n（4）能量发散证明：\n- 取大圆形带电子区域S₁（半径R、电量$Q=\\sigma\\pi R^2$），环外$E=\\frac{Q}{2\\pi\\varepsilon_0^* r}$；\n- 场能$W_{1外}=\\int(\\frac{1}{2}\\varepsilon_0^* E^2)·2\\pi rdr∝\\int\\frac{R^2}{r}dr→∞$，故总能量发散。",
+  "problem_solution_en": "（1）Gauss's theorem：\n- The flux of closed curve L $\\Phi=\\oint \\vec{E}·d\\vec{l}$，$\\Phi=\\frac{Q}{\\varepsilon_0^*}$ when point charge Q is inside L，Φ=0 when outside L，obtaining $\\oint \\vec{E}·d\\vec{l}=\\frac{\\sum Q_{inside}}{\\varepsilon_0^*}$。\n（2）Verification of w∝E²：\n- Uniform electric field $E=\\frac{\\lambda}{\\varepsilon_0^*}$ between parallel charged lines（linear density ±λ），external work is converted into field energy，obtaining $w=\\frac{1}{2}\\varepsilon_0^* E^2$。\n（3）Electric field E_R on the ring：\n- $E=\\frac{Q}{2\\pi\\varepsilon_0^* r}$ outside the ring，external force moves charge inward by dl，field energy increment equals external work，obtaining $E_R=\\frac{Q}{4\\pi\\varepsilon_0^* R}$。\n（4）Proof of energy divergence：\n- Take a large circular charged sub-region S₁（radius R、charge $Q=\\sigma\\pi R^2$），$E=\\frac{Q}{2\\pi\\varepsilon_0^* r}$ outside the ring；\n- Field energy $W_{1外}=\\int(\\frac{1}{2}\\varepsilon_0^* E^2)·2\\pi rdr∝\\int\\frac{R^2}{r}dr→∞$，thus total energy diverges。",
+  "problem_answer": "1. 高斯定理$\\oint_L \\vec{E}·d\\vec{l}=\\frac{1}{\\varepsilon_0^*} \\sum Q_{内}$；2. 场能密度$w=\\frac{1}{2} \\varepsilon_0^* E^2$；3. 环上电场$E_R=\\frac{Q}{4\\pi \\varepsilon_0^* R}$；4. 证明见解析",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

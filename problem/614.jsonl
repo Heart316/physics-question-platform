@@ -1,0 +1,19 @@
+{
+  "problem_id": "614",
+  "problem_text_cn": "$RC$串联电路，$t=0$合上电键，电容器无初始电量，电源$\\varepsilon-t$为锯齿波（$T=RC$），求$t=NT$（$N=1,2,3…$）时电容器正极板电量$Q_N$，及$N\\to\\infty$时的极限。",
+  "problem_text_en": "$RC$ series circuit，switch is closed at $t=0$，capacitor has no initial charge，power supply $\\varepsilon-t$ is a sawtooth wave（$T=RC$），find the charge $Q_N$ on the positive plate of the capacitor at $t=NT$（$N=1,2,3…$），and the limit when $N\\to\\infty$.",
+  "problem_img": [
+    "614_1.png",
+    "614_2.png"
+  ],
+  "problem_img_process": [
+    "614_1_process.png",
+    "614_2_process.png"
+  ],
+  "problem_solution_cn": "（1）分段求解微分方程：\n- 第$k$周期（$(k-1)T\\leq t\\leq kT$），$\\varepsilon=\\varepsilon_0(t-(k-1)T)/T$，回路方程$dQ/dt + Q/(RC)=\\varepsilon/R$。\n- 递推得$Q_1=C\\varepsilon_0/e$，$Q_2=C\\varepsilon_0(e^{-1}+1)/e$，…，$Q_N=C\\varepsilon_0(1-e^{-N})/(e-1)$。\n（2）极限情况：\n- $N\\to\\infty$时，$Q_N\\to C\\varepsilon_0/(e-1)$。",
+  "problem_solution_en": "（1）Solving differential equations by segments：\n- For the $k$-th period（$(k-1)T\\leq t\\leq kT$），$\\varepsilon=\\varepsilon_0(t-(k-1)T)/T$，loop equation $dQ/dt + Q/(RC)=\\varepsilon/R$。\n- Recursively obtaining $Q_1=C\\varepsilon_0/e$，$Q_2=C\\varepsilon_0(e^{-1}+1)/e$，…，$Q_N=C\\varepsilon_0(1-e^{-N})/(e-1)$。\n（2）Limit case：\n- When $N\\to\\infty$，$Q_N\\to C\\varepsilon_0/(e-1)$。",
+  "problem_answer": "$t=NT$时电量$Q_N=\\frac{1 - e^{-N}}{e - 1} C \\varepsilon_0$；$N\\to\\infty$时极限$\\lim_{N \\to \\infty} Q_N=\\frac{C \\varepsilon_0}{e - 1}$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

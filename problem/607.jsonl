@@ -1,0 +1,22 @@
+{
+  "problem_id": "607",
+  "problem_text_cn": "竖直平面内固定光滑绝缘圆环（半径$R$），空间有垂直环面的水平匀强磁场$B$。质量$m$、电量$Q>0$的质点从圆环最高点$A$以水平向左速度$v_0$出发，定义$\\lambda=v_0^2/(Rg)$，$\\mu=Q^2B^2R/(m^2g)$。1. 质点从$A$到$B$（最低点）后能继续圆周运动，求$\\mu$与$\\lambda$的关系；2. 证明无论$\\lambda>0$，质点在$A$处均能贴环运动且$N>0$；3. 求$\\lambda$的可取值使左半圆周（$\\pi>\\theta>0$）$N>0$；4. 求质点贴全部圆环持续运动的条件。",
+  "problem_text_en": "A smooth insulating ring（radius $R$）is fixed in a vertical plane, and there is a horizontal uniform magnetic field $B$ perpendicular to the ring plane. A particle of mass $m$ and charge $Q>0$ starts from the highest point $A$ of the ring with a horizontal leftward velocity $v_0$. Define $\\lambda=v_0^2/(Rg)$，$\\mu=Q^2B^2R/(m^2g)$。1. The particle can continue circular motion after moving from $A$ to $B$（lowest point）, find the relationship between $\\mu$ and $\\lambda$；2. Prove that for any $\\lambda>0$, the particle can move close to the ring at $A$ with $N>0$；3. Find the possible values of $\\lambda$ such that $N>0$ on the left half-circle（$\\pi>\\theta>0$）；4. Find the condition for the particle to move continuously close to the entire ring.",
+  "problem_img": [
+    "607_1.png",
+    "607_2.png",
+    "607_3.png"
+  ],
+  "problem_img_process": [
+    "607_1_process.png",
+    "607_2_process.png",
+    "607_3_process.png"
+  ],
+  "problem_solution_cn": "（1）$\\mu$与$\\lambda$的关系：\n- 机械能守恒得$B$点速度$v=\\sqrt{[(\\lambda+4)Rg]}$，$B$点$N=0$时，$mv^2/R=QvB - mg$，代入$\\mu$定义得$\\mu=(\\lambda+5)^2/(\\lambda+4)$。\n（2）$A$处贴环条件：\n- $A$处受力$F=Qv_0B + mg > mv_0^2/R$，即$\\sqrt{(\\mu\\lambda)}+1>\\lambda$，分$\\lambda\\leq1$和$\\lambda>1$均成立，故$N>0$。\n（3）左半圆周$N>0$的$\\lambda$：\n- 任意$\\pi>\\theta>0$，推导得不等式恒成立，故$\\lambda>0$。\n（4）持续运动条件：\n- 右半圆周同理$\\lambda>0$，故条件为$\\lambda>0$（即$v_0>0$）。",
+  "problem_solution_en": "（1）Relationship between $\\mu$ and $\\lambda$：\n- Conservation of mechanical energy gives the velocity at point $B$ $v=\\sqrt{[(\\lambda+4)Rg]}$，when $N=0$ at point $B$，$mv^2/R=QvB - mg$，substituting the definition of $\\mu$ gives $\\mu=(\\lambda+5)^2/(\\lambda+4)$。\n（2）Condition for moving close to the ring at $A$：\n- Force at $A$ $F=Qv_0B + mg > mv_0^2/R$，i.e., $\\sqrt{(\\mu\\lambda)}+1>\\lambda$，which holds for both $\\lambda\\leq1$ and $\\lambda>1$，so $N>0$。\n（3）$\\lambda$ for $N>0$ on the left half-circle：\n- For any $\\pi>\\theta>0$，the derived inequality holds universally，so $\\lambda>0$。\n（4）Condition for continuous motion：\n- Similarly, $\\lambda>0$ for the right half-circle，so the condition is $\\lambda>0$（i.e., $v_0>0$）。",
+  "problem_answer": "1. $\\mu$与$\\lambda$的关系$\\mu=\\frac{(\\lambda+5)^2}{\\lambda+4}$；2. 证明见解析；3. $\\lambda$的可取值$\\lambda>0$；4. 持续运动条件$\\lambda>0$",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

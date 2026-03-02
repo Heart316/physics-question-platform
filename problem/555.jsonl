@@ -1,0 +1,19 @@
+{
+  "problem_id": "622",
+  "problem_text_cn": "目镜由向场镜L₁和接目镜L₂构成（均为会聚透镜），惠更斯目镜f₁:f₂:d=3:1:2，冉斯登目镜f₁:f₂:d=1:1:2/3。确定两种目镜的主点和焦点位置，判断哪种可作普通放大镜。",
+  "problem_text_en": "The eyepiece consists of a field lens L₁ and an eyepiece lens L₂（both converging lenses），Huygens eyepiece f₁:f₂:d=3:1:2，Ramsden eyepiece f₁:f₂:d=1:1:2/3。Determine the principal points and focal points of the two eyepieces，and judge which one can be used as an ordinary magnifying glass.",
+  "problem_img": [
+    "622_1.png",
+    "622_2.png"
+  ],
+  "problem_img_process": [
+    "622_1_process.png",
+    "622_2_process.png"
+  ],
+  "problem_solution_cn": "（1）惠更斯目镜：\n- 设f₁=3a、f₂=a、d=2a，有效焦距f=3a/2；\n- 像方主点H'在L₂前方a处（两镜中间），物方主点H在L₁后方3a处；\n- 物方焦点在目镜内部，不能作放大镜。\\n（2）冉斯登目镜：\\n- 设f₁=f₂=a、d=2a/3，有效焦距f=3a/4；\\n- 像方主点H'在L₂前方a/2处，物方主点H在L₁后方a/2处；\\n- 物方焦点在目镜外部，可作普通放大镜。",
+  "problem_solution_en": "（1）Huygens eyepiece：\n- Let f₁=3a、f₂=a、d=2a，effective focal length f=3a/2；\n- Image-side principal point H' is a cm in front of L₂（middle of the two lenses），object-side principal point H is 3a cm behind L₁；\\n- The object-side focal point is inside the eyepiece，cannot be used as a magnifying glass。\\n（2）Ramsden eyepiece：\\n- Let f₁=f₂=a、d=2a/3，effective focal length f=3a/4；\\n- Image-side principal point H' is a/2 cm in front of L₂，object-side principal point H is a/2 cm behind L₁；\\n- The object-side focal point is outside the eyepiece，can be used as an ordinary magnifying glass。",
+  "problem_answer": "惠更斯目镜：主点和焦点位置见解析，不能作放大镜；冉斯登目镜：主点和焦点位置见解析，可作普通放大镜",
+  "problem_tags": [
+    "Optics"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "problem_id": "651",
+  "problem_text_cn": "1. 刚性细杆（质量m、长2l）上端套在光滑横梁上，初始与竖直方向夹60°角自由摆下（S足够长），比较其周期T与长1.1l、幅角60°单摆周期T₀的长短；2. 若S不足，杆下端摆到最低时A端脱离，杆各部分同时落地，求横梁高度h。",
+  "problem_text_en": "1. A rigid thin rod（mass m、length 2l）with its upper end sleeved on a smooth crossbeam，initially free to swing down at 60° to the vertical（S is sufficiently long），compare the length of its period T with the period T₀ of a simple pendulum of length 1.1l and amplitude 60°；2. If S is insufficient，end A detaches when the lower end of the rod swings to the lowest point，and all parts of the rod land simultaneously，find the height h of the crossbeam.",
+  "problem_img": [
+    "651_1.png",
+    "651_2.png",
+    "651_3.png"
+  ],
+  "problem_img_process": [
+    "651_1_process.png",
+    "651_2_process.png",
+    "651_3_process.png"
+  ],
+  "problem_solution_cn": "（1）周期比较：\n- 细杆摆动：能量守恒得$\\omega=\\sqrt{\\frac{3g(1-\\cos\\phi)}{2l}}$；单摆$\\omega_0=\\sqrt{\\frac{g(1-\\cos\\phi)}{1.1l}}$；\n- 因$\\omega>\\omega_0$，故T<T₀，细杆周期更短。\n（2）横梁高度h：\n- 杆脱离时质心速度$v_C=\\sqrt{3gl(1-\\cos60°)}=\\sqrt{\\frac{3gl}{2}}$，角速度$\\omega=\\sqrt{\\frac{3g}{l}}$；\n- 各部分同时落地需杆转过$(\\frac{\\pi}{2}+k\\pi)$，取k=1，下落时间$t=\\pi\\sqrt{\\frac{l}{3g}}$；\n- 质心下落高度$h-l=\\frac{1}{2}gt^2$，得$h=l + \\frac{\\pi^2 l}{6}≈2.64l$。",
+  "problem_solution_en": "（1）Period comparison：\n- Rod swing：Energy conservation gives $\\omega=\\sqrt{\\frac{3g(1-\\cos\\phi)}{2l}}$；simple pendulum $\\omega_0=\\sqrt{\\frac{g(1-\\cos\\phi)}{1.1l}}$；\n- Since $\\omega>\\omega_0$，thus T<T₀，the rod's period is shorter。\n（2）Height h of crossbeam：\n- When the rod detaches，the center of mass velocity $v_C=\\sqrt{3gl(1-\\cos60°)}=\\sqrt{\\frac{3gl}{2}}$，angular velocity $\\omega=\\sqrt{\\frac{3g}{l}}$；\n- All parts land simultaneously requiring the rod to rotate $(\\frac{\\pi}{2}+k\\pi)$，taking k=1，fall time $t=\\pi\\sqrt{\\frac{l}{3g}}$；\n- The falling height of the center of mass $h-l=\\frac{1}{2}gt^2$，obtaining $h=l + \\frac{\\pi^2 l}{6}≈2.64l$。",
+  "problem_answer": "1. 细杆周期更短（$T<T_0$）；2. 横梁高度$h≈2.64l$",
+  "problem_tags": [
+    "Mechanics",
+    "Kinematics"
+  ]
+}

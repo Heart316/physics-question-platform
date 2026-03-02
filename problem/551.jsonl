@@ -1,0 +1,17 @@
+{
+  "problem_id": "551",
+  "problem_text_cn": "试证明，在康普顿散射中，光子的散射角$\\theta$与电子的散射角$\\varphi$之间的关系是$\\cot\\frac{\\theta}{2} = \\left(1 + \\frac{\\lambda_c}{\\lambda}\\right)\\tan\\varphi$，其中$\\lambda$是入射光的波长，$\\lambda_c$是康普顿波长。",
+  "problem_text_en": "Prove that in Compton scattering, the relationship between the scattering angle $\\theta$ of the photon and the scattering angle $\\varphi$ of the electron is $\\cot\\frac{\\theta}{2} = \\left(1 + \\frac{\\lambda_c}{\\lambda}\\right)\\tan\\varphi$，where $\\lambda$ is the wavelength of the incident light and $\\lambda_c$ is the Compton wavelength.",
+  "problem_img": [
+    "551.png"
+  ],
+  "problem_img_process": [
+    "551_process.png"
+  ],
+  "problem_solution_cn": "(1) 动量守恒分量式：\\n- 垂直入射方向：$\\frac{h}{\\lambda'} \\sin\\theta = mv \\sin\\varphi$（1）；\\n- 平行入射方向：$\\frac{h}{\\lambda} = \\frac{h}{\\lambda'} \\cos\\theta + mv \\cos\\varphi$（2）。\\n(2) 两式相比得正切关系：\\n- 由（1）÷（2）得$\\tan\\varphi = \\frac{\\frac{h}{\\lambda'} \\sin\\theta}{\\frac{h}{\\lambda} - \\frac{h}{\\lambda'} \\cos\\theta} = \\frac{\\lambda \\sin\\theta}{\\lambda' - \\lambda \\cos\\theta}$。\\n(3) 代入康普顿波长差：\\n- 康普顿散射波长差$\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_c (1 - \\cos\\theta)$，故$\\lambda' = \\lambda + \\lambda_c (1 - \\cos\\theta)$。\\n- 代入$\\tan\\varphi$表达式，利用三角恒等式$1 - \\cos\\theta = 2\\sin^2\\frac{\\theta}{2}$、$\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}$，化简得：\\n$\\tan\\varphi = \\frac{\\cos\\frac{\\theta}{2}}{\\left(1 + \\frac{\\lambda_c}{\\lambda}\\right)\\sin\\frac{\\theta}{2}} = \\frac{\\cot\\frac{\\theta}{2}}{1 + \\frac{\\lambda_c}{\\lambda}}$，即$\\cot\\frac{\\theta}{2} = \\left(1 + \\frac{\\lambda_c}{\\lambda}\\right)\\tan\\varphi$，得证。",
+  "problem_solution_en": "(1) Component forms of momentum conservation：\\n- Perpendicular to the incident direction：$\\frac{h}{\\lambda'} \\sin\\theta = mv \\sin\\varphi$（1）；\\n- Parallel to the incident direction：$\\frac{h}{\\lambda} = \\frac{h}{\\lambda'} \\cos\\theta + mv \\cos\\varphi$（2）。\\n(2) Tangent relation by dividing the two equations：\\n- Dividing（1）by（2）gives$\\tan\\varphi = \\frac{\\frac{h}{\\lambda'} \\sin\\theta}{\\frac{h}{\\lambda} - \\frac{h}{\\lambda'} \\cos\\theta} = \\frac{\\lambda \\sin\\theta}{\\lambda' - \\lambda \\cos\\theta}$。\\n(3) Substituting the Compton wavelength difference：\\n- Compton scattering wavelength difference$\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_c (1 - \\cos\\theta)$，so$\\lambda' = \\lambda + \\lambda_c (1 - \\cos\\theta)$。\\n- Substituting into the expression of$\\tan\\varphi$，using trigonometric identities$1 - \\cos\\theta = 2\\sin^2\\frac{\\theta}{2}$、$\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}$，simplifying to：\\n$\\tan\\varphi = \\frac{\\cos\\frac{\\theta}{2}}{\\left(1 + \\frac{\\lambda_c}{\\lambda}\\right)\\sin\\frac{\\theta}{2}} = \\frac{\\cot\\frac{\\theta}{2}}{1 + \\frac{\\lambda_c}{\\lambda}}$，i.e.$\\cot\\frac{\\theta}{2} = \\left(1 + \\frac{\\lambda_c}{\\lambda}\\right)\\tan\\varphi$，which is proved.",
+  "problem_answer": "证明见解析，康普顿散射中光子散射角$\\theta$与电子散射角$\\varphi$满足$\\cot\\frac{\\theta}{2} = \\left(1 + \\dfrac{\\lambda_c}{\\lambda}\\right)\\tan\\varphi$",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

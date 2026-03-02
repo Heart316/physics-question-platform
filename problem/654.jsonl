@@ -1,0 +1,14 @@
+{
+  "problem_id": "654",
+  "problem_text_cn": "惯性系S中，固定点电荷Q>0，带负电质点P（-q，q>0）受库仑力作有界运动，初始相对论能量E₀、角动量L₀，且E₀≈mc²。1. 零级近似下证明轨道为椭圆；2. 证明实际运动为进动椭圆，求矢径每变化一周的进动角Δθ。",
+  "problem_text_en": "In inertial frame S，fixed point charge Q>0，negatively charged particle P（-q，q>0）undergoes bounded motion under Coulomb force，initial relativistic energy E₀、angular momentum L₀，and E₀≈mc²。1. Prove that the orbit is an ellipse under zero-order approximation；2. Prove that the actual motion is a precessing ellipse，find the precession angle Δθ for each cycle of the radius vector.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "problem_solution_cn": "（1）零级近似轨道：\n- 相对论能量守恒、角动量守恒，建立极坐标动力学方程，零级近似下忽略相对论质量修正；\n- 方程简化为$\\frac{d^2(1/r)}{d\\theta^2} + \\frac{1}{r} = 常量$，通解为圆锥曲线，有界条件下为椭圆。\n（2）进动角Δθ：\n- 完整动力学方程解为$\\frac{1}{r} = A + B\\cos[\\sqrt{1-\\delta}\\theta]$（$\\delta=(\\frac{qQ}{4\\pi\\varepsilon_0 L_0 c})^2$）；\n- 矢径变化一周时$\\sqrt{1-\\delta}\\theta=2\\pi$，$\\theta=\\frac{2\\pi}{\\sqrt{1-\\delta}}≈2\\pi(1+\\frac{\\delta}{2})$；\n- 进动角$\\Delta\\theta=\\theta-2\\pi≈\\pi(\\frac{qQ}{4\\pi\\varepsilon_0 L_0 c})^2$。",
+  "problem_solution_en": "（1）Orbit under zero-order approximation：\n- Relativistic energy conservation、angular momentum conservation，establishing polar coordinate dynamic equation，neglecting relativistic mass correction under zero-order approximation；\n- The equation simplifies to $\\frac{d^2(1/r)}{d\\theta^2} + \\frac{1}{r} = constant$，general solution is conic curve，ellipse under bounded condition。\n（2）Precession angle Δθ：\n- The complete dynamic equation solution is $\\frac{1}{r} = A + B\\cos[\\sqrt{1-\\delta}\\theta]$（$\\delta=(\\frac{qQ}{4\\pi\\varepsilon_0 L_0 c})^2$）；\n- When the radius vector changes one cycle，$\\sqrt{1-\\delta}\\theta=2\\pi$，$\\theta=\\frac{2\\pi}{\\sqrt{1-\\delta}}≈2\\pi(1+\\frac{\\delta}{2})$；\n- Precession angle $\\Delta\\theta=\\theta-2\\pi≈\\pi(\\frac{qQ}{4\\pi\\varepsilon_0 L_0 c})^2$。",
+  "problem_answer": "1. 零级近似轨道为椭圆（证明见解析）；2. 进动角$\\Delta \\theta≈\\pi \\left(\\frac{q Q}{4\\pi \\varepsilon_0 L_0 c}\\right)^2$",
+  "problem_tags": [
+    "Modern Physics",
+    "Electromagnetism"
+  ]
+}

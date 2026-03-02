@@ -1,0 +1,24 @@
+{
+  "problem_id": "600",
+  "problem_text_cn": "自由长度$L$、倔强系数$k$的轻弹簧两端系小球1（质量$m_1$、电量$Q_1>0$）和小球2（质量$m_2$、电量$Q_2>0$），在匀强电场$E$中（场强方向与球连线一致）。初始时弹簧为自由长度，两球静止，忽略电相互作用和引力，求尔后两球的最大距离。",
+  "problem_text_en": "A light spring with free length $L$ and spring constant $k$ has two balls attached at both ends: ball 1 (mass $m_1$, charge $Q_1>0$) and ball 2 (mass $m_2$, charge $Q_2>0$), in a uniform electric field $E$ (the direction of the field is consistent with the line connecting the balls). Initially, the spring is at its free length, and both balls are at rest. Neglecting electric interaction and gravity, find the maximum distance between the two balls thereafter.",
+  "problem_img": [
+    "600_1.png",
+    "600_2.png",
+    "600_3.png",
+    "600_4.png"
+  ],
+  "problem_img_process": [
+    "600_1_process.png",
+    "600_2_process.png",
+    "600_3_process.png",
+    "600_4_process.png"
+  ],
+  "problem_solution_cn": "（1）质心系分析：\n- 系统质心加速度$a_C=(Q_1+Q_2)E/(m_1+m_2)$，质心系中两球受线性恢复力，作简谐振动，角频率$\\omega=\\sqrt{[k(m_1+m_2)/(m_1m_2)]}$。\n（2）分情况讨论最大距离：\n- 当$m_2Q_1=m_1Q_2$时，振幅为0，最大距离$L_{max}=L$；\n- 当$m_2Q_1>m_1Q_2$时，平衡位置在初始位置内侧，最大距离$L_{max}=L$；\n- 当$m_2Q_1<m_1Q_2$时，平衡位置在初始位置外侧，振幅$A_1=m_2|m_2Q_1-m_1Q_2|E/[k(m_1+m_2)^2]$，$A_2=m_1|m_2Q_1-m_1Q_2|E/[k(m_1+m_2)^2]$，最大距离$L_{max}=L+2(A_1+A_2)=L+2(m_1Q_2-m_2Q_1)E/[k(m_1+m_2)]$。",
+  "problem_solution_en": "（1）Analysis in the center-of-mass frame：\n- The acceleration of the system's center of mass $a_C=(Q_1+Q_2)E/(m_1+m_2)$. In the center-of-mass frame, both balls are subjected to linear restoring forces and perform simple harmonic motion with angular frequency $\\omega=\\sqrt{[k(m_1+m_2)/(m_1m_2)]}$。\n（2）Discuss the maximum distance by cases：\n- When $m_2Q_1=m_1Q_2$, the amplitude is 0, maximum distance $L_{max}=L$；\n- When $m_2Q_1>m_1Q_2$, the equilibrium position is inside the initial position, maximum distance $L_{max}=L$；\n- When $m_2Q_1<m_1Q_2$, the equilibrium position is outside the initial position, amplitude $A_1=m_2|m_2Q_1-m_1Q_2|E/[k(m_1+m_2)^2]$，$A_2=m_1|m_2Q_1-m_1Q_2|E/[k(m_1+m_2)^2]$，maximum distance $L_{max}=L+2(A_1+A_2)=L+2(m_1Q_2-m_2Q_1)E/[k(m_1+m_2)]$。",
+  "problem_answer": "当$m_2 Q_1 = m_1 Q_2$或$m_2 Q_1 > m_1 Q_2$时，最大距离$L_{max}=L$；当$m_2 Q_1 < m_1 Q_2$时，最大距离$L_{max}=L + \\frac{2(m_1 Q_2 - m_2 Q_1)E}{k(m_1 + m_2)}$",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

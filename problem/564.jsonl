@@ -1,0 +1,21 @@
+{
+  "problem_id": "631",
+  "problem_text_cn": "刚性圆盘切割出半径1/2的同轴小圆盘（点接触），共同初速度v₀，圆环与地面摩擦系数μ₀=0.5，圆环与小圆盘摩擦系数μ。1. 确定圆环与小圆盘发生相对滑动时μ的取值范围；2. 若μ=0.2，计算系统最终水平速度。",
+  "problem_text_en": "A rigid disk is cut out a coaxial small disk with radius 1/2（point contact），common initial velocity v₀，the friction coefficient between the ring and the ground is μ₀=0.5，and the friction coefficient between the ring and the small disk is μ。1. Determine the range of μ when relative sliding occurs between the ring and the small disk；2. If μ=0.2，calculate the final horizontal velocity of the system.",
+  "problem_img": [
+    "631_1.png",
+    "631_2.png",
+    "631_3.png"
+  ],
+  "problem_img_process": [
+    "631_1_process.png",
+    "631_2_process.png",
+    "631_3_process.png"
+  ],
+  "problem_solution_cn": "（1）μ的取值范围：\n- 小圆盘质量m，圆环质量3m，转动惯量I₁=mR²/2，I₂=15mR²/2。\n- 第一阶段加速度a=μ₀g=g/2，角加速度β₁=√(5μ²g²/(R²(1+μ²)))，β₂=(8-√(5μ²/(1+μ²))g)/(15R)。\n- 相对滑动要求β₂>β₁，解得μ<1/√19≈0.23。\n（2）最终速度：\n- 角动量守恒(4m)v₀(2R)=(4m)v(2R)+(I₁+I₂)(v/(2R))，解得v=2v₀/3≈0.67v₀。",
+  "problem_solution_en": "（1）Range of μ：\n- Mass of small disk m，mass of ring 3m，moment of inertia I₁=mR²/2，I₂=15mR²/2。\n- Acceleration a=μ₀g=g/2 in the first stage，angular acceleration β₁=√(5μ²g²/(R²(1+μ²)))，β₂=(8-√(5μ²/(1+μ²))g)/(15R)。\\n- Relative sliding requires β₂>β₁，solving gives μ<1/√19≈0.23。\\n（2）Final velocity：\\n- Angular momentum conservation (4m)v₀(2R)=(4m)v(2R)+(I₁+I₂)(v/(2R))，solving gives v=2v₀/3≈0.67v₀。",
+  "problem_answer": "1. μ的取值范围$\\mu<\\frac{1}{\\sqrt{19}}≈0.23$；2. 最终水平速度$v=\\frac{2}{3}v_0≈0.67v_0$",
+  "problem_tags": [
+    "Mechanics"
+  ]
+}

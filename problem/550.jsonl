@@ -1,0 +1,13 @@
+{
+  "problem_id": "550",
+  "problem_text_cn": "在一次康普顿散射中，传递给电子的最大能量为$4.5×10^4\\ \\text{eV}$。试求入射光子的波长。",
+  "problem_text_en": "In a Compton scattering, the maximum energy transferred to the electron is $4.5×10^4\\ \\text{eV}$. Determine the wavelength of the incident photon.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "problem_solution_cn": "(1) 最大动能条件：\\n- 反冲电子动能最大时，散射角$\\theta=\\pi$（光子反向散射），反冲电子沿入射光方向运动（$\\varphi=0^\\circ$）。\\n- 由上题结论，最大动能$E_{k,\\text{max}} = \\frac{2(h\\nu)^2}{m_0 c^2 + 2h\\nu}$。\\n(2) 能量与动量关系：\\n- 能量守恒：$h\\nu - h\\nu' = E_{k,\\text{max}}$；动量守恒：$\\frac{h\\nu}{c} + \\frac{h\\nu'}{c} = p_e$（$p_e$为电子动量）。\\n- 电子相对论关系：$(p_e c)^2 = (m_0 c^2 + E_{k,\\text{max}})^2 - (m_0 c^2)^2 = E_{k,\\text{max}}^2 + 2m_0 c^2 E_{k,\\text{max}}$。\\n(3) 入射光子能量与波长：\\n- 联立得$2h\\nu = E_{k,\\text{max}} + \\sqrt{E_{k,\\text{max}}^2 + 2m_0 c^2 E_{k,\\text{max}}}$，代入$m_0 c^2 = 0.511×10^6\\ \\text{eV}$，解得$h\\nu ≈ 1.32×10^5\\ \\text{eV}$。\\n- 波长$\\lambda = \\frac{hc}{h\\nu}$，代入$hc≈1.24×10^3\\ \\text{eV·nm}$，得$\\lambda≈9.42×10^{-12}\\ \\text{m} = 0.00942\\ \\text{nm}$。",
+  "problem_solution_en": "(1) Condition for maximum kinetic energy：\\n- When the kinetic energy of the recoil electron is maximum，the scattering angle $\\theta=\\pi$（photon backscattering），and the recoil electron moves along the direction of the incident light（$\\varphi=0^\\circ$）。\\n- From the conclusion of the previous problem，the maximum kinetic energy $E_{k,\\text{max}} = \\frac{2(h\\nu)^2}{m_0 c^2 + 2h\\nu}$。\\n(2) Energy and momentum relations：\\n- Energy conservation：$h\\nu - h\\nu' = E_{k,\\text{max}}$；Momentum conservation：$\\frac{h\\nu}{c} + \\frac{h\\nu'}{c} = p_e$（$p_e$ is the electron momentum）。\\n- Relativistic relation for electron：$(p_e c)^2 = (m_0 c^2 + E_{k,\\text{max}})^2 - (m_0 c^2)^2 = E_{k,\\text{max}}^2 + 2m_0 c^2 E_{k,\\text{max}}$。\\n(3) Energy and wavelength of incident photon：\\n- Combining to get $2h\\nu = E_{k,\\text{max}} + \\sqrt{E_{k,\\text{max}}^2 + 2m_0 c^2 E_{k,\\text{max}}}$，substituting $m_0 c^2 = 0.511×10^6\\ \\text{eV}$，solving to get $h\\nu ≈ 1.32×10^5\\ \\text{eV}$。\\n- Wavelength $\\lambda = \\frac{hc}{h\\nu}$，substituting $hc≈1.24×10^3\\ \\text{eV·nm}$，obtaining $\\lambda≈9.42×10^{-12}\\ \\text{m} = 0.00942\\ \\text{nm}$。",
+  "problem_answer": "入射光子的波长$\\lambda≈9.42×10^{-12}\\ \\text{m}$（或$0.00942\\ \\text{nm}$）",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

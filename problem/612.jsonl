@@ -1,0 +1,23 @@
+{
+  "problem_id": "612",
+  "problem_text_cn": "电路稳定，无内阻电源$\\varepsilon_1=\\varepsilon_0\\sin^2\\omega t$，$\\varepsilon_2=\\varepsilon_0\\cos\\omega t$，$R_1=R_2=R$，$L=R/(2\\omega)$，$C=1/(2\\omega R)$，求流过$R_1$的电流$i_1$与$t$的关系，并画$i_1-t$曲线。",
+  "problem_text_en": "The circuit is stable，the internal resistance-free power supplies $\\varepsilon_1=\\varepsilon_0\\sin^2\\omega t$，$\\varepsilon_2=\\varepsilon_0\\cos\\omega t$，$R_1=R_2=R$，$L=R/(2\\omega)$，$C=1/(2\\omega R)$，find the relationship between the current $i_1$ through $R_1$ and $t$，and draw the $i_1-t$ curve.",
+  "problem_img": [
+    "612_1.png",
+    "612_2.png",
+    "612_3.png",
+    "612_4.png"
+  ],
+  "problem_img_process": [
+    "612_1_process.png",
+    "612_2_process.png",
+    "612_3_process.png",
+    "612_4_process.png"
+  ],
+  "problem_solution_cn": "（1）电源分解：\n- $\\varepsilon_1=\\varepsilon_0/2 - \\varepsilon_0\\cos2\\omega t/2$，$\\varepsilon_2=\\varepsilon_0\\cos\\omega t$。\n（2）分分量求电流：\n- 直流分量$\\varepsilon_0/2$：$L$短路、$C$断路，$i_1(1)=\\varepsilon_0/(2R)$；\n- 交流分量$-\\varepsilon_0\\cos2\\omega t/2$：矢量图解得$i_1(2)=-\\varepsilon_0\\sin2\\omega t/(2R)$；\n- $\\varepsilon_2$分量：无贡献$i_1(3)=0$。\n（3）总电流$i_1=\\varepsilon_0(1 - \\sin2\\omega t)/(2R)$，曲线为正弦调制的直流信号。",
+  "problem_solution_en": "（1）Power supply decomposition：\n- $\\varepsilon_1=\\varepsilon_0/2 - \\varepsilon_0\\cos2\\omega t/2$，$\\varepsilon_2=\\varepsilon_0\\cos\\omega t$。\n（2）Calculating current by components：\n- DC component $\\varepsilon_0/2$：$L$ short-circuited、$C$ open-circuited，$i_1(1)=\\varepsilon_0/(2R)$；\n- AC component $-\\varepsilon_0\\cos2\\omega t/2$：vector diagram solving gives $i_1(2)=-\\varepsilon_0\\sin2\\omega t/(2R)$；\n- $\\varepsilon_2$ component：no contribution $i_1(3)=0$。\n（3）Total current $i_1=\\varepsilon_0(1 - \\sin2\\omega t)/(2R)$，the curve is a DC signal modulated by sine wave。",
+  "problem_answer": "流过$R_1$的电流$i_1=\\frac{\\varepsilon_0}{2R}(1 - \\sin2\\omega t)$，$i_1-t$曲线见解析",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "problem_id": "549",
+  "problem_text_cn": "在康普顿散射中，已知反冲电子的运动方向与入射光的方向夹角为$\\varphi$，入射光的频率为$\\nu$。试求反冲电子的动能。",
+  "problem_text_en": "In Compton scattering, the direction of motion of the recoil electron makes an angle $\\varphi$ with the direction of the incident light, and the frequency of the incident light is $\\nu$. Determine the kinetic energy of the recoil electron.",
+  "problem_img": [
+    "549.png"
+  ],
+  "problem_img_process": [
+    "549_(a)_process.png"
+  ],
+  "problem_solution_cn": "(1) 能量与动量守恒：\\n- 能量守恒：$h\\nu + m_0 c^2 = h\\nu' + m_0 c^2 + E_k$，化简得$hc = hc' + E_k$（$c = \\lambda\\nu$，$c' = \\lambda'\\nu'$）。\\n- 动量守恒：$\\boldsymbol{p} = \\boldsymbol{p}' + \\boldsymbol{p}_e$（$\\boldsymbol{p} = \\frac{h\\nu}{c}\\boldsymbol{k}$为入射光子动量，$\\boldsymbol{p}'$为散射光子动量，$\\boldsymbol{p}_e$为电子动量），平方得$p'^2 = p^2 + p_e^2 - 2pp_e\\cos\\varphi$。\\n(2) 相对论能量动量关系：\\n- 电子能量$E_e = m_0 c^2 + E_k$，满足$E_e^2 = (p_e c)^2 + (m_0 c^2)^2$，化简得$p_e^2 = \\frac{1}{c^2}(E_k^2 + 2E_k m_0 c^2)$。\\n(3) 动能推导：\\n- 联立能量守恒与动量守恒方程，消去$p'$，代入$p = \\frac{h\\nu}{c}$，整理得$E_k = \\frac{2\\frac{(h\\nu)^2}{m_0 c^2}\\cos^2\\varphi}{\\left(1 + \\frac{h\\nu}{m_0 c^2}\\right)^2 - \\left(\\frac{h\\nu}{m_0 c^2}\\right)^2\\cos^2\\varphi}$。\\n- 当$\\varphi=0^\\circ$时，动能最大：$E_{k,\\text{max}} = \\frac{2(h\\nu)^2}{m_0 c^2 + 2h\\nu}$。",
+  "problem_solution_en": "(1) Energy and momentum conservation：\\n- Energy conservation：$h\\nu + m_0 c^2 = h\\nu' + m_0 c^2 + E_k$，simplifying to $hc = hc' + E_k$（$c = \\lambda\\nu$，$c' = \\lambda'\\nu'$）。\\n- Momentum conservation：$\\boldsymbol{p} = \\boldsymbol{p}' + \\boldsymbol{p}_e$（$\\boldsymbol{p} = \\frac{h\\nu}{c}\\boldsymbol{k}$ is the momentum of the incident photon，$\\boldsymbol{p}'$ is the momentum of the scattered photon，$\\boldsymbol{p}_e$ is the momentum of the electron），squaring to get $p'^2 = p^2 + p_e^2 - 2pp_e\\cos\\varphi$。\\n(2) Relativistic energy-momentum relation：\\n- Electron energy $E_e = m_0 c^2 + E_k$，satisfying $E_e^2 = (p_e c)^2 + (m_0 c^2)^2$，simplifying to $p_e^2 = \\frac{1}{c^2}(E_k^2 + 2E_k m_0 c^2)$。\\n(3) Derivation of kinetic energy：\\n- Combining the energy conservation and momentum conservation equations，eliminating $p'$，substituting $p = \\frac{h\\nu}{c}$，arranging to get $E_k = \\frac{2\\frac{(h\\nu)^2}{m_0 c^2}\\cos^2\\varphi}{\\left(1 + \\frac{h\\nu}{m_0 c^2}\\right)^2 - \\left(\\frac{h\\nu}{m_0 c^2}\\right)^2\\cos^2\\varphi}$。\\n- When $\\varphi=0^\\circ$，the kinetic energy is maximum：$E_{k,\\text{max}} = \\frac{2(h\\nu)^2}{m_0 c^2 + 2h\\nu}$。",
+  "problem_answer": "反冲电子的动能$E_k = \\dfrac{2\\dfrac{(h\\nu)^2}{m_0 c^2}\\cos^2\\varphi}{\\left(1 + \\dfrac{h\\nu}{m_0 c^2}\\right)^2 - \\left(\\dfrac{h\\nu}{m_0 c^2}\\right)^2\\cos^2\\varphi}$，最大动能$E_{k,\\text{max}} = \\dfrac{2(h\\nu)^2}{m_0 c^2 + 2h\\nu}$",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

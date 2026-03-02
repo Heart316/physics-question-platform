@@ -1,0 +1,19 @@
+{
+  "problem_id": "618",
+  "problem_text_cn": "交流二端网络，角频率ω，求A、B间等效复阻抗Z_AB；若ωL=1/(ωC)=R，求Z_AB（用R表示）及功率因数cosφ。",
+  "problem_text_en": "An AC two-terminal network with angular frequency ω，find the equivalent complex impedance Z_AB between A and B；if ωL=1/(ωC)=R，find Z_AB（expressed in R）and power factor cosφ.",
+  "problem_img": [
+    "618_1.png",
+    "618_2.png"
+  ],
+  "problem_img_process": [
+    "618_1_process.png",
+    "618_2_process.png"
+  ],
+  "problem_solution_cn": "（1）等效复阻抗推导：\n- 设复电流I从A流入，利用对称性分析支路电流，列电压方程得Z_AB的实部和虚部表达式。\n（2）ωL=1/(ωC)=R时：\n- 代入得Z_AB=(3-5j)R/8，阻抗大小Z_AB=√34 R/8；\n- 功率因数cosφ=实部/Z_AB=3/√34≈0.51。",
+  "problem_solution_en": "（1）Derivation of equivalent complex impedance：\n- Assume complex current I flows in from A，analyze branch currents using symmetry，and list voltage equations to get the real and imaginary parts of Z_AB。\n（2）When ωL=1/(ωC)=R：\n- Substituting gives Z_AB=(3-5j)R/8，impedance magnitude Z_AB=√34 R/8；\\n- Power factor cosφ=real part/Z_AB=3/√34≈0.51。",
+  "problem_answer": "等效复阻抗见解析；ωL=1/(ωC)=R时，阻抗$Z_{AB}=\\frac{\\sqrt{34}}{8}R$，功率因数$\\cos\\phi=\\frac{3}{\\sqrt{34}}≈0.51$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

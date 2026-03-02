@@ -1,0 +1,19 @@
+{
+  "problem_id": "606",
+  "problem_text_cn": "应用毕奥-萨伐尔定律求解：1. 椭圆形闭合导线（$x^2/A^2+y^2/B^2=1$，$A>B$）通稳恒电流$I$，求椭圆焦点处磁感强度$B_1$的大小；2. $x>0$区域无限双曲线形导线（$x^2/A^2-y^2/B^2=1$）通稳恒电流$I$，求$x>0$区域内焦点处磁感强度$B_2$的大小。",
+  "problem_text_en": "Solve using Biot-Savart law：1. An elliptical closed wire（$x^2/A^2+y^2/B^2=1$，$A>B$）carries a steady current $I$, find the magnitude of the magnetic induction intensity $B_1$ at the ellipse focus；2. An infinite hyperbolic wire in the $x>0$ region（$x^2/A^2-y^2/B^2=1$）carries a steady current $I$, find the magnitude of the magnetic induction intensity $B_2$ at the focus in the $x>0$ region.",
+  "problem_img": [
+    "606_1.png",
+    "606_2.png"
+  ],
+  "problem_img_process": [
+    "606_1_process.png",
+    "606_2_process.png"
+  ],
+  "problem_solution_cn": "（1）椭圆焦点磁场$B_1$：\n- 毕奥-萨伐尔定律得$dB_1=\\mu_0I d\\theta/(4\\pi r)$，椭圆极坐标方程$1/r=(1-e \\cos\\theta)/(ep)$（$e=C/A$，$p=B^2/C$，$C=\\sqrt{(A^2-B^2)}$）。\n- 积分得$B_1=\\mu_0I/(2ep)=\\mu_0IA/(2B^2)$。\n（2）双曲线内焦点磁场$B_2$：\n- 同理$dB_2=\\mu_0I d\\theta/(4\\pi r)$，双曲线极坐标方程$1/r=(1-e \\cos\\theta)/(ep)$（$e=C/A$，$p=B^2/C$，$C=\\sqrt{(A^2+B^2)}$）。\n- 积分区间$\\theta_1=\\arctan(B/A)$到$\\theta_2=2\\pi-\\theta_1$，计算得$B_2=\\mu_0IA[\\pi - \\arctan(B/A) + B/A]/(2\\pi B^2)$。",
+  "problem_solution_en": "（1）Magnetic field $B_1$ at the ellipse focus：\n- Biot-Savart law gives $dB_1=\\mu_0I d\\theta/(4\\pi r)$，elliptical polar coordinate equation $1/r=(1-e \\cos\\theta)/(ep)$（$e=C/A$，$p=B^2/C$，$C=\\sqrt{(A^2-B^2)}$）。\n- Integrating gives $B_1=\\mu_0I/(2ep)=\\mu_0IA/(2B^2)$。\n（2）Magnetic field $B_2$ at the hyperbola focus：\n- Similarly, $dB_2=\\mu_0I d\\theta/(4\\pi r)$，hyperbolic polar coordinate equation $1/r=(1-e \\cos\\theta)/(ep)$（$e=C/A$，$p=B^2/C$，$C=\\sqrt{(A^2+B^2)}$）。\n- Integration interval $\\theta_1=\\arctan(B/A)$ to $\\theta_2=2\\pi-\\theta_1$，calculating gives $B_2=\\mu_0IA[\\pi - \\arctan(B/A) + B/A]/(2\\pi B^2)$。",
+  "problem_answer": "1. 椭圆焦点磁感强度$B_1=\\frac{\\mu_0 I A}{2 B^2}$；2. 双曲线内焦点磁感强度$B_2=\\frac{\\mu_0 I A}{2\\pi B^2}\\left(\\pi - \\arctan\\frac{B}{A} + \\frac{B}{A}\\right)$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

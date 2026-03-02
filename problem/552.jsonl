@@ -1,0 +1,21 @@
+{
+  "problem_id": "619",
+  "problem_text_cn": "长方体导体块，t>0加交变电场E=E₀cosωt，电导率σ=αε₀ω。求：1. t>0时电流密度j(t)；2. 稳定后电流i超前电压u的相位φ（用tanφ表示）；3. 等效并联电路的R、C，及平行板电容器的相对介电常量εᵣ并判断能否制作。",
+  "problem_text_en": "A cuboid conductor block，an alternating electric field E=E₀cosωt is applied for t>0，conductivity σ=αε₀ω。Find：1. Current density j(t) for t>0；2. The phase φ by which current i leads voltage u after stabilization（expressed in tanφ）；3. R and C of the equivalent parallel circuit，and the relative permittivity εᵣ of the parallel-plate capacitor and judge whether it can be manufactured.",
+  "problem_img": [
+    "619_1.png",
+    "619_2.png",
+    "619_3.png"
+  ],
+  "problem_img_process": [
+    "619_1_process.png",
+    "619_2_process.png",
+    "619_3_process.png"
+  ],
+  "problem_solution_cn": "（1）电流密度j(t)：\n- 电荷面密度σₑ满足微分方程dσₑ/dt + (σ/ε₀)σₑ=σE₀cosωt，解得σₑ后求导得j(t)=[αε₀ωE₀/(1+α²)][(cosωt−αsinωt)+α²e^(-αωt)]。\n（2）相位差φ：\\n- 稳态时j=αε₀ωE₀cos(ωt+φ)/(√(1+α²))，tanφ=α。\\n（3）等效电路与电容器：\\n- 等效R=(1+α²)l/(αε₀Sω)，C=α²ε₀S/[(1+α²)l]；\\n- 相对介电常量εᵣ=α²/(1+α²)<1，因介质εᵣ≥1，故不能制作。",
+  "problem_solution_en": "（1）Current density j(t)：\n- The charge surface density σₑ satisfies the differential equation dσₑ/dt + (σ/ε₀)σₑ=σE₀cosωt，solve for σₑ and differentiate to get j(t)=[αε₀ωE₀/(1+α²)][(cosωt−αsinωt)+α²e^(-αωt)]。\\n（2）Phase difference φ：\\n- At steady state，j=αε₀ωE₀cos(ωt+φ)/(√(1+α²))，tanφ=α。\\n（3）Equivalent circuit and capacitor：\\n- Equivalent R=(1+α²)l/(αε₀Sω)，C=α²ε₀S/[(1+α²)l]；\\n- Relative permittivity εᵣ=α²/(1+α²)<1，since εᵣ≥1 for any medium，it cannot be manufactured。",
+  "problem_answer": "1. 电流密度$j(t)=\\frac{\\alpha \\varepsilon_0 \\omega E_0}{1+\\alpha^2}\\left[(\\cos\\omega t - \\alpha \\sin\\omega t)+\\alpha^2 e^{-\\alpha \\omega t}\\right]$；2. 相位差$\\tan\\phi=\\alpha$；3. 等效$R=\\frac{(1+\\alpha^2)l}{\\alpha \\varepsilon_0 S \\omega}$，$C=\\frac{\\alpha^2 \\varepsilon_0 S}{(1+\\alpha^2)l}$，$\\varepsilon_r=\\frac{\\alpha^2}{1+\\alpha^2}<1$，不能制作",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

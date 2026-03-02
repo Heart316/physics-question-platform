@@ -1,0 +1,23 @@
+{
+  "problem_id": "617",
+  "problem_text_cn": "1. 交流电路中，电源ε=ε₀sin²ωt，ωL=1/(ωC)=R，用矢量图解法求i(t)；2. 电源ε=ε₀+Σεᵢ₀cos(ωᵢt+φᵢ)，R=√(L/C)，用复数法求i(t)。",
+  "problem_text_en": "1. In an AC circuit，power supply ε=ε₀sin²ωt，ωL=1/(ωC)=R，find i(t) using vector diagram method；2. Power supply ε=ε₀+Σεᵢ₀cos(ωᵢt+φᵢ)，R=√(L/C)，find i(t) using complex number method.",
+  "problem_img": [
+    "617_1.png",
+    "617_2.png",
+    "617_3.png",
+    "617_4.png"
+  ],
+  "problem_img_process": [
+    "617_1_process.png",
+    "617_2_process.png",
+    "617_3_process.png",
+    "617_4_process.png"
+  ],
+  "problem_solution_cn": "（1）矢量图解法求i(t)：\n- 电源分解为ε₁=ε₀/2（直流）和ε₂=-ε₀cos2ωt/2（交流）。\n- 直流分量：i₁=ε₀/(2R)；交流分量：矢量合成得i₂=-ε₀cos2ωt/(2R)。\n- 总电流i=ε₀(1-cos2ωt)/(2R)=ε₀sin²ωt/R=ε/R。\n（2）复数法求i(t)：\n- 直流分量i₀=ε₀/R；交流分量复阻抗Zᵢ=R，iᵢ=εᵢ/R。\n- 总电流i=ε/R=ε₀/R + Σεᵢ₀cos(ωᵢt+φᵢ)/R。",
+  "problem_solution_en": "（1）Finding i(t) using vector diagram method：\n- Decompose the power supply into ε₁=ε₀/2（DC）and ε₂=-ε₀cos2ωt/2（AC）。\n- DC component：i₁=ε₀/(2R)；AC component：vector synthesis gives i₂=-ε₀cos2ωt/(2R)。\n- Total current i=ε₀(1-cos2ωt)/(2R)=ε₀sin²ωt/R=ε/R。\n（2）Finding i(t) using complex number method：\n- DC component i₀=ε₀/R；AC component complex impedance Zᵢ=R，iᵢ=εᵢ/R。\\n- Total current i=ε/R=ε₀/R + Σεᵢ₀cos(ωᵢt+φᵢ)/R。",
+  "problem_answer": "1. 电流$i(t)=\\frac{\\varepsilon}{R}=\\frac{\\varepsilon_0 \\sin^2\\omega t}{R}$；2. 电流$i(t)=\\frac{\\varepsilon}{R}=\\frac{\\varepsilon_0}{R}+\\sum \\frac{\\varepsilon_{i0}}{R}\\cos(\\omega_i t+\\phi_i)$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

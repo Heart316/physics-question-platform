@@ -1,0 +1,17 @@
+{
+  "problem_id": "615",
+  "problem_text_cn": "截面积S、长L的圆柱形电阻器，电流从x=0端面流入、x=L端面流出，电阻率分布ρ=ρ₀|sin(2πx/L)|，两端加电压U。求：1. 电阻器的电阻R；2. 体电荷密度ρₑ的分布及ρₑ>0的区域；3. x=L/2处的面电荷密度σₑ。",
+  "problem_text_en": "A cylindrical resistor with cross-sectional area S and length L, current flows in from the x=0 end face and out from the x=L end face, with resistivity distribution ρ=ρ₀|sin(2πx/L)|, and voltage U is applied across the two ends. Find: 1. The resistance R of the resistor；2. The distribution of volume charge density ρₑ and the region where ρₑ>0；3. The surface charge density σₑ at x=L/2.",
+  "problem_img": [
+    "615.png"
+  ],
+  "problem_img_process": [
+    "615_process.png"
+  ],
+  "problem_solution_cn": "（1）电阻计算：\n- 微元电阻dR=ρdx/S，总电阻R=∫₀ᴸ(ρ₀|sin(2πx/L)|dx)/S，积分得R=2ρ₀L/(πS)。\n（2）体电荷密度分布：\n- 电流密度j=U/(RS)，电场E=ρj=πU|sin(2πx/L)|/(2L)。\n- 0<x<L/2时，E=πU sin(2πx/L)/(2L)，ρₑ=ε₀dE/dx=ε₀π²U cos(2πx/L)/L²；\n- L/2<x<L时，E=-πU sin(2πx/L)/(2L)，ρₑ=-ε₀π²U cos(2πx/L)/L²；\n- ρₑ>0的区域为0<x<L/4和L/2<x<3L/4。\n（3）x=L/2处面电荷密度：\n- x=L/2处E连续（均为0），取高斯面积分得σₑ=0。",
+  "problem_solution_en": "（1）Resistance calculation：\n- Differential resistance dR=ρdx/S，total resistance R=∫₀ᴸ(ρ₀|sin(2πx/L)|dx)/S，integrating gives R=2ρ₀L/(πS)。\n（2）Distribution of volume charge density：\n- Current density j=U/(RS)，electric field E=ρj=πU|sin(2πx/L)|/(2L)。\n- When 0<x<L/2，E=πU sin(2πx/L)/(2L)，ρₑ=ε₀dE/dx=ε₀π²U cos(2πx/L)/L²；\n- When L/2<x<L，E=-πU sin(2πx/L)/(2L)，ρₑ=-ε₀π²U cos(2πx/L)/L²；\n- The region where ρₑ>0 is 0<x<L/4 and L/2<x<3L/4。\n（3）Surface charge density at x=L/2：\n- E is continuous at x=L/2（both are 0），integrating with Gaussian surface gives σₑ=0。",
+  "problem_answer": "1. 电阻$R=\\frac{2\\rho_0 L}{\\pi S}$；2. 体电荷密度$\\rho_e=\\begin{cases}\\frac{\\varepsilon_0 \\pi^2 U}{L^2} \\cos\\frac{2\\pi x}{L}, & 0<x<\\frac{L}{2} \\\\ -\\frac{\\varepsilon_0 \\pi^2 U}{L^2} \\cos\\frac{2\\pi x}{L}, & \\frac{L}{2}<x<L\\end{cases}$，$\\rho_e>0$区域为$0<x<\\frac{L}{4}$和$\\frac{L}{2}<x<\\frac{3L}{4}$；3. 面电荷密度$\\sigma_e=0$",
+  "problem_tags": [
+    "Electromagnetism"
+  ]
+}

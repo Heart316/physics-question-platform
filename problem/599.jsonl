@@ -1,0 +1,18 @@
+{
+  "problem_id": "599",
+  "problem_text_cn": "黑体空腔热辐射视为光子气，频率$\\nu$的光子能量$h\\nu$、质量$h\\nu/c^2$，数密度$n_\\nu$，能量密度$u_\\nu=n_\\nu h\\nu$，总能量密度$u=\\Sigma u_\\nu$。1.（a）证明热平衡时$p=u/3$；（b）用开尔文表述证明$u$与腔壁材料、体积无关且$u\\propto T^4$；（c）导出光子气绝热过程$p-V$方程。2.（a）证明光子速度$x$分量概率分布$f(v_x)=1/(2c)$（$-c\\leq v_x\\leq c$），否则为0；（b）证明腔壁小孔的能流密度$J=cu/4$，即斯特藩-玻尔兹曼定律$J\\propto T^4$。",
+  "problem_text_en": "Thermal radiation in a blackbody cavity is regarded as photon gas. The energy of a photon with frequency $\\nu$ is $h\\nu$, mass is $h\\nu/c^2$, number density is $n_\\nu$, energy density $u_\\nu=n_\\nu h\\nu$, and total energy density $u=\\Sigma u_\\nu$. 1. (a) Prove that $p=u/3$ at thermal equilibrium; (b) Using Kelvin's statement, prove that $u$ is independent of cavity wall material and volume, and $u\\propto T^4$; (c) Derive the adiabatic process $p-V$ equation of photon gas. 2. (a) Prove the probability distribution of the x-component of photon velocity $f(v_x)=1/(2c)$（$-c\\leq v_x\\leq c$）, otherwise 0; (b) Prove the energy flux density of the cavity wall aperture $J=cu/4$, i.e., Stefan-Boltzmann law $J\\propto T^4$.",
+  "problem_img": [
+    "599.png"
+  ],
+  "problem_img_process": [
+    "599_process.png"
+  ],
+  "problem_solution_cn": "（1）光子气压强与能量密度关系及绝热方程：\n- （a）仿理想气体压强推导，$p_\\nu=u_\\nu/3$，总压强$p=\\Sigma p_\\nu=u/3$；\n- （b）假设$u$与材料/体积相关将违背开尔文表述，结合热力学公式$(\\partial U/\\partial V)_T=T(\\partial p/\\partial T)_V-p$，得$du/u=4dT/T$，积分得$u\\propto T^4$；\n- （c）绝热过程$dU+pdV=0$，$U=uV=3pV$，代入得$3Vdp+4pdV=0$，积分得$pV^{4/3}=常量$。\n（2）速度分布与能流密度：\n- （a）速度空间球面等概率分布，球带面积与总表面积比为概率，推导得$f(v_x)=1/(2c)$（$-c\\leq v_x\\leq c$）；\n- （b）单位时间碰撞单位截面的光子数为$\\int_0^c n_\\nu v_x f(v_x)dv_x=n_\\nu c/4$，能流密度$J=\\Sigma(n_\\nu h\\nu c/4)=cu/4$，结合$u\\propto T^4$得$J\\propto T^4$。",
+  "problem_solution_en": "（1）Relationship between photon gas pressure and energy density and adiabatic equation：\n- (a) Following the derivation of ideal gas pressure, $p_\\nu=u_\\nu/3$, total pressure $p=\\Sigma p_\\nu=u/3$；\n- (b) Assuming $u$ is related to material/volume would violate Kelvin's statement. Combining the thermodynamic formula $(\\partial U/\\partial V)_T=T(\\partial p/\\partial T)_V-p$, we get $du/u=4dT/T$, integrating gives $u\\propto T^4$；\n- (c) Adiabatic process $dU+pdV=0$, $U=uV=3pV$, substituting gives $3Vdp+4pdV=0$, integrating gives $pV^{4/3}=constant$。\n（2）Velocity distribution and energy flux density：\n- (a) Isotropic probability distribution on the spherical surface in velocity space, the ratio of the area of the spherical band to the total surface area is the probability, deriving $f(v_x)=1/(2c)$（$-c\\leq v_x\\leq c$）；\n- (b) The number of photons colliding with unit cross-section per unit time is $\\int_0^c n_\\nu v_x f(v_x)dv_x=n_\\nu c/4$, energy flux density $J=\\Sigma(n_\\nu h\\nu c/4)=cu/4$, combining $u\\propto T^4$ gives $J\\propto T^4$。",
+  "problem_answer": "1.（a）$p=u/3$；（b）$u\\propto T^4$；（c）$p V^{4/3}=常量$；2.（a）$f(v_x)=\\begin{cases}\\frac{1}{2c}, & -c \\leq v_x \\leq c \\\\ 0, & |v_x|>c\\end{cases}$；（b）$J=\\frac{1}{4}cu$",
+  "problem_tags": [
+    "Thermodynamics",
+    "Modern Physics"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "problem_id": "602",
+  "problem_text_cn": "质量$m$、电量$q>0$的小球从高度$h$处静止自由下落，加水平匀强磁场使小球始终不与地面相碰，求磁感应强度的最小可取值$B_0$，并画出$B=B_0$时小球的运动轨道。",
+  "problem_text_en": "A small ball of mass $m$ and charge $q>0$ falls freely from rest at height $h$. A horizontal uniform magnetic field is applied so that the ball never touches the ground. Find the minimum possible value $B_0$ of the magnetic induction intensity, and draw the motion trajectory of the ball when $B=B_0$.",
+  "problem_img": [
+    "602_1.png",
+    "602_2.png"
+  ],
+  "problem_img_process": [
+    "602_1_process.png",
+    "602_2_process.png"
+  ],
+  "problem_solution_cn": "（1）速度分解与受力平衡：\n- 小球速度$v$分解为$v_1$（水平匀速）和$v_2$（匀速圆周运动），$v_1$对应的洛伦兹力$F_1=qv_1B$平衡重力$mg$，得$v_1=mg/(qB)$。\n（2）轨道与最小磁场：\n- 初始速度$v_0=0$，故$v_{20}=-v_1$，$v_2$的圆周运动半径$R=mv_2/(qB)=m^2g/(q^2B^2)$。\n- 小球轨迹为滚轮线，最低位置距初始水平线下$2R$，不碰地要求$2R<h$，解得最小磁场$B_0=\\sqrt{[2m^2g/(qh)]}=m\\sqrt{2g}/(q\\sqrt{h})$。\n（3）运动轨道：滚轮线，在初始水平线与地面之间往返，每次刚好不碰地。",
+  "problem_solution_en": "（1）Velocity decomposition and force balance：\n- The ball's velocity $v$ is decomposed into $v_1$（horizontal uniform motion）and $v_2$（uniform circular motion）. The Lorentz force $F_1=qv_1B$ corresponding to $v_1$ balances gravity $mg$, giving $v_1=mg/(qB)$。\n（2）Trajectory and minimum magnetic field：\n- Initial velocity $v_0=0$, so $v_{20}=-v_1$, and the radius of the circular motion of $v_2$ is $R=mv_2/(qB)=m^2g/(q^2B^2)$。\n- The ball's trajectory is a cycloid, with the lowest position $2R$ below the initial horizontal line. To avoid touching the ground, $2R<h$, solving for the minimum magnetic field $B_0=\\sqrt{[2m^2g/(qh)]}=m\\sqrt{2g}/(q\\sqrt{h})$。\n（3）Motion trajectory：Cycloid, oscillating between the initial horizontal line and the ground, never touching the ground each time。",
+  "problem_answer": "最小磁感应强度$B_0 = \\frac{m \\sqrt{2g}}{q \\sqrt{h}}$；运动轨道为滚轮线（见解析）",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

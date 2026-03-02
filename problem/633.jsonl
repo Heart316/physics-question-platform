@@ -1,0 +1,19 @@
+{
+  "problem_id": "633",
+  "problem_text_cn": "四维欧氏空间四维单元理想气体。1.（a）求方均根速率；（b）写出四维麦克斯韦速度分布律；（c）导出四维麦克斯韦速率分布律；（d）计算平均速率；2.（a）导出平衡态状态方程；（b）导出绝热过程p-V₄方程；（c）求某多方过程的摩尔热容量C（用R表示）。",
+  "problem_text_en": "Four-dimensional unit ideal gas in four-dimensional Euclidean space。1.（a）Find the root-mean-square speed；（b）Write the four-dimensional Maxwell velocity distribution law；（c）Derive the four-dimensional Maxwell speed distribution law；（d）Calculate the average speed；2.（a）Derive the equilibrium state equation；（b）Derive the adiabatic process p-V₄ equation；（c）Find the molar heat capacity C of a certain polytropic process（expressed in R）.",
+  "problem_img": [
+    "633_1.png",
+    "633_2.png"
+  ],
+  "problem_img_process": [
+    "633_1_process.png",
+    "633_2_process.png"
+  ],
+  "problem_solution_cn": "（1）速率与分布律：\n- （a）方均根速率√(v²)=2√(kT/m)；\n- （b）速度分布F₄(v)=(m/(2πkT))²exp[-m(v₁²+v₂²+v₃²+v₄²)/(2kT)]；\n- （c）速率分布f₄(v)=2π²v³(m/(2πkT))²exp[-mv²/(2kT)]；\n- （d）平均速率$\\overline{v}$=√(9πkT/(8m))。\n（2）状态方程与热容量：\n- （a）状态方程pV₄=νRT；\\n- （b）绝热指数γ=3/2，过程方程pV₄^(3/2)=常量；\n- （c）多方过程n=-1，摩尔热容量C=5R/2。",
+  "problem_solution_en": "（1）Speed and distribution law：\n- （a）Root-mean-square speed √(v²)=2√(kT/m)；\n- （b）Velocity distribution F₄(v)=(m/(2πkT))²exp[-m(v₁²+v₂²+v₃²+v₄²)/(2kT)]；\n- （c）Speed distribution f₄(v)=2π²v³(m/(2πkT))²exp[-mv²/(2kT)]；\n- （d）Average speed$\\overline{v}$=√(9πkT/(8m))。\n（2）State equation and heat capacity：\n- （a）State equation pV₄=νRT；\n- （b）Adiabatic index γ=3/2，process equation pV₄^(3/2)=constant；\n- （c）Polytropic process n=-1，molar heat capacity C=5R/2。",
+  "problem_answer": "1.（a）方均根速率$\\sqrt{\\langle v^2 \\rangle}=2\\sqrt{\\frac{kT}{m}}$；（b）速度分布$F_4(\\mathbf{v})=\\left(\\frac{m}{2\\pi kT}\\right)^2 \\exp\\left[-\\frac{m(v_1^2+v_2^2+v_3^2+v_4^2)}{2kT}\\right]$；（c）速率分布$f_4(v)=2\\pi^2 v^3 \\left(\\frac{m}{2\\pi kT}\\right)^2 \\exp\\left[-\\frac{mv^2}{2kT}\\right]$；（d）平均速率$\\overline{v}=\\sqrt{\\frac{9\\pi kT}{8m}}$；2.（a）状态方程$pV_4=\\nu RT$；（b）绝热方程$pV_4^{3/2}=\\text{常量}$；（c）摩尔热容量$C=\\frac{5}{2}R$",
+  "problem_tags": [
+    "Thermodynamics"
+  ]
+}

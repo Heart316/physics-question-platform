@@ -1,0 +1,17 @@
+{
+  "problem_id": "655",
+  "problem_text_cn": "名词解释（以文字叙述为主，必要时附公式或图）：1. 力学相对性原理（伽利略相对性原理）；2. 科里奥利力；3. 多普勒效应；4. 内能和熵；5. 静电屏蔽和磁屏蔽；6. 涡旋电场（感生电场）和位移电流；7. 惠更斯-菲涅耳原理；8. 光电效应。",
+  "problem_text_en": "Term explanation (mainly text description, with formulas or diagrams if necessary): 1. Mechanical relativity principle (Galilean relativity principle); 2. Coriolis force; 3. Doppler effect; 4. Internal energy and entropy; 5. Electrostatic shielding and magnetic shielding; 6. Vortex electric field (induced electric field) and displacement current; 7. Huygens-Fresnel principle; 8. Photoelectric effect.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "problem_solution_cn": "1. 力学相对性原理：所有惯性系中力学规律等价，不存在绝对惯性系，伽利略变换描述其坐标变换；2. 科里奥利力：转动参考系中（非惯性系）的虚拟力，表达式$\\vec{f}_c=2m\\vec{v}'\\times\\vec{\\omega}$；3. 多普勒效应：波源/观测者相对运动时，观测频率与固有频率的差异，声波频移公式$f'=f\\frac{v\\pm v_o}{v\\mp v_s}$；4. 内能：系统内分子热运动的动能与势能总和；熵：热力学状态的无序度度量，孤立系统熵增$\\Delta S\\geq0$；5. 静电屏蔽：导体壳内部电场为零，屏蔽外电场；磁屏蔽：高磁导率材料屏蔽磁场；6. 涡旋电场：变化磁场激发的电场，$\\oint\\vec{E}_涡\\cdot d\\vec{l}=-\\frac{d\\Phi_B}{dt}$；位移电流：$I_d=\\varepsilon_0\\frac{d\\Phi_E}{dt}$，补充安培环路定理；7. 惠更斯-菲涅耳原理：波前每一点为子波源，空间场强为子波相干叠加；8. 光电效应：光照射金属时逸出光电子，规律为$h\\nu=W_0+\\frac{1}{2}mv_m^2$。",
+  "problem_solution_en": "1. Mechanical relativity principle: Mechanical laws are equivalent in all inertial frames, no absolute inertial frame exists, Galilean transformation describes its coordinate transformation; 2. Coriolis force: Virtual force in rotating reference frames (non-inertial frames), expression $\\vec{f}_c=2m\\vec{v}'\\times\\vec{\\omega}$; 3. Doppler effect: Difference between observed frequency and natural frequency when source/observer moves relatively, acoustic frequency shift formula $f'=f\\frac{v\\pm v_o}{v\\mp v_s}$; 4. Internal energy: Sum of kinetic and potential energy of molecular thermal motion in the system; Entropy: Measure of disorder of thermodynamic state, $\\Delta S\\geq0$ for isolated systems; 5. Electrostatic shielding: Electric field inside conductor shell is zero, shielding external electric field; Magnetic shielding: High permeability materials shield magnetic fields; 6. Vortex electric field: Electric field excited by changing magnetic field, $\\oint\\vec{E}_{vortex}\\cdot d\\vec{l}=-\\frac{d\\Phi_B}{dt}$; Displacement current: $I_d=\\varepsilon_0\\frac{d\\Phi_E}{dt}$, supplementing Ampère's circuital theorem; 7. Huygens-Fresnel principle: Each point on the wavefront is a secondary wave source, spatial field intensity is coherent superposition of secondary waves; 8. Photoelectric effect: Photoelectrons escape when light irradiates metal, law is $h\\nu=W_0+\\frac{1}{2}mv_m^2$.",
+  "problem_answer": "各名词解释见解析，核心公式：1. 伽利略变换；2. $\\vec{f}_c=2m\\vec{v}'\\times\\vec{\\omega}$；3. $f'=f\\frac{v\\pm v_o}{v\\mp v_s}$；4. $\\Delta S\\geq0$；6. $\\oint\\vec{E}_涡\\cdot d\\vec{l}=-\\frac{d\\Phi_B}{dt}$、$I_d=\\varepsilon_0\\frac{d\\Phi_E}{dt}$；8. $h\\nu=W_0+\\frac{1}{2}mv_m^2$",
+  "problem_tags": [
+    "Mechanics",
+    "Electromagnetism",
+    "Thermodynamics",
+    "Optics",
+    "Modern Physics"
+  ]
+}

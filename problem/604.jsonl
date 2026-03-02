@@ -1,0 +1,22 @@
+{
+  "problem_id": "604",
+  "problem_text_cn": "光滑平行金属导轨上有两根导体棒（长$l$、质量$m$、电阻$R$），各串电容$C$，构成矩形回路，处于垂直回路的匀强磁场$B$中。初始左棒静止，右棒以$v_0$运动，给电容充电。1. 能否等效为静态无外磁场回路，求等效$\\varepsilon'$和$C'$；2. 求两棒速度随$t$的变化；3. 两棒极限速度是否相同？4. 取走电容后，（a）极限速度是否相同？（b）极限间距是否无穷大？",
+  "problem_text_en": "Two conductor bars（length $l$、mass $m$、resistance $R$）on smooth parallel metal rails, each in series with a capacitor $C$, form a rectangular loop in a uniform magnetic field $B$ perpendicular to the loop. Initially, the left bar is at rest, and the right bar moves at $v_0$ to charge the capacitors. 1. Can it be equivalent to a static loop without external magnetic field, find the equivalent $\\varepsilon'$ and $C'$；2. Find the variation of the velocities of the two bars with $t$；3. Are the limit velocities of the two bars the same？4. After removing the capacitors, (a) Are the limit velocities the same？(b) Is the limit distance between the two bars infinite？",
+  "problem_img": [
+    "604_1.png",
+    "604_2.png",
+    "604_3.png"
+  ],
+  "problem_img_process": [
+    "604_1_process.png",
+    "604_2_process.png",
+    "604_3_process.png"
+  ],
+  "problem_solution_cn": "（1）等效电路：\n- 运动回路充电方程：$Blv_0=2Q/C + 2R dQ/dt$；静态回路方程：$\\varepsilon'=Q/C_{串} + 2R dQ/dt$，$C_{串}=1/(2/C + 1/C')$。\n- 等效得$\\varepsilon'=Blv_0$，$C'=m/(2B^2l^2)$。\n（2）速度变化：\n- 解得$Q=Blv_0/[2(1/C + B^2l^2/m)](1 - e^{-t(1/C + B^2l^2/m)/R})$，进而得$v_1(t)=[ (2m/C + B^2l^2) + B^2l^2e^{-kt} ]v_0/[2(m/C + B^2l^2)]$，$v_2(t)=B^2l^2[1 - e^{-kt}]v_0/[2(m/C + B^2l^2)]$（$k=1/C + B^2l^2/m$）。\n（3）极限速度：$t\\to\\infty$时，$v_1\\neq v_2$（因电容维持电压，回路有电势差）。\n（4）无电容时：（a）极限速度相同（$v_1=v_2=v_0/2$，动量守恒）；（b）极限间距有限（间距增量=$mv_0R/(B^2l^2)$）。",
+  "problem_solution_en": "（1）Equivalent circuit：\n- Charging equation of the moving loop：$Blv_0=2Q/C + 2R dQ/dt$；Charging equation of the static loop：$\\varepsilon'=Q/C_{eq} + 2R dQ/dt$，$C_{eq}=1/(2/C + 1/C')$。\n- Equivalent results $\\varepsilon'=Blv_0$，$C'=m/(2B^2l^2)$。\n（2）Variation of velocity：\n- Solving for $Q=Blv_0/[2(1/C + B^2l^2/m)](1 - e^{-t(1/C + B^2l^2/m)/R})$，then $v_1(t)=[ (2m/C + B^2l^2) + B^2l^2e^{-kt} ]v_0/[2(m/C + B^2l^2)]$，$v_2(t)=B^2l^2[1 - e^{-kt}]v_0/[2(m/C + B^2l^2)]$（$k=1/C + B^2l^2/m$）。\n（3）Limit velocity：When $t\\to\\infty$，$v_1\\neq v_2$（the capacitor maintains voltage, there is a potential difference in the loop）。\n（4）Without capacitors：(a) The limit velocities are the same（$v_1=v_2=v_0/2$，momentum conservation）；(b) The limit distance is finite（distance increment=$mv_0R/(B^2l^2)$）。",
+  "problem_answer": "1. 等效$\\varepsilon'=Blv_0$，$C'=\\frac{m}{2B^2 l^2}$；2. 速度$v_1(t)=\\frac{(\\frac{2m}{C}+B^2 l^2)+B^2 l^2 e^{-kt}}{2(\\frac{m}{C}+B^2 l^2)}v_0$，$v_2(t)=\\frac{B^2 l^2(1-e^{-kt})}{2(\\frac{m}{C}+B^2 l^2)}v_0$（$k=\\frac{1}{C}+\\frac{B^2 l^2}{m}$）；3. 极限速度不同；4.（a）极限速度相同；（b）极限间距有限",
+  "problem_tags": [
+    "Electromagnetism",
+    "Mechanics"
+  ]
+}

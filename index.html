@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物理问题数据集平台 · 图片增强版</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+// MathJax 配置
+MathJax = {
+    tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        packages: {'[+]': ['physics']}
+    },
+    svg: { fontCache: 'global' }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- Font Awesome 4 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                primary: '#3b82f6',
+                secondary: '#6b7280',
+                success: '#10b981',
+                warning: '#f59e0b',
+                danger: '#ef4444',
+                dark: '#1f2937',
+                light: '#f9fafb'
+            },
+            animation: {
+                'fade-in': 'fadeIn 0.5s ease-in-out',
+                'slide-up': 'slideUp 0.3s ease-out'
+            },
+            keyframes: {
+                fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                slideUp: { '0%': { transform: 'translateY(10px)', opacity: '0' }, '100%': { transform: 'translateY(0)', opacity: '1' } }
+            }
+        }
+    }
+}
+</script>
+
+<style>
+/* 自定义滚动条、卡片悬停、难度颜色等 */
+.custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #a1a1a1; }
+
+.data-card { transition: all 0.3s ease; border-left: 4px solid transparent; }
+.data-card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+
+.difficulty-1 { border-left-color: #10b981; }
+.difficulty-2 { border-left-color: #3b82f6; }
+.difficulty-3 { border-left-color: #f59e0b; }
+.difficulty-4 { border-left-color: #ef4444; }
+.difficulty-5 { border-left-color: #8b5cf6; }
+
+.math-formula { font-family: "Times New Roman", Times, serif; font-size: 1.1em; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* 图片预览区域样式 */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.image-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background: #f9fafb;
+    max-width: 180px;
+}
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.image-item img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+<!-- 顶部导航栏 -->
+<header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div class="flex items-center gap-3">
+                <i class="fa fa-atom text-primary text-2xl"></i>
+                <div>
+                    <h1 class="text-2xl font-bold text-dark">物理问题数据集平台 · 图片集成版</h1>
+                    <p class="text-sm text-gray-600">涵盖539-660号物理问题，共122个数据集</p>
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap items-center gap-4">
+                <div class="relative">
+                    <input type="text" id="search-input" 
+                           class="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent w-full md:w-64"
+                           placeholder="搜索问题ID、题目内容...">
+                    <i class="fa fa-search absolute left-3 top-3 text-gray-400"></i>
+                </div>
+                <button id="load-data-btn" class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-blue-600 transition-colors">
+                    <i class="fa fa-database mr-2"></i>加载数据
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- 主内容区 -->
+<main class="container mx-auto px-4 py-6">
+    <!-- 筛选控制面板 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- 难度筛选 -->
+            <div>
+                <h3 class="font-semibold mb-3 text-gray-700"><i class="fa fa-chart-line text-primary mr-2"></i>难度筛选</h3>
+                <div class="flex flex-wrap gap-2">
+                    <button class="difficulty-filter px-3 py-1.5 rounded-full text-sm bg-green-100 text-green-800 hover:bg-green-200 active" data-level="all">全部</button>
+                    <button class="difficulty-filter px-3 py-1.5 rounded-full text-sm bg-green-50 text-green-700 hover:bg-green-100" data-level="1">简单 (1)</button>
+                    <button class="difficulty-filter px-3 py-1.5 rounded-full text-sm bg-blue-50 text-blue-700 hover:bg-blue-100" data-level="2">中等 (2)</button>
+                    <button class="difficulty-filter px-3 py-1.5 rounded-full text-sm bg-orange-50 text-orange-700 hover:bg-orange-100" data-level="3">困难 (3)</button>
+                    <button class="difficulty-filter px-3 py-1.5 rounded-full text-sm bg-red-50 text-red-700 hover:bg-red-100" data-level="4">挑战 (4)</button>
+                    <button class="difficulty-filter px-3 py-1.5 rounded-full text-sm bg-purple-50 text-purple-700 hover:bg-purple-100" data-level="5">专家 (5)</button>
+                </div>
+            </div>
+            <!-- 标签筛选 -->
+            <div>
+                <h3 class="font-semibold mb-3 text-gray-700"><i class="fa fa-tags text-primary mr-2"></i>分类标签</h3>
+                <div class="flex flex-wrap gap-2" id="tag-filters">
+                    <button class="tag-filter px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 active" data-tag="all">全部</button>
+                </div>
+            </div>
+            <!-- 显示设置（增加图片开关） -->
+            <div>
+                <h3 class="font-semibold mb-3 text-gray-700"><i class="fa fa-eye text-primary mr-2"></i>显示设置</h3>
+                <div class="flex flex-wrap gap-3">
+                    <div class="flex items-center">
+                        <input type="checkbox" id="show-images" class="mr-2 rounded text-primary focus:ring-primary" checked>
+                        <label for="show-images" class="text-sm text-gray-700">显示图片信息</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="checkbox" id="show-formulas" class="mr-2 rounded text-primary focus:ring-primary" checked>
+                        <label for="show-formulas" class="text-sm text-gray-700">显示公式</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 活动筛选显示 -->
+        <div class="mt-6 pt-4 border-t border-gray-100">
+            <div class="flex items-center gap-2 flex-wrap">
+                <span class="text-sm text-gray-600">当前筛选：</span>
+                <div id="active-filters" class="flex gap-2 flex-wrap"></div>
+                <button id="clear-filters" class="ml-auto text-sm text-primary hover:text-blue-600 hidden">
+                    <i class="fa fa-times mr-1"></i>清除筛选
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 数据集概览卡片 -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div class="bg-white rounded-xl shadow-sm p-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm text-gray-600">总问题数</p>
+                    <h3 class="text-2xl font-bold text-dark mt-1" id="total-count">0</h3>
+                </div>
+                <i class="fa fa-list-ol text-primary text-2xl"></i>
+            </div>
+            <div class="mt-4 text-xs text-gray-500">已加载问题总数</div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm text-gray-600">分类数量</p>
+                    <h3 class="text-2xl font-bold text-dark mt-1" id="category-count">0</h3>
+                </div>
+                <i class="fa fa-tags text-success text-2xl"></i>
+            </div>
+            <div class="mt-4 text-xs text-gray-500">不同物理分类数</div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm text-gray-600">平均难度</p>
+                    <h3 class="text-2xl font-bold text-dark mt-1" id="avg-difficulty">-</h3>
+                </div>
+                <i class="fa fa-chart-bar text-warning text-2xl"></i>
+            </div>
+            <div class="mt-4 text-xs text-gray-500">1-5分，越高越难</div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm text-gray-600">数据范围</p>
+                    <h3 class="text-2xl font-bold text-dark mt-1" id="data-range">539-660</h3>
+                </div>
+                <i class="fa fa-database text-danger text-2xl"></i>
+            </div>
+            <div class="mt-4 text-xs text-gray-500">数据集编号范围</div>
+        </div>
+    </div>
+
+    <!-- 问题列表 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
+            <div>
+                <h2 class="text-xl font-bold text-dark flex items-center gap-2">
+                    <i class="fa fa-table text-primary"></i>
+                    问题列表
+                </h2>
+                <p class="text-sm text-gray-600 mt-1">点击卡片查看问题详情（图片来自 /diagrams 目录）</p>
+            </div>
+            <div class="flex items-center gap-4 mt-4 md:mt-0">
+                <div class="text-sm text-gray-600">
+                    显示 <span id="shown-count" class="font-bold">0</span> / <span id="total-list-count" class="font-bold">0</span> 条问题
+                </div>
+                <div class="flex items-center gap-2">
+                    <button id="sort-by-id" class="px-3 py-1.5 text-sm border border-gray-300 rounded-lg hover:bg-gray-50 active">
+                        按ID排序
+                    </button>
+                    <button id="sort-by-difficulty" class="px-3 py-1.5 text-sm border border-gray-300 rounded-lg hover:bg-gray-50">
+                        按难度排序
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 数据卡片容器 -->
+        <div id="data-card-container" class="space-y-6">
+            <div class="text-center py-12 text-gray-500">
+                <i class="fa fa-database text-4xl mb-4 opacity-50"></i>
+                <p class="text-lg">数据加载中或暂无数据</p>
+                <p class="text-sm mt-2">点击上方"加载数据"按钮开始</p>
+            </div>
+        </div>
+
+        <!-- 分页控制 -->
+        <div class="mt-8 pt-6 border-t border-gray-100 flex justify-between items-center">
+            <div class="text-sm text-gray-600" id="page-info">
+                第 <span id="current-page">1</span> 页，共 <span id="total-pages">1</span> 页
+            </div>
+            <div class="flex gap-2">
+                <button id="prev-page" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    <i class="fa fa-chevron-left mr-1"></i>上一页
+                </button>
+                <button id="next-page" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                    下一页<i class="fa fa-chevron-right ml-1"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 统计图表区域 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+        <h2 class="text-xl font-bold text-dark mb-6 flex items-center gap-2">
+            <i class="fa fa-chart-pie text-primary"></i>
+            数据统计
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <h3 class="font-semibold mb-4 text-gray-700">难度分布</h3>
+                <div class="space-y-3" id="difficulty-distribution">
+                    <div class="text-center py-4 text-gray-400">加载数据后显示分布</div>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-4 text-gray-700">分类分布</h3>
+                <div class="space-y-3" id="category-distribution">
+                    <div class="text-center py-4 text-gray-400">加载数据后显示分布</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- 问题详情模态框 · 图片增强版 -->
+<div id="problem-modal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+    <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20">
+        <!-- 遮罩 -->
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" id="modal-backdrop"></div>
+        
+        <!-- 模态框内容 -->
+        <div class="relative bg-white rounded-xl shadow-xl w-full max-w-6xl transform transition-all animate-fade-in">
+            <div class="flex justify-between items-center p-6 border-b border-gray-200">
+                <div>
+                    <h3 class="text-xl font-bold text-dark" id="modal-title">问题详情</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="px-2 py-1 bg-primary/10 text-primary text-xs font-medium rounded" id="modal-id">ID: -</span>
+                        <span class="px-2 py-1 text-xs font-medium rounded" id="modal-difficulty">难度: -</span>
+                        <span class="px-2 py-1 text-xs font-medium rounded" id="modal-category">分类: -</span>
+                    </div>
+                </div>
+                <button id="close-modal" class="p-2 text-gray-400 hover:text-gray-600 rounded-lg hover:bg-gray-100">
+                    <i class="fa fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="p-6 max-h-[70vh] overflow-y-auto custom-scrollbar">
+                <div class="space-y-6">
+                    <!-- 语言切换 -->
+                    <div class="flex gap-2 border-b border-gray-100 pb-2">
+                        <button class="modal-lang active px-4 py-2 text-sm font-medium border-b-2 border-primary text-primary" data-lang="cn">
+                            中文
+                        </button>
+                        <button class="modal-lang px-4 py-2 text-sm font-medium text-gray-600 hover:text-primary" data-lang="en">
+                            English
+                        </button>
+                    </div>
+                    
+                    <!-- 中文内容区（含图片） -->
+                    <div id="modal-content-cn">
+                        <!-- 动态填充 -->
+                    </div>
+                    <!-- 英文内容区 -->
+                    <div id="modal-content-en" class="hidden"></div>
+                </div>
+            </div>
+            
+            <div class="p-6 border-t border-gray-200 flex justify-between">
+                <div class="text-sm text-gray-600" id="modal-image-info">
+                    <!-- 图片信息以及缩略图预览 -->
+                </div>
+                <div class="flex gap-3">
+                    <button id="prev-problem" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">
+                        <i class="fa fa-chevron-left mr-1"></i>上一个
+                    </button>
+                    <button id="next-problem" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">
+                        下一个<i class="fa fa-chevron-right ml-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 页脚 -->
+<footer class="bg-dark text-white py-8 mt-12">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <div class="flex items-center gap-2 mb-3">
+                    <i class="fa fa-atom text-primary text-2xl"></i>
+                    <span class="text-xl font-bold">物理问题数据集平台</span>
+                </div>
+                <p class="text-gray-400 text-sm">© 2024 · 图片集成版 · 图片来自 C:\Users\saxyz\Desktop\Physics\diagrams</p>
+            </div>
+            <div class="flex flex-wrap gap-6">
+                <div>
+                    <h4 class="font-medium mb-2 text-gray-300">数据信息</h4>
+                    <p class="text-gray-400 text-sm">122个JSONL文件</p>
+                    <p class="text-gray-400 text-sm">光学、现代物理等分类</p>
+                </div>
+                <div>
+                    <h4 class="font-medium mb-2 text-gray-300">功能特性</h4>
+                    <p class="text-gray-400 text-sm">图片实时预览 / 物理图库</p>
+                    <p class="text-gray-400 text-sm">难度分类与标签索引</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+// ---------- 全局状态 ----------
+let allProblems = [];
+let filteredProblems = [];
+let currentProblems = [];
+let currentPage = 1;
+const problemsPerPage = 10;
+let activeFilters = { difficulty: 'all', tags: [], search: '' };
+let currentSort = 'id';
+let currentModalIndex = -1;
+let allTags = new Set();
+
+// 图片物理根目录（注意：前端无法直接读取本地绝对路径，但可通过文件服务器映射；此处使用相对路径方案）
+// 假设您的项目将 diagrams 目录复制到了可访问的路径，例如 ./diagrams/ 
+// 我们在加载图片时指向相对于网站根目录的路径。用户可手动调整。
+const IMAGE_BASE_PATH = './diagrams/';  // 请根据实际部署修改。若需绝对路径，请映射虚拟目录。
+
+// DOM 元素
+const dataCardContainer = document.getElementById('data-card-container');
+const totalCountEl = document.getElementById('total-count');
+const categoryCountEl = document.getElementById('category-count');
+const avgDifficultyEl = document.getElementById('avg-difficulty');
+const totalListCountEl = document.getElementById('total-list-count');
+const shownCountEl = document.getElementById('shown-count');
+const searchInput = document.getElementById('search-input');
+const loadDataBtn = document.getElementById('load-data-btn');
+const problemModal = document.getElementById('problem-modal');
+const tagFiltersContainer = document.getElementById('tag-filters');
+const activeFiltersContainer = document.getElementById('active-filters');
+const clearFiltersBtn = document.getElementById('clear-filters');
+const difficultyDistributionEl = document.getElementById('difficulty-distribution');
+const categoryDistributionEl = document.getElementById('category-distribution');
+
+// 复选框
+const showImagesCheckbox = document.getElementById('show-images');
+const showFormulasCheckbox = document.getElementById('show-formulas');
+
+// ---------- 初始化 ----------
+document.addEventListener('DOMContentLoaded', () => {
+    initializeEventListeners();
+});
+
+function initializeEventListeners() {
+    loadDataBtn.addEventListener('click', loadAllData);
+
+    searchInput.addEventListener('input', debounce(() => {
+        activeFilters.search = searchInput.value.trim().toLowerCase();
+        applyFilters();
+    }, 300));
+
+    document.querySelectorAll('.difficulty-filter').forEach(btn => {
+        btn.addEventListener('click', () => {
+            activeFilters.difficulty = btn.dataset.level;
+            updateActiveDifficultyButtons();
+            applyFilters();
+        });
+    });
+
+    document.getElementById('sort-by-id').addEventListener('click', () => setSort('id'));
+    document.getElementById('sort-by-difficulty').addEventListener('click', () => setSort('difficulty'));
+
+    document.getElementById('prev-page').addEventListener('click', () => {
+        if (currentPage > 1) { currentPage--; renderCurrentPage(); }
+    });
+    document.getElementById('next-page').addEventListener('click', () => {
+        if (currentPage < Math.ceil(filteredProblems.length / problemsPerPage)) { currentPage++; renderCurrentPage(); }
+    });
+
+    clearFiltersBtn.addEventListener('click', clearAllFilters);
+
+    // 模态框关闭
+    document.getElementById('close-modal').addEventListener('click', closeModal);
+    document.getElementById('modal-backdrop').addEventListener('click', closeModal);
+    document.getElementById('prev-problem').addEventListener('click', showPrevProblem);
+    document.getElementById('next-problem').addEventListener('click', showNextProblem);
+    
+    // 模态框语言切换
+    document.querySelectorAll('.modal-lang').forEach(btn => {
+        btn.addEventListener('click', () => switchModalLanguage(btn.dataset.lang));
+    });
+
+    // 显示图片/公式复选框无实时刷新，仅影响卡片显示；在渲染卡片时读取
+}
+
+// ---------- 核心数据加载 ----------
+async function loadAllData() {
+    loadDataBtn.innerHTML = '<i class="fa fa-spinner fa-spin mr-2"></i>加载中...';
+    loadDataBtn.disabled = true;
+    
+    try {
+        allProblems = await loadAllJSONLFiles();
+        filteredProblems = [...allProblems];
+        
+        // 提取所有标签
+        allTags.clear();
+        allProblems.forEach(p => { if (p.text && Array.isArray(p.text)) p.text.forEach(t => allTags.add(t)); });
+        
+        updateTagFilters();
+        applyFilters();
+        updateStatistics();
+        renderDifficultyDistribution();
+        renderCategoryDistribution();
+        
+        loadDataBtn.innerHTML = '<i class="fa fa-check mr-2"></i>数据已加载';
+        setTimeout(() => {
+            loadDataBtn.innerHTML = '<i class="fa fa-database mr-2"></i>重新加载数据';
+            loadDataBtn.disabled = false;
+        }, 1500);
+    } catch (error) {
+        console.error('加载失败:', error);
+        loadDataBtn.innerHTML = '<i class="fa fa-exclamation-triangle mr-2"></i>加载失败';
+        setTimeout(() => {
+            loadDataBtn.innerHTML = '<i class="fa fa-database mr-2"></i>重新尝试';
+            loadDataBtn.disabled = false;
+        }, 2000);
+    }
+}
+
+async function loadAllJSONLFiles() {
+    const problems = [];
+    const basePath = './problem/';  // 假设jsonl文件存放位置
+    
+    for (let i = 539; i <= 660; i++) {
+        const fileName = `${i}.jsonl`;
+        const filePath = `${basePath}${fileName}`;
+        
+        try {
+            const response = await fetch(filePath);
+            if (!response.ok) continue;
+            const text = await response.text();
+            const data = JSON.parse(text);
+            
+            // 处理图片名称：存储完整文件名，用于拼接路径
+            let imgNames = [];
+            if (data.problem_img && Array.isArray(data.problem_img)) {
+                imgNames = data.problem_img.filter(name => name && typeof name === 'string');
+            }
+            let processImgNames = [];
+            if (data.problem_img_process && Array.isArray(data.problem_img_process)) {
+                processImgNames = data.problem_img_process.filter(name => name && typeof name === 'string');
+            }
+
+            const problem = {
+                id: i,
+                problem_id: data.problem_id || `PROB-${i}`,
+                problem_cn: data.problem_text_cn || "",
+                problem_en: data.problem_text_en || "",
+                solution_cn: data.problem_solution_cn || "",
+                solution_en: data.problem_solution_en || "",
+                answer_cn: data.problem_answer || "",
+                answer_en: data.problem_answer || "",
+                text: data.problem_tags || [],
+                difficulty: calculateDifficulty(data),
+                has_image: !!(imgNames.length > 0),
+                image_names: imgNames,
+                process_images: processImgNames
+            };
+            problems.push(problem);
+        } catch (e) {
+            console.warn(`跳过文件 ${fileName}: ${e.message}`);
+        }
+    }
+    return problems;
+}
+
+function calculateDifficulty(data) {
+    const textLength = (data.problem_text_cn || "").length + (data.problem_solution_cn || "").length;
+    const hasFormulas = (data.problem_text_cn && data.problem_text_cn.includes('$')) || (data.problem_solution_cn && data.problem_solution_cn.includes('$'));
+    const tagCount = (data.problem_tags || []).length;
+    const hasImages = (data.problem_img && data.problem_img.length > 0);
+    const hasProcessImages = (data.problem_img_process && data.problem_img_process.length > 0);
+    
+    let difficulty = 2;
+    if (textLength > 800) difficulty += 1;
+    if (hasFormulas) difficulty += 1;
+    if (tagCount >= 2) difficulty += 0.5;
+    if (hasImages) difficulty += 0.5;
+    if (hasProcessImages) difficulty += 0.5;
+    
+    return Math.min(5, Math.max(1, Math.round(difficulty)));
+}
+
+// ---------- 标签相关 ----------
+function updateTagFilters() {
+    tagFiltersContainer.innerHTML = '<button class="tag-filter px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 active" data-tag="all">全部</button>';
+    allTags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.className = 'tag-filter px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200';
+        btn.textContent = tag;
+        btn.dataset.tag = tag;
+        btn.addEventListener('click', () => toggleTagFilter(tag));
+        tagFiltersContainer.appendChild(btn);
+    });
+}
+
+function toggleTagFilter(tag) {
+    const idx = activeFilters.tags.indexOf(tag);
+    idx === -1 ? activeFilters.tags.push(tag) : activeFilters.tags.splice(idx, 1);
+    
+    document.querySelectorAll('.tag-filter').forEach(btn => {
+        if (btn.dataset.tag === tag) {
+            if (activeFilters.tags.includes(tag)) {
+                btn.classList.add('bg-primary', 'text-white');
+                btn.classList.remove('bg-gray-100', 'text-gray-800');
+            } else {
+                btn.classList.remove('bg-primary', 'text-white');
+                btn.classList.add('bg-gray-100', 'text-gray-800');
+            }
+        }
+    });
+    const allBtn = document.querySelector('.tag-filter[data-tag="all"]');
+    if (activeFilters.tags.length === 0) {
+        allBtn.classList.add('bg-primary', 'text-white');
+        allBtn.classList.remove('bg-gray-100', 'text-gray-800');
+    } else {
+        allBtn.classList.remove('bg-primary', 'text-white');
+        allBtn.classList.add('bg-gray-100', 'text-gray-800');
+    }
+    applyFilters();
+}
+
+function updateActiveDifficultyButtons() {
+    document.querySelectorAll('.difficulty-filter').forEach(btn => {
+        const level = btn.dataset.level;
+        if (level === activeFilters.difficulty) {
+            if (level === 'all') btn.className = 'difficulty-filter px-3 py-1.5 rounded-full text-sm bg-green-100 text-green-800 hover:bg-green-200';
+            else btn.className = `difficulty-filter px-3 py-1.5 rounded-full text-sm bg-${getDifficultyColorClass(level, true)}`;
+        } else {
+            if (level === 'all') btn.className = 'difficulty-filter px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200';
+            else btn.className = `difficulty-filter px-3 py-1.5 rounded-full text-sm bg-${getDifficultyColorClass(level, false)}`;
+        }
+    });
+}
+
+// ---------- 筛选、排序、渲染 ----------
+function applyFilters() {
+    filteredProblems = allProblems.filter(p => {
+        if (activeFilters.difficulty !== 'all' && p.difficulty !== parseInt(activeFilters.difficulty)) return false;
+        if (activeFilters.tags.length > 0 && !activeFilters.tags.some(tag => p.text.includes(tag))) return false;
+        if (activeFilters.search) {
+            const searchTerm = activeFilters.search.toLowerCase();
+            const searchable = [p.id, p.problem_id, p.problem_cn, p.problem_en, p.solution_cn, p.solution_en, p.answer_cn, ...p.text].join(' ').toLowerCase();
+            if (!searchable.includes(searchTerm)) return false;
+        }
+        return true;
+    });
+    sortProblems();
+    updateActiveFiltersDisplay();
+    currentPage = 1;
+    renderCurrentPage();
+    updateStatistics();
+    renderDifficultyDistribution();
+    renderCategoryDistribution();
+}
+
+function sortProblems() {
+    if (currentSort === 'id') filteredProblems.sort((a,b) => a.id - b.id);
+    else if (currentSort === 'difficulty') filteredProblems.sort((a,b) => b.difficulty - a.difficulty);
+}
+
+function setSort(type) {
+    currentSort = type;
+    document.getElementById('sort-by-id').classList.toggle('active', type==='id');
+    document.getElementById('sort-by-difficulty').classList.toggle('active', type==='difficulty');
+    sortProblems();
+    renderCurrentPage();
+}
+
+function renderCurrentPage() {
+    const start = (currentPage-1)*problemsPerPage;
+    const end = start + problemsPerPage;
+    currentProblems = filteredProblems.slice(start, end);
+    renderDataCards(currentProblems);
+    updatePaginationControls();
+}
+
+// ---------- 卡片渲染（支持图片预览）----------
+function renderDataCards(problems) {
+    if (problems.length === 0) {
+        dataCardContainer.innerHTML = `
+            <div class="text-center py-12 text-gray-500">
+                <i class="fa fa-search text-4xl mb-4 opacity-50"></i>
+                <p class="text-lg">未找到匹配的问题</p>
+                <p class="text-sm mt-2">尝试调整筛选条件或搜索关键词</p>
+                <button id="reset-search" class="mt-4 px-4 py-2 bg-primary text-white rounded-lg hover:bg-blue-600">重置筛选条件</button>
+            </div>
+        `;
+        document.getElementById('reset-search')?.addEventListener('click', clearAllFilters);
+        shownCountEl.textContent = '0';
+        totalListCountEl.textContent = filteredProblems.length;
+        return;
+    }
+
+    const showImages = showImagesCheckbox.checked;
+    
+    dataCardContainer.innerHTML = problems.map(p => {
+        // 预览文字
+        const previewText = extractTextPreview(p.solution_cn, 150);
+        // 卡片内展示缩略图（如果有图且开启显示图片）
+        let imagesHtml = '';
+        if (showImages && p.has_image && p.image_names.length > 0) {
+            const firstImg = p.image_names[0];
+            const imgSrc = `${IMAGE_BASE_PATH}${firstImg}`;
+            imagesHtml = `<div class="mt-3 flex items-center gap-2"><img src="${imgSrc}" alt="缩略图" class="w-16 h-16 object-cover rounded border" onerror="this.style.display='none'"></div>`;
+        }
+
+        return `
+        <div class="data-card difficulty-${p.difficulty} bg-white border border-gray-200 rounded-xl overflow-hidden hover:cursor-pointer animate-slide-up" data-id="${p.id}">
+            <div class="p-5">
+                <div class="flex flex-col md:flex-row md:items-start justify-between gap-4">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-3 flex-wrap">
+                            <span class="px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">ID: ${p.problem_id}</span>
+                            <span class="px-3 py-1 ${getDifficultyColorClass(p.difficulty, true)} text-sm font-medium rounded-full">难度: ${p.difficulty}/5</span>
+                            ${p.has_image ? `<span class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full"><i class="fa fa-image mr-1"></i>有图片</span>` : ''}
+                        </div>
+                        <h3 class="font-bold text-lg text-dark mb-2 line-clamp-1">问题 ${p.id}: ${extractTextPreview(p.problem_cn, 60)}</h3>
+                        <div class="mb-3"><div class="text-sm text-gray-600 line-clamp-2">${previewText}</div></div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            ${p.text.map(tag => `<span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">${tag}</span>`).join('')}
+                        </div>
+                        ${imagesHtml}
+                    </div>
+                    <div class="md:w-32 flex-shrink-0">
+                        <div class="text-right">
+                            <button class="view-detail-btn px-4 py-2 bg-primary text-white rounded-lg hover:bg-blue-600 text-sm font-medium">
+                                <i class="fa fa-eye mr-1"></i>查看详情
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }).join('');
+
+    // 事件绑定
+    document.querySelectorAll('.data-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('view-detail-btn')) {
+                openProblemModal(parseInt(card.dataset.id));
+            }
+        });
+    });
+    document.querySelectorAll('.view-detail-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openProblemModal(parseInt(btn.closest('.data-card').dataset.id));
+        });
+    });
+
+    shownCountEl.textContent = problems.length;
+    totalListCountEl.textContent = filteredProblems.length;
+}
+
+function extractTextPreview(text, max=100) {
+    if (!text) return '';
+    let clean = text.replace(/\$.*?\$/g, '[公式]').replace(/\n/g, ' ');
+    return clean.length > max ? clean.substring(0,max)+'...' : clean;
+}
+
+// ---------- 图片生成HTML（公用）----------
+function buildImageGallery(imageNames, title) {
+    if (!imageNames || imageNames.length === 0) return '';
+    let html = `<div class="mt-3"><h5 class="text-sm font-semibold text-gray-700 mb-2">${title}</h5><div class="image-gallery">`;
+    imageNames.forEach(fname => {
+        const src = `${IMAGE_BASE_PATH}${fname}`;
+        html += `<div class="image-item"><img src="${src}" alt="${fname}" title="${fname}" onclick="window.open(this.src)" onerror="this.style.opacity=0.3; this.title='图片无法加载'"></div>`;
+    });
+    html += '</div></div>';
+    return html;
+}
+
+// ---------- 模态框：显示问题详情及图片 ----------
+function openProblemModal(problemId) {
+    const idx = filteredProblems.findIndex(p => p.id === problemId);
+    if (idx === -1) return;
+    currentModalIndex = idx;
+    const p = filteredProblems[idx];
+
+    document.getElementById('modal-title').textContent = `问题 ${p.id}: ${extractTextPreview(p.problem_cn, 50)}`;
+    document.getElementById('modal-id').textContent = `ID: ${p.problem_id}`;
+    document.getElementById('modal-difficulty').textContent = `难度: ${p.difficulty}/5`;
+    document.getElementById('modal-difficulty').className = `px-2 py-1 text-xs font-medium rounded ${getDifficultyColorClass(p.difficulty, true)}`;
+    document.getElementById('modal-category').textContent = `分类: ${p.text.join(', ') || '无'}`;
+    document.getElementById('modal-category').className = `px-2 py-1 text-xs font-medium rounded bg-gray-100 text-gray-800`;
+
+    // 格式化解答换行
+    const formatSol = (s) => s ? s.replace(/\n/g, '<br>') : '<span class="text-gray-400">暂无解答过程</span>';
+    
+    // 构建图片画廊（如果开启）
+    let imageHtmlCn = '';
+    let imageHtmlEn = ''; // 英文区可复用相同图片，或只展示一次。这里在中文区底部展示图片。
+    if (showImagesCheckbox.checked) {
+        if (p.image_names.length) imageHtmlCn += buildImageGallery(p.image_names, '📷 问题图片');
+        if (p.process_images.length) imageHtmlCn += buildImageGallery(p.process_images, '⚙️ 解题过程图片');
+    }
+
+    // 中文内容
+    document.getElementById('modal-content-cn').innerHTML = `
+        <div class="space-y-6">
+            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">📝 问题描述</h4>
+                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${p.problem_cn || '<span class="text-gray-400">暂无中文问题描述</span>'}</div></div>
+            </div>
+            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">🧾 解答过程</h4>
+                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${formatSol(p.solution_cn)}</div></div>
+            </div>
+            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">✅ 答案</h4>
+                <div class="p-4 bg-green-50 rounded-lg border border-green-200"><div class="math-formula text-green-800 font-medium">${p.answer_cn || '<span class="text-gray-400">暂无答案</span>'}</div></div>
+            </div>
+            ${imageHtmlCn}
+        </div>
+    `;
+    
+    // 英文内容
+    document.getElementById('modal-content-en').innerHTML = `
+        <div class="space-y-6">
+            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Problem Description</h4>
+                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${p.problem_en || '<span class="text-gray-400">No English description</span>'}</div></div>
+            </div>
+            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Solution Process</h4>
+                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${formatSol(p.solution_en)}</div></div>
+            </div>
+            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Answer</h4>
+                <div class="p-4 bg-green-50 rounded-lg border border-green-200"><div class="math-formula text-green-800 font-medium">${p.answer_en || '<span class="text-gray-400">No answer</span>'}</div></div>
+            </div>
+            <!-- 英文区也可以显示图片，保持一致，可复制，这里省略避免重复 -->
+        </div>
+    `;
+
+    // 更新底部图片信息摘要
+    let summary = '';
+    if (p.image_names.length) summary += `📷 ${p.image_names.length}张问题图 `;
+    if (p.process_images.length) summary += `⚙️ ${p.process_images.length}张过程图`;
+    document.getElementById('modal-image-info').innerHTML = summary || '<span class="text-gray-500">📭 无相关图片</span>';
+
+    switchModalLanguage('cn');
+    problemModal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+
+    setTimeout(() => {
+        if (window.MathJax && window.MathJax.typesetPromise) {
+            MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+                .catch(e => console.log('MathJax error:', e));
+        }
+    }, 120);
+}
+
+function closeModal() {
+    problemModal.classList.add('hidden');
+    document.body.style.overflow = 'auto';
+}
+
+function switchModalLanguage(lang) {
+    document.querySelectorAll('.modal-lang').forEach(btn => {
+        if (btn.dataset.lang === lang) {
+            btn.classList.add('border-b-2', 'border-primary', 'text-primary');
+            btn.classList.remove('text-gray-600');
+        } else {
+            btn.classList.remove('border-b-2', 'border-primary', 'text-primary');
+            btn.classList.add('text-gray-600');
+        }
+    });
+    document.getElementById('modal-content-cn').classList.toggle('hidden', lang !== 'cn');
+    document.getElementById('modal-content-en').classList.toggle('hidden', lang !== 'en');
+    setTimeout(() => { if (window.MathJax) MathJax.typesetPromise?.(); }, 30);
+}
+
+function showPrevProblem() {
+    if (currentModalIndex > 0) openProblemModal(filteredProblems[currentModalIndex-1].id);
+}
+function showNextProblem() {
+    if (currentModalIndex < filteredProblems.length-1) openProblemModal(filteredProblems[currentModalIndex+1].id);
+}
+
+// ---------- 辅助函数 ----------
+function updatePaginationControls() {
+    const totalPages = Math.max(1, Math.ceil(filteredProblems.length / problemsPerPage));
+    document.getElementById('current-page').textContent = currentPage;
+    document.getElementById('total-pages').textContent = totalPages;
+    document.getElementById('prev-page').disabled = currentPage === 1;
+    document.getElementById('next-page').disabled = currentPage === totalPages || totalPages === 0;
+    document.getElementById('page-info').style.visibility = totalPages > 1 ? 'visible' : 'hidden';
+    document.getElementById('prev-page').style.visibility = totalPages > 1 ? 'visible' : 'hidden';
+    document.getElementById('next-page').style.visibility = totalPages > 1 ? 'visible' : 'hidden';
+}
+
+function updateActiveFiltersDisplay() {
+    activeFiltersContainer.innerHTML = '';
+    let hasActive = false;
+    if (activeFilters.difficulty !== 'all') {
+        hasActive = true;
+        activeFiltersContainer.appendChild(createFilterChip(`难度: ${getDifficultyText(activeFilters.difficulty)}`, () => {
+            activeFilters.difficulty = 'all'; updateActiveDifficultyButtons(); applyFilters();
+        }));
+    }
+    activeFilters.tags.forEach(tag => {
+        hasActive = true;
+        activeFiltersContainer.appendChild(createFilterChip(`分类: ${tag}`, () => {
+            const i = activeFilters.tags.indexOf(tag); if (i!==-1) { activeFilters.tags.splice(i,1); applyFilters(); }
+        }));
+    });
+    if (activeFilters.search) {
+        hasActive = true;
+        activeFiltersContainer.appendChild(createFilterChip(`搜索: "${activeFilters.search}"`, () => {
+            activeFilters.search = ''; searchInput.value = ''; applyFilters();
+        }));
+    }
+    clearFiltersBtn.classList.toggle('hidden', !hasActive);
+}
+
+function createFilterChip(text, onClick) {
+    const chip = document.createElement('div');
+    chip.className = 'inline-flex items-center gap-1 px-3 py-1.5 bg-primary/10 text-primary rounded-full text-sm';
+    chip.innerHTML = `${text}<button class="ml-1 text-primary hover:text-blue-600"><i class="fa fa-times text-xs"></i></button>`;
+    chip.querySelector('button').addEventListener('click', onClick);
+    return chip;
+}
+
+function clearAllFilters() {
+    activeFilters = { difficulty: 'all', tags: [], search: '' };
+    searchInput.value = '';
+    updateActiveDifficultyButtons();
+    document.querySelectorAll('.tag-filter').forEach(btn => {
+        if (btn.dataset.tag === 'all') { btn.classList.add('bg-primary', 'text-white'); btn.classList.remove('bg-gray-100', 'text-gray-800'); }
+        else { btn.classList.remove('bg-primary', 'text-white'); btn.classList.add('bg-gray-100', 'text-gray-800'); }
+    });
+    applyFilters();
+}
+
+function updateStatistics() {
+    totalCountEl.textContent = allProblems.length;
+    const cats = new Set(); allProblems.forEach(p => p.text.forEach(t => cats.add(t)));
+    categoryCountEl.textContent = cats.size;
+    if (allProblems.length) {
+        const avg = allProblems.reduce((s,p)=> s+p.difficulty,0) / allProblems.length;
+        avgDifficultyEl.textContent = avg.toFixed(2);
+    } else avgDifficultyEl.textContent = '-';
+    document.getElementById('data-range').textContent = '539-660';
+}
+
+function renderDifficultyDistribution() {
+    const levels=[1,2,3,4,5]; const total=allProblems.length;
+    const counts = levels.map(l=> allProblems.filter(p=> p.difficulty===l).length);
+    difficultyDistributionEl.innerHTML = levels.map((l,i)=>{
+        const per = total>0 ? (counts[i]/total*100).toFixed(1) : 0;
+        return `<div class="flex items-center justify-between"><div class="flex items-center gap-2"><span class="w-4 h-4 rounded-full ${getDifficultyDotColor(l)}"></span><span class="text-sm text-gray-700">${getDifficultyText(l)}</span></div><div class="flex items-center gap-3"><div class="w-32 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full ${getDifficultyBarColor(l)} rounded-full" style="width: ${per}%"></div></div><span class="text-sm font-medium text-gray-700 w-10 text-right">${counts[i]} (${per}%)</span></div></div>`;
+    }).join('');
+}
+function renderCategoryDistribution() {
+    const catCount = {}; allProblems.forEach(p => p.text.forEach(t=> catCount[t] = (catCount[t]||0)+1));
+    const sorted = Object.entries(catCount).sort((a,b)=>b[1]-a[1]).slice(0,8);
+    categoryDistributionEl.innerHTML = sorted.map(([cat, cnt])=>{
+        const per = (cnt/allProblems.length*100).toFixed(1);
+        return `<div class="flex items-center justify-between"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-blue-500"></span><span class="text-sm text-gray-700 truncate max-w-[120px]">${cat}</span></div><div class="flex items-center gap-3"><div class="w-32 h-2 bg-gray-200 rounded-full overflow-hidden"><div class="h-full bg-blue-500 rounded-full" style="width: ${per}%"></div></div><span class="text-sm font-medium text-gray-700 w-10 text-right">${cnt} (${per}%)</span></div></div>`;
+    }).join('');
+}
+
+// 工具函数：难度颜色
+function getDifficultyColorClass(level, isBg) {
+    const prefix = isBg ? 'bg' : 'text';
+    const map = {1:`${prefix}-green-100 ${isBg?'text-green-800':'text-green-700'}`,2:`${prefix}-blue-100 ${isBg?'text-blue-800':'text-blue-700'}`,3:`${prefix}-orange-100 ${isBg?'text-orange-800':'text-orange-700'}`,4:`${prefix}-red-100 ${isBg?'text-red-800':'text-red-700'}`,5:`${prefix}-purple-100 ${isBg?'text-purple-800':'text-purple-700'}`};
+    return map[level] || `${prefix}-gray-100 ${isBg?'text-gray-800':'text-gray-700'}`;
+}
+function getDifficultyText(l) { return {1:'简单',2:'中等',3:'困难',4:'挑战',5:'专家'}[l]||'未知'; }
+function getDifficultyDotColor(l) { return {1:'bg-green-500',2:'bg-blue-500',3:'bg-orange-500',4:'bg-red-500',5:'bg-purple-500'}[l]||'bg-gray-500'; }
+function getDifficultyBarColor(l) { return getDifficultyDotColor(l); }
+function debounce(fn, wait) { let t; return function(...a) { clearTimeout(t); t = setTimeout(()=>fn(...a), wait); }; }
+</script>
+</body>
+</html>

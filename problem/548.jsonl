@@ -1,0 +1,17 @@
+{
+  "problem_id": "548",
+  "problem_text_cn": "在某康普顿散射实验中，散射光线与入射光线的夹角为$60^\\circ$，散射光波长为$0.0254\\ \\text{nm}$。试求反冲电子的动能和动量。",
+  "problem_text_en": "In a Compton scattering experiment, the angle between the scattered light and the incident light is $60^\\circ$, and the wavelength of the scattered light is $0.0254\\ \\text{nm}$. Determine the kinetic energy and momentum of the recoil electron.",
+  "problem_img": [
+    "548_(a).png"
+  ],
+  "problem_img_process": [
+    "548_(a)_process.png"
+  ],
+  "problem_solution_cn": "(1) 康普顿散射基本关系：\\n- 康普顿波长$\\lambda_c = \\frac{h}{m_0 c} = 0.002426\\ \\text{nm}$（$m_0$为电子静止质量）。\\n- 波长差$\\Delta\\lambda = \\lambda_c (1 - \\cos\\theta)$，代入$\\theta=60^\\circ$（$\\cos\\theta=0.5$），得$\\Delta\\lambda = 0.0012\\ \\text{nm}$。\\n- 入射光波长$\\lambda = \\lambda' - \\Delta\\lambda = 0.0254\\ \\text{nm} - 0.0012\\ \\text{nm} = 0.0242\\ \\text{nm}$。\\n(2) 反冲电子动能：\\n- 动能等于光子能量损失，$E_k = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda'}\\right) = hc\\frac{\\Delta\\lambda}{\\lambda\\lambda'}$。\\n- 代入数据：$h=6.63×10^{-34}\\ \\text{J·s}$，$c=3×10^8\\ \\text{m/s}$，计算得$E_k ≈ 3.88×10^{-16}\\ \\text{J} = 2.43×10^3\\ \\text{eV}$。\\n(3) 反冲电子动量：\\n- 动量守恒矢量关系平方得：$(mv)^2 = \\left(\\frac{hc}{\\lambda}\\right)^2 + \\left(\\frac{hc}{\\lambda'}\\right)^2 - 2\\frac{hc}{\\lambda}·\\frac{hc}{\\lambda'}\\cos\\theta$。\\n- 化简为$mv = \\frac{h}{\\lambda\\lambda'} \\sqrt{\\lambda^2 + \\lambda'^2 - \\lambda\\lambda'}$，代入数据得$mv ≈ 2.68×10^{-23}\\ \\text{kg·m/s}$。",
+  "problem_solution_en": "(1) Basic relations of Compton scattering：\\n- Compton wavelength $\\lambda_c = \\frac{h}{m_0 c} = 0.002426\\ \\text{nm}$（$m_0$ is the rest mass of the electron）。\\n- Wavelength difference $\\Delta\\lambda = \\lambda_c (1 - \\cos\\theta)$，substituting $\\theta=60^\\circ$（$\\cos\\theta=0.5$），we get $\\Delta\\lambda = 0.0012\\ \\text{nm}$。\\n- Wavelength of incident light $\\lambda = \\lambda' - \\Delta\\lambda = 0.0254\\ \\text{nm} - 0.0012\\ \\text{nm} = 0.0242\\ \\text{nm}$。\\n(2) Kinetic energy of the recoil electron：\\n- The kinetic energy equals the energy loss of the photon, $E_k = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda'}\\right) = hc\\frac{\\Delta\\lambda}{\\lambda\\lambda'}$。\\n- Substituting data：$h=6.63×10^{-34}\\ \\text{J·s}$，$c=3×10^8\\ \\text{m/s}$，calculating to get $E_k ≈ 3.88×10^{-16}\\ \\text{J} = 2.43×10^3\\ \\text{eV}$。\\n(3) Momentum of the recoil electron：\\n- Squaring the vector relation of momentum conservation gives：$(mv)^2 = \\left(\\frac{hc}{\\lambda}\\right)^2 + \\left(\\frac{hc}{\\lambda'}\\right)^2 - 2\\frac{hc}{\\lambda}·\\frac{hc}{\\lambda'}\\cos\\theta$。\\n- Simplifying to $mv = \\frac{h}{\\lambda\\lambda'} \\sqrt{\\lambda^2 + \\lambda'^2 - \\lambda\\lambda'}$，substituting data to get $mv ≈ 2.68×10^{-23}\\ \\text{kg·m/s}$。",
+  "problem_answer": "反冲电子的动能$E_k ≈ 3.88×10^{-16}\\ \\text{J}$（或$2.43×10^3\\ \\text{eV}$），动量$mv ≈ 2.68×10^{-23}\\ \\text{kg·m/s}$",
+  "problem_tags": [
+    "Modern Physics"
+  ]
+}

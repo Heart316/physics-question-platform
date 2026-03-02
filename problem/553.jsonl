@@ -1,0 +1,19 @@
+{
+  "problem_id": "620",
+  "problem_text_cn": "物点Q在凹面反射镜主光轴上，Q与顶点O距离s，经反射后光线会聚于Q'（与O距离s'）。根据费马原理证明凹面为旋转椭球面（截线为椭圆），写出椭圆方程，求中心位置和长、短半轴。",
+  "problem_text_en": "Object point Q is on the principal axis of a concave reflecting mirror，the distance between Q and vertex O is s，and the light rays converge at Q'（distance s' from O）after reflection。Prove that the concave surface is a spheroid（the section is an ellipse）according to Fermat's principle，write the ellipse equation，and find the center position and semi-major、semi-minor axes.",
+  "problem_img": [
+    "620_1.png",
+    "620_2.png"
+  ],
+  "problem_img_process": [
+    "620_1_process.png",
+    "620_2_process.png"
+  ],
+  "problem_solution_cn": "（1）费马原理证明：\n- 费马原理要求QM+MQ'=s+s'（等光程），Q(-s,0)、Q'(-s',0)，任取截线上点M(x,y)，得√[(x+s)²+y²]+√[(x+s')²+y²]=s+s'。\n（2）椭圆方程推导：\n- 平方化简得[(x+(s+s')/2)²]/[(s+s')/2)²] + y²/(ss')=1。\n（3）椭圆参数：\n- 中心位置x=-(s+s')/2；半长轴a=(s+s')/2；半短轴b=√(ss')。",
+  "problem_solution_en": "（1）Proof by Fermat's principle：\n- Fermat's principle requires QM+MQ'=s+s'（equal optical path），Q(-s,0)、Q'(-s',0)，take any point M(x,y) on the section，obtaining √[(x+s)²+y²]+√[(x+s')²+y²]=s+s'。\n（2）Derivation of ellipse equation：\n- Squaring and simplifying gives [(x+(s+s')/2)²]/[(s+s')/2)²] + y²/(ss')=1。\n（3）Ellipse parameters：\n- Center position x=-(s+s')/2；semi-major axis a=(s+s')/2；semi-minor axis b=√(ss')。",
+  "problem_answer": "椭圆方程$\\frac{\\left(x+\\frac{s+s'}{2}\\right)^2}{\\left(\\frac{s+s'}{2}\\right)^2}+\\frac{y^2}{ss'}=1$；中心位置$x=-\\frac{s+s'}{2}$；半长轴$a=\\frac{s+s'}{2}$；半短轴$b=\\sqrt{ss'}$",
+  "problem_tags": [
+    "Optics"
+  ]
+}

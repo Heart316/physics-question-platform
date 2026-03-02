@@ -1,0 +1,19 @@
+{
+  "problem_id": "625",
+  "problem_text_cn": "等腰三棱镜ABC，底边长BC=L，色散率dn/dλ，最小偏向角条件下工作，AB面视为单狭缝。导出棱镜分辨本领λ/δλ的表达式（δλ为刚能分辨的波长差）。",
+  "problem_text_en": "An isosceles triangular prism ABC，base length BC=L，dispersion dn/dλ，working under the minimum deviation angle condition，the AB face is regarded as a single slit。Derive the expression for the resolving power λ/δλ of the prism（δλ is the minimum resolvable wavelength difference）.",
+  "problem_img": [
+    "625_1.png",
+    "625_2.png"
+  ],
+  "problem_img_process": [
+    "625_1_process.png",
+    "625_2_process.png"
+  ],
+  "problem_solution_cn": "（1）偏向角与折射率关系：\\n- 最小偏向角δₘᵢₙ满足n=sin[(α+δₘᵢₙ)/2]/sin(α/2)，微分得dδₘᵢₙ/dn=2sin(α/2)/cosθ₁（θ₁为入射角）。\\n（2）衍射半角宽：\\n- 单狭缝斜入射衍射半角宽Δθ'=λ/(bcosθ₁)（b=AB）。\\n（3）分辨本领推导：\\n- 刚能分辨时dδₘᵢₙ·δλ=Δθ'，结合几何关系L=2bsin(α/2)，得λ/δλ=L·dn/dλ。",
+  "problem_solution_en": "（1）Relationship between deviation angle and refractive index：\\n- The minimum deviation angle δₘᵢₙ satisfies n=sin[(α+δₘᵢₙ)/2]/sin(α/2)，differentiating gives dδₘᵢₙ/dn=2sin(α/2)/cosθ₁（θ₁ is the incident angle）。\\n（2）Diffraction half-angle width：\\n- The half-angle width of single-slit oblique incidence diffraction Δθ'=λ/(bcosθ₁)（b=AB）。\\n（3）Derivation of resolving power：\\n- When just resolvable，dδₘᵢₙ·δλ=Δθ'，combining with geometric relation L=2bsin(α/2)，obtaining λ/δλ=L·dn/dλ。",
+  "problem_answer": "棱镜分辨本领$\\frac{\\lambda}{\\delta \\lambda}=L \\frac{dn}{d\\lambda}$",
+  "problem_tags": [
+    "Optics"
+  ]
+}

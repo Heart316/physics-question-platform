@@ -1,0 +1,21 @@
+{
+  "problem_id": "621",
+  "problem_text_cn": "薄透镜系统L₁、L₂，焦距f₁=f₂=10cm，间距70cm，物在L₁前方20cm。1. 求最后像的位置、大小和正倒；2. 加会聚透镜L₃使最后像位置不变，求L₃的位置；3. 作图解释L₃提高聚光能力的原因。",
+  "problem_text_en": "Thin lens system L₁、L₂，focal lengths f₁=f₂=10cm，distance 70cm，object is 20cm in front of L₁。1. Find the position、size and orientation of the final image；2. Add a converging lens L₃ to keep the final image position unchanged，find the position of L₃；3. Explain the reason why L₃ improves light-gathering ability with a diagram.",
+  "problem_img": [
+    "621_1.png",
+    "621_2.png",
+    "621_3.png"
+  ],
+  "problem_img_process": [
+    "621_1_process.png",
+    "621_2_process.png",
+    "621_3_process.png"
+  ],
+  "problem_solution_cn": "（1）逐次成像：\n- 物经L₁：s₁=20cm，s₁'=20cm，放大率M₁=-1；\n- 中间像经L₂：s₂=50cm，s₂'=12.5cm，放大率M₂=-0.25；\n- 总放大率M=0.25，最后像在L₂后方12.5cm，正立缩小实像。\n（2）L₃的位置：\n- L₃应放在L₁所成的中间像处（L₁后方20cm），不改变成像位置。\\n（3）聚光能力解释：\\n- 未加L₃时，部分光线无法进入L₂；加L₃后，光线被折射进入L₂，提高光能利用率。",
+  "problem_solution_en": "（1）Successive imaging：\n- Object through L₁：s₁=20cm，s₁'=20cm，magnification M₁=-1；\n- Intermediate image through L₂：s₂=50cm，s₂'=12.5cm，magnification M₂=-0.25；\n- Total magnification M=0.25，the final image is 12.5cm behind L₂，erect、reduced real image。\\n（2）Position of L₃：\\n- L₃ should be placed at the intermediate image formed by L₁（20cm behind L₁），without changing the image position。\n（3）Explanation of light-gathering ability：\n- Without L₃，some light rays cannot enter L₂；with L₃，light rays are refracted into L₂，improving light energy utilization rate。",
+  "problem_answer": "1. 最后像在L₂后方12.5cm，正立缩小实像，放大率0.25；2. L₃放在L₁后方20cm处；3. 作图见解析",
+  "problem_tags": [
+    "Optics"
+  ]
+}

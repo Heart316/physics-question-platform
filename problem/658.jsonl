@@ -1,0 +1,13 @@
+{
+  "problem_id": "658",
+  "problem_text_cn": "单原子理想气体一维热运动绝热压缩模型：小球在柱形容器内往返运动，弹性碰撞，活塞缓慢推进。导出温度T与体积V的一维绝热过程方程。",
+  "problem_text_en": "One-dimensional adiabatic compression model of monatomic ideal gas thermal motion：small balls move back and forth in a cylindrical container，elastic collision，piston advances slowly。Derive the one-dimensional adiabatic process equation of temperature T and volume V.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "problem_solution_cn": "（1）小球与活塞碰撞分析：\n- 活塞推进速度u≪小球速率v，碰撞后小球速度从v变为v+2u，动能增量$\\Delta\\varepsilon∝uv$；\n- 碰撞频率$f=\\frac{v}{2x}$（x为容器长度），动能变化率$\\frac{d\\varepsilon}{dt}∝\\frac{v^2u}{x}∝\\frac{\\varepsilon u}{x}$。\n（2）绝热过程关系：\n- 体积V=Sx，$dV=Sdx$，由能量守恒$x dT + 2T dx=0$；\n- 积分得$TV^2=常量$，即一维绝热过程方程$T V^2=恒量$。",
+  "problem_solution_en": "（1）Analysis of collision between ball and piston：\n- Piston advancing speed u≪ball speed v，after collision the ball speed changes from v to v+2u，kinetic energy increment $\\Delta\\varepsilon∝uv$；\n- Collision frequency $f=\\frac{v}{2x}$（x is the container length），kinetic energy change rate $\\frac{d\\varepsilon}{dt}∝\\frac{v^2u}{x}∝\\frac{\\varepsilon u}{x}$。\n（2）Adiabatic process relationship：\n- Volume V=Sx，$dV=Sdx$，from energy conservation $x dT + 2T dx=0$；\n- Integrating to get $TV^2=constant$，i.e. the one-dimensional adiabatic process equation $T V^2=constant$。",
+  "problem_answer": "一维绝热过程方程$T V^2=常量$",
+  "problem_tags": [
+    "Thermodynamics"
+  ]
+}
