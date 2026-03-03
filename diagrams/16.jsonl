@@ -1,0 +1,15 @@
+{
+  "problem_id": "16",
+  "problem_text_cn": "一只狐狸以不变的速度 $v_1$ 沿直线 $AB$ 奔逃，一只猎犬以不变的速率 $v_2$ 追击，其运动方向始终对准狐狸，某时刻狐狸在 $F$ 处，猎犬在 $D$ 处，$FD \\perp AB$，已知 $FD=L$，如图2-练16(a)所示。试求此时猎犬的加速度大小。",
+  "problem_text_en": "A fox runs along a straight line $AB$ at a constant speed $v_1$, and a hound chases it at a constant speed $v_2$, always keeping its direction pointed directly at the fox. At a certain moment, the fox is at point $F$ and the hound is at point $D$, with $FD \\perp AB$ and $FD=L$, as shown in Figure 2-16(a). Find the magnitude of the hound's acceleration at this moment.",
+  "problem_img": ["16_1.png", "16_2.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "【分析与解】猎犬作匀速率曲线运动，其加速度只有法向分量。\n\n在所求时刻开始的一段无限短的时间 $\\Delta t$ 内，猎犬运动的轨迹可近似看成为一段圆弧，设其半径为 $R$，则法向加速度（等于加速度）是\n$$\na_n = \\frac{v_2^2}{R}\n$$\n如图2-练16(b)所示。在 $\\Delta t$ 时间内，设狐狸和猎犬分别抵达 $F'$ 和 $D'$，猎犬的速度方向转过的角度为\n$$\n\\alpha = \\frac{v_2 \\Delta t}{R}\n$$\n而狐狸奔跑的距离为\n$$\nv_1 \\Delta t = \\alpha L\n$$\n因而\n$$\n\\frac{v_1 \\Delta t}{L} = \\frac{v_2 \\Delta t}{R}\n$$\n猎犬此时的法向加速度为\n$$\na_n = \\frac{v_2^2}{R} = \\frac{v_1 v_2}{L}\n$$\n这个法向加速度值就是此时猎犬的加速度。",
+  "problem_solution_en": "【Analysis and Solution】The hound moves in a constant-speed curved path, so its acceleration has only a normal component.\n\nDuring an infinitesimal time interval $\\Delta t$ starting from the moment in question, the hound's trajectory can be approximated as a circular arc with radius $R$. The normal acceleration (which equals the total acceleration) is:\n$$\na_n = \\frac{v_2^2}{R}\n$$\nAs shown in Figure 2-16(b), during $\\Delta t$, the fox moves to $F'$ and the hound moves to $D'$. The angle through which the hound's velocity direction rotates is:\n$$\n\\alpha = \\frac{v_2 \\Delta t}{R}\n$$\nThe distance the fox runs is:\n$$\nv_1 \\Delta t = \\alpha L\n$$\nThus:\n$$\n\\frac{v_1 \\Delta t}{L} = \\frac{v_2 \\Delta t}{R}\n$$\nThe hound's normal acceleration at this moment is:\n$$\na_n = \\frac{v_2^2}{R} = \\frac{v_1 v_2}{L}\n$$\nThis normal acceleration is the hound's acceleration at that moment.",
+  "img_cn": ["猎犬追击狐狸的初始位置示意图（图2-练16(a)）。\n\n短时间内猎犬轨迹近似圆弧的几何关系图（图2-练16(b)）。"],
+  "img_en": ["Initial position diagram of the hound chasing the fox (Figure 2-16(a)).\n\nGeometric relationship of the hound's trajectory approximated as a circular arc over a short time (Figure 2-16(b))."],
+  "problem_answer": "此时猎犬的加速度大小为 $a = \\dfrac{v_1 v_2}{L}$。",
+  "difficulty": "2",
+  "problem_tags": ["Kinematics", "Mechanics"]
+}
+
