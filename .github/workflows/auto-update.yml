@@ -1,0 +1,96 @@
+name: 自动更新问题索引
+
+on:
+  push:
+    paths:
+      - 'problem/**'
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: 设置Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: 创建scripts目录
+        run: mkdir -p scripts
+      
+      - name: 创建生成脚本
+        run: |
+          cat > scripts/generate-manifest.js << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          const problemDir = path.join(__dirname, '../problem');
+          const manifestFile = path.join(__dirname, '../manifest.json');
+
+          function calculateDifficulty(data) {
+              const textLength = (data.problem_text_cn || "").length + (data.problem_solution_cn || "").length;
+              const hasFormulas = (data.problem_text_cn && data.problem_text_cn.includes('$')) || 
+                                 (data.problem_solution_cn && data.problem_solution_cn.includes('$'));
+              const tagCount = (data.problem_tags || []).length;
+              const hasImages = (data.problem_img && data.problem_img.length > 0);
+              
+              let difficulty = 2;
+              if (textLength > 800) difficulty += 1;
+              if (hasFormulas) difficulty += 1;
+              if (tagCount >= 2) difficulty += 0.5;
+              if (hasImages) difficulty += 0.5;
+              
+              return Math.min(5, Math.max(1, Math.round(difficulty)));
+          }
+
+          function extractPreview(text) {
+              if (!text) return '';
+              const clean = text.replace(/\$.*?\$/g, '').replace(/\n/g, ' ').trim();
+              return clean.length > 20 ? clean.substring(0, 20) + '...' : clean;
+          }
+
+          const files = fs.readdirSync(problemDir).filter(f => f.endsWith('.jsonl')).sort();
+          const manifest = [];
+
+          files.forEach(file => {
+              try {
+                  const id = parseInt(file.replace('.jsonl', ''));
+                  const content = fs.readFileSync(path.join(problemDir, file), 'utf8');
+                  const data = JSON.parse(content);
+                  
+                  manifest.push({
+                      id: id,
+                      problem_id: data.problem_id || `PROB-${id}`,
+                      title_preview: extractPreview(data.problem_text_cn),
+                      tags: data.problem_tags || [],
+                      difficulty: calculateDifficulty(data),
+                      has_image: !!(data.problem_img && data.problem_img.length > 0)
+                  });
+              } catch (e) {
+                  console.log(`跳过文件 ${file}: ${e.message}`);
+              }
+          });
+
+          manifest.sort((a, b) => a.id - b.id);
+          fs.writeFileSync(manifestFile, JSON.stringify(manifest, null, 2));
+          console.log(`生成完成，共 ${manifest.length} 个问题`);
+          EOF
+      
+      - name: 运行生成脚本
+        run: node scripts/generate-manifest.js
+      
+      - name: 提交更改
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add manifest.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 自动更新manifest.json" && git push)
