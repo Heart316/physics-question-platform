@@ -468,31 +468,76 @@ function initializeEventListeners() {
 
 // ---------- 核心数据加载 ----------
 async function loadAllData() {
-    loadDataBtn.innerHTML = '<i class="fa fa-spinner fa-spin mr-2"></i>加载中...';
+    loadDataBtn.innerHTML = '<i class="fa fa-spinner fa-spin mr-2"></i>加载索引...';
     loadDataBtn.disabled = true;
     
     try {
-         const response = await fetch(`./manifest.json?t=${new Date().getTime()}`);
+        // 加载manifest.json（带时间戳防缓存）
+        const response = await fetch(`./manifest.json?t=${new Date().getTime()}`);
+        manifest = await response.json();
+        
+        console.log('加载到manifest:', manifest); // 调试用
+        
+        // 关键修复：正确转换数据格式
+        allProblems = manifest.map(item => ({
+            id: item.id,
+            problem_id: item.problem_id,
+            // 这些预览字段用于列表显示
+            problem_cn: item.title_preview || "暂无标题",
+            problem_en: "",
+            solution_cn: "点击查看详细解答",  // 临时占位
+            solution_en: "",
+            answer_cn: "",
+            answer_en: "",
+            text: item.tags || [],  // 标签
+            difficulty: item.difficulty || 3,
+            has_image: item.has_image || false,
+            image_names: [],
+            // 保存完整数据供详情页使用
+            _manifest: item  // 保留原始manifest数据
+        }));
+        
+        // 初始化过滤后的问题列表
         filteredProblems = [...allProblems];
         
         // 提取所有标签
         allTags.clear();
-        allProblems.forEach(p => { if (p.text && Array.isArray(p.text)) p.text.forEach(t => allTags.add(t)); });
+        manifest.forEach(item => { 
+            if (item.tags && Array.isArray(item.tags)) {
+                item.tags.forEach(tag => allTags.add(tag));
+            }
+        });
         
+        // 更新UI
         updateTagFilters();
-        applyFilters();
+        applyFilters();  // 这会触发 renderCurrentPage
         updateStatistics();
         renderDifficultyDistribution();
         renderCategoryDistribution();
         
-        loadDataBtn.innerHTML = '<i class="fa fa-check mr-2"></i>数据已加载';
+        loadDataBtn.innerHTML = '<i class="fa fa-check mr-2"></i>加载完成';
+        
         setTimeout(() => {
             loadDataBtn.innerHTML = '<i class="fa fa-database mr-2"></i>重新加载数据';
             loadDataBtn.disabled = false;
         }, 1500);
+        
     } catch (error) {
         console.error('加载失败:', error);
         loadDataBtn.innerHTML = '<i class="fa fa-exclamation-triangle mr-2"></i>加载失败';
+        
+        // 显示错误信息
+        dataCardContainer.innerHTML = `
+            <div class="text-center py-12 text-red-500">
+                <i class="fa fa-exclamation-circle text-4xl mb-4"></i>
+                <p class="text-lg">加载失败</p>
+                <p class="text-sm mt-2">${error.message}</p>
+                <button onclick="location.reload()" class="mt-4 px-4 py-2 bg-primary text-white rounded-lg">
+                    刷新重试
+                </button>
+            </div>
+        `;
+        
         setTimeout(() => {
             loadDataBtn.innerHTML = '<i class="fa fa-database mr-2"></i>重新尝试';
             loadDataBtn.disabled = false;
@@ -615,18 +660,46 @@ function updateActiveDifficultyButtons() {
     });
 }
 
-// ---------- 筛选、排序、渲染 ----------
 function applyFilters() {
+    // 确保 allProblems 有数据
+    if (!allProblems || allProblems.length === 0) {
+        console.log('allProblems为空');
+        return;
+    }
+    
     filteredProblems = allProblems.filter(p => {
-        if (activeFilters.difficulty !== 'all' && p.difficulty !== parseInt(activeFilters.difficulty)) return false;
-        if (activeFilters.tags.length > 0 && !activeFilters.tags.some(tag => p.text.includes(tag))) return false;
+        // 难度筛选
+        if (activeFilters.difficulty !== 'all' && p.difficulty !== parseInt(activeFilters.difficulty)) {
+            return false;
+        }
+        
+        // 标签筛选
+        if (activeFilters.tags.length > 0) {
+            if (!p.text || !activeFilters.tags.some(tag => p.text.includes(tag))) {
+                return false;
+            }
+        }
+        
+        // 搜索筛选
         if (activeFilters.search) {
             const searchTerm = activeFilters.search.toLowerCase();
-            const searchable = [p.id, p.problem_id, p.problem_cn, p.problem_en, p.solution_cn, p.solution_en, p.answer_cn, ...p.text].join(' ').toLowerCase();
-            if (!searchable.includes(searchTerm)) return false;
+            const searchable = [
+                p.id,
+                p.problem_id,
+                p.problem_cn,
+                ...(p.text || [])
+            ].join(' ').toLowerCase();
+            
+            if (!searchable.includes(searchTerm)) {
+                return false;
+            }
         }
+        
         return true;
     });
+    
+    console.log('筛选后问题数:', filteredProblems.length); // 调试用
+    
     sortProblems();
     updateActiveFiltersDisplay();
     currentPage = 1;
@@ -635,7 +708,6 @@ function applyFilters() {
     renderDifficultyDistribution();
     renderCategoryDistribution();
 }
-
 function sortProblems() {
     if (currentSort === 'id') filteredProblems.sort((a,b) => a.id - b.id);
     else if (currentSort === 'difficulty') filteredProblems.sort((a,b) => b.difficulty - a.difficulty);
