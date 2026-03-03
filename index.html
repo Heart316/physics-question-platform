@@ -754,76 +754,105 @@ function buildImageGallery(imageNames, title) {
 }
 
 // ---------- 模态框：显示问题详情及图片 ----------
-function openProblemModal(problemId) {
+async function openProblemModal(problemId) {
     const idx = filteredProblems.findIndex(p => p.id === problemId);
     if (idx === -1) return;
     currentModalIndex = idx;
-    const p = filteredProblems[idx];
-
-    document.getElementById('modal-title').textContent = `问题 ${p.id}: ${extractTextPreview(p.problem_cn, 50)}`;
-    document.getElementById('modal-id').textContent = `ID: ${p.problem_id}`;
-    document.getElementById('modal-difficulty').textContent = `难度: ${p.difficulty}/5`;
-    document.getElementById('modal-difficulty').className = `px-2 py-1 text-xs font-medium rounded ${getDifficultyColorClass(p.difficulty, true)}`;
-    document.getElementById('modal-category').textContent = `分类: ${p.text.join(', ') || '无'}`;
-    document.getElementById('modal-category').className = `px-2 py-1 text-xs font-medium rounded bg-gray-100 text-gray-800`;
-
-    // 格式化解答换行
-    const formatSol = (s) => s ? s.replace(/\n/g, '<br>') : '<span class="text-gray-400">暂无解答过程</span>';
     
-    // 构建图片画廊（如果开启）
-    let imageHtmlCn = '';
-    let imageHtmlEn = ''; // 英文区可复用相同图片，或只展示一次。这里在中文区底部展示图片。
-    if (showImagesCheckbox.checked) {
-        if (p.image_names.length) imageHtmlCn += buildImageGallery(p.image_names, '📷 问题图片');
-    }
-
-    // 中文内容
-    document.getElementById('modal-content-cn').innerHTML = `
-        <div class="space-y-6">
-            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">📝 问题描述</h4>
-                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${p.problem_cn || '<span class="text-gray-400">暂无中文问题描述</span>'}</div></div>
-            </div>
-            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">🧾 解答过程</h4>
-                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${formatSol(p.solution_cn)}</div></div>
-            </div>
-            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">✅ 答案</h4>
-                <div class="p-4 bg-green-50 rounded-lg border border-green-200"><div class="math-formula text-green-800 font-medium">${p.answer_cn || '<span class="text-gray-400">暂无答案</span>'}</div></div>
-            </div>
-            ${imageHtmlCn}
-        </div>
-    `;
-    
-    // 英文内容
-    document.getElementById('modal-content-en').innerHTML = `
-        <div class="space-y-6">
-            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Problem Description</h4>
-                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${p.problem_en || '<span class="text-gray-400">No English description</span>'}</div></div>
-            </div>
-            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Solution Process</h4>
-                <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${formatSol(p.solution_en)}</div></div>
-            </div>
-            <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Answer</h4>
-                <div class="p-4 bg-green-50 rounded-lg border border-green-200"><div class="math-formula text-green-800 font-medium">${p.answer_en || '<span class="text-gray-400">No answer</span>'}</div></div>
-            </div>
-            <!-- 英文区也可以显示图片，保持一致，可复制，这里省略避免重复 -->
-        </div>
-    `;
-
-    // 更新底部图片信息摘要
-    let summary = '';
-    if (p.image_names.length) summary += `📷 ${p.image_names.length}张问题图 `;
-    document.getElementById('modal-image-info').innerHTML = summary || '<span class="text-gray-500">📭 无相关图片</span>';
-
-    switchModalLanguage('cn');
+    // 显示加载中
+    document.getElementById('modal-title').textContent = `加载中...`;
     problemModal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
-
-    setTimeout(() => {
-        if (window.MathJax && window.MathJax.typesetPromise) {
-            MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
-                .catch(e => console.log('MathJax error:', e));
+    
+    try {
+        // 加载这个问题的完整数据
+        const response = await fetch(`./problem/${problemId}.jsonl?t=${new Date().getTime()}`);
+        const data = await response.json();
+        
+        // 从filteredProblems获取基本信息
+        const basicInfo = filteredProblems[idx];
+        
+        // 处理图片名称
+        let imgNames = [];
+        if (data.problem_img && Array.isArray(data.problem_img)) {
+            imgNames = data.problem_img.filter(name => name && typeof name === 'string');
         }
-    }, 120);
+        
+        const problem = {
+            id: problemId,
+            problem_id: basicInfo.problem_id,
+            problem_cn: data.problem_text_cn || "",
+            problem_en: data.problem_text_en || "",
+            solution_cn: data.problem_solution_cn || "",
+            solution_en: data.problem_solution_en || "",
+            answer_cn: data.problem_answer || "",
+            answer_en: data.problem_answer || "",
+            text: basicInfo.text,
+            difficulty: basicInfo.difficulty,
+            has_image: basicInfo.has_image,
+            image_names: imgNames
+        };
+
+        document.getElementById('modal-title').textContent = `问题 ${problem.id}: ${extractTextPreview(problem.problem_cn, 50)}`;
+        document.getElementById('modal-id').textContent = `ID: ${problem.problem_id}`;
+        document.getElementById('modal-difficulty').textContent = `难度: ${problem.difficulty}/5`;
+        document.getElementById('modal-difficulty').className = `px-2 py-1 text-xs font-medium rounded ${getDifficultyColorClass(problem.difficulty, true)}`;
+        document.getElementById('modal-category').textContent = `分类: ${problem.text.join(', ') || '无'}`;
+        document.getElementById('modal-category').className = `px-2 py-1 text-xs font-medium rounded bg-gray-100 text-gray-800`;
+
+        const formatSol = (s) => s ? s.replace(/\n/g, '<br>') : '<span class="text-gray-400">暂无解答过程</span>';
+        
+        let imageHtmlCn = '';
+        if (showImagesCheckbox.checked && problem.image_names.length) {
+            imageHtmlCn = buildImageGallery(problem.image_names, '📷 问题图片');
+        }
+
+        document.getElementById('modal-content-cn').innerHTML = `
+            <div class="space-y-6">
+                <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">📝 问题描述</h4>
+                    <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${problem.problem_cn || '<span class="text-gray-400">暂无中文问题描述</span>'}</div></div>
+                </div>
+                <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">🧾 解答过程</h4>
+                    <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${formatSol(problem.solution_cn)}</div></div>
+                </div>
+                <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">✅ 答案</h4>
+                    <div class="p-4 bg-green-50 rounded-lg border border-green-200"><div class="math-formula text-green-800 font-medium">${problem.answer_cn || '<span class="text-gray-400">暂无答案</span>'}</div></div>
+                </div>
+                ${imageHtmlCn}
+            </div>
+        `;
+        
+        document.getElementById('modal-content-en').innerHTML = `
+            <div class="space-y-6">
+                <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Problem Description</h4>
+                    <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${problem.problem_en || '<span class="text-gray-400">No English description</span>'}</div></div>
+                </div>
+                <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Solution Process</h4>
+                    <div class="p-4 bg-gray-50 rounded-lg border border-gray-200"><div class="math-formula text-gray-800">${formatSol(problem.solution_en)}</div></div>
+                </div>
+                <div><h4 class="font-semibold mb-3 text-gray-700 text-lg">Answer</h4>
+                    <div class="p-4 bg-green-50 rounded-lg border border-green-200"><div class="math-formula text-green-800 font-medium">${problem.answer_en || '<span class="text-gray-400">No answer</span>'}</div></div>
+                </div>
+            </div>
+        `;
+
+        let summary = '';
+        if (problem.image_names.length) summary += `📷 ${problem.image_names.length}张问题图 `;
+        document.getElementById('modal-image-info').innerHTML = summary || '<span class="text-gray-500">📭 无相关图片</span>';
+
+        switchModalLanguage('cn');
+
+        setTimeout(() => {
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+                    .catch(e => console.log('MathJax error:', e));
+            }
+        }, 120);
+        
+    } catch (error) {
+        console.error('加载问题详情失败:', error);
+        document.getElementById('modal-content-cn').innerHTML = '<div class="text-center py-8 text-red-500">加载失败，请重试</div>';
+    }
 }
 
 function closeModal() {
