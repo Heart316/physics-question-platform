@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>物理问题数据集平台 · 图片增强版</title>
+    <title>物理问题数据集平台</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -229,7 +229,7 @@ tailwind.config = {
                     <i class="fa fa-table text-primary"></i>
                     问题列表
                 </h2>
-                <p class="text-sm text-gray-600 mt-1">点击卡片查看问题详情（图片来自 /diagrams 目录）</p>
+                <p class="text-sm text-gray-600 mt-1">点击卡片查看问题详情</p>
             </div>
             <div class="flex items-center gap-4 mt-4 md:mt-0">
                 <div class="text-sm text-gray-600">
@@ -385,6 +385,7 @@ tailwind.config = {
 // ---------- 全局状态 ----------
 let allProblems = [];
 let filteredProblems = [];
+let manifest = [];  
 let currentProblems = [];
 let currentPage = 1;
 const problemsPerPage = 10;
@@ -471,7 +472,7 @@ async function loadAllData() {
     loadDataBtn.disabled = true;
     
     try {
-        allProblems = await loadAllJSONLFiles();
+         const response = await fetch(`./manifest.json?t=${new Date().getTime()}`);
         filteredProblems = [...allProblems];
         
         // 提取所有标签
@@ -535,8 +536,7 @@ async function loadAllJSONLFiles() {
                 text: data.problem_tags || [],
                 difficulty: calculateDifficulty(data),
                 has_image: !!(imgNames.length > 0),
-                image_names: imgNames,
-                process_images: processImgNames
+                image_names: imgNames
             };
             problems.push(problem);
         } catch (e) {
@@ -558,7 +558,7 @@ function calculateDifficulty(data) {
     if (hasFormulas) difficulty += 1;
     if (tagCount >= 2) difficulty += 0.5;
     if (hasImages) difficulty += 0.5;
-    if (hasProcessImages) difficulty += 0.5;
+   
     
     return Math.min(5, Math.max(1, Math.round(difficulty)));
 }
@@ -775,7 +775,6 @@ function openProblemModal(problemId) {
     let imageHtmlEn = ''; // 英文区可复用相同图片，或只展示一次。这里在中文区底部展示图片。
     if (showImagesCheckbox.checked) {
         if (p.image_names.length) imageHtmlCn += buildImageGallery(p.image_names, '📷 问题图片');
-        if (p.process_images.length) imageHtmlCn += buildImageGallery(p.process_images, '⚙️ 解题过程图片');
     }
 
     // 中文内容
@@ -813,7 +812,6 @@ function openProblemModal(problemId) {
     // 更新底部图片信息摘要
     let summary = '';
     if (p.image_names.length) summary += `📷 ${p.image_names.length}张问题图 `;
-    if (p.process_images.length) summary += `⚙️ ${p.process_images.length}张过程图`;
     document.getElementById('modal-image-info').innerHTML = summary || '<span class="text-gray-500">📭 无相关图片</span>';
 
     switchModalLanguage('cn');
