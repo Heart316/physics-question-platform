@@ -104,7 +104,7 @@ tailwind.config = {
             <div class="flex items-center gap-3">
                 <i class="fa fa-atom text-primary text-2xl"></i>
                 <div>
-                    <h1 class="text-2xl font-bold text-dark">物理问题数据集平台 · 图片集成版</h1>
+                    <h1 class="text-2xl font-bold text-dark">物理问题数据集平台</h1>
                     <p class="text-sm text-gray-600">涵盖539-660号物理问题，共122个数据集</p>
                 </div>
             </div>
@@ -1037,13 +1037,29 @@ function clearAllFilters() {
 
 function updateStatistics() {
     totalCountEl.textContent = allProblems.length;
-    const cats = new Set(); allProblems.forEach(p => p.text.forEach(t => cats.add(t)));
+    
+    // 分类数量
+    const cats = new Set(); 
+    allProblems.forEach(p => p.text.forEach(t => cats.add(t)));
     categoryCountEl.textContent = cats.size;
+    
+    // 平均难度
     if (allProblems.length) {
         const avg = allProblems.reduce((s,p)=> s+p.difficulty,0) / allProblems.length;
         avgDifficultyEl.textContent = avg.toFixed(2);
-    } else avgDifficultyEl.textContent = '-';
-    document.getElementById('data-range').textContent = '539-660';
+    } else {
+        avgDifficultyEl.textContent = '-';
+    }
+    
+    // ✅ 动态计算数据范围（取最小和最大ID）
+    if (allProblems.length > 0) {
+        const ids = allProblems.map(p => p.id);
+        const minId = Math.min(...ids);
+        const maxId = Math.max(...ids);
+        document.getElementById('data-range').textContent = `${minId}-${maxId}`;
+    } else {
+        document.getElementById('data-range').textContent = '-';
+    }
 }
 
 function renderDifficultyDistribution() {
