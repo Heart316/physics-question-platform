@@ -1,0 +1,15 @@
+{
+  "problem_id": "11",
+  "problem_text_cn": "一质点沿圆轨道由静止开始作匀加速圆周运动。试求此质点的加速度与速度的夹角 $\\alpha$ 与其经过的那段圆弧对应的圆心角 $\\theta$ 之间的关系。",
+  "problem_text_en": "A particle starts from rest and moves uniformly accelerated along a circular track. Find the relationship between the angle $\\alpha$ between the particle's acceleration and velocity, and the central angle $\\theta$ corresponding to the arc it has traveled.",
+  "problem_img": ["11_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "【分析与解】如图2-练11所示，质点从A点出发，沿圆轨道由静止开始匀加速运动。设经时间$t$，达$P$点。\n\n因质点作匀加速圆周运动，所以切向加速度为恒量，设为$a_\\tau$，达$P$点时的速度和向心加速度分别为\n$$\nv_P = a_\\tau t\n$$\n$$\na_n = \\frac{v_P^2}{R} = \\frac{a_\\tau^2 t^2}{R}\n$$\n其中$R$为圆轨道半径。其间经过的圆弧长$s$和对应的圆心角$\\theta$分别为\n$$\ns = \\frac{1}{2} a_\\tau t^2\n$$\n$$\n\\theta = \\frac{s}{R} = \\frac{a_\\tau t^2}{2R}\n$$\n此时，质点的加速度与速度间的夹角$\\alpha$满足\n$$\n\\tan\\alpha = \\frac{a_n}{a_\\tau} = \\frac{a_\\tau^2 t^2}{R a_\\tau} = \\frac{a_\\tau t^2}{R}\n$$\n所以$\\theta$与$\\alpha$的关系可表示为\n$$\n\\tan\\alpha = 2\\theta\n$$",
+  "problem_solution_en": "【Analysis and Solution】As shown in Figure 2-11, the particle starts from point A and moves uniformly accelerated along the circular track from rest. Let it reach point P after time $t$.\n\nSince the particle undergoes uniformly accelerated circular motion, the tangential acceleration $a_\\tau$ is constant. The velocity and centripetal acceleration at point P are:\n$$\nv_P = a_\\tau t\n$$\n$$\na_n = \\frac{v_P^2}{R} = \\frac{a_\\tau^2 t^2}{R}\n$$\nwhere $R$ is the radius of the circular track. The arc length $s$ traveled and the corresponding central angle $\\theta$ are:\n$$\ns = \\frac{1}{2} a_\\tau t^2\n$$\n$$\n\\theta = \\frac{s}{R} = \\frac{a_\\tau t^2}{2R}\n$$\nAt this time, the angle $\\alpha$ between the particle's acceleration and velocity satisfies:\n$$\n\\tan\\alpha = \\frac{a_n}{a_\\tau} = \\frac{a_\\tau^2 t^2}{R a_\\tau} = \\frac{a_\\tau t^2}{R}\n$$\nThus, the relationship between $\\theta$ and $\\alpha$ is:\n$$\n\\tan\\alpha = 2\\theta\n$$",
+  "img_cn": ["质点沿圆轨道作匀加速圆周运动的示意图（图2-练11），包含速度、切向加速度和法向加速度的矢量关系。"],
+  "img_en": ["Schematic diagram of a particle performing uniformly accelerated circular motion along a circular track (Figure 2-11), showing the vector relationship between velocity, tangential acceleration, and normal acceleration."],
+  "problem_answer": "质点的加速度与速度的夹角 $\\alpha$ 与其经过的圆弧对应的圆心角 $\\theta$ 之间的关系为 $\\tan\\alpha = 2\\theta$。",
+  "difficulty": "2",
+  "problem_tags": ["Kinematics", "Mechanics"]
+}
+

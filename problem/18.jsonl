@@ -1,0 +1,15 @@
+{
+  "problem_id": "18",
+  "problem_text_cn": "半径为 $r$ 的小圆柱同心地固连于半径为 $R$ 的大薄圆柱上构成一个线轴，缠绕在线轴上的线引出并绕过滑轮 $Q$ 后，以恒定速度 $v$ 拉线一端，同时线轴的大圆柱沿水平平面作无滑动的滚动运动，如图2-练18所示。运动中线 $PQ$ 段与水平方向夹角为 $\\varphi$，求线轴中心 $o$ 点的速率随 $\\varphi$ 角变化的关系式。",
+  "problem_text_en": "A spool is formed by concentrically fixing a small cylinder of radius $r$ to a large thin cylinder of radius $R$. A thread wound around the spool passes over a pulley $Q$ and is pulled at a constant speed $v$. Meanwhile, the large cylinder of the spool rolls without slipping on a horizontal plane, as shown in Figure 2-18. The segment $PQ$ of the thread makes an angle $\\varphi$ with the horizontal. Find the relationship between the speed of the spool's center $o$ and the angle $\\varphi$.",
+  "problem_img": ["18_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "【分析与解】设小圆柱与 $PQ$ 相切点为 $P$，因线的一端以恒定速度 $v$ 拉动，所以 $P$ 点沿 $PQ$ 方向的速率也为 $v$。$P$ 点沿 $PQ$ 方向的速度（垂直于线 $PQ$ 方向的速度，引起线绕 $Q$ 点的转动）还可以这样表示：$o$ 点作为牵连速度，$P$ 相对 $o$ 的速度作为相对速度，$P$ 相对地的速度作为绝对速度，并且把三个速度在 $PQ$ 方向投影，得\n$$\nv = r\\omega + R\\omega\\cos\\varphi = \\omega(r + R\\cos\\varphi)\n$$\n得到线轴在此刻（$\\varphi$ 为参量）的转动角速度\n$$\n\\omega = \\frac{v}{r + R\\cos\\varphi}\n$$\n因刚体运动中，角速度的大小与所取基点无关，因此，利用刚体（线轴）绕 $o'$ 点的转动，得 $o$ 点的速率\n$$\nv_o = R\\omega = \\frac{Rv}{r + R\\cos\\varphi}\n$$\n这就是线轴中心 $o$ 的速率与 $\\varphi$ 角的关系式。",
+  "problem_solution_en": "【Analysis and Solution】Let $P$ be the point of tangency between the small cylinder and the thread $PQ$. Since one end of the thread is pulled at constant speed $v$, the speed of point $P$ along the $PQ$ direction is also $v$. The velocity of $P$ along $PQ$ (the velocity perpendicular to $PQ$ causes the thread to rotate around $Q$) can also be expressed as the sum of the牵连 velocity of $o$ and the relative velocity of $P$ with respect to $o$. Projecting these velocities onto the $PQ$ direction:\n$$\nv = r\\omega + R\\omega\\cos\\varphi = \\omega(r + R\\cos\\varphi)\n$$\nThe angular velocity of the spool at this moment (with $\\varphi$ as a parameter) is:\n$$\n\\omega = \\frac{v}{r + R\\cos\\varphi}\n$$\nIn rigid-body motion, angular velocity is independent of the chosen base point. Using the rotation of the rigid body (spool) around point $o'$, the speed of the center $o$ is:\n$$\nv_o = R\\omega = \\frac{Rv}{r + R\\cos\\varphi}\n$$\nThis is the relationship between the speed of the spool's center $o$ and the angle $\\varphi$.",
+  "img_cn": ["线轴滚动与拉线运动的几何关系示意图（图2-练18）。"],
+  "img_en": ["Schematic diagram of the geometric relationship between spool rolling and thread pulling (Figure 2-18)."],
+  "problem_answer": "线轴中心 $o$ 点的速率随 $\\varphi$ 角变化的关系式为 $v_o = \\dfrac{Rv}{r + R\\cos\\varphi}$。",
+  "difficulty": "3",
+  "problem_tags": ["Kinematics", "Mechanics"]
+}
+

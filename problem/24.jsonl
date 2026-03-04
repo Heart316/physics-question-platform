@@ -1,0 +1,15 @@
+{
+  "problem_id": "24",
+  "problem_text_cn": "A 船以速度 $v_A=30$ 千米/小时向东航行，B 船以速度 $v_B=45$ 千米/小时向北航行。求 A 船上的人观察到的 B 船的航速和航向。",
+  "problem_text_en": "Ship A sails east at a speed of $v_A=30 \\, \\text{km/h}$, and ship B sails north at a speed of $v_B=45 \\, \\text{km/h}$. Find the speed and direction of ship B as observed by a person on ship A.",
+  "problem_img": ["24_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "【分析与解】这里可用坐标系下的矢量办法求解。建立 $oxy$ 坐标，$x$ 轴正向指向东，$y$ 轴正向指向北。则 A、B 两船的速度分别记为\n$$\nv_A = v_A \\boldsymbol{i}, \\quad v_B = v_B \\boldsymbol{j}\n$$\n其中 $\\boldsymbol{i}$、$\\boldsymbol{j}$ 分别为 $x$ 轴、$y$ 轴上的单位矢量。所求 A 船上的人观察到的 B 船的航速和航向，即为 B 船相对 A 船的速度：\n$$\nv_{BA} = v_B - v_A = 45 \\boldsymbol{j} - 30 \\boldsymbol{i} \\quad \\text{（千米/小时）}\n$$\n所以 A 船上看到 B 船的航速 $v_{BA}$ 为\n$$\nv_{BA} = \\sqrt{45^2 + 30^2} = 54 \\quad \\text{（千米/小时）}\n$$\n航向为北偏西 $\\theta$ 角：\n$$\n\\theta = \\arctan\\frac{2}{3} \\approx 33.7^\\circ\n$$",
+  "problem_solution_en": "【Analysis and Solution】This problem can be solved using vector methods in a coordinate system. Establish an $oxy$ coordinate system with the $x$-axis pointing east and the $y$-axis pointing north. The velocities of ships A and B are:\n$$\nv_A = v_A \\boldsymbol{i}, \\quad v_B = v_B \\boldsymbol{j}\n$$\nwhere $\\boldsymbol{i}$ and $\\boldsymbol{j}$ are unit vectors along the $x$- and $y$-axes, respectively. The velocity of ship B relative to ship A (as observed by a person on A) is:\n$$\nv_{BA} = v_B - v_A = 45 \\boldsymbol{j} - 30 \\boldsymbol{i} \\quad \\text{（km/h）}\n$$\nThe speed of B relative to A is:\n$$\nv_{BA} = \\sqrt{45^2 + 30^2} = 54 \\quad \\text{（km/h）}\n$$\nThe direction is north-west by an angle $\\theta$:\n$$\n\\theta = \\arctan\\frac{2}{3} \\approx 33.7^\\circ\n$$",
+  "img_cn": ["两船航行方向与速度矢量示意图。"],
+  "img_en": ["Schematic of the sailing directions and velocity vectors of the two ships."],
+  "problem_answer": "1) A 船上观察到 B 船的航速为 $54 \\, \\text{千米/小时}$；\n2) 航向为北偏西约 $33.7^\\circ$。",
+  "difficulty": "2",
+  "problem_tags": ["Kinematics", "Mechanics"]
+}
+

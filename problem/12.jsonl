@@ -1,0 +1,15 @@
+{
+  "problem_id": "12",
+  "problem_text_cn": "一飞轮的角速度在5秒内由900转/分均匀地减到800转/分。求：1) 角加速度$\\beta$；2) 在此5秒内的总转数；3) 再经几秒，轮将停止转动。",
+  "problem_text_en": "The angular velocity of a flywheel decreases uniformly from 900 revolutions per minute to 800 revolutions per minute in 5 seconds. Find: 1) The angular acceleration $\\beta$; 2) The total number of revolutions in these 5 seconds; 3) How many more seconds will it take for the wheel to stop rotating.",
+  "problem_img": ["12_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "【分析与解】1) 由于飞轮在此5秒内均匀地减慢转动，所以角加速度为常量，且方向与角速度方向相反。设$\\omega_0 = 900 \\, \\text{转/分} = \\dfrac{900 \\cdot 2\\pi}{60} \\, \\text{弧度/秒}$，$\\omega = 800 \\, \\text{转/分} = \\dfrac{800 \\cdot 2\\pi}{60} \\, \\text{弧度/秒}$，$t = 5 \\, \\text{秒}$，所以飞轮的角加速度为\n$$\n\\beta = \\frac{\\omega - \\omega_0}{t} = \\frac{(800 - 900) \\cdot 2\\pi}{60 \\times 5} = -\\frac{2\\pi}{3} \\, \\text{弧度/秒}^2 = -2.09 \\, \\text{弧度/秒}^2\n$$\n\n2) 在此5秒内的总转数$n$为\n$$\nn = \\frac{\\Delta \\varphi}{2\\pi} = \\frac{1}{2\\pi} \\left(\\omega_0 t + \\frac{1}{2} \\beta t^2\\right) = \\frac{900}{60} \\times 5 - \\frac{1}{2} \\times \\frac{1}{3} \\times 25 = 70.8 \\, \\text{（转）}\n$$\n\n3) 设再过$\\tau$秒，飞轮将停止转动，则\n$$\n0 = \\omega_0 + \\beta (t + \\tau)\n$$\n解得\n$$\n\\tau = -\\frac{\\omega_0}{\\beta} - t = \\frac{900 \\cdot 2\\pi}{60} \\cdot \\frac{3}{2\\pi} - 5 = 40 \\, \\text{（秒）}\n$$\n即，再过40秒飞轮停止转动。",
+  "problem_solution_en": "【Analysis and Solution】1) Since the flywheel slows down uniformly over 5 seconds, the angular acceleration is constant and opposite to the angular velocity. Let $\\omega_0 = 900 \\, \\text{rev/min} = \\dfrac{900 \\cdot 2\\pi}{60} \\, \\text{rad/s}$, $\\omega = 800 \\, \\text{rev/min} = \\dfrac{800 \\cdot 2\\pi}{60} \\, \\text{rad/s}$, and $t = 5 \\, \\text{s}$. The angular acceleration is:\n$$\n\\beta = \\frac{\\omega - \\omega_0}{t} = \\frac{(800 - 900) \\cdot 2\\pi}{60 \\times 5} = -\\frac{2\\pi}{3} \\, \\text{rad/s}^2 = -2.09 \\, \\text{rad/s}^2\n$$\n\n2) The total number of revolutions $n$ in 5 seconds is:\n$$\nn = \\frac{\\Delta \\varphi}{2\\pi} = \\frac{1}{2\\pi} \\left(\\omega_0 t + \\frac{1}{2} \\beta t^2\\right) = \\frac{900}{60} \\times 5 - \\frac{1}{2} \\times \\frac{1}{3} \\times 25 = 70.8 \\, \\text{（revolutions）}\n$$\n\n3) Let $\\tau$ be the additional time until the flywheel stops. Then:\n$$\n0 = \\omega_0 + \\beta (t + \\tau)\n$$\nSolving for $\\tau$:\n$$\n\\tau = -\\frac{\\omega_0}{\\beta} - t = \\frac{900 \\cdot 2\\pi}{60} \\cdot \\frac{3}{2\\pi} - 5 = 40 \\, \\text{（seconds）}\n$$\nThus, the flywheel stops after an additional 40 seconds.",
+  "img_cn": ["飞轮匀减速转动的题目与计算过程。"],
+  "img_en": ["Problem and calculation process for the uniformly decelerating rotation of a flywheel."],
+  "problem_answer": "1) 角加速度 $\\beta = -\\dfrac{2\\pi}{3} \\, \\text{弧度/秒}^2 \\, (\\text{或} \\, -2.09 \\, \\text{弧度/秒}^2)$；\n2) 5秒内的总转数 $n = 70.8 \\, \\text{转}$；\n3) 再经 $\\tau = 40 \\, \\text{秒}$ 飞轮停止转动。",
+  "difficulty": "2",
+  "problem_tags": ["Kinematics", "Mechanics"]
+}
+
