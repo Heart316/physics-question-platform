@@ -913,12 +913,27 @@ async function openProblemModal(problemId) {
 
         switchModalLanguage('cn');
 
-        setTimeout(() => {
-            if (window.MathJax && window.MathJax.typesetPromise) {
-                MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
-                    .catch(e => console.log('MathJax error:', e));
-            }
-        }, 120);
+        // 立即渲染一次
+if (window.MathJax && window.MathJax.typesetPromise) {
+    MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+        .catch(e => console.log('MathJax error:', e));
+}
+
+// 延迟再渲染一次（解决第一次不显示的问题）
+setTimeout(() => {
+    if (window.MathJax && window.MathJax.typesetPromise) {
+        MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+            .catch(e => console.log('MathJax error:', e));
+    }
+}, 200);
+
+// 再加一个更长的延迟，确保万无一失
+setTimeout(() => {
+    if (window.MathJax && window.MathJax.typesetPromise) {
+        MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+            .catch(e => console.log('MathJax error:', e));
+    }
+}, 500);
         
     } catch (error) {
         console.error('加载问题详情失败:', error);
@@ -943,7 +958,19 @@ function switchModalLanguage(lang) {
     });
     document.getElementById('modal-content-cn').classList.toggle('hidden', lang !== 'cn');
     document.getElementById('modal-content-en').classList.toggle('hidden', lang !== 'en');
-    setTimeout(() => { if (window.MathJax) MathJax.typesetPromise?.(); }, 30);
+    // 切换语言后立即渲染
+if (window.MathJax && window.MathJax.typesetPromise) {
+    MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+        .catch(e => console.log('MathJax error:', e));
+}
+
+// 延迟再渲染一次
+setTimeout(() => {
+    if (window.MathJax && window.MathJax.typesetPromise) {
+        MathJax.typesetPromise([document.getElementById('modal-content-cn'), document.getElementById('modal-content-en')])
+            .catch(e => console.log('MathJax error:', e));
+    }
+}, 150);
 }
 
 function showPrevProblem() {
