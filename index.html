@@ -208,16 +208,6 @@ tailwind.config = {
             </div>
             <div class="mt-4 text-xs text-gray-500">1-5分，越高越难</div>
         </div>
-        <div class="bg-white rounded-xl shadow-sm p-6">
-            <div class="flex items-center justify-between">
-                <div>
-                    <p class="text-sm text-gray-600">数据范围</p>
-                    <h3 class="text-2xl font-bold text-dark mt-1" id="data-range">539-660</h3>
-                </div>
-                <i class="fa fa-database text-danger text-2xl"></i>
-            </div>
-            <div class="mt-4 text-xs text-gray-500">数据集编号范围</div>
-        </div>
     </div>
 
     <!-- 问题列表 -->
@@ -1049,16 +1039,6 @@ function updateStatistics() {
         avgDifficultyEl.textContent = avg.toFixed(2);
     } else {
         avgDifficultyEl.textContent = '-';
-    }
-    
-    // ✅ 动态计算数据范围（取最小和最大ID）
-    if (allProblems.length > 0) {
-        const ids = allProblems.map(p => p.id);
-        const minId = Math.min(...ids);
-        const maxId = Math.max(...ids);
-        document.getElementById('data-range').textContent = `${minId}-${maxId}`;
-    } else {
-        document.getElementById('data-range').textContent = '-';
     }
 }
 
