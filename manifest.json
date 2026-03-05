@@ -1819,5 +1819,608 @@
     ],
     "difficulty": 4,
     "has_image": false
+  },
+  {
+    "id": 944,
+    "problem_id": "944",
+    "title_preview": "3-1 图3-1中的  是一条长轨道，其...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 945,
+    "problem_id": "945",
+    "title_preview": "3-2 某人心脏每搏动一次泵出80.0 ...",
+    "tags": [
+      "Mechanics",
+      "Thermodynamics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 946,
+    "problem_id": "946",
+    "title_preview": "3-3 质量同为的两个小球，用长轻绳连接...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 947,
+    "problem_id": "947",
+    "title_preview": "3-4 如图3-4所示，表面光滑，高、倾...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 948,
+    "problem_id": "948",
+    "title_preview": "3-5 两个仅可压缩的轻弹簧组成的水平弹...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 949,
+    "problem_id": "949",
+    "title_preview": "3-6 地震的里氏(Richter)震级...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 950,
+    "problem_id": "950",
+    "title_preview": "3-7 杂技演员站在蹦床上不动时，网下沉...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 951,
+    "problem_id": "951",
+    "title_preview": "3-8 如图3-8所示，用细绳悬挂一个匀...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 952,
+    "problem_id": "952",
+    "title_preview": "3-9 大质量车厢在水平地面上以速度匀速...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 953,
+    "problem_id": "953",
+    "title_preview": "3-10 用三根等长轻线，将质量均匀分布...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 954,
+    "problem_id": "954",
+    "title_preview": "3-11 系统如图3-13所示，A和B是...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 955,
+    "problem_id": "955",
+    "title_preview": "3-12 系统如图3-14所示，细绳的质...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 956,
+    "problem_id": "956",
+    "title_preview": "3-13 如图3-15所示，两个等高的小...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 957,
+    "problem_id": "957",
+    "title_preview": "3-14 如图3-18所示，两根长度同为...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 958,
+    "problem_id": "958",
+    "title_preview": "3-15 一个足够深，长、宽的矩形盛水鱼...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 959,
+    "problem_id": "959",
+    "title_preview": "3-16 核电站的原子能反应堆中需要用低...",
+    "tags": [
+      "Mechanics",
+      "Modern Physics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 960,
+    "problem_id": "960",
+    "title_preview": "3-17 “弹弓效应”是航天技术中增大宇...",
+    "tags": [
+      "Mechanics",
+      "Modern Physics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 961,
+    "problem_id": "961",
+    "title_preview": "3-18 如图3-22所示，滑块和由轻杆...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 962,
+    "problem_id": "962",
+    "title_preview": "3-19 在水平冰面上兄弟俩作推车游戏，...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 963,
+    "problem_id": "963",
+    "title_preview": "3-20 质量的均匀圆环形光滑细管道放在...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 964,
+    "problem_id": "964",
+    "title_preview": "3-21 小球A,B在光滑水平面上沿同一...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 965,
+    "problem_id": "965",
+    "title_preview": "3-22 长平板在水平方向上以恒定的速度...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 966,
+    "problem_id": "966",
+    "title_preview": "3-23 一斜面体静放在光滑水平地面上，...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 967,
+    "problem_id": "967",
+    "title_preview": "3-24 三个编号分别为1,2,3的相同...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 968,
+    "problem_id": "968",
+    "title_preview": "3-25 在一水平面上有两根相互平行的固...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 969,
+    "problem_id": "969",
+    "title_preview": "3-26 一架质量的直升飞机，靠螺旋桨的...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 970,
+    "problem_id": "970",
+    "title_preview": "3-27 内外半径几乎同为的竖直固定圆环...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 971,
+    "problem_id": "971",
+    "title_preview": "3-28 在航天飞船上，如图3-33所示...",
+    "tags": [
+      "Mechanics",
+      "Thermodynamics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 972,
+    "problem_id": "972",
+    "title_preview": "3-29 两个核子之间的相互作用势能可表...",
+    "tags": [
+      "Mechanics",
+      "Modern Physics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 973,
+    "problem_id": "973",
+    "title_preview": "3-30 地面上有一固定的点电荷A。A的...",
+    "tags": [
+      "Electromagnetism",
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 974,
+    "problem_id": "974",
+    "title_preview": "3-31 将劲度系数为、自由长度为、质量...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 975,
+    "problem_id": "975",
+    "title_preview": "3-32 各边长为的匀质立方体大木块，如...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 976,
+    "problem_id": "976",
+    "title_preview": "3-33 如图3-37所示，质量的小环套...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 977,
+    "problem_id": "977",
+    "title_preview": "3-34 在一个带有活塞的固定柱形汽缸内...",
+    "tags": [
+      "Mechanics",
+      "Thermodynamics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 978,
+    "problem_id": "978",
+    "title_preview": "3-35 光滑水平桌面上静止放置若干个相...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 979,
+    "problem_id": "979",
+    "title_preview": "3-36 小球从水平地面上以初速初抛出去...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 980,
+    "problem_id": "980",
+    "title_preview": "3-37 如图3-43所示，质量、倾角的...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 981,
+    "problem_id": "981",
+    "title_preview": "3-38 质量相同的两个小球A和B用长轻...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 982,
+    "problem_id": "982",
+    "title_preview": "4-1 如图4-1所示,质量m的小球某时...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 983,
+    "problem_id": "983",
+    "title_preview": "4-2 质量的质点固定不动，在它的万有引...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 984,
+    "problem_id": "984",
+    "title_preview": "4-3 运动中的某质点，在惯性系中相对于...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 985,
+    "problem_id": "985",
+    "title_preview": "4-4 氢原子中的核近似处理为不动，波尔...",
+    "tags": [
+      "Modern Physics",
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 986,
+    "problem_id": "986",
+    "title_preview": "4-5 半径的圆环固定在水平桌面上，不可...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 987,
+    "problem_id": "987",
+    "title_preview": "4-6 如图4-4所示，在半顶角为的倒立...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 988,
+    "problem_id": "988",
+    "title_preview": "4-7 半径，用轻辐条支撑的匀质圆环，可...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 989,
+    "problem_id": "989",
+    "title_preview": "4-8 设想全世界所有的人都在赤道上自西...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 990,
+    "problem_id": "990",
+    "title_preview": "4-9 如图4-6所示，光滑的水平大台面...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 991,
+    "problem_id": "991",
+    "title_preview": "4-10 如图4-8所示，质量同为的两个...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 992,
+    "problem_id": "992",
+    "title_preview": "4-11 光滑水平桌面上有一轻质细杆，杆...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 993,
+    "problem_id": "993",
+    "title_preview": "4-12 (1) 若一个静止地处于平衡状...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 994,
+    "problem_id": "994",
+    "title_preview": "4-13 无动力航天器从远处以初速朝质量...",
+    "tags": [
+      "Mechanics",
+      "Modern Physics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 995,
+    "problem_id": "995",
+    "title_preview": "4-14 从地球表面以第一宇宙速度朝着与...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 996,
+    "problem_id": "996",
+    "title_preview": "4-15 小行星1和2的质量相同，小行星...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 997,
+    "problem_id": "997",
+    "title_preview": "4-16 小行星抛物线轨道方程可表述成 ...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 998,
+    "problem_id": "998",
+    "title_preview": "4-17 某彗星受其他星体引力干扰后进入...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 999,
+    "problem_id": "999",
+    "title_preview": "4-18 1994年7月16日20时15...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1000,
+    "problem_id": "1000",
+    "title_preview": "4-19 质量分别为, 的两个质点相距，...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
   }
 ]
