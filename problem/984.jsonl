@@ -1,0 +1,14 @@
+{
+  "problem_id": "984",
+  "problem_text_cn": "4-3 运动中的某质点，在惯性系$S_{1}$中相对于任一参考点的角动量都守恒。试问该质点在惯性系$S_{2}$中，是否相对于任一参考点的角动量也都守恒？为什么？",
+  "problem_text_en": "4-3 A particle is moving. In inertial frame $S_{1}$, the angular momentum of the particle relative to any reference point is conserved. Is the angular momentum of the particle relative to any reference point also conserved in inertial frame $S_{2}$? Why?",
+  "problem_img": ["984_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 是。此质点在惯性系$S_{1}$中，相对任一参考点的角动量都守恒，其受力$F$相对任一参考点的力矩必定都是零，即有\n\n$$ M_{1}=r_{1}\\times F=0, $$\n\n$r_{1}$为任意矢量，这仅在$F=0$时，才有可能。该质点在惯性系$S_{2}$中，因\n\n$$ F=0 $$\n\n相对任一参考点的力矩仍都是零，角动量也都是守恒的。\n\n此质点在$S_{1}$，$S_{2}$系中均作匀速直线运动。",
+  "problem_solution_en": "Solution Yes. In inertial frame $S_{1}$, the angular momentum of the particle relative to any reference point is conserved. The torque of the force $F$ acting on the particle relative to any reference point must be zero, i.e.,\n\n$$ M_{1}=r_{1}\\times F=0, $$\n\nwhere $r_{1}$ is an arbitrary vector. This is possible only when $F = 0$. In inertial frame $S_{2}$, since $F = 0$, the torque relative to any reference point is still zero, and the angular momentum is also conserved.\n\nThe particle moves with uniform rectilinear motion in both $S_{1}$ and $S_{2}$ frames.",
+  "img_cn": "图片为一页物理习题解答。页面顶部是题号\"4-3\"。题目内容是关于质点在不同惯性系中角动量守恒的讨论，涉及物理推理。页面中间是解答内容，包含数学表达式$M_{1}=r_{1}\\times F=0$。页面背景为白色，文字为黑色宋体。解答后有一段总结性文字。整体排版简洁清晰。",
+  "img_en": "The image is a page of a physics exercise solution. At the top is the problem number \"4-3\". The problem discusses the conservation of angular momentum of a particle in different inertial frames, involving physical reasoning. The middle of the page contains the solution, including the mathematical expression $M_{1}=r_{1}\\times F=0$. The background is white, and the text is in black SimSun font. Following the solution, there is a concluding remark. The overall layout is simple and clear.",
+  "problem_answer": "是。质点在惯性系$S_{2}$中相对于任一参考点的角动量也都守恒。因为由$S_{1}$中角动量对任意参考点守恒可推出质点不受力（$F=0$），在$S_{2}$中同样不受力，力矩为零，角动量守恒。质点在两系中均作匀速直线运动。",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics", "Kinematics"]
+}

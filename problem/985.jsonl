@@ -1,0 +1,14 @@
+{
+  "problem_id": "985",
+  "problem_text_cn": "4-4 氢原子中的核近似处理为不动，波尔假设电子绕核作圆轨道运动时，相对于核的角动量大小必定是$\\hbar$（$\\hbar=h/2\\pi$，$h$为普朗克常量）的整数倍。将电子质量记作$m$，试导出电子可取的圆轨道半径$r$。",
+  "problem_text_en": "4-4 In a hydrogen atom, the nucleus is approximately treated as stationary. Bohr hypothesized that when an electron moves in a circular orbit around the nucleus, the magnitude of its angular momentum relative to the nucleus must be an integer multiple of $\\hbar$ (where $\\hbar = h/2\\pi$ and $h$ is Planck’s constant). Let the electron mass be $m$. Derive the possible radii $r$ of the electron’s circular orbits.",
+  "problem_img": ["985_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 将半径为$r$的圆运动速率记作$v$，由圆运动向心力公式和相对核的玻尔角动量假设：\n\n$$ \\frac{mv^{2}}{r} = \\frac{ke^{2}}{r^{2}},\\quad mvr = n\\hbar,\\quad n=1,2,\\dots, $$\n\n可导得\n\n$$ r = \\frac{n^{2}\\hbar^{2}}{kme^{2}}. $$",
+  "problem_solution_en": "Solution Denote the speed of the circular motion of radius $r$ as $v$. From the centripetal force equation for circular motion and Bohr’s angular‑momentum hypothesis relative to the nucleus,\n\n$$ \\frac{mv^{2}}{r} = \\frac{ke^{2}}{r^{2}},\\quad mvr = n\\hbar,\\quad n=1,2,\\dots, $$\n\nwe obtain\n\n$$ r = \\frac{n^{2}\\hbar^{2}}{kme^{2}}. $$",
+  "img_cn": "图片显示一道物理习题，题号为4-4。内容为氢原子模型，其中玻尔假设电子绕核作圆轨道运动，其角动量为普朗克常数除以2π的整数倍。题目要求导出电子可取的圆轨道半径r。解题过程包含公式$$ \\frac{mv^{2}}{r}=\\frac{ke^{2}}{r^{2}} $$ 和 $$ mvr=n\\hbar $$，并得到最终半径公式$$ r = \\frac{n^{2}\\hbar^{2}}{kme^{2}} $$。页面底部有“4 角动量定理 天体运动”和页码“109”。",
+  "img_en": "The image shows a physics problem, number 4-4. The content is about the hydrogen atom model, where Bohr hypothesized that the electron moves in a circular orbit with angular momentum an integer multiple of Planck’s constant divided by 2π. The problem asks to derive the possible radii r of the electron’s circular orbits. The solution includes formulas $$ \\frac{mv^{2}}{r}=\\frac{ke^{2}}{r^{2}} $$ and $$ mvr=n\\hbar $$, and yields the final radius formula $$ r = \\frac{n^{2}\\hbar^{2}}{kme^{2}} $$. The page bottom has “4 Angular Momentum Theorem Celestial Motion” and page number “109”.",
+  "problem_answer": "$$ r = \\frac{n^{2}\\hbar^{2}}{kme^{2}},\\quad n=1,2,\\dots $$",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics", "Mechanics"]
+}

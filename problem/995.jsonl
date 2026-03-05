@@ -1,0 +1,14 @@
+{
+  "problem_id": "995",
+  "problem_text_cn": "4-14 从地球表面以第一宇宙速度朝着与竖直方向成$\\alpha$角的方向发射一物体，忽略空气阻力和地球转动的影响，试问物体能上升多高？",
+  "problem_text_en": "4-14 An object is launched from Earth’s surface with the first cosmic velocity, at an angle $\\alpha$ to the vertical. Neglecting air resistance and Earth’s rotation, how high does the object rise?",
+  "problem_img": ["995_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 物体到最高$h$处，速度$v$的方向必定与地球中心至物体的径矢垂直，如图4-13所示. 可建立能量守恒关联和面积速度关联式\n\n$$ \\frac{1}{2}mv^{2}-G\\frac{Mm}{r_{h}}=\\frac{1}{2}mv_{0}^{2}-G\\frac{Mm}{R},\\quad Rv_{0}\\sin\\alpha=r_{h}v, $$\n\n其中$r_{h}=R+h$. 将$v_{0}=\\sqrt{GM/R}$代入后，可解得\n\n$$ r_{h}=\\begin{cases}R(1-\\cos\\alpha), \\\\ R(1+\\cos\\alpha), \\end{cases}\\quad h=r_{h}-R=R\\cos\\alpha. $$",
+  "problem_solution_en": "Solution At the highest point $h$, the velocity $v$ must be perpendicular to the radius vector from Earth’s centre to the object, as shown in Figure 4-13. The energy conservation and areal velocity (angular momentum) relations are\n\n$$ \\frac{1}{2}mv^{2}-G\\frac{Mm}{r_{h}}=\\frac{1}{2}mv_{0}^{2}-G\\frac{Mm}{R},\\quad Rv_{0}\\sin\\alpha=r_{h}v, $$\n\nwhere $r_{h}=R+h$. Substituting $v_{0}=\\sqrt{GM/R}$, we obtain\n\n$$ r_{h}=\\begin{cases}R(1-\\cos\\alpha), \\\\ R(1+\\cos\\alpha), \\end{cases}\\quad h=r_{h}-R=R\\cos\\alpha. $$",
+  "img_cn": "这是一道物理习题的图片，题号为4-14。图片分为左右两部分，左侧是题目陈述，右侧是解题过程。题目描述为“从地球表面以第一宇宙速度朝着与竖直方向成$\\alpha$角的方向发射一物体，忽略空气阻力和地球转动的影响，试问物体能上升多高？”右侧解答部分包含一个示意图（图4-13）、能量守恒和面积速度关联式，以及解得的高度表达式$h=R\\cos\\alpha$。图片背景为白色，文字为黑色印刷体。",
+  "img_en": "This is an image of a physics problem, numbered 4-14. The image is split into left and right parts. The left contains the problem statement, and the right shows the solution. The problem states: “An object is launched from Earth’s surface with the first cosmic velocity, at an angle $\\alpha$ to the vertical. Neglecting air resistance and Earth’s rotation, how high does the object rise?” The solution on the right includes a schematic diagram (Figure 4-13), conservation of energy and areal velocity relations, and the resulting height expression $h=R\\cos\\alpha$. The background is white, and the text is in black print.",
+  "problem_answer": "$h = R\\cos\\alpha$。",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics", "Kinematics"]
+}

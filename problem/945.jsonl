@@ -1,0 +1,14 @@
+{
+  "problem_id": "945",
+  "problem_text_cn": "3-2 某人心脏每搏动一次泵出80.0 mL的血液，一次搏动过程中心脏主动脉平均压强为120 mmHg。已知此人脉搏为70.0次/min，试求此人心脏工作的功率。",
+  "problem_text_en": "3-2 A person's heart pumps 80.0 mL of blood per beat. During one beat, the average pressure in the aorta is 120 mmHg. Given that the person's pulse rate is 70.0 beats/min, find the power output of the heart.",
+  "problem_img": ["945_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 血管压强$p$，流出血液量若为$dV$，则作功\n\n$$ dW = p dV, $$\n\n平均压强为$\\bar{p}$，流出血液总量为$V$，作功为\n\n$$ W = \\bar{p} V, $$\n\n其中\n\n$$ \\bar{p} = \\frac{120}{760} \\times 1.01 \\times 10^{5} \\,\\text{Pa} = 1.6 \\times 10^{4} \\,\\text{Pa}, $$\n\n一分钟时间内\n\n$$ V = 70 \\times 80.0 \\times 10^{-6} \\,\\text{m}^{3} = 5.6 \\times 10^{-3} \\,\\text{m}^{3}, $$\n\n心脏工作功率为\n\n$$ P = \\frac{W}{t} = \\frac{1.6 \\times 10^{4} \\times 5.6 \\times 10^{-3}}{60} \\,\\text{W} = 1.5 \\,\\text{W}. $$",
+  "problem_solution_en": "Solution Let the blood pressure be $p$ and the volume of blood pumped be $dV$; then the work done is\n\n$$ dW = p dV. $$\n\nIf the average pressure is $\\bar{p}$ and the total blood volume is $V$, the work done is\n\n$$ W = \\bar{p} V, $$\n\nwhere\n\n$$ \\bar{p} = \\frac{120}{760} \\times 1.01 \\times 10^{5} \\,\\text{Pa} = 1.6 \\times 10^{4} \\,\\text{Pa}, $$\n\nand in one minute\n\n$$ V = 70 \\times 80.0 \\times 10^{-6} \\,\\text{m}^{3} = 5.6 \\times 10^{-3} \\,\\text{m}^{3}. $$\n\nThe power output of the heart is\n\n$$ P = \\frac{W}{t} = \\frac{1.6 \\times 10^{4} \\times 5.6 \\times 10^{-3}}{60} \\,\\text{W} = 1.5 \\,\\text{W}. $$",
+  "img_cn": "图片显示一道物理题及其完整解题过程。标题为“3-2”，编号为“3 机械能定理”。题文描述了心脏每搏动一次泵出80.0 mL血液，平均压强120 mmHg，脉搏70次/分钟，求心脏工作功率。解题步骤用公式展示，包括微元功dW=pdV、平均压强计算、一分钟内血流总量V，最终算得功率P=1.5 W。下方是空白区域。",
+  "img_en": "The image shows a physics problem and its complete solution process. The title reads \"Problem 3-2\" under the section \"3 Conservation of Mechanical Energy\". The problem states that a heart pumps 80.0 mL of blood per beat with average pressure 120 mmHg and pulse rate 70 beats/min, asking for the heart's power output. The solution uses equations like dW=pdV, calculates average pressure, total blood volume per minute, and derives power P=1.5 W. The lower part of the image is blank.",
+  "problem_answer": "心脏工作功率为 $P = 1.5 \\,\\text{W}$。",
+  "difficulty": "1",
+  "problem_tags": ["Mechanics", "Thermodynamics"]
+}

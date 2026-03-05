@@ -1,0 +1,14 @@
+{
+  "problem_id": "997",
+  "problem_text_cn": "4-16 小行星抛物线轨道方程可表述成 $y^{2}=2px$，太阳位于焦点 $x = p/2,y = 0$ 处。将太阳质量记为 M，试求小行星在抛物线顶点处的速度 $v_{0}$。",
+  "problem_text_en": "4-16 The equation for the parabolic orbit of an asteroid can be expressed as $y^{2}=2px$, with the Sun located at the focus $x = p/2, y = 0$. Denote the mass of the Sun as M. Find the speed $v_{0}$ of the asteroid at the vertex of the parabola.",
+  "problem_img": ["997_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 小行星的抛物线轨道能量为 0，近日点处由\n$$\\frac{1}{2}mv_{0}^{2}-G\\frac{Mm}{p/2}=0,$$\n即可求得\n$$v_{0}=\\sqrt{\\frac{4GM}{p}}.$$",
+  "problem_solution_en": "Solution The orbital energy of the parabolic orbit is 0. At the perihelion, we have\n$$\\frac{1}{2}mv_{0}^{2}-G\\frac{Mm}{p/2}=0,$$\nwhich yields\n$$v_{0}=\\sqrt{\\frac{4GM}{p}}.$$",
+  "img_cn": "该图片展示了一道物理习题及其解答。题目涉及小行星沿抛物线轨道绕太阳运行，要求计算在抛物线顶点处的速度。图中包含了题目的完整陈述和详细的解题步骤，包括能量守恒方程和最终的速度表达式。背景为白色，文字为黑色印刷体。",
+  "img_en": "The image shows a physics problem and its solution. The problem involves an asteroid moving along a parabolic orbit around the Sun, asking to calculate the speed at the vertex of the parabola. The image contains the complete problem statement and a detailed solution process, including the energy conservation equation and the final speed expression. The background is white, and the text is in black printed characters.",
+  "problem_answer": "$v_{0} = \\sqrt{\\dfrac{4GM}{p}}$。",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics"]
+}

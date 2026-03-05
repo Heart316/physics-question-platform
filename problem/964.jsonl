@@ -1,0 +1,14 @@
+{
+  "problem_id": "964",
+  "problem_text_cn": "3-21 小球A,B在光滑水平面上沿同一直线朝着对方运动，A球质量大于B球质量。已知碰前两球动能相同，碰后A球速度为零，B球速度不为零，试求A球质量与B球质量之比$\\gamma$。",
+  "problem_text_en": "3-21 Two small balls A and B move towards each other along the same straight line on a smooth horizontal surface. Ball A has a greater mass than ball B. Before the collision, the two balls have equal kinetic energy. After the collision, ball A comes to rest while ball B continues to move. Find the mass ratio of ball A to ball B, $\\gamma$.",
+  "problem_img": ["964_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解  A球碰前速率记为$v_{A0}$，B球碰前、碰后速率分别记为$v_{B0}$和$v_{B}$，B球质量记为$m$，A球质量便为$\\gamma m$。\n由动能相等，可得\n$$\nv_{B0}=\\sqrt{\\gamma}\\cdot v_{A0} \\quad \\text{①}\n$$\n由动量守恒式$\\gamma m v_{A0} - m v_{B0} = m v_{B}$，可得\n$$\n\\gamma v_{A0} - v_{B0} = v_{B} \\quad \\text{②}\n$$\n碰后B球动能有如下限制\n$$\n\\frac{1}{2}m v_{B}^{2}\\leqslant 2\\times\\frac{1}{2}m v_{B0}^{2},\n$$\n又可得\n$$\nv_{B}\\leqslant\\sqrt{2}v_{B0} \\quad \\text{③}\n$$\n由②③式可得\n$$\n\\gamma v_{A0}\\leqslant(\\sqrt{2}+1)v_{B0} \\quad \\text{④}\n$$\n将①式代入④，可得\n$$\n\\gamma\\leqslant(\\sqrt{2}+1)^{2},\n$$\n据题设，$\\gamma>1$，故$\\gamma$的可能值为\n$$\n1<\\gamma\\leqslant(\\sqrt{2}+1)^{2}.\n$$",
+  "problem_solution_en": "Solution Let the velocity of ball A before collision be $v_{A0}$, and velocities of ball B before and after collision be $v_{B0}$ and $v_{B}$, respectively. Denote the mass of ball B as $m$; then the mass of ball A is $\\gamma m$.\nFrom equal kinetic energy, we have\n$$\nv_{B0}=\\sqrt{\\gamma}\\cdot v_{A0} \\quad \\text{①}\n$$\nFrom momentum conservation, $\\gamma m v_{A0} - m v_{B0} = m v_{B}$, we obtain\n$$\n\\gamma v_{A0} - v_{B0} = v_{B} \\quad \\text{②}\n$$\nThe kinetic energy of ball B after collision is limited by\n$$\n\\frac{1}{2}m v_{B}^{2}\\leqslant 2\\times\\frac{1}{2}m v_{B0}^{2},\n$$\nhence\n$$\nv_{B}\\leqslant\\sqrt{2}v_{B0} \\quad \\text{③}\n$$\nFrom ② and ③, we get\n$$\n\\gamma v_{A0}\\leqslant(\\sqrt{2}+1)v_{B0} \\quad \\text{④}\n$$\nSubstituting ① into ④ yields\n$$\n\\gamma\\leqslant(\\sqrt{2}+1)^{2}.\n$$\nAccording to the problem, $\\gamma>1$; therefore the possible values of $\\gamma$ are\n$$\n1<\\gamma\\leqslant(\\sqrt{2}+1)^{2}.\n$$",
+  "img_cn": "图片为一道物理习题，题号3-21，内容为两小球在光滑水平面上对心碰撞问题。图中含有中文题目描述、物理公式（如$v_{B0}=\\sqrt{\\gamma}\\cdot v_{A0}$）、推导步骤及最终结论。",
+  "img_en": "The image is a physics problem, number 3-21, about a head‑on collision of two small balls on a smooth horizontal surface. It contains the Chinese problem statement, physical formulas (e.g., $v_{B0}=\\sqrt{\\gamma}\\cdot v_{A0}$), derivation steps, and the final conclusion.",
+  "problem_answer": "$1<\\gamma\\leqslant(\\sqrt{2}+1)^{2}$。",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics", "Kinematics"]
+}

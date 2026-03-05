@@ -1,0 +1,14 @@
+{
+  "problem_id": "959",
+  "problem_text_cn": "3-16 核电站的原子能反应堆中需要用低速热中子维持缓慢的链式反应，反应释放的却是高速快中子。反应堆中通过快中子与石墨棒内碳原子（$^{12}_{6}C$）的不断碰撞逐渐减速，最后成为所需要的热中子。将快中子与热中子的平均动能分别设为$2.0×10^{6}eV$和$0.025eV$，每次碰撞前碳原子均处于静止状态，碰撞为弹性。试问经过多少次碰撞，快中子可成为热中子？",
+  "problem_text_en": "3-16 In the atomic energy reactor of a nuclear power plant, low‑speed thermal neutrons are needed to maintain a slow chain reaction, but the reaction releases high‑speed fast neutrons. In the reactor, fast neutrons gradually decelerate through continuous collisions with carbon atoms ($^{12}_{6}C$) in graphite rods and finally become the required thermal neutrons. Set the average kinetic energies of fast neutrons and thermal neutrons to $2.0×10^{6}eV$ and $0.025eV$ respectively. Before each collision, the carbon atom is at rest, and the collision is elastic. How many collisions does it take for a fast neutron to become a thermal neutron?",
+  "problem_img": ["959_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 由弹性碰撞方程\n$$ m_{n} v_{0}=m_{n} v_{n}+m_{C} v_{C}, $$\n$$ \\frac{1}{2} m_{n} v_{0}^{2}=\\frac{1}{2} m_{n} v_{n}^{2}+\\frac{1}{2} m_{C} v_{C}^{2}, $$\n解得\n$$ v_{n}=\\frac{m_{n}-m_{C}}{m_{n}+m_{C}} v_{0}. $$\n碰后中子动能与碰前中子动能比为\n$$ \\frac{v_{n}^{2}}{v_{0}^{2}}=\\left(\\frac{m_{n}-m_{C}}{m_{n}+m_{C}}\\right)^{2}=\\left(\\frac{11}{13}\\right)^{2}, $$\n设经$N$次碰撞后有\n$$ 0.025\\,\\mathrm{eV}=2×10^{6}\\,\\mathrm{eV}×\\left(\\frac{11}{13}\\right)^{2N}, $$\n算得$N=54.47$，即需55次碰撞。",
+  "problem_solution_en": "Solution From the elastic collision equations\n$$ m_{n} v_{0}=m_{n} v_{n}+m_{C} v_{C}, $$\n$$ \\frac{1}{2} m_{n} v_{0}^{2}=\\frac{1}{2} m_{n} v_{n}^{2}+\\frac{1}{2} m_{C} v_{C}^{2}, $$\nwe obtain\n$$ v_{n}=\\frac{m_{n}-m_{C}}{m_{n}+m_{C}} v_{0}. $$\nThe ratio of the neutron’s kinetic energy after collision to that before collision is\n$$ \\frac{v_{n}^{2}}{v_{0}^{2}}=\\left(\\frac{m_{n}-m_{C}}{m_{n}+m_{C}}\\right)^{2}=\\left(\\frac{11}{13}\\right)^{2}. $$\nSuppose after $N$ collisions we have\n$$ 0.025\\,\\mathrm{eV}=2×10^{6}\\,\\mathrm{eV}×\\left(\\frac{11}{13}\\right)^{2N}, $$\ncalculating gives $N=54.47$, so 55 collisions are needed.",
+  "img_cn": "一张包含物理题目的纸张图片，上方是题目内容，介绍了核电站反应堆中快中子与碳原子碰撞减速的问题，下方是解题过程，包括弹性碰撞方程、动能比以及最终的计算结果。",
+  "img_en": "A paper image containing a physics problem. The upper part is the problem description, introducing the problem of fast neutrons decelerating through collisions with carbon atoms in a nuclear power plant reactor. The lower part is the solution process, including elastic collision equations, the ratio of kinetic energies, and the final calculation result.",
+  "problem_answer": "需55次碰撞。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics", "Modern Physics"]
+}

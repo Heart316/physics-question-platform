@@ -1,0 +1,14 @@
+{
+  "problem_id": "978",
+  "problem_text_cn": "3-35 光滑水平桌面上静止放置若干个相同的匀质光滑小球，打击其中某个球，与别的球逐个弹性碰撞经一闭合路线后又可停在原位置上，试问至少需放多少个球？给出一种球的放置图。",
+  "problem_text_en": "3-35 Several identical homogeneous smooth balls are stationary on a smooth horizontal tabletop. One of the balls is struck; it collides elastically with the other balls one by one along a closed path and finally comes to rest at its original position. What is the minimum number of balls needed? Provide a diagram showing the arrangement of the balls.",
+  "problem_img": ["978_1.png"],
+  "problem_img_process": ["978_2.png"],
+  "problem_solution_cn": "解 如图3-41所示，球1以$v_0$速度与静止的球2弹性斜碰撞后，球1失去$v_0$的法向分量$v_{0\\perp}$，保留$v_0$的切向分量$v_{0\\parallel}$，球2则获得$v_{0\\perp}$。可见碰后球1运动方向偏转$\\theta(0<\\theta<\\frac{\\pi}{2})$，球1、球2的运动方向相互垂直。\n\n至少需要5个球，如图3-42放置。令球1被打，与球2，3，4弹性斜碰撞后偏转角可超过$\\pi$，最终与球5作弹性正碰撞后停留在原位。",
+  "problem_solution_en": "Solution As shown in Figure 3‑41, after ball 1 elastically collides obliquely with stationary ball 2 with speed $v_0$, ball 1 loses the normal component $v_{0\\perp}$ of $v_0$ and retains the tangential component $v_{0\\parallel}$; ball 2 acquires $v_{0\\perp}$. Hence, after collision, ball 1’s direction is deflected by an angle $\\theta(0<\\theta<\\frac{\\pi}{2})$, and the motion directions of ball 1 and ball 2 are perpendicular.\n\nAt least 5 balls are needed, arranged as shown in Figure 3‑42. Let ball 1 be struck; after elastic oblique collisions with balls 2, 3, and 4, its deflection angle can exceed $\\pi$, and finally it undergoes an elastic head‑on collision with ball 5 and stays at the original position.",
+  "img_cn": "图3-41：展示球1以速度$v_0$与静止的球2发生弹性斜碰撞的过程。图中标注了碰撞前、后球1和球2的速度分量，包括法向分量$v_{0\\perp}$、切向分量$v_{0\\parallel}$，以及碰撞后两球的运动方向。图中说明球1偏转角$\\theta$，且两球运动方向垂直。\n\n 图3-42：展示至少5个小球的放置图。球1被打击后，与球2、3、4依次弹性斜碰撞，偏转角度超过$\\pi$，最终与球5发生弹性正碰撞，并停回原位置。图中标注了各球的相对位置。",
+  "img_en": "Figure 3‑41: Illustrates the process of ball 1 elastically colliding obliquely with stationary ball 2 at speed $v_0$. The figure labels the velocity components of ball 1 and ball 2 before and after the collision, including the normal component $v_{0\\perp}$, tangential component $v_{0\\parallel}$, and the directions of motion after collision. The figure explains that ball 1 is deflected by an angle $\\theta$, and the two balls move perpendicularly.\n\n Figure 3‑42: Shows a placement diagram of at least 5 balls. After ball 1 is struck, it undergoes elastic oblique collisions with balls 2, 3, 4 in sequence, with deflection exceeding $\\pi$, and finally makes an elastic head‑on collision with ball 5, returning to its original position. The relative positions of the balls are indicated.",
+  "problem_answer": "至少需要5个球。放置图如图3‑42所示。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

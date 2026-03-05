@@ -1,0 +1,14 @@
+{
+  "problem_id": "950",
+  "problem_text_cn": "3-7 杂技演员站在蹦床上不动时，网下沉0.20 m。试问当演员从10.0 m高处自由下落时，蹦床网将受到的最大压力是杂技演员自身重力的多少倍（给出3位有效数字）？已知网的下沉量与正压力的二次方根成正比。",
+  "problem_text_en": "3-7 When a trapeze artist stands still on a trampoline, the net sinks 0.20 m. If the artist falls freely from a height of 10.0 m, how many times the artist's own weight is the maximum pressure exerted on the trampoline net? Give the answer to three significant figures. It is known that the net's sinkage is proportional to the square root of the normal force.",
+  "problem_img": ["950_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 网的弹力$F$与下沉量$x>0$间关系为\n$$ F=a x^{2}, \\quad a=\\frac{m g}{(\\Delta l)^{2}}, \\quad \\Delta l=0.20 \\,\\text{m}, $$\n式中$m$是演员质量。取$x=0$为弹性势能零点，下沉量为$x$时的弹性势能\n$$ E_{p}=\\int_{x}^{0}(-a x^{2}) \\mathrm{d} x=\\frac{1}{3} a x^{3}. $$\n演员从$h_{0}=10.0\\,\\text{m}$高处落下后，网的最大下沉量达$h$，演员的重力势能全部转化为网的弹性势能，有\n$$ m g(h_{0}+h)=\\frac{1}{3} a h^{3}, $$\n代入有关量后，得\n$$ h^{3}-0.12 h-1.2=0, $$\n数值计算可得\n$$ h=1.10 \\,\\text{m}. $$\n此时网受压力$a h^{2}$最大，与演员自身重力比为\n$$ \\gamma=\\frac{a h^{2}}{m g}=\\frac{h^{2}}{(\\Delta l)^{2}}=30.3. $$",
+  "problem_solution_en": "Solution The elastic force $F$ of the net is related to the displacement $x>0$ by\n$$ F=a x^{2}, \\quad a=\\frac{m g}{(\\Delta l)^{2}}, \\quad \\Delta l=0.20 \\,\\text{m}, $$\nwhere $m$ is the mass of the artist. Taking $x=0$ as the zero of elastic potential energy, the potential energy for a displacement $x$ is\n$$ E_{p}=\\int_{x}^{0}(-a x^{2}) \\mathrm{d} x=\\frac{1}{3} a x^{3}. $$\nAfter the artist falls from height $h_{0}=10.0\\,\\text{m}$, the maximum sinkage of the net is $h$. The gravitational potential energy is completely converted into elastic potential energy:\n$$ m g(h_{0}+h)=\\frac{1}{3} a h^{3}. $$\nSubstituting the relevant quantities gives\n$$ h^{3}-0.12 h-1.2=0, $$\nwhich yields numerically\n$$ h=1.10 \\,\\text{m}. $$\nThe maximum pressure on the net is $a h^{2}$, and its ratio to the artist's weight is\n$$ \\gamma=\\frac{a h^{2}}{m g}=\\frac{h^{2}}{(\\Delta l)^{2}}=30.3. $$",
+  "img_cn": "题目是力学问题，涉及蹦床的弹力和能量守恒。包含问题陈述、公式推导、数值计算步骤，最终给出答案。图片为文本截图，背景为白色，文字为黑色印刷体。",
+  "img_en": "The problem is a mechanics problem involving the elastic force of a trampoline and energy conservation. It includes the problem statement, formula derivations, numerical calculation steps, and the final answer. The image is a text screenshot with a white background and black printed text.",
+  "problem_answer": "最大压力约为演员自身重力的30.3倍。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

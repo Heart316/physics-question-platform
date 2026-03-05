@@ -1,0 +1,14 @@
+{
+  "problem_id": "988",
+  "problem_text_cn": "4-7 半径$R$，用轻辐条支撑的匀质圆环，可绕中央水平轴无摩擦地转动，开始时旋转角速度为$\\omega_{0}$，如图4-5所示。而后，将转轴向下移动，直到圆环重力全部都由水平地面支持力抵消为止，并将转轴固定。已知环与地面间的摩擦因数为$\\mu$，试问经多长时间停止转动？",
+  "problem_text_en": "4-7 A uniform ring of radius $R$, supported by light spokes, can rotate without friction about a central horizontal axis. Initially, it rotates with angular velocity $\\omega_{0}$, as shown in Figure 4-5. Then, the axis is lowered until the weight of the ring is completely balanced by the normal force from the horizontal ground, and the axis is fixed. The coefficient of friction between the ring and the ground is $\\mu$. How long does it take for the ring to stop rotating?",
+  "problem_img": ["988_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 环的质量记为$m$，旋转角速度为$\\omega$时相对环心角动量为\n$$ L=mR^{2}\\omega, $$\n地面摩擦力相对环心的力矩为\n$$ M=-\\mu mgR, $$\n由角动量定理，得\n$$ -\\mu mgR=M=\\frac{dL}{dt}=mR^{2}\\beta. $$\n据\n$$ \\omega=\\omega_{0}+\\beta t=\\omega_{0}-\\mu\\frac{g}{R}t, $$\n环停止转动时$\\omega=0$，需经时间\n$$ t=\\frac{\\omega_{0}R}{\\mu g}. $$",
+  "problem_solution_en": "Solution Denote the mass of the ring as $m$. When the angular velocity is $\\omega$, the angular momentum relative to the ring centre is\n$$ L=mR^{2}\\omega, $$\nand the torque of the ground friction about the ring centre is\n$$ M=-\\mu mgR. $$\nFrom the angular‑momentum theorem,\n$$ -\\mu mgR=M=\\frac{dL}{dt}=mR^{2}\\beta. $$\nSince\n$$ \\omega=\\omega_{0}+\\beta t=\\omega_{0}-\\mu\\frac{g}{R}t, $$\nthe ring stops when $\\omega=0$, requiring the time\n$$ t=\\frac{\\omega_{0}R}{\\mu g}. $$",
+  "img_cn": "该图片包含题号4-7，题目描述了一个半径为R的匀质圆环，由轻辐条支撑，可绕中央水平轴无摩擦转动，初始角速度为$\\omega_0$。后将转轴下移，使圆环重力完全由水平地面支持力抵消，并固定转轴。已知环与地面摩擦因数为$\\mu$，问圆环停止转动所需时间。图片下方是解答过程，包括角动量$L=mR^2\\omega$、摩擦力矩$M=-\\mu mgR$、角动量定理以及最终时间公式$t=\\frac{\\omega_0 R}{\\mu g}$。图片右上方有“图4-5”字样，整体为物理习题页风格。",
+  "img_en": "The image shows problem number 4-7. The problem describes a uniform ring of radius R, supported by light spokes, that can rotate without friction about a central horizontal axis with initial angular velocity $\\omega_0$. After lowering the axis until the ring's weight is completely balanced by the ground's normal force and fixing the axis, the coefficient of friction between the ring and ground is $\\mu$. The question asks for the time until the ring stops rotating. Below is the solution, which includes angular momentum $L=mR^2\\omega$, frictional torque $M=-\\mu mgR$, the angular‑momentum theorem, and the final time formula $t=\\frac{\\omega_0 R}{\\mu g}$. The upper right has the text “Figure 4-5”. The overall style is that of a physics exercise page.",
+  "problem_answer": "$t=\\dfrac{\\omega_{0}R}{\\mu g}$。",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics", "Kinematics"]
+}

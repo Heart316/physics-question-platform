@@ -1,0 +1,14 @@
+{
+  "problem_id": "996",
+  "problem_text_cn": "4-15 小行星1和2的质量相同，小行星1绕太阳的轨道是一个圆。小行星2绕太阳的轨道是一个非圆的椭圆。已知圆半径恰好等于椭圆半长轴，试比较两者轨道能量的大小。",
+  "problem_text_en": "4-15 Asteroids 1 and 2 have identical masses. Asteroid 1 orbits the Sun in a circular path. Asteroid 2 orbits the Sun in an elliptical path. The known circular orbit radius R exactly equals the elliptical orbit's semi-major axis a. Compare the orbital energies of the two asteroids.",
+  "problem_img": ["996_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 将太阳和小行星的质量分别记为M和m，圆轨道半径记为R，椭圆轨道半长轴记为a。不难导得小行星1的动能、势能和总能量分别为\n\n$$ E_{k1}=\\frac{GMm}{2R},\\quad E_{p1}=-\\frac{GMm}{R},\\quad E_{1}=E_{k1}+E_{p1}. $$\n\n小行星2在短轴顶点处的速度可导得（过程略）为\n\n$$ v_{2}=\\sqrt{\\frac{GM}{a}}, $$\n\n在该处的动能、势能和总能量分别为\n\n$$ E_{k2}=\\frac{GMm}{2a},\\quad E_{p2}=-\\frac{GMm}{a},\\quad E_{2}=E_{k2}+E_{p2}. $$\n\n因R=a，即有\n\n$$ E_{1}=E_{2}. $$\n\n也可由$ E_{2}=E_{k2}+E_{p2}=-\\frac{GMm}{2a} $得知椭圆轨道能量与半短轴无关，\n\n直接得$ E_{1}=E_{2} $）",
+  "problem_solution_en": "Solution Denote the mass of the Sun as M and the mass of an asteroid as m. Let the circular orbit radius be R, and the semi-major axis of the elliptical orbit be a. The kinetic, potential, and total energy of asteroid 1 are\n\n$$ E_{k1}=\\frac{GMm}{2R},\\quad E_{p1}=-\\frac{GMm}{R},\\quad E_{1}=E_{k1}+E_{p1}. $$\n\nThe velocity of asteroid 2 at the end of the minor axis (derivation omitted) is\n\n$$ v_{2}=\\sqrt{\\frac{GM}{a}}, $$\n\nand the kinetic, potential, and total energy at that point are\n\n$$ E_{k2}=\\frac{GMm}{2a},\\quad E_{p2}=-\\frac{GMm}{a},\\quad E_{2}=E_{k2}+E_{p2}. $$\n\nSince R=a, we have\n\n$$ E_{1}=E_{2}. $$\n\n(It can also be seen from $ E_{2}=E_{k2}+E_{p2}=-\\frac{GMm}{2a} $ that the orbital energy of the ellipse is independent of the semi-minor axis, directly giving $ E_{1}=E_{2} $.)",
+  "img_cn": "图片展示了一道物理习题及其解答。题目是关于比较两颗质量相同的小行星的轨道能量，一颗是圆轨道，另一颗是椭圆轨道，且圆半径等于椭圆半长轴。图片背景为白色，文字为黑色印刷体，包含物理公式和计算步骤。",
+  "img_en": "The image shows a physics problem and its solution. The problem compares the orbital energies of two asteroids of equal mass, one in a circular orbit and the other in an elliptical orbit, with the circular radius equal to the elliptical semi-major axis. The background is white, the text is black printed characters, and includes physics formulas and calculation steps.",
+  "problem_answer": "$E_1 = E_2$，即两者的轨道能量相等。",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics"]
+}

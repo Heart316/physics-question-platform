@@ -1,0 +1,14 @@
+{
+  "problem_id": "998",
+  "problem_text_cn": "4-17 某彗星受其他星体引力干扰后进入双曲线轨道，已知双曲线参量$a$，$b$，彗星和太阳质量分别记为$m$和$M$，试求彗星近日点速度$v_{D}$和轨道能量$E$。",
+  "problem_text_en": "4-17 A comet enters a hyperbolic orbit after being gravitationally perturbed by other celestial bodies. Given the hyperbolic parameters $a$, $b$, and the masses of the comet ($m$) and the Sun ($M$), find the perihelion velocity $v_{D}$ and the orbital energy $E$.",
+  "problem_img": ["998_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 参考图4-14，太阳位于内焦点$x=c$, $y=0$处，其中$c=\\sqrt{a^{2}+b^{2}}$。内焦点到渐近线的距离为$h=b$。彗星在近日点和无穷远两处的能量关联和角动量关联式分别为$\\frac{1}{2}mv_{D}^{2}-G\\frac{Mm}{c-a}=\\frac{1}{2}mv_{\\infty}^{2}$，$mv_{D}(c-a)=mv_{\\infty}b$，可解得$v_{D}=\\frac{b}{c-a}\\sqrt{\\frac{GM}{a}}$，$v_{\\infty}=\\sqrt{\\frac{GM}{a}}$。\n\n轨道能量便是$E=\\frac{1}{2}mv_{\\infty}^{2}=\\frac{GMm}{2a}$。",
+  "problem_solution_en": "Solution Refer to Figure 4-14. The Sun is at the inner focus $x=c$, $y=0$, where $c=\\sqrt{a^{2}+b^{2}}$. The distance from the inner focus to the asymptote is $h=b$. The energy and angular momentum relations at the perihelion and at infinity are respectively\n$$\\frac{1}{2}mv_{D}^{2}-G\\frac{Mm}{c-a}=\\frac{1}{2}mv_{\\infty}^{2},$$\n$$mv_{D}(c-a)=mv_{\\infty}b.$$\nSolving these gives\n$$v_{D}=\\frac{b}{c-a}\\sqrt{\\frac{GM}{a}},\\quad v_{\\infty}=\\sqrt{\\frac{GM}{a}}.$$\nThe orbital energy is then\n$$E=\\frac{1}{2}mv_{\\infty}^{2}=\\frac{GMm}{2a}.$$",
+  "img_cn": "图片是第4-17题的页面截图，背景为白色，包含题目和解答。题目是“4-17 某彗星受其他星体引力干扰后进入双曲线轨道，已知双曲线参量a，b，彗星和太阳质量分别记为m和M，试求彗星近日点速度$v_D$和轨道能量E。”解答部分包含数学推导，如$c=\\sqrt{a^2+b^2}$，能量和角动量方程，以及最终表达式$v_D=\\frac{b}{c-a}\\sqrt{\\frac{GM}{a}}$，$v_\\infty=\\sqrt{\\frac{GM}{a}}$，$E=\\frac{GMm}{2a}$。图中还包含一个未完全显示的图4-14。",
+  "img_en": "The image is a page screenshot of problem 4-17, with a white background, containing the problem statement and solution. The problem reads: \"4-17 A comet enters a hyperbolic orbit after being gravitationally perturbed by other celestial bodies. Given the hyperbolic parameters a, b, and the masses of the comet (m) and the Sun (M), find the perihelion velocity $v_D$ and the orbital energy E.\" The solution includes mathematical derivations such as $c=\\sqrt{a^2+b^2}$, energy and angular momentum equations, and the final expressions $v_D=\\frac{b}{c-a}\\sqrt{\\frac{GM}{a}}$, $v_\\infty=\\sqrt{\\frac{GM}{a}}$, $E=\\frac{GMm}{2a}$. The image also includes a partially shown Figure 4-14.",
+  "problem_answer": "$v_D = \\dfrac{b}{c-a}\\sqrt{\\dfrac{GM}{a}}$，$E = \\dfrac{GMm}{2a}$。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

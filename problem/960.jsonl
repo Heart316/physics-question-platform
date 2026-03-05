@@ -1,0 +1,14 @@
+{
+  "problem_id": "960",
+  "problem_text_cn": "3-17 “弹弓效应”是航天技术中增大宇宙探测器速率的一种有效方法。如图3-21所示，土星以相对于太阳的轨道速率$v_{M}=9.6\\,\\text{km/s}$运行，一空间探测器以相对于太阳的速率$v_{0}=10.4\\,\\text{km/s}$迎向土星飞行。由于土星的引力，探测器绕过土星沿着和原来相反的方向离去，试求探测器离去时相对于太阳的速率$v$。",
+  "problem_text_en": "3-17 The “slingshot effect” is an effective method in space technology for increasing the speed of a space probe. As shown in Figure 3-21, Saturn moves with an orbital speed relative to the Sun of $v_{M}=9.6\\,\\text{km/s}$, and a space probe flies towards Saturn with a speed relative to the Sun of $v_{0}=10.4\\,\\text{km/s}$. Due to Saturn’s gravity, the probe passes around Saturn and departs in the opposite direction. Determine the speed $v$ of the probe relative to the Sun upon departure.",
+  "problem_img": ["960_1.png"],
+  "problem_img_process": [],
+  "problem_solution_cn": "解 设土星质量为$M$，探测器质量为$m$，全过程可处理成类弹性碰撞，可得\n\n$$ v=\\left|\\frac{(m-M)v_{0}-2Mv_{M}}{m+M}\\right| $$\n\n因$M\\gg m$，即有\n\n$$ v=\\left|-v_{0}-2v_{M}\\right|=29.6\\,\\text{km/s}. $$",
+  "problem_solution_en": "Solution Let the mass of Saturn be $M$, and the mass of the probe be $m$. The whole process can be treated as an elastic‑like collision, yielding\n\n$$ v=\\left|\\frac{(m-M)v_{0}-2Mv_{M}}{m+M}\\right| $$\n\nSince $M\\gg m$, we have\n\n$$ v=\\left|-v_{0}-2v_{M}\\right|=29.6\\,\\text{km/s}. $$",
+  "img_cn": "图片主要展示了一道关于“弹弓效应”的物理习题。题目文字部分居中偏上，用黑色宋体书写。核心公式和解释性文字位于中部，同样为黑色字体。右侧有一个示意图，描绘了土星（用环形图案表示，标记为M）和迎向它飞行的探测器（标记为m）。探测器的飞行轨迹用带箭头的虚线和实线表示，初始速度$v_0$指向土星，离开速度$v$与原方向相反。示意图下方是图注“图 3-21”。",
+  "img_en": "The image primarily displays a physics problem concerning the \"slingshot effect\". The problem text is centered at the top, written in black SimSun font. Key formulas and explanatory text are in the middle, also in black. On the right side, there's a schematic diagram showing Saturn (represented by a ringed pattern, labeled M) and an approaching space probe (labeled m). The probe's trajectory is depicted by dashed and solid arrows; initial velocity $v_0$ points towards Saturn, while the departure velocity $v$ is in the opposite direction. The figure is captioned \"图 3-21\".",
+  "problem_answer": "探测器离去时相对于太阳的速率 $v = 29.6\\,\\text{km/s}$。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics", "Modern Physics"]
+}
