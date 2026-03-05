@@ -1,0 +1,14 @@
+{
+  "problem_id": "1440",
+  "problem_text_cn": "1440 利用光杠杆测量细钢丝的杨氏模量。[可供仪器和用具] 杨氏模量测定仪（望远镜、直尺、光杠杆、砝码等）、螺旋测微计、卷尺、三角板、细钢丝。[要求] (1) 画出各测量量的表格。(2) 调整测定仪的状态。(3) 正确选用测量量具，并将测量数据填入表中。(4) 计算杨氏模量的平均值及相对误差（$\\Delta N$用逐差法）。",
+  "problem_text_en": "1440 Measure the Young's modulus of a thin steel wire using an optical lever. [Available instruments and tools] Young's modulus measuring instrument (telescope, straightedge, optical lever, weights, etc.), micrometer screw gauge, tape measure, triangle, thin steel wire. [Requirements] (1) Draw a table for each measured quantity. (2) Adjust the state of the measuring instrument. (3) Correctly select measuring tools and fill the measurement data into the table. (4) Calculate the average value and relative error of Young's modulus (use successive difference method for $\\Delta N$).",
+  "problem_img": ["图1440_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1440_1：光杠杆测量细钢丝杨氏模量装置示意图"],
+  "img_en": ["Fig. 1440_1: Schematic diagram of measuring Young's modulus of thin steel wire with optical lever"],
+  "problem_solution_cn": "【核心思路】杨氏模量公式$E = \\frac{FL}{S \\cdot \\Delta L}$，其中$S = \\pi\\left(\\frac{d}{2}\\right)^2$（$d$为钢丝直径），光杠杆$\\Delta L = \\frac{k\\Delta N}{2D}$（$k$为后足尖至前两足尖连线垂直距离，$D$为镜面至标尺距离，$\\Delta N$为逐差后标尺读数差）。杨氏模量测量公式$E = \\frac{8FLD}{\\pi d^2 k \\Delta N}$，$\\Delta N$用加重法和减重法测量。",
+  "problem_solution_en": "【Core Idea】Young's modulus formula $E = \\frac{FL}{S \\cdot \\Delta L}$, where $S = \\pi\\left(\\frac{d}{2}\\right)^2$ ($d$ is the diameter of the steel wire), and optical lever $\\Delta L = \\frac{k\\Delta N}{2D}$ ($k$ is the vertical distance from the rear foot tip to the line connecting the two front foot tips, $D$ is the distance from the mirror to the scale, $\\Delta N$ is the scale reading difference after successive difference). Young's modulus measurement formula $E = \\frac{8FLD}{\\pi d^2 k \\Delta N}$, and $\\Delta N$ is measured by weight addition and weight reduction methods.",
+  "problem_answer": "杨氏模量公式：$\\boldsymbol{E = \\frac{8FLD}{\\pi d^2 k \\Delta N}}$；测量关键：光杠杆测微小伸长，逐差法处理数据。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics", "Optics"]
+}

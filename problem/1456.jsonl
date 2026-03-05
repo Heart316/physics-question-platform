@@ -1,0 +1,14 @@
+{
+  "problem_id": "1456",
+  "problem_text_cn": "1456 混合法测定液体的比汽化热。[可供仪器和用具] 水蒸气锅、煤气炉（或电炉）、量热器（含搅拌器）、物理天平、数字式温度计等。[要求] (1) 写出测量水的比汽化热的原理和计算公式；(2) 写出实验方法；(3) 测量并计算水在100℃时的比汽化热。",
+  "problem_text_en": "1456 Determine the specific vaporization heat of a liquid using the mixing method. [Available instruments and tools] Steam pot, gas stove (or electric furnace), calorimeter (including stirrer), physical balance, digital thermometer, etc. [Requirements] (1) Write down the principle and calculation formula for measuring the specific vaporization heat of water; (2) Write down the experimental method; (3) Measure and calculate the specific vaporization heat of water at 100℃.",
+  "problem_img": ["图1456_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1456_1：混合法测比汽化热装置及数据处理"],
+  "img_en": ["Fig. 1456_1: Mixing method for measuring specific vaporization heat device and data processing"],
+  "problem_solution_cn": "【核心思路】100℃水蒸气冷凝为水并降温至θ₂，放出热量$ML + Mc_w(\\theta_3 - \\theta_2)$；量热器和水吸收热量$(mc_w + m_1c_c)(\\theta_2 - \\theta_1)$，热平衡得$ML + Mc_w(\\theta_3 - \\theta_2) = (mc_w + m_1c_c)(\\theta_2 - \\theta_1)$，故$L = \\frac{mc_w + m_1c_c}{M}(\\theta_2 - \\theta_1) - c_w(\\theta_3 - \\theta_2)$。代入数据：$m = 262.095\\ \\mathrm{g}$，$m_1 = 143.965\\ \\mathrm{g}$，$c_w = 4.188\\ \\mathrm{J/g \\cdot ^\\circ C}$，$c_c = 0.387\\ \\mathrm{J/g \\cdot ^\\circ C}$，$\\theta_1 = 2.91\\ \\mathrm{^\\circ C}$，$\\theta_2 = 23.88\\ \\mathrm{^\\circ C}$，$\\theta_3 = 100.0\\ \\mathrm{^\\circ C}$，$M = 9.420\\ \\mathrm{g}$，得$L = 2.248 \\times 10^6\\ \\mathrm{J/kg}$，与标准值$2.257 \\times 10^6\\ \\mathrm{J/kg}$百分差约0.4%。",
+  "problem_solution_en": "【Core Idea】Water vapor at 100℃ condenses into water and cools to θ₂, releasing heat $ML + Mc_w(\\theta_3 - \\theta_2)$; calorimeter and water absorb heat $(mc_w + m_1c_c)(\\theta_2 - \\theta_1)$. Heat balance gives $ML + Mc_w(\\theta_3 - \\theta_2) = (mc_w + m_1c_c)(\\theta_2 - \\theta_1)$, so $L = \\frac{mc_w + m_1c_c}{M}(\\theta_2 - \\theta_1) - c_w(\\theta_3 - \\theta_2)$. Substituting data: $m = 262.095\\ \\mathrm{g}$, $m_1 = 143.965\\ \\mathrm{g}$, $c_w = 4.188\\ \\mathrm{J/g \\cdot ^\\circ C}$, $c_c = 0.387\\ \\mathrm{J/g \\cdot ^\\circ C}$, $\\theta_1 = 2.91\\ \\mathrm{^\\circ C}$, $\\theta_2 = 23.88\\ \\mathrm{^\\circ C}$, $\\theta_3 = 100.0\\ \\mathrm{^\\circ C}$, $M = 9.420\\ \\mathrm{g}$, get $L = 2.248 \\times 10^6\\ \\mathrm{J/kg}$, with a percentage difference of about 0.4% from the standard value $2.257 \\times 10^6\\ \\mathrm{J/kg}$.",
+  "problem_answer": "水的比汽化热：$\\boldsymbol{2.248 \\times 10^6\\ \\mathrm{J/kg}}$（100℃）；与标准值百分差：$\\boldsymbol{\\approx 0.4\\%}$；测量关键：预冷量热器，使初温低于露点，减小与外界热交换。",
+  "difficulty": "3",
+  "problem_tags": ["Thermodynamics"]
+}

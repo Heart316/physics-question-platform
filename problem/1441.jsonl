@@ -1,0 +1,14 @@
+{
+  "problem_id": "1441",
+  "problem_text_cn": "1441 空气中声速的测量。[可供仪器和用具] 示波器、低频信号发生器、超声波声速测量仪、三通接头（电分配器）、同轴电缆数根。[要求] (1) 写出有关公式。(2) 写出简要的实验步骤。(3) 多次测量求平均值。",
+  "problem_text_en": "1441 Measurement of sound velocity in air. [Available instruments and tools] Oscilloscope, low-frequency signal generator, ultrasonic sound velocity measuring instrument, three-way connector (electric distributor), several coaxial cables. [Requirements] (1) Write down the relevant formulas. (2) Write down the brief experimental steps. (3) Take multiple measurements and find the average value.",
+  "problem_img": ["图1441_1", "图1441_2", "图1441_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1441_1：空气中声速测量实验装置示意图", "图1441_2：共振干涉法测量数据及结果", "图1441_3：相位法测量数据及结果"],
+  "img_en": ["Fig. 1441_1: Schematic diagram of experimental device for measuring sound velocity in air", "Fig. 1441_2: Resonance interference method measurement data and results", "Fig. 1441_3: Phase method measurement data and results"],
+  "problem_solution_cn": "【核心思路】共振干涉法：保持频率$f$不变，测相邻接收信号极大值时接收面间距$\\lambda/2$，得波长$\\lambda$，声速$v = f \\cdot \\lambda$；相位比较法：相位差$\\varphi = \\omega t = 2\\pi l/\\lambda$，当$\\varphi$改变$\\pi$时，距离$l$改变$\\lambda/2$，得$\\lambda$后求$v$。代入数据：共振干涉法$f = 35669.4\\ \\mathrm{Hz}$，$\\lambda = 0.9591\\ \\mathrm{cm}$，$v_1 = 342.1\\ \\mathrm{m/s}$；相位法$f = 35669\\ \\mathrm{Hz}$，$\\lambda = 0.9608\\ \\mathrm{cm}$，$v_2 = 342.7\\ \\mathrm{m/s}$。温度$\\theta = 14.8\\ \\mathrm{^\\circ C}$，公认值$v = 340.31\\ \\mathrm{m/s}$，两种方法不确定度 < 1%。",
+  "problem_solution_en": "【Core Idea】Resonance interference method: Keep frequency $f$ constant, measure the distance $\\lambda/2$ between receiving surfaces when adjacent received signals reach maximum values, get wavelength $\\lambda$, sound velocity $v = f \\cdot \\lambda$; Phase comparison method: Phase difference $\\varphi = \\omega t = 2\\pi l/\\lambda$, when $\\varphi$ changes by $\\pi$, distance $l$ changes by $\\lambda/2$, get $\\lambda$ and then find $v$. Substituting data: Resonance interference method $f = 35669.4\\ \\mathrm{Hz}$, $\\lambda = 0.9591\\ \\mathrm{cm}$, $v_1 = 342.1\\ \\mathrm{m/s}$; Phase method $f = 35669\\ \\mathrm{Hz}$, $\\lambda = 0.9608\\ \\mathrm{cm}$, $v_2 = 342.7\\ \\mathrm{m/s}$. Temperature $\\theta = 14.8\\ \\mathrm{^\\circ C}$, accepted value $v = 340.31\\ \\mathrm{m/s}$, uncertainty of both methods < 1%.",
+  "problem_answer": "声速公式：$\\boldsymbol{v = f \\cdot \\lambda}$；共振干涉法声速：$\\boldsymbol{342.1\\ \\mathrm{m/s}}$；相位法声速：$\\boldsymbol{342.7\\ \\mathrm{m/s}}$；与公认值不确定度 < 1%；测量关键：调节共振频率，逐差法处理数据。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics", "Thermodynamics"]
+}

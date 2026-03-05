@@ -1,0 +1,14 @@
+{
+  "problem_id": "1443",
+  "problem_text_cn": "1443 单摆的振动周期$T = 2\\pi\\sqrt{\\frac{l}{g}}$，其中摆长$l$为悬点到摆球重心的距离，试用下列器具测量重力加速度$g$。[可供仪器和用具] 支架台、不规则球体、米尺、秒表、细线。[要求] (1) 导出测定重力加速度$g$的公式。(2) 简要写出实验步骤。(3) 记录测量数据，得出实验结果。",
+  "problem_text_en": "1443 The vibration period of a simple pendulum is $T = 2\\pi\\sqrt{\\frac{l}{g}}$, where the pendulum length $l$ is the distance from the suspension point to the center of gravity of the pendulum ball. Use the following instruments to measure the gravitational acceleration $g$. [Available instruments and tools] Support stand, irregular sphere, meter stick, stopwatch, thin wire. [Requirements] (1) Derive the formula for measuring gravitational acceleration $g$. (2) Briefly write down the experimental steps. (3) Record the measurement data and obtain the experimental results.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】由$T^2 = \\frac{4\\pi^2}{g}(l_1 + r)$（$l_1$为悬线长度，$r$为连接点至球体重心距离），改变$l_1$测 6 组$T$，作$l_1-T^2$图，斜率$\\frac{g}{4\\pi^2}$，或逐差法$T_6^2-T_3^2 = \\frac{4\\pi^2}{g}(l_6-l_3)$，$T_5^2-T_2^2 = \\frac{4\\pi^2}{g}(l_5-l_2)$，$T_4^2-T_1^2 = \\frac{4\\pi^2}{g}(l_4-l_1)$，得$g = 4\\pi^2\\left[\\frac{l_6+l_5+l_4-l_3-l_2-l_1}{T_6^2+T_5^2+T_4^2-T_3^2-T_2^2-T_1^2}\\right]$。实验步骤：(1) 用细线挂不规则球体，使$l_1 \\approx 100.0\\ \\mathrm{cm}$；(2) 测 50 次周期时间，得$T_6$，摆角 < 5°；(3) 逐次改变$l_1$为 90.0、80.0、70.0、60.0、50.0 cm，测$T_5$、$T_4$、$T_3$、$T_2$、$T_1$；(4) 逐差法求$g$。",
+  "problem_solution_en": "【Core Idea】From $T^2 = \\frac{4\\pi^2}{g}(l_1 + r)$ ($l_1$ is the length of the suspension wire, $r$ is the distance from the connection point to the center of gravity of the sphere), change $l_1$ to measure 6 groups of $T$, plot $l_1-T^2$ graph, slope $\\frac{g}{4\\pi^2}$, or successive difference method $T_6^2-T_3^2 = \\frac{4\\pi^2}{g}(l_6-l_3)$, $T_5^2-T_2^2 = \\frac{4\\pi^2}{g}(l_5-l_2)$, $T_4^2-T_1^2 = \\frac{4\\pi^2}{g}(l_4-l_1)$, get $g = 4\\pi^2\\left[\\frac{l_6+l_5+l_4-l_3-l_2-l_1}{T_6^2+T_5^2+T_4^2-T_3^2-T_2^2-T_1^2}\\right]$. Experimental steps: (1) Hang the irregular sphere with thin wire so that $l_1 \\approx 100.0\\ \\mathrm{cm}$; (2) Measure the time for 50 cycles to get $T_6$, pendulum angle < 5°; (3) Change $l_1$ to 90.0, 80.0, 70.0, 60.0, 50.0 cm successively, measure $T_5$, $T_4$, $T_3$, $T_2$, $T_1$; (4) Use successive difference method to find $g$.",
+  "problem_answer": "重力加速度公式：$\\boldsymbol{g = 4\\pi^2\\left[\\frac{l_6+l_5+l_4-l_3-l_2-l_1}{T_6^2+T_5^2+T_4^2-T_3^2-T_2^2-T_1^2}\\right]}$；测量关键：逐差法处理数据，摆角 < 5°。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

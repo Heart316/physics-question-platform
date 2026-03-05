@@ -1,0 +1,14 @@
+{
+  "problem_id": "1450",
+  "problem_text_cn": "1450 测量固体的热膨胀系数。[可供仪器和用具] 线膨胀仪、蒸气发生器、金属试棒、千分尺、米尺、光杠杆、温度计等。[要求] (1) 写出测量金属热膨胀系数原理及公式；(2) 写出实验方法；(3) 测量黄铜材料在室温至 $100\\ \\mathrm{^\\circ C}$ 时的线膨胀系数。",
+  "problem_text_en": "1450 Measure the thermal expansion coefficient of solids. [Available instruments and tools] Linear expansion instrument, steam generator, metal test bar, micrometer, meter stick, optical lever, thermometer, etc. [Requirements] (1) Write down the principle and formula for measuring the linear thermal expansion coefficient of metals; (2) Write down the experimental method; (3) Measure the linear thermal expansion coefficient of brass from room temperature to $100\\ \\mathrm{^\\circ C}$.",
+  "problem_img": ["图1450_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1450_1：光杠杆测线膨胀装置及数据处理"],
+  "img_en": ["Fig. 1450_1: Optical lever linear expansion measuring device and data processing"],
+  "problem_solution_cn": "【核心思路】金属棒受热伸长 $\\Delta L = L_1 \\alpha (t_2 - t_1)$，光杠杆测微小伸长 $\\Delta L = \\frac{bd}{2D}$，联立得 $\\alpha = \\frac{bd}{2DL(t_2 - t_1)}$。代入数据：$L = 49.80\\ \\mathrm{cm}$，$t_1 = 26.2\\ \\mathrm{^\\circ C}$，$t_2 = 98.6\\ \\mathrm{^\\circ C}$，$d = 1.84\\ \\mathrm{cm}$，$D = 103.3\\ \\mathrm{cm}$，$b = 7.40\\ \\mathrm{cm}$，得 $\\alpha = 1.83 \\times 10^{-5}\\ \\mathrm{(^\\circ C)^{-1}}$（$26.2\\ \\mathrm{^\\circ C} \\sim 98.6\\ \\mathrm{^\\circ C}$）。",
+  "problem_solution_en": "【Core Idea】Metal bar expands when heated: $\\Delta L = L_1 \\alpha (t_2 - t_1)$. Optical lever measures small elongation $\\Delta L = \\frac{bd}{2D}$, leading to $\\alpha = \\frac{bd}{2DL(t_2 - t_1)}$. Substituting data: $L = 49.80\\ \\mathrm{cm}$, $t_1 = 26.2\\ \\mathrm{^\\circ C}$, $t_2 = 98.6\\ \\mathrm{^\\circ C}$, $d = 1.84\\ \\mathrm{cm}$, $D = 103.3\\ \\mathrm{cm}$, $b = 7.40\\ \\mathrm{cm}$, get $\\alpha = 1.83 \\times 10^{-5}\\ \\mathrm{(^\\circ C)^{-1}}$ ($26.2\\ \\mathrm{^\\circ C} \\sim 98.6\\ \\mathrm{^\\circ C}$).",
+  "problem_answer": "黄铜线膨胀系数：$\\boldsymbol{1.83 \\times 10^{-5}\\ \\mathrm{(^\\circ C)^{-1}}}$（$26.2\\ \\mathrm{^\\circ C} \\sim 98.6\\ \\mathrm{^\\circ C}$）；测量关键：光杠杆测微小伸长，消除视差。",
+  "difficulty": "3",
+  "problem_tags": ["Thermodynamics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1452",
+  "problem_text_cn": "1452 用混合法测量冰的比熔解热。[可供仪器和用具] 量热器、水银温度计、物理天平、纯水、冰、铁架和夹子等。[要求] (1) 写出混合法测量冰熔解热公式；(2) 选择最佳实验参数，尽可能减少实验系统误差；(3) 测量冰的比熔解热。",
+  "problem_text_en": "1452 Measure the specific fusion heat of ice using the mixing method. [Available instruments and tools] Calorimeter, mercury thermometer, physical balance, pure water, ice, iron stand and clamps, etc. [Requirements] (1) Write down the formula for measuring the fusion heat of ice using the mixing method; (2) Select the best experimental parameters to minimize systematic errors as much as possible; (3) Measure the specific fusion heat of ice.",
+  "problem_img": ["图1452_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1452_1：混合法测冰熔解热装置及数据处理"],
+  "img_en": ["Fig. 1452_1: Mixing method for measuring ice fusion heat device and data processing"],
+  "problem_solution_cn": "【核心思路】0℃冰熔化为水并升温至θ₂，吸收热量$m\\lambda + mc\\theta_2$；量热器、搅拌器和水放出热量$(Mc + M_1c_1)(\\theta_1 - \\theta_2)$，热平衡得$\\lambda = \\frac{Mc + M_1c_1}{m}(\\theta_1 - \\theta_2) - c\\theta_2$。代入数据：$M = 201.240\\ \\mathrm{g}$，$M_1 = 144.160\\ \\mathrm{g}$，$c = 4.180 \\times 10^3\\ \\mathrm{J/(kg \\cdot K)}$，$c_1 = 385\\ \\mathrm{J/(kg \\cdot K)}$，$\\theta_1 = 31.39\\ \\mathrm{^\\circ C}$，$\\theta_2 = 19.77\\ \\mathrm{^\\circ C}$，$m = 25.400\\ \\mathrm{g}$，得$\\lambda = 327.9 \\times 10^3\\ \\mathrm{J/kg}$，与标准值$332.9 \\times 10^3\\ \\mathrm{J/kg}$百分差约1.5%。",
+  "problem_solution_en": "【Core Idea】Ice at 0℃ melts into water and warms to θ₂, absorbing heat $m\\lambda + mc\\theta_2$; calorimeter, stirrer and water release heat $(Mc + M_1c_1)(\\theta_1 - \\theta_2)$. Heat balance gives $\\lambda = \\frac{Mc + M_1c_1}{m}(\\theta_1 - \\theta_2) - c\\theta_2$. Substituting data: $M = 201.240\\ \\mathrm{g}$, $M_1 = 144.160\\ \\mathrm{g}$, $c = 4.180 \\times 10^3\\ \\mathrm{J/(kg \\cdot K)}$, $c_1 = 385\\ \\mathrm{J/(kg \\cdot K)}$, $\\theta_1 = 31.39\\ \\mathrm{^\\circ C}$, $\\theta_2 = 19.77\\ \\mathrm{^\\circ C}$, $m = 25.400\\ \\mathrm{g}$, get $\\lambda = 327.9 \\times 10^3\\ \\mathrm{J/kg}$, with a percentage difference of about 1.5% from the standard value $332.9 \\times 10^3\\ \\mathrm{J/kg}$.",
+  "problem_answer": "冰的比熔解热：$\\boldsymbol{327.9 \\times 10^3\\ \\mathrm{J/kg}}$；与标准值百分差：$\\boldsymbol{\\approx 1.5\\%}$；测量关键：初温高于室温、终温低于露点，减小与外界热交换。",
+  "difficulty": "3",
+  "problem_tags": ["Thermodynamics"]
+}

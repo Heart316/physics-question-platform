@@ -1,0 +1,14 @@
+{
+  "problem_id": "1449",
+  "problem_text_cn": "1449 半径为 $r$ 的小圆球在无限宽广的黏性液体中下落，无旋涡时，受重力 $mg$、浮力 $\\frac{4}{3}\\pi r^3 \\rho g$、黏滞阻力 $6\\pi r \\eta v$。三力平衡时匀速下落：$mg = \\frac{4}{3}\\pi r^3 \\rho g + 6\\pi r \\eta v$，得 $\\eta = \\frac{m - \\frac{4}{3}\\pi r^3 \\rho}{6\\pi r v} \\cdot g$。实验中需对速度修正：$v = v_0(1 + 2.4d/D)(1 + 3.3d/2h)$，代入得 $\\eta = 1.331\\ \\mathrm{Pa \\cdot s}$，与蓖麻油公认值 $1.370\\ \\mathrm{Pa \\cdot s}$ 百分差为 $2.8\\%$。",
+  "problem_text_en": "1449 A small sphere with radius $r$ falls in an infinitely wide viscous liquid without eddies, subject to gravity $mg$, buoyancy $\\frac{4}{3}\\pi r^3 \\rho g$, and viscous drag $6\\pi r \\eta v$. When three forces balance, it falls at a constant speed: $mg = \\frac{4}{3}\\pi r^3 \\rho g + 6\\pi r \\eta v$, leading to $\\eta = \\frac{m - \\frac{4}{3}\\pi r^3 \\rho}{6\\pi r v} \\cdot g$. Velocity correction is needed in the experiment: $v = v_0(1 + 2.4d/D)(1 + 3.3d/2h)$, substituting gives $\\eta = 1.331\\ \\mathrm{Pa \\cdot s}$, with a percentage difference of $2.8\\%$ from the accepted value of castor oil $1.370\\ \\mathrm{Pa \\cdot s}$.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】小球匀速下落时三力平衡，由斯托克斯定律求黏滞系数。实验中因量筒有限，需对平均速度 $v_0$ 修正，代入修正后速度计算 $\\eta$。代入数据：$\\theta = 15.90\\ \\mathrm{^\\circ C}$，$\\rho_o = 0.961\\ \\mathrm{g/cm^3}$，$D = 6.72\\ \\mathrm{cm}$，$s_1 = 10.70\\ \\mathrm{cm}$，$s_2 = 20.12\\ \\mathrm{cm}$，$2r = 0.993\\ \\mathrm{mm}$，$t_1 = 39.76\\ \\mathrm{s}$，$t_2 = 74.14\\ \\mathrm{s}$，得 $\\eta = 1.331\\ \\mathrm{Pa \\cdot s}$。",
+  "problem_solution_en": "【Core Idea】When the sphere falls at a constant speed, three forces balance, and the viscosity coefficient is obtained from Stokes' law. Due to the limited measuring cylinder, the average velocity $v_0$ needs to be corrected in the experiment, and the corrected velocity is substituted to calculate $\\eta$. Substituting data: $\\theta = 15.90\\ \\mathrm{^\\circ C}$, $\\rho_o = 0.961\\ \\mathrm{g/cm^3}$, $D = 6.72\\ \\mathrm{cm}$, $s_1 = 10.70\\ \\mathrm{cm}$, $s_2 = 20.12\\ \\mathrm{cm}$, $2r = 0.993\\ \\mathrm{mm}$, $t_1 = 39.76\\ \\mathrm{s}$, $t_2 = 74.14\\ \\mathrm{s}$, get $\\eta = 1.331\\ \\mathrm{Pa \\cdot s}$.",
+  "problem_answer": "蓖麻油黏滞系数：$\\boldsymbol{1.331\\ \\mathrm{Pa \\cdot s}}$（$15.90\\ \\mathrm{^\\circ C}$）；与公认值百分差：$\\boldsymbol{2.8\\%}$；测量关键：速度修正消除有限容器影响。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

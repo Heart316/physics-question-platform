@@ -1,0 +1,14 @@
+{
+  "problem_id": "1442",
+  "problem_text_cn": "1442 测量滑块在倾斜气垫导轨上滑行时的速度和加速度。在调成一定倾斜度的气垫导轨上，用平板挡光片测量滑块自静止开始自由下滑至 50.0 cm 处的速度和滑块下滑时的加速度。[可供仪器和用具] 已调成倾斜并已接通压缩空气的气轨（气轨一侧贴有米尺），滑块，平板挡光片，光电门 2 只，光电计时器，游标卡尺。[要求] (1) 写出实验原理公式。(2) 写出实验设计思路。(3) 列出原始数据表。(4) 用作图法求实验结果。",
+  "problem_text_en": "1442 Measure the velocity and acceleration of a slider sliding on an inclined air track. On an air track adjusted to a certain inclination, use a flat light barrier to measure the velocity of the slider when it slides down freely from rest to 50.0 cm and the acceleration of the slider during sliding. [Available instruments and tools] Air track adjusted to be inclined and connected with compressed air (a meter stick is attached to one side of the air track), slider, flat light barrier, 2 photoelectric gates, photoelectric timer, vernier caliper. [Requirements] (1) Write down the experimental principle formula. (2) Write down the experimental design idea. (3) List the original data table. (4) Use the graphing method to find the experimental results.",
+  "problem_img": ["图1442_1", "图1442_2", "图1442_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1442_1：气垫导轨装置示意图", "图1442_2：v²-s 关系数据及逐差法处理结果", "图1442_3：v²-s 关系图"],
+  "img_en": ["Fig. 1442_1: Schematic diagram of air track device", "Fig. 1442_2: v²-s relationship data and results of successive difference method", "Fig. 1442_3: v²-s relationship graph"],
+  "problem_solution_cn": "【核心思路】滑块沿光滑斜面匀加速运动，满足$v^2 = v_0^2 + 2as$，加速度$a = g\\sin\\theta = g\\frac{h}{L}$（$h$为垫块高，$L$为导轨两端脚螺丝间距）。挡光板长度$\\Delta l$，挡光时间$\\Delta t$，平均速度$v = \\frac{\\Delta l}{\\Delta t}$近似为瞬时速度。作$v^2-s$图得直线，斜率$k = 2a$，截距$b$。代入数据：挡光板$\\Delta l = 1.000\\ \\mathrm{cm}$，最小二乘法得$k = 58.32\\ \\mathrm{cm^2/s^3}$，$b = 1335.4\\ \\mathrm{cm^2/s^2}$，加速度$a = 29.16\\ \\mathrm{cm/s^2}$，下滑 50.0 cm 处速度$v = 54.00\\ \\mathrm{cm/s}$。",
+  "problem_solution_en": "【Core Idea】The slider moves with uniform acceleration along the smooth inclined plane, satisfying $v^2 = v_0^2 + 2as$, and the acceleration $a = g\\sin\\theta = g\\frac{h}{L}$ ($h$ is the height of the cushion block, $L$ is the distance between the foot screws at both ends of the track). The length of the light barrier is $\\Delta l$, the light blocking time is $\\Delta t$, and the average velocity $v = \\frac{\\Delta l}{\\Delta t}$ is approximately the instantaneous velocity. Plotting $v^2-s$ gives a straight line with slope $k = 2a$ and intercept $b$. Substituting data: light barrier $\\Delta l = 1.000\\ \\mathrm{cm}$, least squares method gives $k = 58.32\\ \\mathrm{cm^2/s^3}$, $b = 1335.4\\ \\mathrm{cm^2/s^2}$, acceleration $a = 29.16\\ \\mathrm{cm/s^2}$, velocity at 50.0 cm sliding down $v = 54.00\\ \\mathrm{cm/s}$.",
+  "problem_answer": "加速度：$\\boldsymbol{29.16\\ \\mathrm{cm/s^2}}$；下滑 50.0 cm 处速度：$\\boldsymbol{54.00\\ \\mathrm{cm/s}}$；测量关键：$v^2-s$图求加速度，挡光板测瞬时速度。",
+  "difficulty": "4",
+  "problem_tags": ["Kinematics", "Mechanics"]
+}

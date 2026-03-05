@@ -1,0 +1,14 @@
+{
+  "problem_id": "1455",
+  "problem_text_cn": "1455 用实验的方法测量室温下浓度为百分之十的食盐水溶液的比热容。[可供仪器和用具] 物理天平、量热器、温度计、保温瓶、玻璃小烧杯2只、足量的水、冰、食盐和纱布。[要求] (1) 写出实验原理及步骤；(2) 测量并求得盐水溶液的比热容。",
+  "problem_text_en": "1455 Use an experimental method to measure the specific heat capacity of a 10% salt solution at room temperature. [Available instruments and tools] Physical balance, calorimeter, thermometer, thermos, 2 glass beakers, sufficient water, ice, salt and gauze. [Requirements] (1) Write down the experimental principle and steps; (2) Measure and find the specific heat capacity of the salt solution.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】量热器内盛盐水冷却：$(m_2c_2 + q)\\frac{\\Delta \\theta_2}{\\Delta t} = -\\alpha S(\\theta_2 - \\theta_0)^m$；换入同容积纯水冷却：$(m_1c_1 + q)\\frac{\\Delta \\theta_1}{\\Delta t} = -\\alpha S(\\theta_1 - \\theta_0)^m$。在相同温度$\\theta = \\theta_3$时，$(m_1c_1 + q)\\left.\\frac{\\Delta \\theta_1}{\\Delta t}\\right|_{\\theta=\\theta_3} = (m_2c_2 + q)\\left.\\frac{\\Delta \\theta_2}{\\Delta t}\\right|_{\\theta=\\theta_3}$，整理得$c_2 = \\frac{c_1m_1\\left.\\frac{\\Delta \\theta_1}{\\Delta t}\\right|_{\\theta=\\theta_3} - q\\left(1 - \\frac{\\Delta \\theta_1/\\Delta t}{\\Delta \\theta_2/\\Delta t}\\right)}{m_2\\left.\\frac{\\Delta \\theta_2}{\\Delta t}\\right|_{\\theta=\\theta_3}}$，其中$q$为量热器内杯、搅拌器、温度计的水当量，$c_1$为水的比热容。",
+  "problem_solution_en": "【Core Idea】Calorimeter filled with salt solution cooling: $(m_2c_2 + q)\\frac{\\Delta \\theta_2}{\\Delta t} = -\\alpha S(\\theta_2 - \\theta_0)^m$; replaced with pure water of the same volume cooling: $(m_1c_1 + q)\\frac{\\Delta \\theta_1}{\\Delta t} = -\\alpha S(\\theta_1 - \\theta_0)^m$. At the same temperature $\\theta = \\theta_3$, $(m_1c_1 + q)\\left.\\frac{\\Delta \\theta_1}{\\Delta t}\\right|_{\\theta=\\theta_3} = (m_2c_2 + q)\\left.\\frac{\\Delta \\theta_2}{\\Delta t}\\right|_{\\theta=\\theta_3}$, rearranged to get $c_2 = \\frac{c_1m_1\\left.\\frac{\\Delta \\theta_1}{\\Delta t}\\right|_{\\theta=\\theta_3} - q\\left(1 - \\frac{\\Delta \\theta_1/\\Delta t}{\\Delta \\theta_2/\\Delta t}\\right)}{m_2\\left.\\frac{\\Delta \\theta_2}{\\Delta t}\\right|_{\\theta=\\theta_3}}$, where $q$ is the water equivalent of the calorimeter cup, stirrer and thermometer, and $c_1$ is the specific heat capacity of water.",
+  "problem_answer": "盐水比热容公式：$\\boldsymbol{c_2 = \\frac{c_1m_1\\left.\\frac{\\Delta \\theta_1}{\\Delta t}\\right|_{\\theta=\\theta_3} - q\\left(1 - \\frac{\\Delta \\theta_1/\\Delta t}{\\Delta \\theta_2/\\Delta t}\\right)}{m_2\\left.\\frac{\\Delta \\theta_2}{\\Delta t}\\right|_{\\theta=\\theta_3}}}$；测量关键：同容积、同冷却条件下比较盐水和纯水的冷却速率。",
+  "difficulty": "4",
+  "problem_tags": ["Thermodynamics"]
+}

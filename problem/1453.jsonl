@@ -1,0 +1,14 @@
+{
+  "problem_id": "1453",
+  "problem_text_cn": "1453 用实验求空气自然对流和强迫对流条件下，热量传递符合的函数式。对流条件下$\\frac{\\Delta Q}{\\Delta t} = E(\\theta - \\theta_0)^m$，$\\frac{\\Delta Q}{\\Delta t} = Mc\\frac{\\Delta \\theta}{\\Delta t}$，联立得$\\frac{\\Delta \\theta}{\\Delta t} = k(\\theta - \\theta_0)^m$，取对数$\\ln\\left(\\frac{\\Delta \\theta}{\\Delta t}\\right) = m\\ln(\\theta - \\theta_0) + \\ln k$，拟合求$m$和$k$。自然对流：$\\theta_0 = 10.0\\ \\mathrm{^\\circ C}$，拟合得$m = 1.25$，$k = 0.0027$，$\\frac{\\Delta \\theta}{\\Delta t} = 0.0027(\\theta - \\theta_0)^{1.25}$；强迫对流：$\\theta_0 = 14.8\\ \\mathrm{^\\circ C}$，拟合得$m = 1.05$，$k = 0.023$，$\\frac{\\Delta \\theta}{\\Delta t} = 0.023(\\theta - \\theta_0)^{1.05}$。",
+  "problem_text_en": "1453 Use experiments to find the functional form of heat transfer under natural and forced convection of air. Under convection, $\\frac{\\Delta Q}{\\Delta t} = E(\\theta - \\theta_0)^m$, $\\frac{\\Delta Q}{\\Delta t} = Mc\\frac{\\Delta \\theta}{\\Delta t}$. Combining gives $\\frac{\\Delta \\theta}{\\Delta t} = k(\\theta - \\theta_0)^m$. Take logarithm: $\\ln\\left(\\frac{\\Delta \\theta}{\\Delta t}\\right) = m\\ln(\\theta - \\theta_0) + \\ln k$, fit to find $m$ and $k$. Natural convection: $\\theta_0 = 10.0\\ \\mathrm{^\\circ C}$, fitting gives $m = 1.25$, $k = 0.0027$, $\\frac{\\Delta \\theta}{\\Delta t} = 0.0027(\\theta - \\theta_0)^{1.25}$; Forced convection: $\\theta_0 = 14.8\\ \\mathrm{^\\circ C}$, fitting gives $m = 1.05$, $k = 0.023$, $\\frac{\\Delta \\theta}{\\Delta t} = 0.023(\\theta - \\theta_0)^{1.05}$.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】由量热学$\\frac{\\Delta Q}{\\Delta t} = Mc\\frac{\\Delta \\theta}{\\Delta t}$，代入对流公式$\\frac{\\Delta Q}{\\Delta t} = E(\\theta - \\theta_0)^m$，得$\\frac{\\Delta \\theta}{\\Delta t} = k(\\theta - \\theta_0)^m$，取对数线性拟合求$m$和$k$。自然对流：测$\\theta-t$关系，拟合得$m = 1.25$，$k = 0.0027$；强迫对流：开小风扇，测$\\theta-t$关系，拟合得$m = 1.05$，$k = 0.023$。",
+  "problem_solution_en": "【Core Idea】From calorimetry $\\frac{\\Delta Q}{\\Delta t} = Mc\\frac{\\Delta \\theta}{\\Delta t}$, substitute into convection formula $\\frac{\\Delta Q}{\\Delta t} = E(\\theta - \\theta_0)^m$, get $\\frac{\\Delta \\theta}{\\Delta t} = k(\\theta - \\theta_0)^m$, take logarithm and fit linearly to find $m$ and $k$. Natural convection: measure $\\theta-t$ relationship, fit to get $m = 1.25$, $k = 0.0027$; Forced convection: turn on small fan, measure $\\theta-t$ relationship, fit to get $m = 1.05$, $k = 0.023$.",
+  "problem_answer": "自然对流冷却公式：$\\boldsymbol{\\frac{\\Delta \\theta}{\\Delta t} = 0.0027(\\theta - \\theta_0)^{1.25}}$；强迫对流冷却公式：$\\boldsymbol{\\frac{\\Delta \\theta}{\\Delta t} = 0.023(\\theta - \\theta_0)^{1.05}}$；测量关键：对数线性拟合求指数$m$。",
+  "difficulty": "4",
+  "problem_tags": ["Thermodynamics"]
+}

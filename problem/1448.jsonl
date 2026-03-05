@@ -1,0 +1,14 @@
+{
+  "problem_id": "1448",
+  "problem_text_cn": "1448 用拉脱法测量水的表面张力系数。[可供仪器和用具] 液体表面张力系数测量仪（复旦天欣公司生产），砝码，水，玻璃皿，拉环，温度计，清洁纸。[要求] 用液体表面张力测定仪采用拉脱法测量室温下的液体表面张力系数。",
+  "problem_text_en": "1448 Measure the surface tension coefficient of water using the pull-off method. [Available instruments and tools] Liquid surface tension coefficient measuring instrument (produced by Fudan Tianxin Company), weights, water, glass dish, pull ring, thermometer, clean paper. [Requirements] Use the liquid surface tension measuring instrument to measure the surface tension coefficient of liquid at room temperature using the pull-off method.",
+  "problem_img": ["图1448_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1448_1：拉脱法测表面张力实验装置及数据处理"],
+  "img_en": ["Fig. 1448_1: Experimental device and data processing for measuring surface tension by pull-off method"],
+  "problem_solution_cn": "【核心思路】金属环拉脱液膜时，表面张力 $f = \\alpha \\cdot \\pi(D_1 + D_2)$，临脱离时 $F = mg + f$，液膜拉断后 $F' = mg$，故 $\\Delta U = kf$，得 $\\alpha = \\frac{\\Delta U}{k\\pi(D_1 + D_2)}$。先由砝码定标得灵敏度 $k = 3007\\ \\mathrm{mV/N}$，再测 $\\Delta U$，代入 $\\bar{D_1} = 3.316\\ \\mathrm{cm}$，$\\bar{D_2} = 3.491\\ \\mathrm{cm}$，$\\theta = 5.0\\ \\mathrm{^\\circ C}$，得 $\\bar{\\alpha} = 75.10 \\times 10^{-3}\\ \\mathrm{N/m}$，与公认值 $74.9 \\times 10^{-3}\\ \\mathrm{N/m}$ 百分差为 $0.27\\%$。",
+  "problem_solution_en": "【Core Idea】When the metal ring pulls off the liquid film, surface tension $f = \\alpha \\cdot \\pi(D_1 + D_2)$. At the moment before detachment, $F = mg + f$; after the film breaks, $F' = mg$, so $\\Delta U = kf$, leading to $\\alpha = \\frac{\\Delta U}{k\\pi(D_1 + D_2)}$. First calibrate the sensitivity $k = 3007\\ \\mathrm{mV/N}$ with weights, then measure $\\Delta U$, substitute $\\bar{D_1} = 3.316\\ \\mathrm{cm}$, $\\bar{D_2} = 3.491\\ \\mathrm{cm}$, $\\theta = 5.0\\ \\mathrm{^\\circ C}$, get $\\bar{\\alpha} = 75.10 \\times 10^{-3}\\ \\mathrm{N/m}$, with a percentage difference of $0.27\\%$ from the accepted value $74.9 \\times 10^{-3}\\ \\mathrm{N/m}$.",
+  "problem_answer": "水的表面张力系数：$\\boldsymbol{75.10 \\times 10^{-3}\\ \\mathrm{N/m}}$（$5.0\\ \\mathrm{^\\circ C}$）；与公认值百分差：$\\boldsymbol{0.27\\%}$；测量关键：传感器定标求灵敏度 $k$，拉脱瞬间测 $\\Delta U$。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}
