@@ -1,0 +1,14 @@
+{
+  "problem_id": "1084",
+  "problem_text_cn": "1084 质量$M$、半径$R$的匀质圆筒直立于光滑水平面，质量$m$的小球沿圆筒内壁等距螺旋槽无摩擦下滑，螺距等于下落高度$h$。系统由静止释放，求小球落地前相对地面系通过的路程$s$。",
+  "problem_text_en": "1084 A homogeneous cylinder of mass $M$ and radius $R$ stands upright on a smooth horizontal plane. A small ball of mass $m$ slides down without friction along an equidistant spiral groove on the inner wall of the cylinder, and the pitch of the spiral is equal to the falling height $h$. The system is released from rest. Find the distance $s$ traveled by the small ball relative to the ground frame before landing.",
+  "problem_img": ["图1084_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1084_1：小球-圆筒系统的水平圆周运动分析"],
+  "img_en": ["Fig. 1084_1: Analysis of the horizontal circular motion of the ball-cylinder system"],
+  "problem_solution_cn": "【核心思路】水平方向系统不受外力，**质心静止**且**动量、角动量守恒**。先推导小球相对地面的水平圆弧路程$l$，再结合竖直方向下落高度$h$，由勾股定理求合路程$s$。",
+  "problem_solution_en": "【Core Idea】The system is not subjected to external forces in the horizontal direction, so the **center of mass is stationary** and **momentum and angular momentum are conserved**. First derive the horizontal arc distance $l$ of the ball relative to the ground, then combine the vertical falling height $h$ and use the Pythagorean theorem to find the resultant distance $s$.",
+  "problem_answer": "小球相对地面系通过的路程$\\boldsymbol{s = \\sqrt{\\left(\\dfrac{2\\pi M}{M + 2m}R\\right)^2 + h^2}}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

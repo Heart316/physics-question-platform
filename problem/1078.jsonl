@@ -1,0 +1,14 @@
+{
+  "problem_id": "1078",
+  "problem_text_cn": "1078 质量$m$、半径$r$的匀质球置于倾角$\\theta$的斜面底端，球心初速为零，绕过中心且平行于斜面的水平轴以角速度$\\omega_0$旋转，球与斜面间摩擦因数$\\mu>\\tan\\theta$。求球能上升的最大高度$h$。",
+  "problem_text_en": "1078 A homogeneous sphere of mass $m$ and radius $r$ is placed at the bottom of an inclined plane with an inclination angle $\\theta$. The initial velocity of the center of the sphere is zero, and it rotates about a horizontal axis passing through the center and parallel to the inclined plane with an angular velocity $\\omega_0$. The friction coefficient between the sphere and the inclined plane is $\\mu>\\tan\\theta$. Find the maximum height $h$ that the sphere can rise to.",
+  "problem_img": ["图1078_1", "图1078_2", "图1078_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1078_1：球体初始转动状态", "图1078_2：第一阶段（滑动摩擦加速上滑）受力分析", "图1078_3：第二阶段（静摩擦纯滚减速）受力分析"],
+  "img_en": ["Fig. 1078_1: Initial rotational state of the sphere", "Fig. 1078_2: Force analysis of the first stage (sliding friction accelerating upward)", "Fig. 1078_3: Force analysis of the second stage (static friction pure rolling deceleration)"],
+  "problem_solution_cn": "【核心思路】分两阶段分析：1. 滑动摩擦阶段：摩擦力向上，球心加速、角速度减速，直至达到纯滚条件$v_C=\\omega r$，由牛顿定律和转动定律求此阶段的位移$l_1$；2. 纯滚减速阶段：摩擦力为向上的静摩擦，球心与角速度同步减速至零，由纯滚条件和动能定理求位移$l_2$；总高度$h=(l_1+l_2)\\sin\\theta$。",
+  "problem_solution_en": "【Core Idea】Analyze in two stages: 1. Sliding friction stage: Friction acts upward, the center of the sphere accelerates and the angular velocity decelerates until the pure rolling condition $v_C=\\omega r$ is reached. Find the displacement $l_1$ of this stage using Newton's laws and the rotational equation of motion; 2. Pure rolling deceleration stage: Friction is static friction upward, the center of the sphere and angular velocity decelerate to zero synchronously. Find the displacement $l_2$ using the pure rolling condition and the work-energy theorem; Total height $h=(l_1+l_2)\\sin\\theta$.",
+  "problem_answer": "球能上升的最大高度$\\boldsymbol{h = \\dfrac{2\\omega_0^2 r^2 (\\mu \\cos\\theta - \\sin\\theta)}{5(7\\mu \\cos\\theta - 2\\sin\\theta)g}}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

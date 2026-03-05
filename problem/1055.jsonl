@@ -1,0 +1,14 @@
+{
+  "problem_id": "1055",
+  "problem_text_cn": "1055 倾角θ的斜面上，质量m、半径r的匀质圆柱体绕有轻绳，绳另一端缠绕在斜面顶端、质量M、半径r的匀质圆盘定滑轮上。圆柱体沿斜面滚下时绳不伸长、无相对滑动，不计摩擦。（1）若圆柱体纯滚，求其质心加速度；（2）求圆柱体纯滚的条件。",
+  "problem_text_en": "1055 On an inclined plane with an inclination angle θ, a uniform cylinder of mass m and radius r is wound with a light string, and the other end of the string is wound around a fixed pulley which is a uniform disk of mass M and radius r at the top of the inclined plane. When the cylinder rolls down the inclined plane, the string does not stretch and has no relative slip, and friction is neglected. (1) If the cylinder rolls without slipping, find the acceleration of its center of mass; (2) Find the condition for the cylinder to roll without slipping.",
+  "problem_img": ["图1055_1", "图1055_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1055_1：斜面-圆柱体-定滑轮装置", "图1055_2：圆柱体与定滑轮的受力及运动分析"],
+  "img_en": ["Fig. 1055_1: Inclined plane-cylinder-fixed pulley device", "Fig. 1055_2: Force and motion analysis of the cylinder and fixed pulley"],
+  "problem_solution_cn": "【核心思路】1. 对圆柱体、定滑轮分别列平动、转动方程，结合线角速度关系$\\beta_M = 2\\beta_m$、纯滚条件$a = \\beta_m r$，联立求解质心加速度；2. 由纯滚的静摩擦力上限$f \\leqslant \\mu mg\\cos\\theta$，推导摩擦因数的最小值条件。",
+  "problem_solution_en": "【Core Idea】1. List the translational and rotational equations for the cylinder and fixed pulley respectively, combine the linear-angular velocity relationship $\\beta_M = 2\\beta_m$ and the rolling without slipping condition $a = \\beta_m r$, and solve the centroid acceleration simultaneously; 2. Derive the minimum friction coefficient condition from the upper limit of static friction for rolling without slipping $f \\leqslant \\mu mg\\cos\\theta$.",
+  "problem_answer": "（1）圆柱体质心加速度$\\boldsymbol{a = \\dfrac{2m}{4M + 3m}g\\sin\\theta}$；（2）纯滚条件为$\\boldsymbol{\\mu \\geqslant \\dfrac{2M + m}{4M + 3m}\\tan\\theta}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

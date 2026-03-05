@@ -1,0 +1,13 @@
+{
+  "problem_id": "1087",
+  "problem_text_cn": "1087 西藏布达拉宫海拔$z=3756.5\\ \\mathrm{m}$，不计大气温度随高度的变化，求该处的大气压强$p$。（已知$p_0=1.01\\times10^5\\ \\mathrm{Pa}$，空气摩尔质量$\\mu=28.8\\times10^{-3}\\ \\mathrm{kg/mol}$，$R=8.3\\ \\mathrm{J/(mol\\cdot K)}$，$T=273\\ \\mathrm{K}$）",
+  "problem_text_en": "1087 The Potala Palace in Tibet is at an altitude $z=3756.5\\ \\mathrm{m}$. Neglecting the change of atmospheric temperature with height, find the atmospheric pressure $p$ at this location. (Given $p_0=1.01\\times10^5\\ \\mathrm{Pa}$, molar mass of air $\\mu=28.8\\times10^{-3}\\ \\mathrm{kg/mol}$, $R=8.3\\ \\mathrm{J/(mol\\cdot K)}$, $T=273\\ \\mathrm{K}$)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】应用**等温大气压公式**$p = p_0 e^{-\\frac{\\mu g}{RT}z}$，将已知物理量代入公式计算，得到该处大气压强与标准大气压的比值。",
+  "problem_solution_en": "【Core Idea】Apply the **isothermal atmospheric pressure formula** $p = p_0 e^{-\\frac{\\mu g}{RT}z}$, substitute the known physical quantities into the formula for calculation, and obtain the ratio of the atmospheric pressure at this location to the standard atmospheric pressure.",
+  "problem_answer": "布达拉宫处的大气压强$\\boldsymbol{p = 0.63p_0 = 0.63\\times10^5\\ \\mathrm{Pa}}$",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

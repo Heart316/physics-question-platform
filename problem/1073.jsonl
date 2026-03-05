@@ -1,0 +1,14 @@
+{
+  "problem_id": "1073",
+  "problem_text_cn": "1073 半径为$R$的均匀圆木以平动速度$v_0$匀速纯滚，与高为$h$的台阶相遇，接触处完全非弹性碰撞（$A$点速度骤降为零），且$A$点无相对滑动。求：（1）圆木能绕侧棱滚上台阶的$v_0$和$h$的取值范围；（2）$A$点与侧棱间摩擦因数$\\mu$的取值范围。",
+  "problem_text_en": "1073 A uniform log of radius $R$ rolls without slipping uniformly with a translational velocity $v_0$, and meets a step of height $h$. The contact point undergoes a completely inelastic collision (the velocity of point $A$ drops to zero abruptly), and there is no relative slip at point $A$. Find: (1) The range of values of $v_0$ and $h$ for the log to roll up the step around the edge; (2) The range of values of the friction coefficient $\\mu$ between point $A$ and the edge.",
+  "problem_img": ["图1073_1", "图1073_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1073_1：圆木与台阶碰撞的初始状态", "图1073_2：圆木绕侧棱转动的受力与能量分析"],
+  "img_en": ["Fig. 1073_1: Initial state of the log colliding with the step", "Fig. 1073_2: Force and energy analysis of the log rotating around the edge"],
+  "problem_solution_cn": "【核心思路】1. 碰撞过程**相对侧棱角动量守恒**，转动过程**机械能守恒**，结合法向支持力$N>0$的条件，求解$v_0$和$h$的范围；2. 由**转动定理**求摩擦力，结合临界条件$\\mu \\geqslant f/N_{min}$，求解摩擦因数的最小值。",
+  "problem_solution_en": "【Core Idea】1. Angular momentum is conserved relative to the edge during the collision, and mechanical energy is conserved during the rotation. Combine the condition of normal supporting force $N>0$ to solve the range of $v_0$ and $h$; 2. Find the friction force by the rotational theorem, and solve the minimum value of the friction coefficient combined with the critical condition $\\mu \\geqslant f/N_{min}$.",
+  "problem_answer": "（1）$v_0$范围$\\boldsymbol{\\dfrac{2R\\sqrt{3gh}}{3R-2h} < v_0 < \\dfrac{3R\\sqrt{(R-h)g}}{3R-2h}}$，$h$范围$\\boldsymbol{h < \\dfrac{3}{7}R}$；（2）摩擦因数范围$\\boldsymbol{\\mu \\geqslant \\dfrac{\\sqrt{h(2R-h)}}{3\\left[(R-h)-\\dfrac{(3R-2h)^2v_0^2}{9R^2g}\\right]}}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

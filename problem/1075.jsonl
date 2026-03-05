@@ -1,0 +1,14 @@
+{
+  "problem_id": "1075",
+  "problem_text_cn": "1075 光滑水平地面上，质量$M$、半径$R$的匀质圆盘边缘有一质量$m$的小车（质点），初始系统静止。小车沿盘边缘逆时针运动，相对圆盘转过$N$圈，求小车与盘心连线相对地面的转动方向和圈数$N_0$。",
+  "problem_text_en": "1075 On a smooth horizontal ground, there is a small cart (particle) of mass $m$ at the edge of a uniform disk of mass $M$ and radius $R$. The system is initially at rest. The cart moves counterclockwise along the edge of the disk and rotates $N$ circles relative to the disk. Find the rotation direction and the number of circles $N_0$ of the line connecting the cart and the disk center relative to the ground.",
+  "problem_img": ["图1075_1", "图1075_2", "图1075_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1075_1：小车与圆盘的初始系统", "图1075_2：系统质心与角速度分析", "图1075_3：小车角速度合成示意图"],
+  "img_en": ["Fig. 1075_1: Initial system of the cart and the disk", "Fig. 1075_2: Analysis of the system's center of mass and angular velocity", "Fig. 1075_3: Schematic of the cart's angular velocity composition"],
+  "problem_solution_cn": "【核心思路】系统水平方向不受外力，**质心静止**且**相对质心角动量守恒**。分析小车绕质心的公转角速度$\\omega$与圆盘的自转角速度$\\Omega$的关系，结合**相对角速度公式**$\\omega' = \\omega + \\Omega$，联立求解小车相对地面的转动圈数。",
+  "problem_solution_en": "【Core Idea】The system is not subjected to external forces in the horizontal direction, so the **center of mass is stationary** and the **angular momentum relative to the center of mass is conserved**. Analyze the relationship between the orbital angular velocity $\\omega$ of the cart around the center of mass and the spin angular velocity $\\Omega$ of the disk, and solve the number of rotation circles of the cart relative to the ground by combining the **relative angular velocity formula** $\\omega' = \\omega + \\Omega$.",
+  "problem_answer": "小车与盘心连线相对地面**逆时针**转动，圈数$\\boldsymbol{N_0 = \\dfrac{M + m}{M + 3m}N}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1040",
+  "problem_text_cn": "1040 已知质量m、半径R的匀质薄球壳相对直径轴的转动惯量为$\\frac{2}{3}mR^2$，试求质量m、内外半径分别为R₂、R₁的匀质球壳（球环）相对直径轴的转动惯量I。",
+  "problem_text_en": "1040 Given that the moment of inertia of a uniform thin spherical shell of mass m and radius R about a diameter axis is $\\frac{2}{3}mR^2$, find the moment of inertia I of a uniform spherical shell (spherical ring) of mass m with inner and outer radii R₂ and R₁ about a diameter axis.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】利用**微元法**积分。将厚球壳分解为无数个半径为r、厚度为dr的薄球壳微元。求出微元的质量，代入薄球壳转动惯量公式，再对r从R₂到R₁积分。",
+  "problem_solution_en": "【Core Idea】Integrate using the differential element method. Decompose the thick spherical shell into numerous thin spherical shell elements with radius r and thickness dr. Find the mass of the element, substitute it into the moment of inertia formula for a thin spherical shell, and integrate with respect to r from R₂ to R₁.",
+  "problem_answer": "转动惯量为 $\\boldsymbol{I = \\frac{2}{5}m \\frac{R_1^5 - R_2^5}{R_1^3 - R_2^3}}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1036",
+  "problem_text_cn": "1036 两个滑冰运动员质量都是$m$，在两条相距$l_0$的光滑平直冰道上均以$v_0$速率相向匀速滑行。当他们之间的距离等于$l_0$时，分别抓住一根长$l_0$的轻绳两端，而后每人都用力缓慢往自己一边拉绳子，直到两者相距$l$为止。计算这一过程中两人拉力所作总功$W$，进而确认$W$等于系统动能增量$\\Delta E_k$。",
+  "problem_text_en": "1036 Two skaters each have a mass of $m$ and slide towards each other at a speed of $v_0$ on two smooth straight ice tracks separated by $l_0$. When the distance between them is $l_0$, they each grab the two ends of a light rope of length $l_0$, and then each pulls the rope slowly towards themselves until the distance between them is $l$. Calculate the total work $W$ done by the pulling forces of the two people in this process, and then confirm that $W$ is equal to the kinetic energy increment $\\Delta E_k$ of the system.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】系统**角动量守恒**（质心静止，水平无外力），缓慢拉绳时运动员做圆周运动，速率$v=v_0l_0/l$。拉力做功等于**力对位移的积分**，总功$W=mv_0^2(l_0^2/l^2-1)$；系统动能增量$\\Delta E_k=m(v^2-v_0^2)$，与$W$相等，验证了功能关系。",
+  "problem_solution_en": "【Core Idea】The system conserves angular momentum (the center of mass is stationary, and there is no external force in the horizontal direction). When pulling the rope slowly, the skaters move in a circular motion with a speed of $v=v_0l_0/l$. The work done by the pulling force is equal to the integral of force over displacement, and the total work is $W=mv_0^2(l_0^2/l^2-1)$; the kinetic energy increment of the system is $\\Delta E_k=m(v^2-v_0^2)$, which is equal to $W$, verifying the work-energy relationship.",
+  "problem_answer": "总功$\\boldsymbol{W=mv_0^2\\left(\\dfrac{l_0^2}{l^2}-1\\right)}$，且$\\boldsymbol{W=\\Delta E_k}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

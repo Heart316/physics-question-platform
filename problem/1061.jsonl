@@ -1,0 +1,14 @@
+{
+  "problem_id": "1061",
+  "problem_text_cn": "1061 轻轴一端装回转仪轮子（质量$m$，自转动量惯量$I_0$，自转角速度$\\omega_0$），另一端用长$L$的绳悬挂，轮子绕竖直轴进动，轻轴长$l$。求绳与竖直线的小夹角$\\beta$。",
+  "problem_text_en": "1061 A gyroscope wheel (mass $m$, moment of inertia about the spin axis $I_0$, spin angular velocity $\\omega_0$) is mounted at one end of a light shaft, and the other end is suspended by a rope of length $L$. The wheel precesses around the vertical axis, and the length of the light shaft is $l$. Find the small angle $\\beta$ between the rope and the vertical line.",
+  "problem_img": ["图1061_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1061_1：回转仪的进动装置与受力分析"],
+  "img_en": ["Fig. 1061_1: Precession device and force analysis of the gyroscope"],
+  "problem_solution_cn": "【核心思路】陀螺进动的**力矩方程**：重力矩等于角动量的变化率，先求进动角速度$\\Omega$；再对陀螺质心的圆周运动，由绳的拉力分量提供向心力，结合小角度近似$\\sin\\beta \\approx \\beta$，联立求解$\\beta$。",
+  "problem_solution_en": "【Core Idea】Torque equation for gyroscopic precession: the gravitational torque is equal to the rate of change of angular momentum, first find the precessional angular velocity $\\Omega$; then for the circular motion of the gyroscope's center of mass, the centripetal force is provided by the component of the rope's tension, combined with the small angle approximation $\\sin\\beta \\approx \\beta$, solve for $\\beta$ simultaneously.",
+  "problem_answer": "绳与竖直线的小夹角$\\boldsymbol{\\beta = \\dfrac{m^2 g l^3}{I_0^2 \\omega_0^2}}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

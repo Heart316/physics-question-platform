@@ -1,0 +1,14 @@
+{
+  "problem_id": "1043",
+  "problem_text_cn": "1043 两根质量同为m、长度同为l的匀质细杆，对称地联结成丁字尺。过尺上每一点设置垂直于尺平面的转轴，转动惯量记为I，试求I_min和I_max。",
+  "problem_text_en": "1043 Two uniform thin rods of the same mass m and length l are symmetrically connected to form a T-square. An axis perpendicular to the plane of the ruler is set through each point on the ruler, and the moment of inertia is denoted as I. Find I_min and I_max.",
+  "problem_img": ["图1043_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1043_1：丁字尺结构示意图"],
+  "img_en": ["Fig. 1043_1: Schematic of the T-square structure"],
+  "problem_solution_cn": "【核心思路】根据转动惯量的极值性质：**绕质心轴的转动惯量最小**，绕离质心最远点的轴的转动惯量最大。先求系统质心位置，再分别计算绕质心轴和最远轴的转动惯量。",
+  "problem_solution_en": "【Core Idea】According to the extreme value property of moment of inertia: the moment of inertia about the centroidal axis is the smallest, and the moment of inertia about the axis passing through the point farthest from the center of mass is the largest. First, find the position of the center of mass of the system, then calculate the moments of inertia about the centroidal axis and the farthest axis respectively.",
+  "problem_answer": "最小值 $\\boldsymbol{I_{min} = \\frac{7}{24}ml^2}$；最大值 $\\boldsymbol{I_{max} = \\frac{17}{12}ml^2}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

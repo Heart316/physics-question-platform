@@ -1,0 +1,14 @@
+{
+  "problem_id": "1049",
+  "problem_text_cn": "1049 某刚体可绕过其A点的水平固定轴无摩擦自由转动，初始时刚体静止，质心C到转轴的垂线水平。自由释放后，C到达最低处时转轴对刚体的支持力为体重的α倍（α>1）。求过程中转轴提供的最大水平支持力是刚体重力的多少倍。",
+  "problem_text_en": "1049 A rigid body can rotate freely without friction around a horizontal fixed axis through point A. Initially, the rigid body is at rest, and the perpendicular line from the center of mass C to the axis is horizontal. After being released freely, the supporting force exerted by the axis on the rigid body when C reaches the lowest point is α times the weight of the rigid body (α>1). Find how many times the maximum horizontal supporting force provided by the axis during the process is the weight of the rigid body.",
+  "problem_img": ["图1049_1", "图1049_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1049_1：刚体初始位置示意图", "图1049_2：刚体转动至θ角的加速度分解"],
+  "img_en": ["Fig. 1049_1: Schematic of the initial position of the rigid body", "Fig. 1049_2: Acceleration decomposition of the rigid body when rotated to angle θ"],
+  "problem_solution_cn": "【核心思路】1. 机械能守恒+质心向心加速度，结合最低处支持力条件，推导刚体绕A轴的转动惯量；2. 分解质心向心、切向加速度，推导水平加速度表达式，利用三角函数极值特性求水平支持力最大值。",
+  "problem_solution_en": "【Core Idea】1. Derive the moment of inertia of the rigid body about axis A by combining mechanical energy conservation, centripetal acceleration of the center of mass, and the supporting force condition at the lowest point; 2. Decompose the centripetal and tangential accelerations of the center of mass, derive the expression for horizontal acceleration, and find the maximum horizontal supporting force using the extreme value property of trigonometric functions.",
+  "problem_answer": "转轴提供的最大水平支持力是刚体重力的$\\boldsymbol{\\dfrac{3}{4}(\\alpha - 1)}$倍",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

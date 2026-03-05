@@ -1,0 +1,14 @@
+{
+  "problem_id": "1038",
+  "problem_text_cn": "1038 内外半径几乎同为$R$、质量为$M$的匀质圆环，静止地平放在水平桌面上，环内某直径的两端各有一个质量同为$m$的静止小球。今以一个恒定的水平力$F$拉环，$F$方向线通过环心且与上述直径垂直。设系统处处无摩擦，试求两小球相碰前瞬间的相对速度大小$v$。",
+  "problem_text_en": "1038 A uniform circular ring with inner and outer radii almost equal to $R$ and mass $M$ is placed stationary on a horizontal tabletop. Two small balls of the same mass $m$ are stationary at the two ends of a certain diameter inside the ring. Now, a constant horizontal force $F$ is applied to pull the ring, and the line of action of $F$ passes through the center of the ring and is perpendicular to the aforementioned diameter. Assuming there is no friction anywhere in the system, find the magnitude of the relative velocity $v$ of the two small balls just before they collide.",
+  "problem_img": ["图1038_1", "图1038_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1038_1：圆环-双小球的初始受力模型", "图1038_2：小球相碰前的质心位置分析图"],
+  "img_en": ["Fig. 1038_1: Initial force model of the ring and two balls", "Fig. 1038_2: Analysis diagram of the center of mass position before the balls collide"],
+  "problem_solution_cn": "【核心思路】利用**质心系功能关系**：外力$F$对质心系做的功等于系统相对质心的动能增量。质心位移$l=\\frac{2m}{M+2m}R$，外力做功$W=Fl=\\frac{2mFR}{M+2m}$；小球相碰前，圆环相对质心无垂直方向速度，两小球相对质心速度大小均为$u$，动能增量$\\Delta E_k=2\\times\\frac{1}{2}mu^2=mu^2$。联立得$u=\\sqrt{\\frac{2FR}{M+2m}}$，相对速度$v=2u$。",
+  "problem_solution_en": "【Core Idea】Use the work-energy relationship in the center-of-mass frame: the work done by the external force $F$ on the center-of-mass frame is equal to the kinetic energy increment of the system relative to the center of mass. The displacement of the center of mass is $l=\\frac{2m}{M+2m}R$, and the work done by the external force is $W=Fl=\\frac{2mFR}{M+2m}$; before the balls collide, the ring has no velocity perpendicular to the direction of $F$ relative to the center of mass, and the magnitude of the velocity of each ball relative to the center of mass is $u$. The kinetic energy increment is $\\Delta E_k=2\\times\\frac{1}{2}mu^2=mu^2$. By simultaneous solution, $u=\\sqrt{\\frac{2FR}{M+2m}}$, and the relative velocity is $v=2u$.",
+  "problem_answer": "两小球相碰前的相对速度大小$\\boldsymbol{v=2\\sqrt{\\dfrac{2FR}{M+2m}}}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

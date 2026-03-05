@@ -1,0 +1,14 @@
+{
+  "problem_id": "1034",
+  "problem_text_cn": "1034 系统如图所示，开始时两个物块都处于静止状态，轻弹簧压缩量为$l$。设水平地面光滑，试求撤去右侧外压力后，系统质心可获得的最大加速度值$a_{C0}$和最大速度值$v_{C0}$。",
+  "problem_text_en": "1034 As shown in the figure, the two blocks are initially at rest, and the compression of the light spring is $l$. Assuming the horizontal ground is smooth, find the maximum acceleration $a_{C0}$ and the maximum velocity $v_{C0}$ that the center of mass of the system can obtain after removing the external pressure on the right side.",
+  "problem_img": ["图1034_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1034_1：弹簧-双物块的水平受力模型"],
+  "img_en": ["Fig. 1034_1: Horizontal force model of spring and two blocks"],
+  "problem_solution_cn": "【核心思路】质心加速度由**合外力**决定，质心速度由**动量守恒+机械能守恒**求解。\n1. 最大加速度：撤去外力初始，弹簧弹力$kl$最大，系统合外力最大，$a_{C0}=kl/(m_1+m_2)$。\n2. 最大速度：弹簧恢复原长时，$m_1$未动，$m_2$速度最大，系统动量守恒$(m_1+m_2)v_{C0}=m_2v_2$，机械能守恒$\\frac{1}{2}m_2v_2^2=\\frac{1}{2}kl^2$，联立解得$v_{C0}=\\frac{l\\sqrt{km_2}}{m_1+m_2}$。",
+  "problem_solution_en": "【Core Idea】The acceleration of the center of mass is determined by the resultant external force, and the velocity of the center of mass is solved by the conservation of momentum and the conservation of mechanical energy.\n1. Maximum acceleration: Initially after removing the external force, the spring force $kl$ is the maximum, so the resultant external force of the system is the maximum, $a_{C0}=kl/(m_1+m_2)$.\n2. Maximum velocity: When the spring returns to its natural length, $m_1$ is stationary and the velocity of $m_2$ is the maximum. From the conservation of momentum $(m_1+m_2)v_{C0}=m_2v_2$ and the conservation of mechanical energy $\\frac{1}{2}m_2v_2^2=\\frac{1}{2}kl^2$, we get $v_{C0}=\\frac{l\\sqrt{km_2}}{m_1+m_2}$ by simultaneous solution.",
+  "problem_answer": "最大加速度$\\boldsymbol{a_{C0}=\\dfrac{kl}{m_1+m_2}}$；最大速度$\\boldsymbol{v_{C0}=\\dfrac{l\\sqrt{km_2}}{m_1+m_2}}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,13 @@
+{
+  "problem_id": "1069",
+  "problem_text_cn": "1069 半长轴a、半短轴b、质量m的椭圆细环（未必匀质），已知细环绕长轴的转动惯量为I_a，求细环绕短轴的转动惯量I_b。",
+  "problem_text_en": "1069 For an elliptical thin ring with semi-major axis a, semi-minor axis b, and mass m (not necessarily uniform), given that the moment of inertia of the thin ring about the major axis is I_a, find the moment of inertia I_b of the thin ring about the minor axis.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】结合**转动惯量的定义**与**椭圆的标准方程**，将I_a/b²与I_b/a²相加，利用椭圆方程x²/a²+y²/b²=1化简，最终推导得到I_b与I_a、m、a、b的关系式。",
+  "problem_solution_en": "【Core Idea】Combine the definition of moment of inertia with the standard equation of an ellipse, add I_a/b² and I_b/a², simplify using the elliptical equation x²/a²+y²/b²=1, and finally derive the relational expression between I_b and I_a, m, a, b.",
+  "problem_answer": "细环绕短轴的转动惯量$\\boldsymbol{I_b = ma^2 - \\dfrac{a^2}{b^2}I_a}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

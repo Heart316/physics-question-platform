@@ -1,0 +1,14 @@
+{
+  "problem_id": "1056",
+  "problem_text_cn": "1056 两个相同的匀质球体A、B，初始时B球静止在水平地面，A球匀速纯滚朝向B球运动，发生弹性碰撞。碰后A、B因地面摩擦最终均达到稳定纯滚状态，求全过程中系统动能损失的百分比。",
+  "problem_text_en": "1056 Two identical uniform spheres A and B. Initially, sphere B is stationary on the horizontal ground, and sphere A moves towards sphere B with uniform rolling without slipping and undergoes an elastic collision. After the collision, both A and B reach a stable state of rolling without slipping due to friction with the ground. Find the percentage of the system's kinetic energy loss during the entire process.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】1. 弹性碰撞：A、B交换平动速度，A保留角速度、B无角速度；2. 碰后运动：以地面接触点为参考点，利用**角动量守恒**求A、B稳定纯滚的速度；3. 计算碰撞前后系统总动能，求损失百分比。",
+  "problem_solution_en": "【Core Idea】1. Elastic collision: A and B exchange translational velocities, A retains angular velocity and B has no angular velocity; 2. Motion after collision: Use the conservation of angular momentum with the ground contact point as the reference point to find the velocities of A and B in stable rolling without slipping; 3. Calculate the total kinetic energy of the system before and after the collision to find the loss percentage.",
+  "problem_answer": "系统动能损失的百分比为$\\boldsymbol{\\dfrac{20}{49} \\approx 40.8\\%}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

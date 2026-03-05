@@ -1,0 +1,13 @@
+{
+  "problem_id": "1095",
+  "problem_text_cn": "1095 圆桶形油箱内盛水和石油，水厚$h_水=1\\ \\mathrm{m}$，油厚$h_油=4\\ \\mathrm{m}$，石油密度$\\rho_油=0.9\\times10^3\\ \\mathrm{kg/m^3}$，求水从箱底小孔流出时的速度$v$。",
+  "problem_text_en": "1095 A cylindrical oil tank contains water and petroleum, with a water thickness of $h_水=1\\ \\mathrm{m}$ and a petroleum thickness of $h_油=4\\ \\mathrm{m}$. The density of petroleum is $\\rho_油=0.9\\times10^3\\ \\mathrm{kg/m^3}$. Find the velocity $v$ of water flowing out from the small hole at the bottom of the tank.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】分层应用**伯努利方程**，先计算油水分界面的压强，再以分界面和小孔为研究点列伯努利方程，忽略油层流速，求解水的流出速度。",
+  "problem_solution_en": "【Core Idea】Apply the **Bernoulli equation** layer by layer. First calculate the pressure at the oil-water interface, then list the Bernoulli equation with the interface and the small hole as the research points, neglect the flow velocity of the oil layer, and solve for the outflow velocity of water.",
+  "problem_answer": "水从箱底小孔流出的速度$\\boldsymbol{v=9.5\\ \\mathrm{m/s}}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

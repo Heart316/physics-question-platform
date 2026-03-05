@@ -1,0 +1,14 @@
+{
+  "problem_id": "1059",
+  "problem_text_cn": "1059 光滑水平桌面上的匀质细杆与小球发生垂直于杆的弹性碰撞，小球撞击杆上$P$点。求碰后小球与$P$点的分离速度大小与碰前接近速度大小的比值。",
+  "problem_text_en": "1059 A uniform thin rod on a smooth horizontal tabletop undergoes an elastic collision with a small ball perpendicular to the rod, and the small ball strikes point $P$ on the rod. Find the ratio of the magnitude of the separation velocity between the small ball and point $P$ after the collision to the magnitude of the approach velocity before the collision.",
+  "problem_img": ["图1059_1", "图1059_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1059_1：小球撞击细杆的位置示意图", "图1059_2：碰撞后小球与细杆的运动参量"],
+  "img_en": ["Fig. 1059_1: Schematic of the position where the small ball strikes the thin rod", "Fig. 1059_2: Motion parameters of the small ball and thin rod after collision"],
+  "problem_solution_cn": "【核心思路】对“小球-细杆”系统，联立**动量守恒、角动量守恒、机械能守恒**三大定律，求解碰撞后小球速度和杆上$P$点的速度（质心速度+转动线速度），最终计算分离速度与接近速度的比值。",
+  "problem_solution_en": "【Core Idea】For the \"small ball-thin rod\" system, simultaneously apply the three laws of conservation of momentum, conservation of angular momentum, and conservation of mechanical energy to solve for the velocity of the small ball and the velocity of point $P$ on the rod (centroid velocity + rotational linear velocity) after the collision, and finally calculate the ratio of the separation velocity to the approach velocity.",
+  "problem_answer": "分离速度与接近速度的比值为$\\boldsymbol{1:1}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

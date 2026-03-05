@@ -1,0 +1,14 @@
+{
+  "problem_id": "1058",
+  "problem_text_cn": "1058 匀质细杆$AB$初始竖直靠墙静止在水平地面，因轻微扰动倾斜滑动，系统处处无摩擦。求杆的$A$端离墙时的倾角$\\phi$。",
+  "problem_text_en": "1058 A uniform thin rod $AB$ is initially stationary vertically against a wall on a horizontal ground, and slides obliquely due to a slight disturbance. There is no friction anywhere in the system. Find the inclination angle $\\phi$ when end $A$ of the rod leaves the wall.",
+  "problem_img": ["图1058_1", "图1058_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1058_1：细杆倾斜滑动初始状态", "图1058_2：细杆转动至$\\phi$角的速度分解"],
+  "img_en": ["Fig. 1058_1: Initial state of the oblique sliding of the thin rod", "Fig. 1058_2: Velocity decomposition when the thin rod rotates to angle $\\phi$"],
+  "problem_solution_cn": "【核心思路】$A$端离墙的临界条件是**墙对$A$的支持力$N=0$**，此时质心水平加速度$a_{Cx}=0$（水平方向不受力）。结合**机械能守恒定律**和质心速度的分量关系，推导水平速度的极值条件，求解临界倾角。",
+  "problem_solution_en": "【Core Idea】The critical condition for end $A$ to leave the wall is that the supporting force $N$ of the wall on $A$ is zero, and the horizontal acceleration of the center of mass $a_{Cx}=0$ at this time (no force in the horizontal direction). Combined with the law of conservation of mechanical energy and the component relationship of the centroid velocity, derive the extreme value condition of the horizontal velocity and solve for the critical inclination angle.",
+  "problem_answer": "杆$A$端离墙时的倾角$\\boldsymbol{\\phi = \\arccos \\dfrac{2}{3}}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

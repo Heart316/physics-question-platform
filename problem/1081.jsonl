@@ -1,0 +1,14 @@
+{
+  "problem_id": "1081",
+  "problem_text_cn": "1081 质量$M$的匀质细杆$AB$静止在光滑水平面，$B$端弹簧机构将质量$m$的小球以速度$v$水平弹出，$v$与杆夹角为$\\phi$。小球恰好能与杆的$A$端相遇，且杆转过的角度不超过$\\pi$。求质量比$\\gamma=M/m$和角度$\\phi$的取值范围。",
+  "problem_text_en": "1081 A homogeneous thin rod $AB$ of mass $M$ is stationary on a smooth horizontal plane. A spring mechanism at end $B$ ejects a small ball of mass $m$ horizontally at a velocity $v$, with an angle $\\phi$ between $v$ and the rod. The small ball can just meet end $A$ of the rod, and the rotation angle of the rod does not exceed $\\pi$. Find the range of the mass ratio $\\gamma=M/m$ and the angle $\\phi$.",
+  "problem_img": ["图1081_1", "图1081_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1081_1：小球弹出的初始装置", "图1081_2：小球与杆相遇的几何与运动分析"],
+  "img_en": ["Fig. 1081_1: Initial device of the ball being ejected", "Fig. 1081_2: Geometric and motion analysis of the ball meeting the rod"],
+  "problem_solution_cn": "【核心思路】系统水平方向**动量守恒、角动量守恒**，结合小球与$A$端相遇的几何条件$\\alpha=\\phi$，推导得到$\\dfrac{1}{3}(1+\\gamma)=\\dfrac{\\sin2\\phi}{2\\phi}$；利用函数$\\dfrac{\\sin2\\phi}{2\\phi}$的取值范围（$0<\\dfrac{\\sin x}{x}<1$），求解$\\gamma$和$\\phi$的范围。",
+  "problem_solution_en": "【Core Idea】The system conserves **momentum and angular momentum** in the horizontal direction. Combined with the geometric condition $\\alpha=\\phi$ for the ball to meet end $A$, derive $\\dfrac{1}{3}(1+\\gamma)=\\dfrac{\\sin2\\phi}{2\\phi}$; Use the value range of the function $\\dfrac{\\sin2\\phi}{2\\phi}$ ($0<\\dfrac{\\sin x}{x}<1$) to solve the range of $\\gamma$ and $\\phi$.",
+  "problem_answer": "质量比取值范围$\\boldsymbol{0<\\gamma<2}$；角度取值范围$\\boldsymbol{0<\\phi<1.139\\ \\mathrm{rad}}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

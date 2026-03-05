@@ -1,0 +1,14 @@
+{
+  "problem_id": "1057",
+  "problem_text_cn": "1057 质量$M$、长$L$的匀质细杆$AB$在水平桌面上绕中心$C$以角速度$\\omega$逆时针旋转，同时$C$具有水平向右的速度$v_C$（与杆垂直）。杆与桌面间摩擦因数同为$\\mu$，求该时刻$C$的加速度$a_C$和细杆的角加速度$\\beta$。",
+  "problem_text_en": "1057 A uniform thin rod $AB$ of mass $M$ and length $L$ rotates counterclockwise around its center $C$ with an angular velocity $\\omega$ on a horizontal tabletop, and $C$ has a horizontal velocity $v_C$ to the right (perpendicular to the rod) at the same time. The friction coefficient between the rod and the tabletop is $\\mu$ everywhere. Find the acceleration $a_C$ of $C$ and the angular acceleration $\\beta$ of the thin rod at this moment.",
+  "problem_img": ["图1057_1", "图1057_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1057_1：细杆初始运动状态示意图", "图1057_2：$\\omega \\geqslant 2v_C/L$时的瞬心与受力分析"],
+  "img_en": ["Fig. 1057_1: Schematic of the initial motion state of the thin rod", "Fig. 1057_2: Instantaneous center and force analysis when $\\omega \\geqslant 2v_C/L$"],
+  "problem_solution_cn": "【核心思路】根据**瞬心位置**分两种情况讨论，滑动摩擦力的方向与接触点相对桌面的速度方向相反：1. 当$\\omega < 2v_C/L$时，杆上各点相对桌面速度均向右，合摩擦力向左且过质心，力矩为零；2. 当$\\omega \\geqslant 2v_C/L$时，瞬心将杆分为速度反向的两段，摩擦力分布不对称，产生合摩擦力与合摩擦力矩，分别由牛顿第二定律和转动定律求解。",
+  "problem_solution_en": "【Core Idea】Discuss in two cases according to the position of the instantaneous center. The direction of sliding friction is opposite to the velocity direction of the contact point relative to the tabletop: 1. When $\\omega < 2v_C/L$, the velocity of all points on the rod relative to the tabletop is to the right, the resultant friction is to the left and passes through the center of mass, and the torque is zero; 2. When $\\omega \\geqslant 2v_C/L$, the instantaneous center divides the rod into two segments with opposite velocities, the friction distribution is asymmetric, resulting in resultant friction and resultant friction torque, which are solved by Newton's second law and the rotational equation of motion respectively.",
+  "problem_answer": "1. $\\boldsymbol{\\omega < 2v_C/L}$：$a_C = \\mu g$（方向向左），$\\boldsymbol{\\beta = 0}$；2. $\\boldsymbol{\\omega \\geqslant 2v_C/L}$：$a_C = \\dfrac{2\\mu v_C g}{\\omega L}$（方向向左），$\\beta = \\dfrac{3\\mu}{L}\\left(1 - \\dfrac{4v_C^2}{\\omega^2 L^2}\\right)g$（方向垂直纸面向里）",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

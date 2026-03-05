@@ -1,0 +1,14 @@
+{
+  "problem_id": "1033",
+  "problem_text_cn": "1033 两小球$A、B$质量相同，轻绳一半在水平桌面外，$A$球与桌面间无摩擦。将$B$球从静止自由释放后，试问在$A$球尚未离开桌面前，$B$球能否已碰到桌子侧面？",
+  "problem_text_en": "1033 Two small balls $A$ and $B$ have the same mass. Half of the light string is outside the horizontal tabletop, and there is no friction between ball $A$ and the tabletop. After releasing ball $B$ from rest, can ball $B$ hit the side of the table before ball $A$ leaves the tabletop?",
+  "problem_img": ["图1033_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1033_1：A、B两球的绳连接桌面模型"],
+  "img_en": ["Fig. 1033_1: Rope-connected tabletop model of balls A and B"],
+  "problem_solution_cn": "【核心思路】以$A、B$为系统，**水平方向不受外力**，系统水平方向质心位置守恒。初始时系统质心在桌边，若$B$球碰到桌子侧面，系统质心将向桌内移动，与质心守恒矛盾。因此$B$球**不能**碰到桌子侧面。",
+  "problem_solution_en": "【Core Idea】Take $A$ and $B$ as the system; there is no external force in the horizontal direction, so the position of the center of mass of the system in the horizontal direction is conserved. Initially, the center of mass of the system is at the edge of the table. If ball $B$ hits the side of the table, the center of mass of the system will move into the table, which contradicts the conservation of the center of mass. Therefore, ball $B$ **cannot** hit the side of the table.",
+  "problem_answer": "不能",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1070",
+  "problem_text_cn": "1070 质量为$m$、截面半径为$R$、长为$2R$的匀质圆柱体，求其绕通过中心及两底面边缘转轴的转动惯量$I$。",
+  "problem_text_en": "1070 A uniform cylinder with mass $m$, cross-sectional radius $R$, and length $2R$. Find its moment of inertia $I$ about an axis passing through the center and the edges of the two bottom surfaces.",
+  "problem_img": ["图1070_1", "图1070_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1070_1：圆柱体及待求转轴示意图", "图1070_2：坐标系建立与转轴对称分析图"],
+  "img_en": ["Fig. 1070_1: Schematic of the cylinder and the axis to be solved", "Fig. 1070_2: Coordinate system establishment and axis symmetry analysis diagram"],
+  "problem_solution_cn": "【核心思路】1. 利用**转动惯量的坐标变换对称性**，推导待求转轴转动惯量$I = \\frac{1}{2}(I_x + I_y)$；2. 已知圆柱绕中心轴的转动惯量$I_x = \\frac{1}{2}mR^2$；3. 将圆柱分割为薄圆板，结合**垂直轴定理**与**平行轴定理**积分求解$I_y$，最终联立得到总转动惯量。",
+  "problem_solution_en": "【Core Idea】1. Derive the moment of inertia about the axis to be solved $I = \\frac{1}{2}(I_x + I_y)$ using the coordinate transformation symmetry of moment of inertia; 2. The known moment of inertia of the cylinder about its central axis is $I_x = \\frac{1}{2}mR^2$; 3. Divide the cylinder into thin circular plates, solve for $I_y$ by integration combining the perpendicular axis theorem and the parallel axis theorem, and finally obtain the total moment of inertia by simultaneous solution.",
+  "problem_answer": "圆柱体绕指定转轴的转动惯量$\\boldsymbol{I = \\dfrac{13}{24}mR^2}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

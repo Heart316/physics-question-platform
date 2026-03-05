@@ -1,0 +1,14 @@
+{
+  "problem_id": "1045",
+  "problem_text_cn": "1045 匀质正方形薄板质量为m、各边长为a，在板平面上过中心O设置转轴MN，求板相对该轴的转动惯量I。",
+  "problem_text_en": "1045 A uniform square thin plate has a mass m and side length a. An axis MN is set through the center O in the plane of the plate. Find the moment of inertia I of the plate about this axis.",
+  "problem_img": ["图1045_1", "图1045_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1045_1：正方形薄板与任意中心轴MN", "图1045_2：建立坐标系与垂直轴定理应用"],
+  "img_en": ["Fig. 1045_1: Square thin plate and an arbitrary central axis MN", "Fig. 1045_2: Establishing a coordinate system and application of the perpendicular axis theorem"],
+  "problem_solution_cn": "【核心思路】利用**对称性**和**垂直轴定理**。设垂直于MN的中心轴为M'N'，由对称性知两者转动惯量相等（I'=I）。垂直轴定理指出，绕平面内两垂直轴的转动惯量之和等于绕垂直平面轴的转动惯量。结合已知的绕x、y轴的转动惯量求解。",
+  "problem_solution_en": "【Core Idea】Use symmetry and the perpendicular axis theorem. Let the central axis perpendicular to MN be M'N'. By symmetry, their moments of inertia are equal (I'=I). The perpendicular axis theorem states that the sum of the moments of inertia about two perpendicular axes in the plane equals the moment of inertia about the axis perpendicular to the plane. Solve using the known moments of inertia about the x and y axes.",
+  "problem_answer": "转动惯量为 $\\boldsymbol{I = \\frac{1}{12}ma^2}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

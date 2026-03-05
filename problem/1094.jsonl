@@ -1,0 +1,14 @@
+{
+  "problem_id": "1094",
+  "problem_text_cn": "1094 直立容器盛水高度$H$，$A、B$两处横截面积分别为$S_A、S_B$，下端活塞打开后水作定常流动。求$p_A=p_B$、$p_A<p_B$、$p_A>p_B$各自满足的条件。",
+  "problem_text_en": "1094 An upright container is filled with water to a height $H$. The cross-sectional areas at points $A$ and $B$ are $S_A$ and $S_B$ respectively. After the piston at the lower end is opened, the water flows steadily. Find the conditions for $p_A=p_B$, $p_A<p_B$, and $p_A>p_B$ respectively.",
+  "problem_img": ["图1094_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1094_1：容器内水流的伯努利方程分析"],
+  "img_en": ["Fig. 1094_1: Bernoulli equation analysis of water flow in the container"],
+  "problem_solution_cn": "【核心思路】联立**伯努利方程**与**连续性方程**，推导$p_A-p_B$的表达式，分析表达式中高度差$(h_A-h_B)$与由截面积决定的临界高度差的关系，得到不同压强大小关系的条件。",
+  "problem_solution_en": "【Core Idea】Simultaneously solve the **Bernoulli equation** and the **continuity equation** to derive the expression of $p_A-p_B$. Analyze the relationship between the height difference $(h_A-h_B)$ and the critical height difference determined by the cross-sectional area, and obtain the conditions for different pressure magnitude relationships.",
+  "problem_answer": "1. $\\boldsymbol{p_A=p_B}$：$\\boldsymbol{h_A - h_B = \\dfrac{S_A^2 - S_B^2}{S_A^2}H}$；2. $\\boldsymbol{p_A<p_B}$：$\\boldsymbol{h_A - h_B > \\dfrac{S_A^2 - S_B^2}{S_A^2}H}$；3. $\\boldsymbol{p_A>p_B}$：$\\boldsymbol{h_A - h_B < \\dfrac{S_A^2 - S_B^2}{S_A^2}H}$",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

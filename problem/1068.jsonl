@@ -1,0 +1,13 @@
+{
+  "problem_id": "1068",
+  "problem_text_cn": "1068 质量为m、边长为a的匀质立方体，求其绕体对角线轴MN的转动惯量I。",
+  "problem_text_en": "1068 For a uniform cube of mass m and side length a, find its moment of inertia I about the body diagonal axis MN.",
+  "problem_img": ["图1068_1", "图1068_2"],
+  "img_cn": ["图1068_1：立方体绕体对角线轴的转动示意图", "图1068_2：立方体分割为8个小立方体的分析图"],
+  "img_en": ["Fig. 1068_1: Schematic of the cube rotating about the body diagonal axis", "Fig. 1068_2: Analysis diagram of the cube divided into 8 small cubes"],
+  "problem_solution_cn": "【核心思路】**微元法+平行轴定理**：将原立方体等分为8个小立方体，分两类计算转动惯量——2个小立方体的体对角线与MN重合，6个小立方体的体对角线与MN平行。利用平行轴定理计算后者的转动惯量，叠加后求解总转动惯量。",
+  "problem_solution_en": "【Core Idea】Differential element method + parallel axis theorem: Divide the original cube into 8 small cubes, and calculate the moment of inertia in two categories—2 small cubes whose body diagonals coincide with MN, and 6 small cubes whose body diagonals are parallel to MN. Calculate the moment of inertia of the latter using the parallel axis theorem and superpose them to find the total moment of inertia.",
+  "problem_answer": "立方体绕体对角线轴的转动惯量$\\boldsymbol{I = \\dfrac{1}{6}ma^2}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

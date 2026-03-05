@@ -1,0 +1,14 @@
+{
+  "problem_id": "1032",
+  "problem_text_cn": "1032 人的质量设为$M$，每个小球的质量同设为$m$，取较长的抛球游戏时间，试求地面对人的平均支持力$\\overline{N}$。",
+  "problem_text_en": "1032 The mass of a person is set to $M$, and the mass of each small ball is set to $m$. For a long period of ball-throwing game, find the average supporting force $\\overline{N}$ exerted by the ground on the person.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】以“人+3个小球”为系统，较长时间内系统**竖直方向质心平均加速度为0**，合外力的平均值为0。竖直方向受力：重力$(M+3m)g$、地面平均支持力$\\overline{N}$，由平衡条件得$\\overline{N}=(M+3m)g$。",
+  "problem_solution_en": "【Core Idea】Take the \"person + 3 small balls\" as the system. The average acceleration of the center of mass of the system in the vertical direction is 0 over a long period of time, so the average value of the resultant external force is 0. Forces in the vertical direction: gravity $(M+3m)g$ and the average supporting force $\\overline{N}$ from the ground. From the equilibrium condition, $\\overline{N}=(M+3m)g$.",
+  "problem_answer": "$\\boldsymbol{\\overline{N}=(M+3m)g}$",
+  "difficulty": "2",
+  "problem_tags": ["Mechanics"]
+}

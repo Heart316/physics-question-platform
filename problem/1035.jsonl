@@ -1,0 +1,14 @@
+{
+  "problem_id": "1035",
+  "problem_text_cn": "1035 各边长为$a$、质量为$M$的匀质刚性正方形细框架，开始时静止在光滑水平桌面上，框架右侧边中央有一小孔$P$，桌面上另有一个质量为$m$的小球以初速$v_0$从小孔$P$射入。设$v_0$的方向与框架边成$45^\\circ$，小球与框架碰撞无摩擦且弹性。（1）证明小球仍能从小孔$P$射出框架；（2）计算小球从射入到射出小孔全过程的时间及它相对于桌面的平均速度。",
+  "problem_text_en": "1035 A uniform rigid square thin frame with side length $a$ and mass $M$ is initially at rest on a smooth horizontal tabletop. There is a small hole $P$ at the center of the right side of the frame. A small ball of mass $m$ shoots into the frame from the small hole $P$ with an initial velocity $v_0$. The direction of $v_0$ is $45^\\circ$ to the side of the frame, and the collision between the ball and the frame is frictionless and elastic. (1) Prove that the ball can still shoot out of the frame from the small hole $P$; (2) Calculate the total time for the ball to shoot into and out of the small hole, and its average velocity relative to the tabletop.",
+  "problem_img": ["图1035_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1035_1：小球射入正方形框架的运动模型"],
+  "img_en": ["Fig. 1035_1: Motion model of the ball shooting into the square frame"],
+  "problem_solution_cn": "【核心思路】（1）弹性碰撞无切向摩擦，小球相对框架的运动等效于**镜面反射**，轨迹为边长$\\sqrt{2}a/2$的小正方形，最终必从$P$射出；（2）小球相对框架速率恒为$v_0$，相对路程$2\\sqrt{2}a$，时间$t=2\\sqrt{2}a/v_0$；系统质心速度守恒$v_C=\\frac{m}{M+m}v_0$，小球平均速度等于质心速度。",
+  "problem_solution_en": "【Core Idea】(1) The elastic collision has no tangential friction, so the motion of the ball relative to the frame is equivalent to specular reflection, and the trajectory is a small square with side length $\\sqrt{2}a/2$, so it must eventually shoot out from $P$; (2) The speed of the ball relative to the frame is always $v_0$, the relative distance is $2\\sqrt{2}a$, and the time is $t=2\\sqrt{2}a/v_0$; the velocity of the center of mass of the system is conserved $v_C=\\frac{m}{M+m}v_0$, and the average velocity of the ball is equal to the velocity of the center of mass.",
+  "problem_answer": "（1）证明见解析；（2）运动时间$\\boldsymbol{t=\\dfrac{2\\sqrt{2}a}{v_0}}$，平均速度$\\boldsymbol{\\overline{v}=\\dfrac{m}{M+m}v_0}$（方向与$v_0$相同）",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

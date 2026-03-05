@@ -1,0 +1,14 @@
+{
+  "problem_id": "1046",
+  "problem_text_cn": "1046 物块与水平桌面间无摩擦，轻绳与实心匀质滑轮间无相对滑动，滑轮与转轴间无摩擦。已知物块质量m₁、m₂，滑轮质量M、半径R，试求物块运动加速度a。",
+  "problem_text_en": "1046 There is no friction between the blocks and the horizontal tabletop, no relative slip between the light string and the solid uniform pulley, and no friction between the pulley and its axle. Given the masses of the blocks m₁, m₂, and the pulley mass M, radius R, find the acceleration a of the blocks' motion.",
+  "problem_img": ["图1046_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1046_1：滑轮-物块连接系统"],
+  "img_en": ["Fig. 1046_1: Pulley-block connection system"],
+  "problem_solution_cn": "【核心思路】**牛顿第二定律**与**转动定律**联立。对m₁、m₂分别列平动方程，对滑轮列转动方程（合外力矩等于转动惯量乘以角加速度），结合线角关系a=Rβ，联立求解。",
+  "problem_solution_en": "【Core Idea】Simultaneously apply Newton's second law and the rotational equation of motion. List translational equations for m₁ and m₂ respectively, and a rotational equation for the pulley (the net torque equals the moment of inertia times angular acceleration). Combine with the linear-angular relationship a=Rβ and solve the system of equations.",
+  "problem_answer": "加速度大小为 $\\boldsymbol{a = \\frac{2m_1}{2(m_1+m_2)+M}g}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

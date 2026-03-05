@@ -1,0 +1,14 @@
+{
+  "problem_id": "1063",
+  "problem_text_cn": "1063 用物理方法（质心原理）证明任意三角形三条边上的高共点。",
+  "problem_text_en": "1063 Prove that the three altitudes on the sides of any triangle are concurrent using physical methods (the principle of the center of mass).",
+  "problem_img": ["图1063_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1063_1：利用质心原理证明三角形高共点的示意图"],
+  "img_en": ["Fig. 1063_1: Schematic of proving the concurrency of triangle altitudes using the center of mass principle"],
+  "problem_solution_cn": "【核心思路】在三角形三个顶点赋予与边长及夹角余弦相关的质量$m_A, m_B, m_C$，使$BC$边上的高$AD$为$m_B、m_C$的质心连线；同理，另外两条高分别为另外两顶点对的质心连线。由于**系统质心唯一**，三条质心连线必共点，故三角形三条高共点。该方法对锐角、直角、钝角三角形均成立（钝角三角形对应“负质量”，不影响结论）。",
+  "problem_solution_en": "【Core Idea】Assign masses $m_A, m_B, m_C$ related to the side lengths and the cosine of the included angles to the three vertices of the triangle, so that the altitude $AD$ on side $BC$ is the centroid connection line of $m_B$ and $m_C$; similarly, the other two altitudes are the centroid connection lines of the other two pairs of vertices. Since the center of mass of the system is unique, the three centroid connection lines must be concurrent, so the three altitudes of the triangle are concurrent. This method is valid for acute, right, and obtuse triangles (obtuse triangles correspond to \"negative masses\", which do not affect the conclusion).",
+  "problem_answer": "证明见解析，利用质心唯一性可证任意三角形三条高共点",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

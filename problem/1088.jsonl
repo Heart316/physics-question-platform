@@ -1,0 +1,14 @@
+{
+  "problem_id": "1088",
+  "problem_text_cn": "1088 长、宽、高均为$L$的方形容器盛有密度为$\\rho$的液体，以恒定加速度$a = g/\\sqrt{3}$水平向右运动，液体稳定后求液体中压强的最大值$p_{\\max}$。",
+  "problem_text_en": "1088 A cuboid container with length, width and height all equal to $L$ is filled with a liquid of density $\\rho$, and moves horizontally to the right with a constant acceleration $a = g/\\sqrt{3}$. Find the maximum pressure $p_{\\max}$ in the liquid after the liquid stabilizes.",
+  "problem_img": ["图1088_1", "图1088_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1088_1：容器加速运动的初始状态", "图1088_2：液体稳定后的等效重力与液面倾角分析"],
+  "img_en": ["Fig. 1088_1: Initial state of the container in accelerated motion", "Fig. 1088_2: Analysis of equivalent gravity and liquid surface inclination after the liquid stabilizes"],
+  "problem_solution_cn": "【核心思路】非惯性系中引入**等效重力加速度**$g'$，液面与等效重力方向垂直，倾角为$30^\\circ$。压强最大值出现在左下角$A$点，结合等效重力与$A$点到液面的最大垂直距离，由液体静压强公式求解$p_{\\max}$。",
+  "problem_solution_en": "【Core Idea】Introduce the **equivalent gravitational acceleration** $g'$ in the non-inertial frame, the liquid surface is perpendicular to the direction of equivalent gravity with an inclination angle of $30^\\circ$. The maximum pressure occurs at the lower left corner point $A$. Combine the equivalent gravity with the maximum vertical distance from point $A$ to the liquid surface, and solve for $p_{\\max}$ using the hydrostatic pressure formula.",
+  "problem_answer": "液体中压强的最大值$\\boldsymbol{p_{\\max} = p_0 + \\left(1 + \\dfrac{\\sqrt{3}}{6}\\right)\\rho g L}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

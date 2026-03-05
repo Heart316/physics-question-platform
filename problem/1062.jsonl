@@ -1,0 +1,14 @@
+{
+  "problem_id": "1062",
+  "problem_text_cn": "1062 用夹子夹持半径$R$的对称球体，夹子两臂与球表面的静摩擦因数为$\\mu$，略去重力，求夹子中线度$l$的最小值（保证球不动）。",
+  "problem_text_en": "1062 A symmetrical sphere of radius $R$ is clamped with a clip. The static friction coefficient between the two arms of the clip and the sphere's surface is $\\mu$. Neglecting gravity, find the minimum value of the linear dimension $l$ of the clip (to ensure the sphere remains stationary).",
+  "problem_img": ["图1062_1", "图1062_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1062_1：夹子夹持球体的结构示意图", "图1062_2：球体的受力平衡分析"],
+  "img_en": ["Fig. 1062_1: Schematic of the structure of the clip holding the sphere", "Fig. 1062_2: Force balance analysis of the sphere"],
+  "problem_solution_cn": "【核心思路】球体静止的临界条件是**静摩擦力达到最大值$f = \\mu N$**。对球体进行受力分析，由水平方向力平衡和几何关系，推导线度$l$与$R$、$\\mu$的关系，求解$l$的最小值。",
+  "problem_solution_en": "【Core Idea】The critical condition for the sphere to be stationary is that the static friction reaches its maximum value $f = \\mu N$. Perform force analysis on the sphere, derive the relationship between the linear dimension $l$ and $R$, $\\mu$ from the horizontal force balance and geometric relations, and solve for the minimum value of $l$.",
+  "problem_answer": "线度$l$的最小值为$\\boldsymbol{l \\geqslant \\dfrac{R}{\\mu}}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

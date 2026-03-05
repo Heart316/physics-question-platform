@@ -1,0 +1,13 @@
+{
+  "problem_id": "1067",
+  "problem_text_cn": "1067 不考虑地球自转，取地心系为平动变速非惯性系，讨论地球在月球引力作用下的潮汐现象。求：（1）地球表面(x,y)处质量为m的海水所受潮汐力；（2）地球表面A、B两处海水的高度差h_AB。",
+  "problem_text_en": "1067 Neglecting the Earth's rotation and taking the Earth-centered frame as a translationally variable non-inertial frame, discuss the tidal phenomenon of the Earth under the gravitational action of the Moon. Find: (1) The tidal force on a mass m of seawater at (x,y) on the Earth's surface; (2) The height difference h_AB of seawater at points A and B on the Earth's surface.",
+  "problem_img": ["图1067_1"],
+  "img_cn": ["图1067_1：地月系统潮汐现象的受力分析示意图"],
+  "img_en": ["Fig. 1067_1: Schematic of force analysis for tidal phenomena in the Earth-Moon system"],
+  "problem_solution_cn": "【核心思路】1. 潮汐力：海水所受**月球引力与平移惯性力的合力**，利用r_M≫x,y的近似条件化简；2. 高度差：潮汐力做功等于海水重力势能的增量，通过线积分计算潮汐力的功，进而求解h_AB。",
+  "problem_solution_en": "【Core Idea】1. Tidal force: The resultant force of the lunar gravitational force and the translational inertial force on seawater, simplified using the approximation condition r_M≫x,y; 2. Height difference: The work done by the tidal force is equal to the increment of the gravitational potential energy of seawater, and the work of the tidal force is calculated by line integral to solve for h_AB.",
+  "problem_answer": "（1）潮汐力$\\boldsymbol{f_{潮}=G\\dfrac{Mm}{r_M^3}(2x\\boldsymbol{i}-y\\boldsymbol{j})}$；（2）高度差$\\boldsymbol{h_{AB}=0.54\\mathrm{m}}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

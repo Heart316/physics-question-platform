@@ -1,0 +1,13 @@
+{
+  "problem_id": "1066",
+  "problem_text_cn": "1067 动能为E₀的⁴He核轰击静止的⁷Li核，发生完全非弹性碰撞后形成复合核¹¹B，¹¹B再分裂为¹⁰B和中子¹n，核反应需消耗能量θ=2.8MeV。求所需E₀的最小值及对应中子的动能值。",
+  "problem_text_en": "1066 A ⁴He nucleus with kinetic energy E₀ bombards a stationary ⁷Li nucleus, undergoes a completely inelastic collision to form a compound nucleus ¹¹B, and then ¹¹B splits into ¹⁰B and a neutron ¹n. The nuclear reaction requires an energy consumption of θ=2.8MeV. Find the minimum value of E₀ required and the corresponding kinetic energy of the neutron.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】利用**质心系分析核反应的阈能**，核反应消耗的能量由系统在质心系的动能提供。当反应后复合核分裂产物在质心系中速度为0时，E₀取最小值（阈能）；中子在实验室系的速度等于质心速度，进而求其中子动能。",
+  "problem_solution_en": "【Core Idea】Analyze the threshold energy of the nuclear reaction using the center-of-mass frame. The energy consumed by the nuclear reaction is provided by the kinetic energy of the system in the center-of-mass frame. When the products of the compound nucleus fission have zero velocity in the center-of-mass frame, E₀ takes the minimum value (threshold energy); the velocity of the neutron in the laboratory frame is equal to the velocity of the center of mass, and then the kinetic energy of the neutron is found.",
+  "problem_answer": "E₀的最小值$\\boldsymbol{E_{0,min}=4.4\\mathrm{MeV}}$；对应中子的动能$\\boldsymbol{E_{k,n}=0.15\\mathrm{MeV}}$",
+  "difficulty": "5",
+  "problem_tags": ["Modern Physics"]
+}

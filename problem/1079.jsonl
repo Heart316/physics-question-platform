@@ -1,0 +1,14 @@
+{
+  "problem_id": "1079",
+  "problem_text_cn": "1079 光滑桌面上两个半径均为$R$、质量均为$m$的匀质圆盘$A、B$，$A$以平动速度$v$与静止的$B$相碰，接触时连心线与$v$夹角$45^\\circ$。连心线方向为弹性碰撞，接触处切向摩擦因数为$\\mu$。求碰后$A、B$的平动速度$\\boldsymbol{v}_A、\\boldsymbol{v}_B$和自转角速度$\\boldsymbol{\\omega}_A、\\boldsymbol{\\omega}_B$（按$x、y、z$轴分量表述）。",
+  "problem_text_en": "1079 Two homogeneous disks $A$ and $B$ with the same radius $R$ and mass $m$ on a smooth tabletop. Disk $A$ collides with the stationary disk $B$ at a translational velocity $v$, and the angle between the line connecting the centers and $v$ is $45^\\circ$ at the moment of contact. The collision along the line connecting the centers is elastic, and the tangential friction coefficient at the contact point is $\\mu$. Find the translational velocities $\\boldsymbol{v}_A, \\boldsymbol{v}_B$ and spin angular velocities $\\boldsymbol{\\omega}_A, \\boldsymbol{\\omega}_B$ of $A$ and $B$ after the collision (expressed in components along the $x, y, z$ axes).",
+  "problem_img": ["图1079_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1079_1：两圆盘碰撞的速度分解与受力分析"],
+  "img_en": ["Fig. 1079_1: Velocity decomposition and force analysis of the collision between two disks"],
+  "problem_solution_cn": "【核心思路】分两种情况讨论，取决于摩擦作用时间是否与正碰作用时间相等：1. $\\mu\\leqslant1/6$时，摩擦力全程作用，弹性碰撞交换$x$方向速度，结合$y$方向动量定理和转动定理求解；2. $\\mu>1/6$时，摩擦力先消失，接触点切向速度相等，联立方程求解最终速度与角速度。",
+  "problem_solution_en": "【Core Idea】Discuss in two cases depending on whether the friction action time is equal to the normal collision action time: 1. When $\\mu\\leqslant1/6$, friction acts throughout the process, elastic collision exchanges velocities in the $x$-direction, solve by combining the momentum theorem in the $y$-direction and the rotational equation of motion; 2. When $\\mu>1/6$, friction disappears first, the tangential velocities of the contact points are equal, solve the final velocity and angular velocity by simultaneous equations.",
+  "problem_answer": "矢量表述：$\\boldsymbol{v}_A=(0, v_{Ay}, 0)$，$\\boldsymbol{v}_B=(\\dfrac{\\sqrt{2}}{2}v, v_{By}, 0)$，$\\boldsymbol{\\omega}_A=(0, 0, -\\omega)$，$\\boldsymbol{\\omega}_B=(0, 0, -\\omega)$；1. $\\boldsymbol{\\mu\\leqslant1/6}$：$v_{Ay}=\\dfrac{\\sqrt{2}}{2}(1-\\mu)v$，$v_{By}=\\dfrac{\\sqrt{2}}{2}\\mu v$，$\\omega=\\dfrac{\\sqrt{2}\\mu v}{R}$；2. $\\boldsymbol{\\mu>1/6}$：$v_{Ay}=\\dfrac{5\\sqrt{2}}{12}v$，$v_{By}=\\dfrac{\\sqrt{2}}{12}v$，$\\omega=\\dfrac{\\sqrt{2}v}{6R}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

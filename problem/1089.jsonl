@@ -1,0 +1,13 @@
+{
+  "problem_id": "1089",
+  "problem_text_cn": "1089 将两个半径$R=20\\ \\mathrm{cm}$的半球壳合成“马德堡球”，估算两侧各需施加多大的力方可将球拉成两半。（大气压强$p_0\\approx1.0\\times10^5\\ \\mathrm{Pa}$）",
+  "problem_text_en": "1089 Two hemispherical shells of radius $R=20\\ \\mathrm{cm}$ are combined to form a \"Magdeburg sphere\". Estimate the force required to pull the sphere into two halves on each side. (Atmospheric pressure $p_0\\approx1.0\\times10^5\\ \\mathrm{Pa}$)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】大气对半球面的**合压力等效于对半球底面圆的压力**，由压力公式$F = pS$计算，其中$S = \\pi R^2$为底面圆面积。",
+  "problem_solution_en": "【Core Idea】The **resultant atmospheric pressure on the hemispherical surface is equivalent to the pressure on the bottom circle of the hemisphere**. Calculate using the pressure formula $F = pS$, where $S = \\pi R^2$ is the area of the bottom circle.",
+  "problem_answer": "两侧各需施加的拉力约为$\\boldsymbol{F \\approx 1.0\\times10^4\\ \\mathrm{N}}$",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

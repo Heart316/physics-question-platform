@@ -1,0 +1,14 @@
+{
+  "problem_id": "1053",
+  "problem_text_cn": "1053 半径r、质量m的匀质轮子以角速度$\\omega_0$旋转，轻轻放在水平地面上，轮与地面间摩擦因数为μ。（1）求运动稳定后轮子的动量大小及对轮心的角动量大小；（2）计算摩擦力所作总功，验证其等于轮子动能增量。",
+  "problem_text_en": "1053 A uniform wheel of radius r and mass m rotates with an angular velocity $\\omega_0$ and is gently placed on a horizontal ground. The friction coefficient between the wheel and the ground is μ. (1) Find the magnitude of the momentum of the wheel and the magnitude of the angular momentum about the wheel center after the motion stabilizes; (2) Calculate the total work done by the friction force and verify that it is equal to the kinetic energy increment of the wheel.",
+  "problem_img": ["图1053_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1053_1：轮子在水平地面上的滑动摩擦与纯滚过程"],
+  "img_en": ["Fig. 1053_1: Sliding friction and rolling without slipping process of the wheel on the horizontal ground"],
+  "problem_solution_cn": "【核心思路】1. 稳定运动为纯滚状态，联立平动、转动方程及纯滚条件$v_C=\\omega r$，求稳定后的线速度和角速度，进而计算动量、角动量；2. 由功率的定义积分求摩擦力总功，对比动能增量验证功能关系。",
+  "problem_solution_en": "【Core Idea】1. The stable motion is the rolling without slipping state. Simultaneously solve the translational and rotational equations and the rolling without slipping condition $v_C=\\omega r$ to find the linear velocity and angular velocity after stabilization, and then calculate the momentum and angular momentum; 2. Integrate the definition of power to find the total work done by friction, and compare it with the kinetic energy increment to verify the work-energy relationship.",
+  "problem_answer": "（1）动量大小$\\boldsymbol{p = \\dfrac{1}{2}m\\omega_0 r}$，对轮心的角动量大小$\\boldsymbol{L' = \\dfrac{1}{2}mr^2\\omega_0}$；（2）摩擦力总功$\\boldsymbol{W = -\\dfrac{1}{4}m\\omega_0^2 r^2}$，等于轮子动能增量，验证成立",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1051",
+  "problem_text_cn": "1051 长度为2的刚性细杆AB两端约束在抛物线轨道$y=x^2$上运动，当AB恰好与x轴平行时，A端速度大小为$v_A$。求此时AB中点P的速度大小$v_P$。",
+  "problem_text_en": "1051 The two ends of a rigid thin rod AB of length 2 are constrained to move on the parabolic track $y=x^2$. When AB is exactly parallel to the x-axis, the magnitude of the velocity at end A is $v_A$. Find the magnitude of the velocity $v_P$ at the midpoint P of AB at this moment.",
+  "problem_img": ["图1051_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1051_1：抛物线轨道上细杆的运动与瞬心分析"],
+  "img_en": ["Fig. 1051_1: Motion of the thin rod on the parabolic track and instantaneous center analysis"],
+  "problem_solution_cn": "【核心思路】利用**刚体平面运动的瞬心**法：过A点作速度垂线确定瞬心M，结合抛物线切线斜率、几何关系求瞬心到中点P的距离，再由角速度与线速度的关系求解$v_P$。",
+  "problem_solution_en": "【Core Idea】Use the instantaneous center method for rigid body planar motion: draw a perpendicular line to the velocity through point A to determine the instantaneous center M, find the distance from the instantaneous center to the midpoint P by combining the slope of the parabola tangent and geometric relations, and then solve for $v_P$ using the relationship between angular velocity and linear velocity.",
+  "problem_answer": "中点P的速度大小为$\\boldsymbol{v_P = \\dfrac{v_A}{\\sqrt{5}}}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

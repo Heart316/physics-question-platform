@@ -1,0 +1,14 @@
+{
+  "problem_id": "1080",
+  "problem_text_cn": "1080 匀质细杆$A$端约束在光滑水平横梁上可自由滑行，细杆长$l$，初始时与竖直方向夹角$\\theta=\\pi/2$并静止释放。求$\\theta$降为多大锐角时，横梁给$A$端的向上支持力$N$等于细杆重力$mg$。",
+  "problem_text_en": "1080 End $A$ of a homogeneous thin rod is constrained to slide freely on a smooth horizontal beam. The length of the thin rod is $l$, and it is released from rest with an initial angle $\\theta=\\pi/2$ with the vertical direction. Find the acute angle $\\theta$ when the upward supporting force $N$ exerted by the beam on end $A$ equals the weight $mg$ of the thin rod.",
+  "problem_img": ["图1080_1", "图1080_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1080_1：细杆初始悬挂状态", "图1080_2：细杆摆动至$\\theta$角的瞬心与速度分析"],
+  "img_en": ["Fig. 1080_1: Initial suspended state of the thin rod", "Fig. 1080_2: Instantaneous center and velocity analysis when the thin rod swings to angle $\\theta$"],
+  "problem_solution_cn": "【核心思路】支持力$N=mg$的临界条件是**质心竖直加速度$a_C=0$**。由机械能守恒结合瞬心速度关系求质心速度$v_C$，对时间求导得到质心加速度表达式，令$a_C=0$求解临界倾角$\\theta$。",
+  "problem_solution_en": "【Core Idea】The critical condition for the supporting force $N=mg$ is that the vertical acceleration of the center of mass $a_C=0$. Find the centroid velocity $v_C$ by combining the conservation of mechanical energy with the instantaneous center velocity relationship, differentiate with respect to time to obtain the centroid acceleration expression, and set $a_C=0$ to solve for the critical inclination angle $\\theta$.",
+  "problem_answer": "临界锐角$\\boldsymbol{\\theta = \\arcsin\\left(\\sqrt{\\dfrac{\\sqrt{33}-3}{6}}\\right) \\approx 42^\\circ33'}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

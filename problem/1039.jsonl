@@ -1,0 +1,14 @@
+{
+  "problem_id": "1039",
+  "problem_text_cn": "1039 两个质量相同的小球A、B，用长为2a的轻绳联结。开始时A、B位于同一竖直线上，B在A的下方，相距为a。今给A水平初速度v₀，同时静止释放B，不计空气阻力，且设绳一旦伸直便不再回缩。试问经多长时间t，A、B恰好第一次位于同一水平线上？",
+  "problem_text_en": "1039 Two small balls A and B of the same mass are connected by a light string of length 2a. Initially, A and B are on the same vertical line, with B below A at a distance a. Ball A is given an initial horizontal velocity v₀, and ball B is released from rest simultaneously. Neglecting air resistance and assuming the string does not retract once taut, find the time t when A and B are first on the same horizontal line.",
+  "problem_img": ["图1039_1", "图1039_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1039_1：小球初始位置示意图", "图1039_2：绳拉直时的几何关系与速度分解"],
+  "img_en": ["Fig. 1039_1: Schematic of the initial positions of the balls", "Fig. 1039_2: Geometric relationship and velocity decomposition when the string is taut"],
+  "problem_solution_cn": "【核心思路】分两个阶段：1. 绳拉直过程：选取随B自由落体的非惯性系，A做匀速直线运动，由几何关系求得绳拉直时间t₁。2. 圆周运动过程：绳拉直后，系统质心匀速运动，在质心系中两球绕质心做匀速圆周运动，转过30°到达同一水平线，求得时间t₂。总时间为两阶段之和。",
+  "problem_solution_en": "【Core Idea】Divide into two stages: 1. String tautening process: Select a non-inertial frame falling freely with B, where A moves uniformly. Find the time t₁ for the string to become taut using geometric relations. 2. Circular motion process: After the string is taut, the center of mass moves uniformly. In the center-of-mass frame, the two balls perform uniform circular motion around the center of mass. Find the time t₂ to rotate 30° to reach the same horizontal line. The total time is the sum of the two stages.",
+  "problem_answer": "总时间为 $\\boldsymbol{t = \\left(\\sqrt{3} + \\frac{2\\pi}{3}\\right) \\frac{a}{v_0}}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

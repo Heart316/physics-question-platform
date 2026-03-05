@@ -1,0 +1,13 @@
+{
+  "problem_id": "1091",
+  "problem_text_cn": "1091 金字塔形（正四棱锥）冰山密度为$\\rho_1$，海水密度为$\\rho_2$（$\\rho_1<\\rho_2$），漂浮时塔顶离水面高度为$h$，求冰山自身高度$H$。",
+  "problem_text_en": "1091 An iceberg in the shape of a pyramid (regular square pyramid) has a density of $\\rho_1$, and the density of seawater is $\\rho_2$ ($\\rho_1<\\rho_2$). When floating, the height of the tower top above the water surface is $h$. Find the height $H$ of the iceberg itself.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】根据**阿基米德原理**，冰山重力等于排开海水的浮力。利用正四棱锥体积公式，结合几何相似性得到水下体积表达式，联立平衡方程求解$H$。",
+  "problem_solution_en": "【Core Idea】According to **Archimedes' principle**, the weight of the iceberg is equal to the buoyancy of the displaced seawater. Using the volume formula of a regular square pyramid and combining the geometric similarity to obtain the expression of the underwater volume, solve for $H$ by simultaneous equilibrium equations.",
+  "problem_answer": "冰山自身高度$\\boldsymbol{H = \\sqrt[3]{\\dfrac{\\rho_2}{\\rho_2 - \\rho_1}} \\cdot h}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1037",
+  "problem_text_cn": "1037 质量分别为$m_1、m_2$的两个质点构成的系统，试证在其质心系中的动能为$\\frac{1}{2}\\mu\\Delta \\boldsymbol{v}\\cdot\\Delta \\boldsymbol{v}$，式中$\\mu$为两质点的约化质量，$\\Delta \\boldsymbol{v}$为两质点的相对速度。",
+  "problem_text_en": "1037 For a system composed of two particles with masses $m_1$ and $m_2$, prove that the kinetic energy in its center-of-mass frame is $\\frac{1}{2}\\mu\\Delta \\boldsymbol{v}\\cdot\\Delta \\boldsymbol{v}$, where $\\mu$ is the reduced mass of the two particles and $\\Delta \\boldsymbol{v}$ is the relative velocity of the two particles.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】质心系中**总动量为零**，即$m_1\\boldsymbol{v_1}+m_2\\boldsymbol{v_2}=0$，可得相对速度$\\Delta \\boldsymbol{v}=\\boldsymbol{v_2}-\\boldsymbol{v_1}=-\\frac{m_1+m_2}{m_2}\\boldsymbol{v_1}$。将系统动能用$\\boldsymbol{v_1}$表示，代入约化质量$\\mu=\\frac{m_1m_2}{m_1+m_2}$，化简后即可得证。",
+  "problem_solution_en": "【Core Idea】In the center-of-mass frame, the total momentum is zero, i.e., $m_1\\boldsymbol{v_1}+m_2\\boldsymbol{v_2}=0$, so the relative velocity is $\\Delta \\boldsymbol{v}=\\boldsymbol{v_2}-\\boldsymbol{v_1}=-\\frac{m_1+m_2}{m_2}\\boldsymbol{v_1}$. Express the kinetic energy of the system in terms of $\\boldsymbol{v_1}$, substitute the reduced mass $\\mu=\\frac{m_1m_2}{m_1+m_2}$, and simplify to prove the formula.",
+  "problem_answer": "证明见解析，质心系动能公式$\\boldsymbol{E_k=\\dfrac{1}{2}\\mu\\Delta \\boldsymbol{v}\\cdot\\Delta \\boldsymbol{v}}$成立，其中$\\boldsymbol{\\mu=\\dfrac{m_1m_2}{m_1+m_2}}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1031",
+  "problem_text_cn": "1031 质量线密度相同，但长度未必相同的三根细棒若能构成一个三角形，试确定此三角形框架的质心位置。",
+  "problem_text_en": "1031 Three thin rods with the same linear mass density but not necessarily the same length can form a triangle. Determine the position of the center of mass of this triangular frame.",
+  "problem_img": ["图1031_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1031_1：三角形框架质心的质点等效分析图"],
+  "img_en": ["Fig. 1031_1: Particle equivalence analysis diagram for the center of mass of the triangular frame"],
+  "problem_solution_cn": "【核心思路】**细棒质心在中点**，将三根细棒等效为三个位于各边中点的质点，系统质心即为该三质点系的质心。通过两两质点的质心位置分析，可知三质点的共同质心满足“在各中点构成的小三角形的角平分线上”，最终交点为小三角形的**内心**。",
+  "problem_solution_en": "【Core Idea】The center of mass of a thin rod is at its midpoint. Equate the three thin rods to three particles located at the midpoints of each side; the center of mass of the system is the center of mass of this three-particle system. Through the analysis of the center of mass position of two particles at a time, it can be known that the common center of mass of the three particles lies on the angle bisectors of the small triangle formed by the midpoints, and the final intersection is the **incenter** of the small triangle.",
+  "problem_answer": "三角形框架的质心位于**以各边中点构成的小三角形的内心上**",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

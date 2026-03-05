@@ -1,0 +1,14 @@
+{
+  "problem_id": "1093",
+  "problem_text_cn": "1093 截面积$S=50\\ \\mathrm{cm^2}$的水管接有一段弯管，管轴偏转$75^\\circ$，管中水的流速$v=3.0\\ \\mathrm{m/s}$，求水流作用在弯管上力的大小和方向。（水的密度$\\rho=1.0\\times10^3\\ \\mathrm{kg/m^3}$）",
+  "problem_text_en": "1093 A water pipe with a cross-sectional area $S=50\\ \\mathrm{cm^2}$ is connected to a bent pipe with the pipe axis deflected by $75^\\circ$. The flow velocity of water in the pipe is $v=3.0\\ \\mathrm{m/s}$. Find the magnitude and direction of the force exerted by the water flow on the bent pipe. (Density of water $\\rho=1.0\\times10^3\\ \\mathrm{kg/m^3}$)",
+  "problem_img": ["图1093_1", "图1093_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1093_1：弯管的结构示意图", "图1093_2：水流的速度矢量分析"],
+  "img_en": ["Fig. 1093_1: Schematic of the bent pipe structure", "Fig. 1093_2: Velocity vector analysis of the water flow"],
+  "problem_solution_cn": "【核心思路】应用**动量定理**，水流对弯管的力等于弯管对水流的冲力的反作用力。计算单位时间内水流的动量变化，结合速度矢量的几何关系求解力的大小和方向。",
+  "problem_solution_en": "【Core Idea】Apply the **theorem of momentum**. The force exerted by the water flow on the bent pipe is equal to the reaction force of the impulse force exerted by the bent pipe on the water flow. Calculate the momentum change of the water flow per unit time, and solve for the magnitude and direction of the force combined with the geometric relationship of velocity vectors.",
+  "problem_answer": "水流作用在弯管上的力大小$\\boldsymbol{F=55\\ \\mathrm{N}}$，方向**与直管成52.5°角**",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

@@ -1,0 +1,13 @@
+{
+  "problem_id": "1099",
+  "problem_text_cn": "1099 直径很大的圆柱形水桶壁近底部有一直径$d=0.04\\ \\mathrm{m}$的小孔，桶内水深$h=1.60\\ \\mathrm{m}$。求：（1）理论体积流量$Q_1$；（2）薄壁圆孔收缩系数$\\alpha=61\\%$时的实际体积流量$Q_2$。",
+  "problem_text_en": "1099 There is a small hole with a diameter $d=0.04\\ \\mathrm{m}$ near the bottom of the wall of a cylindrical water bucket with a very large diameter, and the water depth in the bucket is $h=1.60\\ \\mathrm{m}$. Find: (1) The theoretical volume flow rate $Q_1$; (2) The actual volume flow rate $Q_2$ when the contraction coefficient of the thin-walled circular hole is $\\alpha=61\\%$.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】（1）由托里拆利公式求小孔流速，结合孔面积计算理论流量；（2）实际流量为理论流量乘以**收缩系数**$\\alpha$。",
+  "problem_solution_en": "【Core Idea】(1) Find the flow velocity of the small hole by Torricelli's formula, and calculate the theoretical flow rate combined with the hole area; (2) The actual flow rate is the theoretical flow rate multiplied by the **contraction coefficient** $\\alpha$.",
+  "problem_answer": "（1）理论体积流量$\\boldsymbol{Q_1=7.0\\times10^{-3}\\ \\mathrm{m^3/s}}$；（2）实际体积流量$\\boldsymbol{Q_2=4.3\\times10^{-3}\\ \\mathrm{m^3/s}}$",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

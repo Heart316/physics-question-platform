@@ -1,0 +1,14 @@
+{
+  "problem_id": "1086",
+  "problem_text_cn": "1086 两端开口的U型试管内盛有水银，从右端缓慢注入$H=13.6\\ \\mathrm{cm}$高的水柱，左管水银未外溢。求左管水银面上升的高度$h$。（已知$\\rho_{\\text{汞}}=13.6\\rho_{\\text{水}}$）",
+  "problem_text_en": "1086 A U-tube open at both ends is filled with mercury. A water column of height $H=13.6\\ \\mathrm{cm}$ is slowly poured into the right tube, and the mercury in the left tube does not overflow. Find the height $h$ by which the mercury level in the left tube rises. (Given $\\rho_{\\text{mercury}}=13.6\\rho_{\\text{water}}$)",
+  "problem_img": ["图1086_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1086_1：U型管中水银与水的压强平衡分析"],
+  "img_en": ["Fig. 1086_1: Pressure balance analysis of mercury and water in the U-tube"],
+  "problem_solution_cn": "【核心思路】利用**液体静压强平衡条件**，取左右管中水银的等高点$A、B$，两点压强相等。结合右管水柱压强与左管水银柱高度差的压强关系，代入密度比求解$h$。",
+  "problem_solution_en": "【Core Idea】Using the **hydrostatic pressure balance condition**, take the equal height points $A$ and $B$ of mercury in the left and right tubes, where the pressures are equal. Combine the pressure of the water column in the right tube with the pressure of the mercury column height difference in the left tube, and substitute the density ratio to solve for $h$.",
+  "problem_answer": "左管水银面上升的高度$\\boldsymbol{h = 0.5\\ \\mathrm{cm}}$",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1072",
+  "problem_text_cn": "1072 质量$m_1、m_2$，半径$R_1、R_2$的两个匀质圆盘，分别以角速度$\\omega_1、\\omega_2$顺时针无摩擦旋转，缓慢移近接触后保持转轴不动。求：（1）两盘最终的角速度$\\omega_1'、\\omega_2'$；（2）地面系中是否存在参考点$P$使系统相对$P$角动量守恒。",
+  "problem_text_en": "1072 Two uniform disks of mass $m_1, m_2$ and radius $R_1, R_2$ rotate clockwise without friction at angular velocities $\\omega_1, \\omega_2$ respectively, and are slowly moved closer to contact while keeping their rotation axes fixed. Find: (1) The final angular velocities $\\omega_1', \\omega_2'$ of the two disks; (2) Whether there exists a reference point $P$ in the ground frame such that the angular momentum of the system relative to $P$ is conserved.",
+  "problem_img": ["图1072_1", "图1072_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1072_1：两圆盘接触前的转动状态", "图1072_2：两圆盘接触后的受力与力矩分析"],
+  "img_en": ["Fig. 1072_1: Rotational state of the two disks before contact", "Fig. 1072_2: Force and torque analysis of the two disks after contact"],
+  "problem_solution_cn": "【核心思路】1. 最终状态接触处无相对滑动，结合**对各自转轴的角动量定理**，联立求解最终角速度；2. 角动量守恒条件为**合外力矩为零**，分析转轴支持力的力矩和，判断是否存在满足条件的参考点$P$。",
+  "problem_solution_en": "【Core Idea】1. There is no relative slip at the contact point in the final state, and the final angular velocities are solved simultaneously by combining the angular momentum theorem about their respective rotation axes; 2. The condition for angular momentum conservation is zero net external torque. Analyze the sum of the torques of the shaft supporting forces to determine whether there exists a reference point $P$ that satisfies the condition.",
+  "problem_answer": "（1）最终角速度$\\boldsymbol{\\omega_1' = \\dfrac{m_1R_1\\omega_1 - m_2R_2\\omega_2}{(m_1 + m_2)R_1}}$，$\\boldsymbol{\\omega_2' = \\dfrac{m_2R_2\\omega_2 - m_1R_1\\omega_1}{(m_1 + m_2)R_2}}$；（2）**不存在**这样的参考点$P$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

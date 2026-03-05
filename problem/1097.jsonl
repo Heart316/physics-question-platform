@@ -1,0 +1,14 @@
+{
+  "problem_id": "1097",
+  "problem_text_cn": "1097 火车挂弯水管于水槽中，水箱与水槽高度差$h=3.5\\ \\mathrm{m}$。（1）火车速度至少多大才能使水流入箱中？（2）火车走$L=1.00\\ \\mathrm{km}$路程给水箱灌水$V=3.00\\ \\mathrm{m^3}$，水管直径$d=10\\ \\mathrm{cm}$，求火车速度。",
+  "problem_text_en": "1097 A train hangs a bent water pipe in a water trough, with a height difference $h=3.5\\ \\mathrm{m}$ between the water tank and the trough. (1) What is the minimum speed of the train to make water flow into the tank? (2) The train travels a distance $L=1.00\\ \\mathrm{km}$ to fill the tank with $V=3.00\\ \\mathrm{m^3}$ of water, and the diameter of the water pipe is $d=10\\ \\mathrm{cm}$. Find the speed of the train.",
+  "problem_img": ["图1097_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1097_1：火车灌水的伯努利方程应用"],
+  "img_en": ["Fig. 1097_1: Application of Bernoulli's equation for train water filling"],
+  "problem_solution_cn": "【核心思路】以火车为参考系（惯性系），应用**伯努利方程**。（1）临界条件为水箱处水流速度为零，求解火车最小速度；（2）结合流量公式与灌水体积，联立伯努利方程求解实际速度。",
+  "problem_solution_en": "【Core Idea】Take the train as the reference frame (inertial frame) and apply the **Bernoulli equation**. (1) The critical condition is that the water flow velocity at the water tank is zero, solve for the minimum speed of the train; (2) Combine the flow rate formula and the water filling volume, and solve for the actual speed by simultaneous Bernoulli equations.",
+  "problem_answer": "（1）火车最小速度$\\boldsymbol{v_{min}=8.3\\ \\mathrm{m/s}}$；（2）火车实际速度$\\boldsymbol{v=9.0\\ \\mathrm{m/s}}$",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

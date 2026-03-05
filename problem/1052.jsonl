@@ -1,0 +1,14 @@
+{
+  "problem_id": "1052",
+  "problem_text_cn": "1052 半径R、质量m的匀质球体静止于倾角φ的斜面上，t=0时开始纯滚下滑。求滚到斜面底部前t时刻瞬心M的加速度$a_M$，以及球体与斜面间的摩擦因数μ的最小值。",
+  "problem_text_en": "1052 A uniform sphere of radius R and mass m is stationary on an inclined plane with an inclination angle φ, and starts to roll without slipping down the slope at t=0. Find the acceleration $a_M$ of the instantaneous center M at time t before rolling to the bottom of the slope, and the minimum value of the friction coefficient μ between the sphere and the inclined plane.",
+  "problem_img": ["图1052_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1052_1：斜面上纯滚球体的受力与瞬心分析"],
+  "img_en": ["Fig. 1052_1: Force and instantaneous center analysis of the sphere rolling without slipping on the inclined plane"],
+  "problem_solution_cn": "【核心思路】1. 牛顿第二定律+转动定律联立，求球体质心加速度和角加速度；2. 瞬心相对质心做变速圆周运动，分解加速度后合成，得到瞬心加速度；3. 由纯滚条件（静摩擦力）推导摩擦因数的最小值。",
+  "problem_solution_en": "【Core Idea】1. Simultaneously apply Newton's second law and the rotational equation of motion to find the centroid acceleration and angular acceleration of the sphere; 2. The instantaneous center moves in a variable-speed circular motion relative to the centroid, and the acceleration of the instantaneous center is obtained by decomposing and combining the accelerations; 3. Derive the minimum value of the friction coefficient from the condition of rolling without slipping (static friction).",
+  "problem_answer": "瞬心M的加速度大小$\\boldsymbol{a_M = \\dfrac{25g^2\\sin^2\\phi}{49R}t^2}$，方向**垂直斜面向上**；摩擦因数最小值$\\boldsymbol{\\mu \\geqslant \\dfrac{2}{7}\\tan\\phi}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

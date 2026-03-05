@@ -1,0 +1,14 @@
+{
+  "problem_id": "1054",
+  "problem_text_cn": "1054 质量m的平板受水平力F作用沿水平地面运动，板与地面、板与上方质量M、半径R的匀质圆柱体间的摩擦因数均为μ。（1）若圆柱体在板上纯滚，求板的加速度；（2）求使圆柱体仍纯滚的F的最大值。",
+  "problem_text_en": "1054 A flat plate of mass m moves along a horizontal ground under the action of a horizontal force F. The friction coefficient between the plate and the ground, and between the plate and the uniform cylinder of mass M and radius R above it is μ. (1) If the cylinder rolls without slipping on the plate, find the acceleration of the plate; (2) Find the maximum value of F for the cylinder to still roll without slipping.",
+  "problem_img": ["图1054_1", "图1054_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1054_1：平板与圆柱体的初始装置", "图1054_2：平板与圆柱体的受力分析"],
+  "img_en": ["Fig. 1054_1: Initial device of the flat plate and cylinder", "Fig. 1054_2: Force analysis of the flat plate and cylinder"],
+  "problem_solution_cn": "【核心思路】1. 对平板、圆柱分别列平动、转动方程，结合纯滚条件$a_m - a_M = \\beta R$，联立求解板的加速度；2. 由纯滚的静摩擦力上限$f_2 \\leqslant \\mu Mg$，推导F的最大值。",
+  "problem_solution_en": "【Core Idea】1. List the translational and rotational equations for the flat plate and cylinder respectively, combine the rolling without slipping condition $a_m - a_M = \\beta R$, and solve the acceleration of the plate simultaneously; 2. Derive the maximum value of F from the upper limit of static friction for rolling without slipping $f_2 \\leqslant \\mu Mg$.",
+  "problem_answer": "（1）板的加速度$\\boldsymbol{a_m = \\dfrac{F - \\mu(M + m)g}{m + M/3}}$；（2）F的最大值$\\boldsymbol{F_{max} = 2\\mu(2m + M)g}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

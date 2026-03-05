@@ -1,0 +1,14 @@
+{
+  "problem_id": "1048",
+  "problem_text_cn": "1048 竖直平面内有一半径为R的固定半圆环。质量m、长R的匀质细杆，一端靠着环的端点，另一端在环内壁，从静止自由滑下。设杆与环内壁间无摩擦，试求细杆滑到最低位置时两端各受环的支持力N₁、N₂。",
+  "problem_text_en": "1048 There is a fixed semicircular ring of radius R in a vertical plane. A uniform thin rod of mass m and length R, with one end leaning against the end of the ring and the other end on the inner wall of the ring, slides down freely from rest. Assuming no friction between the rod and the inner wall of the ring, find the supporting forces N₁ and N₂ exerted by the ring on the two ends of the rod when it slides to the lowest position.",
+  "problem_img": ["图1048_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1048_1：半圆环内细杆的滑动"],
+  "img_en": ["Fig. 1048_1: Sliding of a thin rod inside a semicircular ring"],
+  "problem_solution_cn": "【核心思路】1. **机械能守恒**：求解细杆在最低位置的角速度ω。2. **质心运动定理**：细杆做圆周运动，合外力提供质心的向心力。利用几何关系确定质心位置和受力角度，列方程求解支持力。",
+  "problem_solution_en": "【Core Idea】1. Conservation of mechanical energy: Solve for the angular velocity ω of the rod at the lowest position. 2. Theorem of motion of the center of mass: The rod performs circular motion, and the net external force provides the centripetal force for the center of mass. Determine the position of the center of mass and the force angles using geometric relations, and list equations to solve for the supporting forces.",
+  "problem_answer": "两端支持力大小相等，均为 $\\boldsymbol{N_1 = N_2 = \\frac{19}{10\\sqrt{3}}mg}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

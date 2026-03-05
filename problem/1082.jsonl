@@ -1,0 +1,14 @@
+{
+  "problem_id": "1082",
+  "problem_text_cn": "1082 匀质刚性圆盘中间切割出半径为原盘1/2的同轴小圆盘，小圆盘质量为$m$，剩余圆环质量为$3m$，两者间缝隙可略、仅点接触。系统以初速度$v_0$在水平地面运动，圆环与地面摩擦因数$\\mu_0=0.5$，与小圆盘间摩擦因数为$\\mu$。（1）若圆环与小圆盘间曾发生相对滑动，求$\\mu$的取值范围；（2）取$\\mu=0.2$，求系统最终的水平速度。",
+  "problem_text_en": "1082 A coaxial small disk with a radius half that of the original disk is cut out from the center of a homogeneous rigid disk. The mass of the small disk is $m$, and the mass of the remaining ring is $3m$. The gap between them is negligible and they are only in point contact. The system moves on a horizontal ground with an initial velocity $v_0$. The friction coefficient between the ring and the ground is $\\mu_0=0.5$, and that between the ring and the small disk is $\\mu$. (1) If relative sliding occurs between the ring and the small disk, find the range of $\\mu$; (2) Take $\\mu=0.2$ and find the final horizontal velocity of the system.",
+  "problem_img": ["图1082_1", "图1082_2", "图1082_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1082_1：小圆盘-圆环系统初始运动状态", "图1082_2：小圆盘受力分析", "图1082_3：圆环受力分析"],
+  "img_en": ["Fig. 1082_1: Initial motion state of the small disk-ring system", "Fig. 1082_2: Force analysis of the small disk", "Fig. 1082_3: Force analysis of the ring"],
+  "problem_solution_cn": "【核心思路】（1）相对滑动的条件为圆环角加速度$\\beta_2 > $小圆盘角加速度$\\beta_1$，联立牛顿第二定律、转动定律及摩擦力公式，代入$\\mu_0=0.5$推导$\\mu$的临界值；（2）系统最终达到纯滚稳定状态，**相对地面接触点角动量守恒**（重力、支持力、摩擦力对该点力矩和为零），结合转动惯量与纯滚条件$v=\\omega\\cdot2R$，简化计算最终速度。",
+  "problem_solution_en": "【Core Idea】(1) The condition for relative sliding is that the angular acceleration of the ring $\\beta_2 > $ the angular acceleration of the small disk $\\beta_1$. Simultaneously solve Newton's second law, the rotational equation of motion and the friction formula, and substitute $\\mu_0=0.5$ to derive the critical value of $\\mu$; (2) The system finally reaches a stable pure rolling state, and the **angular momentum about the ground contact point is conserved** (the sum of the torques of gravity, support force and friction about this point is zero). Combine the moment of inertia and the pure rolling condition $v=\\omega\\cdot2R$ to simplify the calculation of the final velocity.",
+  "problem_answer": "（1）$\\mu$的取值范围：$\\boldsymbol{\\mu < \\dfrac{1}{\\sqrt{19}} \\approx 0.23}$；（2）系统最终水平速度：$\\boldsymbol{v = \\dfrac{2}{3}v_0 \\approx 0.67v_0}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1042",
+  "problem_text_cn": "1042 质量m的匀质细丝，在平面上弯曲成两个半径同为R的相切连接的半圆形状。过左半圆周中点A设置垂直于圆平面的转轴，试求弯曲细丝相对此转轴的转动惯量I_A。",
+  "problem_text_en": "1042 A uniform thin filament of mass m is bent in a plane into two tangent semicircular shapes with the same radius R. An axis perpendicular to the plane of the circle is set through point A, the midpoint of the left semicircle. Find the moment of inertia I_A of the bent filament about this axis.",
+  "problem_img": ["图1042_1", "图1042_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1042_1：双半圆细丝几何结构", "图1042_2：质心位置与平行轴定理应用"],
+  "img_en": ["Fig. 1042_1: Geometric structure of the double semicircular filament", "Fig. 1042_2: Center of mass position and application of the parallel axis theorem"],
+  "problem_solution_cn": "【核心思路】将双半圆等效为一个完整的圆。先求整个圆对其质心C的转动惯量I_C，再利用平行轴定理$I_A = I_C + md^2$，其中d为A到C的距离$\\sqrt{2}R$。",
+  "problem_solution_en": "【Core Idea】Equate the two semicircles to a complete circle. First, find the moment of inertia I_C of the entire circle about its center of mass C, then use the parallel axis theorem $I_A = I_C + md^2$, where d is the distance $\\sqrt{2}R$ from A to C.",
+  "problem_answer": "转动惯量为 $\\boldsymbol{I_A = 4mR^2}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1090",
+  "problem_text_cn": "1090 细管横截面积$S_1=5.00\\ \\mathrm{cm^2}$，容器横截面积$S_2=100\\ \\mathrm{cm^2}$、高度$h_2=5.00\\ \\mathrm{cm}$，水的总高度$h_1+h_2=100\\ \\mathrm{cm}$。（1）计算水对容器底部的压力$F_1$和水的重力$W$；（2）解释两值不同的原因。",
+  "problem_text_en": "1090 The cross-sectional area of the thin tube is $S_1=5.00\\ \\mathrm{cm^2}$, the cross-sectional area of the container is $S_2=100\\ \\mathrm{cm^2}$, the height of the container is $h_2=5.00\\ \\mathrm{cm}$, and the total height of the water is $h_1+h_2=100\\ \\mathrm{cm}$. (1) Calculate the pressure $F_1$ of the water on the bottom of the container and the weight $W$ of the water; (2) Explain why the two values are different.",
+  "problem_img": ["图1090_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1090_1：细管-容器组合的液体压力分析"],
+  "img_en": ["Fig. 1090_1: Liquid pressure analysis of the thin tube-container combination"],
+  "problem_solution_cn": "【核心思路】（1）水对底部的压力由液体静压强公式$F = \\rho g h S_2$计算，水的重力由质量公式$W = \\rho g V$（$V$为水的总体积）计算；（2）压力与重力不同的原因是**容器上壁对水有向下的支持力**，水对底部的压力等于水的重力加上上壁的反作用力。",
+  "problem_solution_en": "【Core Idea】(1) The pressure of water on the bottom is calculated by the hydrostatic pressure formula $F = \\rho g h S_2$, and the weight of water is calculated by the mass formula $W = \\rho g V$ (where $V$ is the total volume of water); (2) The reason why the pressure and weight are different is that the **upper wall of the container exerts a downward supporting force on the water**, and the pressure of water on the bottom is equal to the weight of water plus the reaction force of the upper wall.",
+  "problem_answer": "（1）水对容器底部的压力$\\boldsymbol{F_1 = 98\\ \\mathrm{N}}$，水的重力$\\boldsymbol{W = 9.56\\ \\mathrm{N}}$；（2）原因：容器上平板对水有向上的压力，其反作用力使水对底部的压力大于水的重力，水对容器的总压力等于水的重力。",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

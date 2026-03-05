@@ -1,0 +1,14 @@
+{
+  "problem_id": "1064",
+  "problem_text_cn": "1064 质量均为m的滑板装置A（底板长L，与倾角φ斜面摩擦因数μ<(1/2)tanφ）和小滑块B，初始时B在A底板正中间且均静止，两者间光滑。同时释放后A、B下滑，A前部挡板与B发生弹性碰撞，斜面足够长。求：（1）从开始到A、B发生第3次碰撞的时间T；（2）此过程中摩擦力所作的功W_f。",
+  "problem_text_en": "1064 A skateboard device A (base length L, friction coefficient μ<(1/2)tanφ with the inclined plane of angle φ) and a small slider B, both of mass m, are initially at rest with B at the exact center of A's base and no friction between them. After being released simultaneously, A and B slide down, and the front baffle of A collides elastically with B. The inclined plane is long enough. Find: (1) The time T from the start to the 3rd collision between A and B; (2) The work W_f done by friction during this process.",
+  "problem_img": ["图1064_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1064_1：滑板与滑块在斜面上的运动及碰撞示意图"],
+  "img_en": ["Fig. 1064_1: Schematic of the motion and collision of the skateboard and slider on the inclined plane"],
+  "problem_solution_cn": "【核心思路】1. 相对运动法：先求B相对A的加速度，结合弹性碰撞“交换速度、相对速度反向”的特点，确定相邻两次碰撞的时间间隔，进而求第3次碰撞的总时间；2. 摩擦力做功：通过系统质心加速度求质心位移，结合几何关系得A的位移，再由功的定义计算摩擦力的功。",
+  "problem_solution_en": "【Core Idea】1. Relative motion method: First find the acceleration of B relative to A, then determine the time interval between adjacent collisions based on the characteristics of elastic collision (exchanging velocities, reversing relative velocity), and further find the total time for the 3rd collision; 2. Work done by friction: Find the displacement of the center of mass through the acceleration of the system's center of mass, obtain the displacement of A combined with geometric relations, and then calculate the work of friction by the definition of work.",
+  "problem_answer": "（1）第3次碰撞的时间$\\boldsymbol{T = 5\\sqrt{\\dfrac{L}{2\\mu g \\cos\\phi}}}$；（2）摩擦力做功$\\boldsymbol{W_f = -\\dfrac{1}{2}mgL(25\\sin\\phi - 26\\mu \\cos\\phi)}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

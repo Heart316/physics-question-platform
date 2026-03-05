@@ -1,0 +1,14 @@
+{
+  "problem_id": "1085",
+  "problem_text_cn": "1085 硬币在水平桌面纯滚并走出半径为$R$的圆周轨道（$r\\ll R$，$r$为硬币半径），硬币中心速度为$v$，自转轴向内小倾角为$\\phi$。求小倾角$\\phi$的表达式。",
+  "problem_text_en": "1085 A coin rolls without slipping on a horizontal table and travels a circular orbit of radius $R$ ($r\\ll R$, where $r$ is the radius of the coin). The center velocity of the coin is $v$, and the spin axis is inclined inward at a small angle $\\phi$. Find the expression for the small angle $\\phi$.",
+  "problem_img": ["图1085_1", "图1085_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1085_1：硬币圆周纯滚的运动状态", "图1085_2：硬币的进动、力矩与角动量分析"],
+  "img_en": ["Fig. 1085_1: Motion state of the coin in circular pure rolling", "Fig. 1085_2: Analysis of precession, torque and angular momentum of the coin"],
+  "problem_solution_cn": "【核心思路】硬币的定点转动为**陀螺进动**，合外力矩等于角动量的变化率（$M = L_{//}\\Omega$）。结合质心运动定理求支持力与摩擦力，计算相对定点的力矩，联立角动量分量与进动角速度关系，利用小角度近似求解$\\phi$。",
+  "problem_solution_en": "【Core Idea】The fixed-point rotation of the coin is **gyroscopic precession**, and the net external torque is equal to the rate of change of angular momentum ($M = L_{//}\\Omega$). Combine the theorem of motion of the center of mass to find the support force and friction, calculate the torque relative to the fixed point, simultaneously solve the relationship between angular momentum components and precessional angular velocity, and use small angle approximation to solve for $\\phi$.",
+  "problem_answer": "自转轴小倾角$\\boldsymbol{\\phi = \\arcsin\\left(\\dfrac{3v^2}{2Rg}\\right)}$（小角度下$\\boldsymbol{\\phi \\approx \\dfrac{3v^2}{2Rg}}$）",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

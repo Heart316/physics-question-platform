@@ -1,0 +1,14 @@
+{
+  "problem_id": "1071",
+  "problem_text_cn": "1071 质量为$M$、长为$L$的匀质长棒，手握一端撞击岩石，为使碰撞时手受到的冲击力最小，求碰撞点与手的距离$l$。",
+  "problem_text_en": "1071 A uniform long rod of mass $M$ and length $L$, with one end held in the hand to strike a rock. To minimize the impact force on the hand during the collision, find the distance $l$ between the collision point and the hand.",
+  "problem_img": ["图1071_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1071_1：长棒撞击岩石的冲量与角动量分析图"],
+  "img_en": ["Fig. 1071_1: Impulse and angular momentum analysis diagram of the long rod striking the rock"],
+  "problem_solution_cn": "【核心思路】碰撞过程中，对棒列**水平冲量定理**与**相对手握端的角动量定理**，结合质心速度与角速度的关系，联立方程消去冲量与角速度，求解使手冲击力为零的碰撞点位置（即棒的打击中心）。",
+  "problem_solution_en": "【Core Idea】During the collision, list the horizontal impulse theorem and the angular momentum theorem about the hand-held end for the rod, combine the relationship between the centroid velocity and angular velocity, eliminate the impulse and angular velocity by simultaneous equations, and solve for the position of the collision point where the impact force on the hand is zero (i.e., the center of percussion of the rod).",
+  "problem_answer": "碰撞点与手的距离$\\boldsymbol{l = \\dfrac{2}{3}L}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

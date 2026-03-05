@@ -1,0 +1,14 @@
+{
+  "problem_id": "1077",
+  "problem_text_cn": "1077 质量$m$、半径$R$的匀质圆环静止在水平地面上，其水平直径右端点连一质量$m$的小物体$P$，系统自由释放且环与地面无相对滑动。求圆环转过$\\theta$角时：（1）圆环的转动角速度$\\omega$；（2）圆环受地面的静摩擦力$f$。",
+  "problem_text_en": "1077 A uniform ring of mass $m$ and radius $R$ is stationary on a horizontal ground. A small object $P$ of mass $m$ is connected to the right endpoint of its horizontal diameter. The system is released freely and there is no relative slip between the ring and the ground. Find, when the ring rotates by an angle $\\theta$: (1) The rotational angular velocity $\\omega$ of the ring; (2) The static friction $f$ exerted by the ground on the ring.",
+  "problem_img": ["图1077_1", "图1077_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1077_1：圆环与物体P的初始装置", "图1077_2：圆环转过$\\theta$角的能量与受力分析"],
+  "img_en": ["Fig. 1077_1: Initial device of the ring and object P", "Fig. 1077_2: Energy and force analysis when the ring rotates by angle $\\theta$"],
+  "problem_solution_cn": "【核心思路】1. 机械能守恒：系统重力势能的减少量等于圆环的转动动能与物体$P$的平动动能之和，结合速度的几何分解关系求解$\\omega$；2. 静摩擦力：先求角加速度$\\beta$，再分析系统质心的水平加速度，由**质心运动定理**求解地面静摩擦力。",
+  "problem_solution_en": "【Core Idea】1. Conservation of mechanical energy: The decrease in the gravitational potential energy of the system is equal to the sum of the rotational kinetic energy of the ring and the translational kinetic energy of object P. Solve for $\\omega$ by combining the geometric decomposition relationship of velocity; 2. Static friction: First find the angular acceleration $\\beta$, then analyze the horizontal acceleration of the system's center of mass, and solve for the ground static friction by the **theorem of motion of the center of mass**.",
+  "problem_answer": "（1）圆环转动角速度$\\boldsymbol{\\omega = \\sqrt{\\dfrac{\\sin\\theta}{2 - \\sin\\theta}} \\cdot \\sqrt{\\dfrac{g}{R}}}$；（2）地面静摩擦力$\\boldsymbol{f = \\dfrac{(1 - \\sin\\theta)\\cos\\theta}{2 - \\sin\\theta}mg}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

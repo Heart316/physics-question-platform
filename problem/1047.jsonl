@@ -1,0 +1,14 @@
+{
+  "problem_id": "1047",
+  "problem_text_cn": "1047 两个匀质圆盘质量分别为m₁、m₂，半径分别为R₁、R₂，各自可绕互相平行的固定水平轴无摩擦地转动，轻皮带紧围在两个圆盘外侧。今对圆盘1相对其转轴施加外力矩M，设圆盘、皮带间无相对滑动，试求圆盘1、2各自的转动角加速度β₁、β₂。",
+  "problem_text_en": "1047 Two uniform disks have masses m₁, m₂ and radii R₁, R₂ respectively, and can rotate without friction about two parallel fixed horizontal axes. A light belt is tightly wrapped around the outside of the two disks. An external torque M is applied to disk 1 about its axis. Assuming no relative slip between the disks and the belt, find the angular accelerations β₁ and β₂ of disks 1 and 2 respectively.",
+  "problem_img": ["图1047_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1047_2：双圆盘皮带传动系统"],
+  "img_en": ["Fig. 1047_2: Double-disk belt drive system"],
+  "problem_solution_cn": "【核心思路】对两圆盘分别应用**转动定律**。皮带的张力差提供圆盘的合外力矩。由于皮带不打滑，两圆盘边缘的线加速度相等，即R₁β₁=R₂β₂。联立方程求解。",
+  "problem_solution_en": "【Core Idea】Apply the rotational equation of motion to each disk separately. The tension difference of the belt provides the net torque for the disks. Since the belt does not slip, the linear accelerations at the edges of the two disks are equal, i.e., R₁β₁=R₂β₂. Solve the equations simultaneously.",
+  "problem_answer": "$\\boldsymbol{\\beta_1 = \\frac{2M}{(m_1+m_2)R_1^2}}$；$\\boldsymbol{\\beta_2 = \\frac{2M}{(m_1+m_2)R_1R_2}}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

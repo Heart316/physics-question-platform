@@ -1,0 +1,14 @@
+{
+  "problem_id": "1076",
+  "problem_text_cn": "1076 半径$R$、质量$m$的匀质球壳，初始以角速度$\\omega_0$绕水平直径轴旋转，无初速轻放在水平地面上，球壳与地面摩擦因数为$\\mu$。求：（1）球壳达到纯滚状态的时刻$t_0$；（2）$0\\leqslant t < t_0$时刻瞬心$M$的位置及加速度$\\boldsymbol{a}_M$。",
+  "problem_text_en": "1076 A uniform spherical shell of radius $R$ and mass $m$ initially rotates around a horizontal diameter axis with an angular velocity $\\omega_0$, and is gently placed on a horizontal ground with no initial velocity. The friction coefficient between the spherical shell and the ground is $\\mu$. Find: (1) The time $t_0$ when the spherical shell reaches the pure rolling state; (2) The position and acceleration $\\boldsymbol{a}_M$ of the instantaneous center $M$ at $0\\leqslant t < t_0$.",
+  "problem_img": ["图1076_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1076_1：球壳滑动摩擦阶段的受力与运动分析"],
+  "img_en": ["Fig. 1076_1: Force and motion analysis of the spherical shell in the sliding friction stage"],
+  "problem_solution_cn": "【核心思路】1. 纯滚条件：$v_C = \\omega R$，结合牛顿第二定律与转动定律，求解质心加速度$a_C$和角加速度$\\beta$，联立得到纯滚时刻$t_0$；2. 瞬心位置：由$v_C = \\omega r$确定球心下方的距离$r$；瞬心加速度：分解为相对质心的向心、切向加速度与质心加速度的矢量和。",
+  "problem_solution_en": "【Core Idea】1. Pure rolling condition: $v_C = \\omega R$. Combine Newton's second law and the rotational equation of motion to solve for the centroid acceleration $a_C$ and angular acceleration $\\beta$, and obtain the pure rolling time $t_0$ simultaneously; 2. Instantaneous center position: Determine the distance $r$ below the center of mass by $v_C = \\omega r$; Instantaneous center acceleration: Decompose into the vector sum of the centripetal, tangential acceleration relative to the center of mass and the centroid acceleration.",
+  "problem_answer": "（1）纯滚时刻$\\boldsymbol{t_0 = \\dfrac{2\\omega_0 R}{5\\mu g}}$；（2）瞬心位置：球心C下方$\\boldsymbol{r = \\dfrac{2R\\mu g t}{2\\omega_0 R - 3\\mu g t}}$处；瞬心加速度：水平分量$\\boldsymbol{a_{M//} = \\dfrac{2\\omega_0 R}{2\\omega_0 R - 3\\mu g t}\\mu g}$（向右），竖直分量$\\boldsymbol{a_{M\\perp} = \\dfrac{(2\\omega_0 R - 3\\mu g t)\\mu g t}{2R}}$（向上）",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

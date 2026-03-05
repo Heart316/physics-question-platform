@@ -1,0 +1,14 @@
+{
+  "problem_id": "1074",
+  "problem_text_cn": "1074 刚体在参考系S中作平面平行运动，瞬心迹线为L，瞬心转移速度$\\boldsymbol{v}_M^* = d\\boldsymbol{R}_M/dt$，刚体转动角速度为$\\omega$。试导出瞬心加速度$\\boldsymbol{a}_M$与$\\boldsymbol{v}_M^*$、$\\omega$的关系，并给出两个实例验证。",
+  "problem_text_en": "1074 A rigid body undergoes plane parallel motion in reference frame S, with the instantaneous center trajectory being L. The transfer velocity of the instantaneous center is $\\boldsymbol{v}_M^* = d\\boldsymbol{R}_M/dt$, and the angular velocity of the rigid body rotation is $\\omega$. Derive the relationship between the instantaneous center acceleration $\\boldsymbol{a}_M$ and $\\boldsymbol{v}_M^*$, $\\omega$, and provide two examples for verification.",
+  "problem_img": ["图1074_1", "图1074_2", "图1074_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1074_1：瞬心迹线与位移分析示意图", "图1074_2：圆环纯滚的瞬心加速度实例", "图1074_3：细杆平面运动的瞬心加速度实例"],
+  "img_en": ["Fig. 1074_1: Schematic of instantaneous center trajectory and displacement analysis", "Fig. 1074_2: Example of instantaneous center acceleration for a pure rolling ring", "Fig. 1074_3: Example of instantaneous center acceleration for planar motion of a thin rod"],
+  "problem_solution_cn": "【核心思路】利用瞬心的速度特性（$v_M=0$），分析$t$到$t+dt$时刻瞬心的位置变化与原瞬心点的速度关系，通过矢量运算推导加速度公式；实例分别选取**圆环直线纯滚**和**细杆绕定点的圆周瞬心迹线运动**，代入公式验证结果的合理性。",
+  "problem_solution_en": "【Core Idea】Using the velocity characteristic of the instantaneous center ($v_M=0$), analyze the position change of the instantaneous center and the velocity relationship of the original instantaneous center point from time $t$ to $t+dt$, derive the acceleration formula through vector operation; select **pure rolling of a ring along a straight line** and **planar motion of a thin rod with a circular instantaneous center trajectory around a fixed point** as examples respectively, and substitute into the formula to verify the rationality of the results.",
+  "problem_answer": "瞬心加速度关系：$\\boldsymbol{a}_M = -\\boldsymbol{\\omega} \\times \\boldsymbol{v}_M^*$（$\\boldsymbol{a}_M$垂直于瞬心迹线L）；实例1（圆环纯滚）：$a_M = \\omega^2 R$（方向向上）；实例2（细杆运动）：$a_M = \\omega^2 l$（方向指向圆心O）",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

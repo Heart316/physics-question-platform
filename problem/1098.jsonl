@@ -1,0 +1,13 @@
+{
+  "problem_id": "1098",
+  "problem_text_cn": "1098 以流量$Q_V=150\\ \\mathrm{cm^3/s}$匀速向大盆注水，盆底小孔面积$S=0.50\\ \\mathrm{cm^2}$，求稳定时水面保持的高度$h$。",
+  "problem_text_en": "1098 Water is poured into a large basin at a constant flow rate $Q_V=150\\ \\mathrm{cm^3/s}$, and the area of the small hole at the bottom of the basin is $S=0.50\\ \\mathrm{cm^2}$. Find the height $h$ at which the water surface is maintained when stable.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】稳定时**注水流量等于出水流量**，出水流量由托里拆利公式$Q_V=vS=S\\sqrt{2gh}$给出，变形求解水面高度$h$。",
+  "problem_solution_en": "【Core Idea】When stable, the **inflow rate is equal to the outflow rate**. The outflow rate is given by Torricelli's formula $Q_V=vS=S\\sqrt{2gh}$, rearrange to solve for the water surface height $h$.",
+  "problem_answer": "稳定时水面保持的高度$\\boldsymbol{h=46\\ \\mathrm{cm}}$",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

@@ -1,0 +1,13 @@
+{
+  "problem_id": "1096",
+  "problem_text_cn": "1096 桶底部有一洞，水面距桶底$h=30\\ \\mathrm{cm}$，当桶以加速度$a=120\\ \\mathrm{m/s^2}$上升时，求水从洞漏出的速度。",
+  "problem_text_en": "1096 There is a hole at the bottom of a bucket, with the water surface $h=30\\ \\mathrm{cm}$ above the bottom. When the bucket rises with an acceleration $a=120\\ \\mathrm{m/s^2}$, find the velocity of water leaking from the hole.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】在桶的非惯性系中引入**等效重力加速度**$g'=g+a$，水的流出速度满足托里拆利公式$v=\\sqrt{2g'h}$，代入数据求解。",
+  "problem_solution_en": "【Core Idea】Introduce the **equivalent gravitational acceleration** $g'=g+a$ in the non-inertial frame of the bucket. The outflow velocity of water satisfies Torricelli's formula $v=\\sqrt{2g'h}$, substitute the data to solve.",
+  "problem_answer": "水从洞漏出的速度$\\boldsymbol{v=8.8\\ \\mathrm{m/s}}$",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

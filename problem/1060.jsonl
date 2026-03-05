@@ -1,0 +1,14 @@
+{
+  "problem_id": "1060",
+  "problem_text_cn": "1060 光滑水平桌面上的匀质细杆$AB$静止，小球垂直于杆对准$B$端弹性碰撞，碰后两者发生第二次碰撞。求杆的质量$M$与球的质量$m$的比值$\\gamma$。",
+  "problem_text_en": "1060 A uniform thin rod $AB$ is stationary on a smooth horizontal tabletop, and a small ball undergoes an elastic collision perpendicular to the rod, targeting end $B$. The two collide for a second time after the collision. Find the ratio $\\gamma$ of the mass $M$ of the rod to the mass $m$ of the ball.",
+  "problem_img": ["图1060_1", "图1060_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1060_1：小球撞击杆端的初始装置", "图1060_2：碰撞后杆与小球的运动分析"],
+  "img_en": ["Fig. 1060_1: Initial device of the small ball striking the rod end", "Fig. 1060_2: Motion analysis of the rod and small ball after collision"],
+  "problem_solution_cn": "【核心思路】发生第二次碰撞的条件是**碰后杆的质心速度$v_C$等于小球速度$v$**（两者无相对运动，杆转动不影响二次碰撞的位置条件）。联立动量、角动量、机械能守恒定律，代入临界条件求解质量比。",
+  "problem_solution_en": "【Core Idea】The condition for the second collision is that the centroid velocity $v_C$ of the rod after the collision is equal to the velocity $v$ of the small ball (no relative motion between them, and the rotation of the rod does not affect the position condition of the second collision). Simultaneously apply the laws of conservation of momentum, angular momentum, and mechanical energy, and substitute the critical condition to solve for the mass ratio.",
+  "problem_answer": "杆与球的质量比$\\boldsymbol{\\gamma = \\dfrac{M}{m} = 2}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

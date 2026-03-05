@@ -1,0 +1,14 @@
+{
+  "problem_id": "1065",
+  "problem_text_cn": "1065 轻质细杆两端固定小球A、B，B的质量是A的α倍（α>1）。初始时细杆左半部分静止在水平桌面，右半部分露在桌面外，自由释放后细杆绕桌面侧棱偏转，当倾角达到φ₀时细杆中点开始离棱。求细杆中部与桌面侧棱的摩擦因数μ。",
+  "problem_text_en": "1065 Small balls A and B are fixed at the two ends of a light thin rod, and the mass of B is α times that of A (α>1). Initially, the left half of the thin rod is stationary on a horizontal tabletop, and the right half is exposed outside the tabletop. After being released freely, the thin rod deflects around the edge of the tabletop. When the inclination angle reaches φ₀, the midpoint of the thin rod begins to leave the edge. Find the friction coefficient μ between the middle part of the thin rod and the edge of the tabletop.",
+  "problem_img": ["图1065_1", "图1065_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1065_1：细杆绕桌面侧棱偏转的初始状态", "图1065_2：细杆偏转至φ角的受力与质心分析"],
+  "img_en": ["Fig. 1065_1: Initial state of the thin rod deflecting around the table edge", "Fig. 1065_2: Force and center of mass analysis when the thin rod deflects to angle φ"],
+  "problem_solution_cn": "【核心思路】临界条件为细杆刚要滑动时**静摩擦力达到最大值f=μN**。先由机械能守恒求质心速度、向心加速度，再分解质心切向加速度，分别列水平、竖直方向的动力学方程求摩擦力f和支持力N，最终代入临界条件求解μ。",
+  "problem_solution_en": "【Core Idea】The critical condition is that the static friction reaches its maximum value f=μN when the thin rod is about to slide. First, find the centroid velocity and centripetal acceleration by the conservation of mechanical energy, then decompose the tangential acceleration of the center of mass, list the dynamic equations in the horizontal and vertical directions respectively to find the friction f and supporting force N, and finally substitute the critical condition to solve for μ.",
+  "problem_answer": "摩擦因数$\\boldsymbol{\\mu = \\dfrac{3\\alpha^2 - 2\\alpha + 3}{4\\alpha}\\tan\\phi_0}$",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics"]
+}

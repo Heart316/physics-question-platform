@@ -1,0 +1,14 @@
+{
+  "problem_id": "1044",
+  "problem_text_cn": "1044 在薄平板刚体中，P₁和P₂两点相距2l，P₂和P₃两点相距l，P₃和P₁两点相距$\\sqrt{3}l$。已知刚体绕通过P₁、P₂点的垂直轴的转动惯量分别为$I_1=I_C+ml^2$和$I_2=I_C+3ml^2$。设I_C、m、l已知，试求刚体绕通过P₃点的垂直轴的转动惯量I₃。",
+  "problem_text_en": "1044 In a thin plate rigid body, the distance between points P₁ and P₂ is 2l, between P₂ and P₃ is l, and between P₃ and P₁ is $\\sqrt{3}l$. It is known that the moments of inertia of the rigid body about the vertical axes passing through P₁ and P₂ are $I_1=I_C+ml^2$ and $I_2=I_C+3ml^2$ respectively. Given I_C, m, and l, find the moment of inertia I₃ of the rigid body about the vertical axis passing through P₃.",
+  "problem_img": ["图1044_1", "图1044_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1044_1：三点位置关系", "图1044_2：质心C的可能位置几何解"],
+  "img_en": ["Fig. 1044_1: Positional relationship of the three points", "Fig. 1044_2: Geometric solution for the possible positions of the center of mass C"],
+  "problem_solution_cn": "【核心思路】利用平行轴定理反推质心位置。由I₁和I₂可知，质心C在以P₁为圆心、l为半径和以P₂为圆心、$\\sqrt{3}l$为半径的两个圆的交点上。结合几何关系，分两种情况计算P₃到C的距离，进而求I₃。",
+  "problem_solution_en": "【Core Idea】Deduce the position of the center of mass using the parallel axis theorem. From I₁ and I₂, the center of mass C lies at the intersection of two circles: one centered at P₁ with radius l, and the other centered at P₂ with radius $\\sqrt{3}l$. Combined with geometric relationships, calculate the distance from P₃ to C in two cases to find I₃.",
+  "problem_answer": "两种可能结果：$\\boldsymbol{I_3 = I_C + 4ml^2}$ 或 $\\boldsymbol{I_3 = I_C + ml^2}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

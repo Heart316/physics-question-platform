@@ -1,0 +1,14 @@
+{
+  "problem_id": "1041",
+  "problem_text_cn": "1041 钟摆由质量m、长l的匀质细杆和质量M、半径R的匀质圆盘连接而成，试求相对于过摆端A并且与摆面垂直的轴的转动惯量I_A。",
+  "problem_text_en": "1041 A pendulum consists of a uniform thin rod of mass m and length l connected to a uniform disk of mass M and radius R. Find the moment of inertia I_A about an axis passing through the pendulum end A and perpendicular to the plane of the pendulum.",
+  "problem_img": ["图1041_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1041_1：细杆-圆盘钟摆结构示意图"],
+  "img_en": ["Fig. 1041_1: Schematic of the rod-disk pendulum structure"],
+  "problem_solution_cn": "【核心思路】利用**转动惯量的叠加原理**和**平行轴定理**。总转动惯量等于细杆对A轴的转动惯量加上圆盘对A轴的转动惯量。圆盘对自身质心轴的转动惯量为$\\frac{1}{2}MR^2$，再利用平行轴定理平移至A轴。",
+  "problem_solution_en": "【Core Idea】Use the superposition principle of moment of inertia and the parallel axis theorem. The total moment of inertia is the sum of the moment of inertia of the rod about axis A and the moment of inertia of the disk about axis A. The moment of inertia of the disk about its own centroidal axis is $\\frac{1}{2}MR^2$, which is then translated to axis A using the parallel axis theorem.",
+  "problem_answer": "$\\boldsymbol{I_A = \\frac{1}{3}ml^2 + \\frac{1}{2}MR^2 + M(R+l)^2}$",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

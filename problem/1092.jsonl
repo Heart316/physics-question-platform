@@ -1,0 +1,14 @@
+{
+  "problem_id": "1092",
+  "problem_text_cn": "1092 长$l$、密度$\\rho$、横截面积$S$的匀质细杆，一端由竖直细绳悬挂，该端高出液面距离为$d$，浮在密度$\\rho_0$的液体中。求：（1）杆与液面的夹角$\\theta$；（2）绳中的张力$T$。",
+  "problem_text_en": "1092 A homogeneous thin rod of length $l$, density $\\rho$, and cross-sectional area $S$ is suspended at one end by a vertical string, with this end at a height $d$ above the liquid surface, floating in a liquid of density $\\rho_0$. Find: (1) The angle $\\theta$ between the rod and the liquid surface; (2) The tension $T$ in the string.",
+  "problem_img": ["图1092_1", "图1092_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1092_1：细杆漂浮的装置示意图", "图1092_2：细杆的受力与力矩分析"],
+  "img_en": ["Fig. 1092_1: Schematic of the thin rod floating device", "Fig. 1092_2: Force and torque analysis of the thin rod"],
+  "problem_solution_cn": "【核心思路】（1）相对悬挂点**力矩平衡**，结合浮力与重力公式，求解浮出水面的杆长$x$，再由三角函数关系$x\\sin\\theta=d$求夹角$\\theta$；（2）竖直方向**受力平衡**，张力$T$等于重力与浮力的差值。",
+  "problem_solution_en": "【Core Idea】(1) **Torque equilibrium** relative to the suspension point, combined with buoyancy and gravity formulas, solve for the length $x$ of the rod above the liquid surface, then find the angle $\\theta$ from the trigonometric relationship $x\\sin\\theta=d$; (2) **Force equilibrium** in the vertical direction, the tension $T$ is equal to the difference between gravity and buoyancy.",
+  "problem_answer": "（1）杆与液面的夹角$\\boldsymbol{\\theta = \\arcsin\\left(\\sqrt{\\dfrac{\\rho_0}{\\rho_0 - \\rho}} \\cdot \\dfrac{d}{l}\\right)}$；（2）绳中的张力$\\boldsymbol{T = \\left[\\rho - \\rho_0 + \\sqrt{\\rho_0(\\rho_0 - \\rho)}\\right] l S g}$",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1030",
+  "problem_text_cn": "1030 用质量线密度为$\\lambda$常量的细丝构成无限内接等边三角形框架，最外层的等边三角形$ABC$的每边长为$a$，而后在其三边中点内接各边长为$a/2$的等边三角形，再在上方各边长为$a/2$的等边三角形三边中点内接边长为$a/4$的等边三角形……（1）试求框架的总质量$m$；（2）确定框架质心$C_0$与顶点$A$之间的距离$h$。",
+  "problem_text_en": "1030 An infinitely inscribed equilateral triangular frame is constructed with thin filaments of constant linear mass density $\\lambda$. The side length of the outermost equilateral triangle $ABC$ is $a$. Then, an equilateral triangle with side length $a/2$ is inscribed at the midpoints of its three sides, and an equilateral triangle with side length $a/4$ is inscribed at the midpoints of the three sides of the upper equilateral triangle with side length $a/2$, and so on... (1) Find the total mass $m$ of the frame; (2) Determine the distance $h$ between the center of mass $C_0$ of the frame and the vertex $A$.",
+  "problem_img": ["图1030_1", "图1030_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1030_1：无限内接等边三角形框架的基本结构", "图1030_2：框架质心分解分析图"],
+  "img_en": ["Fig. 1030_1: Basic structure of the infinitely inscribed equilateral triangular frame", "Fig. 1030_2: Decomposition diagram for center of mass analysis of the frame"],
+  "problem_solution_cn": "【核心思路】利用**无穷等比数列求和**计算总质量，通过**质心叠加原理**与力矩平衡求解质心位置。\n（1）总质量：最外层三角形质量为$3a\\lambda$，后续内接三角形质量依次成公比$1/2$的等比数列，总质量$m=3a\\lambda\\sum_{n=0}^{\\infty}(1/2)^n=6a\\lambda$。\n（2）质心距离：将框架分解为上方边长$a/2$的同构子框架（质量$3a\\lambda$，质心距$A$为$h/2$）和下方两小三角形（质量$3a\\lambda$，质心距$A$为$5\\sqrt{3}a/12$）。由质心力矩平衡$m_1(h-h/2)=m_2(5\\sqrt{3}a/12-h)$，解得$h=5\\sqrt{3}a/18$。",
+  "problem_solution_en": "【Core Idea】Calculate the total mass using the summation of an infinite geometric sequence, and solve the center of mass position using the superposition principle of the center of mass and moment balance.\n(1) Total mass: The mass of the outermost triangle is $3a\\lambda$, and the masses of subsequent inscribed triangles form a geometric sequence with a common ratio of $1/2$. The total mass is $m=3a\\lambda\\sum_{n=0}^{\\infty}(1/2)^n=6a\\lambda$.\n(2) Distance to the center of mass: Decompose the frame into an isomorphic sub-frame with side length $a/2$ at the top (mass $3a\\lambda$, center of mass distance $h/2$ from $A$) and two small triangles at the bottom (mass $3a\\lambda$, center of mass distance $5\\sqrt{3}a/12$ from $A$). From the moment balance $m_1(h-h/2)=m_2(5\\sqrt{3}a/12-h)$, we get $h=5\\sqrt{3}a/18$.",
+  "problem_answer": "（1）$\\boldsymbol{m=6a\\lambda}$；（2）$\\boldsymbol{h=\\dfrac{5\\sqrt{3}}{18}a}$",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}
