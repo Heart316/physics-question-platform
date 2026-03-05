@@ -3903,5 +3903,201 @@
     ],
     "difficulty": 4,
     "has_image": true
+  },
+  {
+    "id": 1440,
+    "problem_id": "1440",
+    "title_preview": "1440 利用光杠杆测量细钢丝的杨氏模量...",
+    "tags": [
+      "Mechanics",
+      "Optics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1441,
+    "problem_id": "1441",
+    "title_preview": "1441 空气中声速的测量。[可供仪器和...",
+    "tags": [
+      "Mechanics",
+      "Thermodynamics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1442,
+    "problem_id": "1442",
+    "title_preview": "1442 测量滑块在倾斜气垫导轨上滑行时...",
+    "tags": [
+      "Kinematics",
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1443,
+    "problem_id": "1443",
+    "title_preview": "1443 单摆的振动周期，其中摆长为悬点...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1444,
+    "problem_id": "1444",
+    "title_preview": "1444 用单摆精确测量重力加速度。[可...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1445,
+    "problem_id": "1445",
+    "title_preview": "1445 用弹簧振子测定重力加速度。[可...",
+    "tags": [
+      "Mechanics",
+      "Electromagnetism"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1446,
+    "problem_id": "1446",
+    "title_preview": "1446 测定油的密度（第1届亚洲物理奥...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1447,
+    "problem_id": "1447",
+    "title_preview": "1447 音叉振动频率与对称双臂质量关系...",
+    "tags": [
+      "Mechanics",
+      "Modern Physics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1448,
+    "problem_id": "1448",
+    "title_preview": "1448 用拉脱法测量水的表面张力系数。...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1449,
+    "problem_id": "1449",
+    "title_preview": "1449 半径为  的小圆球在无限宽广的...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1450,
+    "problem_id": "1450",
+    "title_preview": "1450 测量固体的热膨胀系数。[可供仪...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1451,
+    "problem_id": "1451",
+    "title_preview": "1451 液体体膨胀系数的测量。[可供仪...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1452,
+    "problem_id": "1452",
+    "title_preview": "1452 用混合法测量冰的比熔解热。[可...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1453,
+    "problem_id": "1453",
+    "title_preview": "1453 用实验求空气自然对流和强迫对流...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 4,
+    "has_image": false
+  },
+  {
+    "id": 1454,
+    "problem_id": "1454",
+    "title_preview": "1454 用冷却法测量金属比热容。[可供...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1455,
+    "problem_id": "1455",
+    "title_preview": "1455 用实验的方法测量室温下浓度为百...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1456,
+    "problem_id": "1456",
+    "title_preview": "1456 混合法测定液体的比汽化热。[可...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1457,
+    "problem_id": "1457",
+    "title_preview": "1457 测量液氮的比汽化热。[可供仪器...",
+    "tags": [
+      "Thermodynamics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1458,
+    "problem_id": "1458",
+    "title_preview": "1458 测量斯忒藩-玻尔兹曼常数。[可...",
+    "tags": [
+      "Thermodynamics",
+      "Modern Physics"
+    ],
+    "difficulty": 4,
+    "has_image": true
   }
 ]
