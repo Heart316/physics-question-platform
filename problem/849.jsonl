@@ -1,0 +1,14 @@
+{
+  "problem_id": "849",
+  "problem_text_cn": "4. 下面4个核反应方程中，$X_1, X_2, X_3, X_4$代表相应的粒子：$_{1}^{2}\\text{H} + _{1}^{3}\\text{H} \\to _{2}^{4}\\text{He} + X_1$；$_{7}^{14}\\text{N} + _{2}^{4}\\text{He} \\to _{8}^{17}\\text{O} + X_2$；$_{13}^{27}\\text{Al} + _{2}^{4}\\text{He} \\to _{15}^{30}\\text{P} + X_3$；$_{92}^{235}\\text{U} + X_4 \\to _{38}^{90}\\text{Sr} + _{54}^{136}\\text{Xe} + 10_{0}^{1}\\text{n}$。以下判断正确的是（  ）A. $X_1, X_2, X_3$都是中子；B. $X_2, X_3, X_4$都是中子；C. $X_3, X_4, X_1$都是中子；D. $X_4, X_1, X_2$都是中子。",
+  "problem_text_en": "4. In the following four nuclear reaction equations, $X_1, X_2, X_3, X_4$ represent the corresponding particles: $_{1}^{2}\\text{H} + _{1}^{3}\\text{H} \\to _{2}^{4}\\text{He} + X_1$; $_{7}^{14}\\text{N} + _{2}^{4}\\text{He} \\to _{8}^{17}\\text{O} + X_2$; $_{13}^{27}\\text{Al} + _{2}^{4}\\text{He} \\to _{15}^{30}\\text{P} + X_3$; $_{92}^{235}\\text{U} + X_4 \\to _{38}^{90}\\text{Sr} + _{54}^{136}\\text{Xe} + 10_{0}^{1}\\text{n}$. The correct judgment is (  ) A. $X_1, X_2, X_3$ are all neutrons; B. $X_2, X_3, X_4$ are all neutrons; C. $X_3, X_4, X_1$ are all neutrons; D. $X_4, X_1, X_2$ are all neutrons.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【分析与解】本题考查**核反应方程的守恒定律**（电荷数守恒、质量数守恒）。1. 求$X_1$：质量数$2+3-4=1$，电荷数$1+1-2=0$，故$X_1$为中子（$_{0}^{1}\\text{n}$）。2. 求$X_2$：质量数$14+4-17=1$，电荷数$7+2-8=1$，故$X_2$为质子（$_{1}^{1}\\text{H}$）。3. 求$X_3$：质量数$27+4-30=1$，电荷数$13+2-15=0$，故$X_3$为中子（$_{0}^{1}\\text{n}$）。4. 求$X_4$：质量数$90+136+10-235=1$，电荷数$38+54-92=0$，故$X_4$为中子（$_{0}^{1}\\text{n}$）。综上，$X_1、X_3、X_4$均为中子，对应选项C。",
+  "problem_solution_en": "[Analysis and Solution] This problem examines the conservation laws (conservation of charge number, conservation of mass number) in nuclear reaction equations. 1. Find $X_1$: Mass number $2+3-4=1$, charge number $1+1-2=0$, so $X_1$ is a neutron ($_{0}^{1}\\text{n}$). 2. Find $X_2$: Mass number $14+4-17=1$, charge number $7+2-8=1$, so $X_2$ is a proton ($_{1}^{1}\\text{H}$). 3. Find $X_3$: Mass number $27+4-30=1$, charge number $13+2-15=0$, so $X_3$ is a neutron ($_{0}^{1}\\text{n}$). 4. Find $X_4$: Mass number $90+136+10-235=1$, charge number $38+54-92=0$, so $X_4$ is a neutron ($_{0}^{1}\\text{n}$). In summary, $X_1, X_3, X_4$ are all neutrons, corresponding to option C.",
+  "problem_answer": "正确答案：\\boldsymbol{C}",
+  "difficulty": "2",
+  "problem_tags": ["Modern Physics"]
+}

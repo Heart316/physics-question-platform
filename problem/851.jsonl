@@ -1,0 +1,14 @@
+{
+  "problem_id": "851",
+  "problem_text_cn": "6. 如图所示的电路中，$L_1$和$L_2$是两个灯泡，$R_1$是定值电阻，$R_2$是滑动变阻器，电源电动势为$\\mathcal{E}$，内阻为零。当$R_2$的滑动接触点P朝上移动时，$L_1$的亮度______，$R_1$上消耗的电功率______。（两空均填“增大”、“不变”或“减小”）",
+  "problem_text_en": "6. In the circuit shown in the figure, $L_1$ and $L_2$ are two light bulbs, $R_1$ is a fixed resistor, $R_2$ is a sliding rheostat, the electromotive force of the power supply is $\\mathcal{E}$, and the internal resistance is zero. When the sliding contact P of $R_2$ moves upward, the brightness of $L_1$ is ______, and the electric power consumed on $R_1$ is ______. (Fill in both blanks with \"increase\", \"unchanged\", or \"decrease\")",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【分析与解】本题考查**直流电路的动态分析**。1. 电路结构：电源内阻为零，路端电压等于电动势$\\mathcal{E}$。灯泡$L_1$直接并联在电源两端，其两端电压恒为$\\mathcal{E}$。2. 分析$L_1$的亮度：电压不变，由$P=\\frac{U^2}{R}$可知，$L_1$的实际功率不变，故亮度**不变**。3. 分析$R_1$的功率：P朝上移动，$R_2$接入电路的阻值增大，$L_2$与$R_2$串联的总电阻增大，该支路电流减小。$R_1$与该支路串联，电流相同，由$P=I^2R_1$可知，$R_1$消耗的电功率**减小**。",
+  "problem_solution_en": "[Analysis and Solution] This problem examines the dynamic analysis of DC circuits. 1. Circuit structure: The internal resistance of the power supply is zero, so the terminal voltage is equal to the electromotive force $\\mathcal{E}$. The light bulb $L_1$ is directly connected in parallel with the power supply, and its terminal voltage is always $\\mathcal{E}$. 2. Analyze the brightness of $L_1$: The voltage is constant. From $P=\\frac{U^2}{R}$, the actual power of $L_1$ is unchanged, so the brightness is **unchanged**. 3. Analyze the power of $R_1$: When P moves upward, the resistance of $R_2$ connected to the circuit increases, the total resistance of $L_2$ in series with $R_2$ increases, and the current in this branch decreases. $R_1$ is in series with this branch and has the same current. From $P=I^2R_1$, the electric power consumed by $R_1$ **decreases**.",
+  "problem_answer": "第一空：\\boldsymbol{不变}；第二空：\\boldsymbol{减小}",
+  "difficulty": "2",
+  "problem_tags": ["Electromagnetism"]
+}

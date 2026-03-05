@@ -1,0 +1,14 @@
+{
+  "problem_id": "852",
+  "problem_text_cn": "7. 已知红光和紫光在真空中的波长分别为$\\lambda_1$和$\\lambda_2$，水对它们的折射率分别为$n_1$和$n_2$。那么，红光和紫光在水中的速度之比$v_1:v_2$=______，波长之比$\\lambda_1':\\lambda_2'$=______。",
+  "problem_text_en": "7. It is known that the wavelengths of red light and violet light in vacuum are $\\lambda_1$ and $\\lambda_2$ respectively, and the refractive indices of water for them are $n_1$ and $n_2$ respectively. Then, the ratio of the velocities of red light to violet light in water $v_1:v_2$=______, and the ratio of the wavelengths $\\lambda_1':\\lambda_2'$=______.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【分析与解】本题考查**光的折射定律**与波长、波速的关系。1. 光在介质中的速度：由折射率公式$n=\\frac{c}{v}$，得$v=\\frac{c}{n}$。因此，速度之比$\\frac{v_1}{v_2} = \\frac{n_2}{n_1}$。2. 光在介质中的波长：光的频率$f$不变，由$v=\\lambda f$，得介质中波长$\\lambda' = \\frac{\\lambda}{n}$。因此，波长之比$\\frac{\\lambda_1'}{\\lambda_2'} = \\frac{\\lambda_1 n_2}{\\lambda_2 n_1}$。",
+  "problem_solution_en": "[Analysis and Solution] This problem examines the law of refraction of light and the relationship between wavelength and wave speed. 1. Velocity of light in a medium: From the refractive index formula $n=\\frac{c}{v}$, we get $v=\\frac{c}{n}$. Therefore, the velocity ratio is $\\frac{v_1}{v_2} = \\frac{n_2}{n_1}$. 2. Wavelength of light in a medium: The frequency $f$ of light is unchanged. From $v=\\lambda f$, the wavelength in the medium is $\\lambda' = \\frac{\\lambda}{n}$. Therefore, the wavelength ratio is $\\frac{\\lambda_1'}{\\lambda_2'} = \\frac{\\lambda_1 n_2}{\\lambda_2 n_1}$.",
+  "problem_answer": "第一空：\\boldsymbol{n_2:n_1}；第二空：\\boldsymbol{\\lambda_1 n_2: \\lambda_2 n_1}",
+  "difficulty": "2",
+  "problem_tags": ["Optics"]
+}

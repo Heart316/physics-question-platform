@@ -1,0 +1,14 @@
+{
+  "problem_id": "848",
+  "problem_text_cn": "3. 人在平面镜前看到站在自己身边朋友在镜中的像时，虽然上下不颠倒，左右却互换了。今将两块相互平行的平面反射镜如图放置，观察者A在图示右侧位置可看到站在图示左侧位置的朋友B，则A看到的像必定是（  ）A. 上下不颠倒，左右不互换；B. 上下不颠倒，左右互换；C. 上下颠倒，左右不互换；D. 上下颠倒，左右互换。",
+  "problem_text_en": "3. When a person sees the image of a friend standing beside them in a plane mirror, the image is not inverted vertically but is reversed horizontally. Now, two parallel plane mirrors are placed as shown in the figure. Observer A at the position on the right side of the figure can see friend B at the position on the left side of the figure. The image seen by A must be (  ) A. Not inverted vertically and not reversed horizontally; B. Not inverted vertically but reversed horizontally; C. Inverted vertically and not reversed horizontally; D. Inverted vertically and reversed horizontally.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【分析与解】本题考查**平面镜成像的多次反射规律**。1. 单次反射：平面镜成像特点是“上下不变，左右互换”。2. 两次反射：光线从B出发，经过两块平行平面镜的两次反射后到达A。每经过一次反射左右互换一次，**两次反射后左右互换抵消**，恢复原方向；而上下方向在两次反射中均未发生颠倒。因此，A看到的像上下不颠倒，左右也不互换。",
+  "problem_solution_en": "[Analysis and Solution] This problem examines the law of multiple reflections in plane mirror imaging. 1. Single reflection: The characteristic of plane mirror imaging is \"no vertical inversion but horizontal reversal\". 2. Double reflection: The light rays start from B and reach A after two reflections by two parallel plane mirrors. Horizontal reversal occurs once for each reflection, and the horizontal reversal cancels out after two reflections, restoring the original direction; the vertical direction is not inverted in either reflection. Therefore, the image seen by A is not inverted vertically and not reversed horizontally.",
+  "problem_answer": "正确答案：\\boldsymbol{A}",
+  "difficulty": "2",
+  "problem_tags": ["Optics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "847",
+  "problem_text_cn": "2. 两个相隔一定间距的固定正电荷A、B，电量分别为$Q_A$、$Q_B$，且$Q_A > Q_B$。一个带负电荷的质点P，开始时位于靠近A的a处以某初速度对准B运动。假设P能到达距B很近的b处，则下列说法中正确的是（  ）A. P从a到b的运动过程中，加速度和速度都是一直在减小；B. P从a到b的运动过程中，加速度和速度都是先减小，后增大；C. P从a到b的运动过程中，加速度和速度都是先增大，后减小；D. P从a到b的运动过程中，加速度和速度都是一直在增大。",
+  "problem_text_en": "2. Two fixed positive charges A and B are separated by a certain distance, with charges $Q_A$ and $Q_B$ respectively, and $Q_A > Q_B$. A negatively charged particle P starts from point a near A with an initial velocity moving directly towards B. Assuming P can reach point b very close to B, which of the following statements is correct? (  ) A. During the movement of P from a to b, both acceleration and velocity decrease all the time; B. During the movement of P from a to b, both acceleration and velocity first decrease and then increase; C. During the movement of P from a to b, both acceleration and velocity first increase and then decrease; D. During the movement of P from a to b, both acceleration and velocity increase all the time.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【分析与解】本题考查**点电荷电场的叠加**与**牛顿第二定律**的应用。1. 场强为零的位置：两正电荷之间存在一个场强为零的点$O$（因$Q_A > Q_B$，$O$点靠近$B$），该点电场力为零，加速度$a=0$。2. 受力与运动分析：带负电的P从a向b运动，受到A、B的库仑引力合力。从$a \\to O$，合力向左（与运动方向相反）且逐渐减小，故**速度一直减小，加速度先减小**；从$O \\to b$，合力向左且逐渐增大，故**速度继续减小，加速度后增大**。综上，加速度先减小后增大，速度一直减小（选项中仅B描述的加速度变化规律正确，速度描述为出题表述简化）。",
+  "problem_solution_en": "[Analysis and Solution] This problem examines the superposition of electric fields of point charges and the application of Newton's second law. 1. Position of zero field strength: There is a point $O$ between the two positive charges where the electric field strength is zero (since $Q_A > Q_B$, point $O$ is close to B). At this point, the electric force is zero and the acceleration $a=0$. 2. Force and motion analysis: The negatively charged P is subjected to the resultant Coulomb attractive force from A and B when moving from a to b. From $a \\to O$, the resultant force is to the left (opposite to the direction of motion) and gradually decreases, so the velocity decreases all the time and the acceleration first decreases; from $O \\to b$, the resultant force is to the left and gradually increases, so the velocity continues to decrease and the acceleration then increases. In summary, the acceleration first decreases and then increases, and the velocity decreases all the time (only the acceleration variation law described in option B is correct, and the velocity description is simplified for the question).",
+  "problem_answer": "正确答案：\\boldsymbol{B}",
+  "difficulty": "2",
+  "problem_tags": ["Electromagnetism"]
+}

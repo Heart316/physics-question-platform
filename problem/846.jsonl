@@ -1,0 +1,14 @@
+{
+  "problem_id": "846",
+  "problem_text_cn": "简谐机械波在同一种介质中传播时，下述结论中正确的是（  ）\nA. 频率不同时，波速不同，波长也不同；\nB. 频率不同时，波速相同，波长则不同；\nC. 频率不同时，波速相同，波长也相同；\nD. 频率不同时，波速不同，波长则相同。",
+  "problem_text_en": "When a simple harmonic mechanical wave propagates in the same medium, the correct conclusion is (  )\nA. When the frequencies are different, the wave speeds are different and the wavelengths are also different;\nB. When the frequencies are different, the wave speeds are the same and the wavelengths are different;\nC. When the frequencies are different, the wave speeds are the same and the wavelengths are also the same;\nD. When the frequencies are different, the wave speeds are different and the wavelengths are the same.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【分析与解】本题考查**机械波的波速决定因素**与波长、频率的关系。\n1. 波速的决定因素：机械波的波速由**介质本身的性质**（如弹性、密度）决定，与波的频率、振幅无关。因此，同一介质中，不同频率的简谐机械波波速**相同**。\n2. 波长与频率的关系：由波速公式$v=\\lambda f$，变形得$\\lambda=\\dfrac{v}{f}$。当$v$不变时，频率$f$不同，波长$\\lambda$必然**不同**。\n综上，正确答案为选项B。",
+  "problem_solution_en": "[Analysis and Solution] This problem examines the **determinants of the wave speed of mechanical waves** and the relationship between wavelength and frequency.\n1. Determinants of wave speed: The wave speed of a mechanical wave is determined by the **intrinsic properties of the medium** (such as elasticity and density), and is independent of the frequency and amplitude of the wave. Therefore, in the same medium, the wave speeds of simple harmonic mechanical waves with different frequencies are **the same**.\n2. Relationship between wavelength and frequency: From the wave speed formula $v=\\lambda f$, we get $\\lambda=\\dfrac{v}{f}$ by rearrangement. When $v$ is constant, different frequencies $f$ result in **different** wavelengths $\\lambda$.\nIn summary, the correct answer is option B.",
+  "problem_answer": "正确答案：\\boldsymbol{B}",
+  "difficulty": "1",
+  "problem_tags": ["Mechanics"]
+}
