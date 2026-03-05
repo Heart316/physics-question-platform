@@ -1,0 +1,14 @@
+{
+  "problem_id": "1412",
+  "problem_text_cn": "1412 为了判断一种穿透力很强的粒子是不是$\\gamma$光子，科学家们作了如下工作：(a) 测量该“光子”在铅中穿透时的衰减，估计出它的能量约为$15\\ \\mathrm{MeV}$；(b) 将此粒子束轰击石蜡($\\mathrm{CH_4}$)，产生出大量质子，质子的最大反冲能为$5.7\\ \\mathrm{MeV}$。试由上述两个实验结果，通过计算判断该粒子究竟是不是$\\gamma$光子。（电子静能$m_ec^2 = 0.511\\ \\mathrm{MeV}$，$hc = 12400\\ \\mathrm{eV \\cdot \\AA}$）",
+  "problem_text_en": "1412 To determine if a highly penetrating particle is a gamma photon, scientists performed the following: (a) Measured its attenuation in lead, estimating its energy to be about $15\\ \\mathrm{MeV}$; (b) Bombarded paraffin ($\\mathrm{CH_4}$) with this particle beam, producing a large number of protons, with a maximum recoil energy of $5.7\\ \\mathrm{MeV}$. Using these two experimental results, calculate and determine if the particle is indeed a gamma photon. (Electron rest energy $m_ec^2 = 0.511\\ \\mathrm{MeV}$, $hc = 12400\\ \\mathrm{eV \\cdot \\AA}$)",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】假设该粒子是$\\gamma$光子，利用康普顿效应（质子反冲）的相对论公式，由最大反冲能$E_k = 5.7\\ \\mathrm{MeV}$反推出入射光子所需能量$h\\nu = 55\\ \\mathrm{MeV}$，与实验(a)的$15\\ \\mathrm{MeV}$不符；反之，若$h\\nu = 15\\ \\mathrm{MeV}$，则最大反冲能仅为$0.46\\ \\mathrm{MeV}$，与实验(b)不符。",
+  "problem_solution_en": "【Core Idea】Assume the particle is a gamma photon. Using the relativistic formula for the Compton effect (proton recoil), the required incident photon energy $h\\nu = 55\\ \\mathrm{MeV}$ is calculated from the maximum recoil energy $E_k = 5.7\\ \\mathrm{MeV}$, which contradicts the $15\\ \\mathrm{MeV}$ from experiment (a). Conversely, if $h\\nu = 15\\ \\mathrm{MeV}$, the maximum recoil energy is only $0.46\\ \\mathrm{MeV}$, contradicting experiment (b).",
+  "problem_answer": "该粒子**不是$\\gamma$光子**。若要产生$5.7\\ \\mathrm{MeV}$的最大质子反冲能，入射$\\gamma$光子能量需为$55\\ \\mathrm{MeV}$，远大于$15\\ \\mathrm{MeV}$；若入射能量为$15\\ \\mathrm{MeV}$，则最大反冲能仅为$0.46\\ \\mathrm{MeV}$，与实验结果矛盾。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

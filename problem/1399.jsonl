@@ -1,0 +1,14 @@
+{
+  "problem_id": "1399",
+  "problem_text_cn": "1399 焦距各为$f$和$-f$的透镜$L_1$，$L_2$共轴放置，相距$f$，在它们的正中间放有一不透光屏$P$，其上开有直径为$d$的小孔，小孔的圆心在轴上。在$L_2$的右方距离$f$处放有光屏$Q$。为使$L_1$左方主轴上发光点$S$在$Q$上所成光斑直径不大于$0.4d$，求发光点$S$位置的范围（用与$L_1$的距离$u$表示）。",
+  "problem_text_en": "1399 Lenses $L_1$ and $L_2$ with focal lengths $f$ and $-f$ are placed coaxially, separated by $f$. An opaque screen $P$ with a small hole of diameter $d$ is placed exactly in the middle, with the center of the hole on the axis. A screen $Q$ is placed at a distance $f$ to the right of $L_2$. To make the diameter of the light spot formed by the luminous point $S$ on the main axis to the left of $L_1$ on $Q$ not greater than $0.4d$, find the range of the position of $S$ (expressed by the distance $u$ from $L_1$).",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】由物像对应关系，像点$S_1'$和$S_2'$的位置决定光斑大小。$A'B'$（$AB$的像）在$L_2$左方$f/3$处，$\\overline{A'B'} = \\frac{2}{3}d$，与$Q$屏距离$4f/3$，得$S_1'Q_0 = f/2$，$S_2'Q_0 = 2f$。对$L_2$成像，物距分别为$f/2$和$3f$，再对$L_1$成像，解得$u_1 = 4f$，$u_2 = \\frac{7}{3}f$。故$S$的位置范围为$\\frac{7}{3}f \\leqslant u \\leqslant 4f$。",
+  "problem_solution_en": "【Core Idea】From the object-image correspondence, the positions of image points $S_1'$ and $S_2'$ determine the spot size. $A'B'$ (image of $AB$) is $f/3$ to the left of $L_2$, $\\overline{A'B'} = \\frac{2}{3}d$, distance from $Q$ is $4f/3$, get $S_1'Q_0 = f/2$, $S_2'Q_0 = 2f$. For $L_2$ imaging, object distances are $f/2$ and $3f$, then for $L_1$ imaging, solve to get $u_1 = 4f$, $u_2 = \\frac{7}{3}f$. So the range of $S$ is $\\frac{7}{3}f \\leqslant u \\leqslant 4f$.",
+  "problem_answer": "发光点$S$位置范围：$\\boldsymbol{\\frac{7}{3}f \\leqslant u \\leqslant 4f}$；测量关键：物像对应关系，像点张角决定光斑大小。",
+  "difficulty": "5",
+  "problem_tags": ["Geometric Optics"]
+}

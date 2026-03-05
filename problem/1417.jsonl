@@ -1,0 +1,14 @@
+{
+  "problem_id": "1417",
+  "problem_text_cn": "1417 计算：(1) 氢原子第$n$个轨道的周长与在该轨道上运动的电子的德布罗意波长之比值；(2) 氢原子在$n=1$轨道上运动的电子的德布罗意波长。",
+  "problem_text_en": "1417 Calculate: (1) The ratio of the circumference of the $n$-th orbit of a hydrogen atom to the de Broglie wavelength of the electron moving in that orbit; (2) The de Broglie wavelength of the electron in the $n=1$ orbit of a hydrogen atom.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 由玻尔角动量量子化$mvr_n = n\\hbar$，结合$S_n = 2\\pi r_n$和$\\lambda_n = h/(mv_n)$，可得$S_n/\\lambda_n = n$；(2) $n=1$时，$\\lambda_1 = 2\\pi a_0$，代入玻尔半径$a_0 = 0.0529\\ \\mathrm{nm}$，得$\\lambda_1 = 0.332\\ \\mathrm{nm}$。",
+  "problem_solution_en": "【Core Idea】(1) From Bohr's angular momentum quantization $mvr_n = n\\hbar$, combined with $S_n = 2\\pi r_n$ and $\\lambda_n = h/(mv_n)$, we get $S_n/\\lambda_n = n$; (2) For $n=1$, $\\lambda_1 = 2\\pi a_0$. Substituting the Bohr radius $a_0 = 0.0529\\ \\mathrm{nm}$, we find $\\lambda_1 = 0.332\\ \\mathrm{nm}$.",
+  "problem_answer": "(1) 比值为$\\boldsymbol{n}$；(2) 德布罗意波长为$\\boldsymbol{0.332\\ \\mathrm{nm}}$。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

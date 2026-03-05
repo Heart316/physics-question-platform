@@ -1,0 +1,14 @@
+{
+  "problem_id": "1422",
+  "problem_text_cn": "1422 玻尔氢原子理论对以下各小问适用，并略去氦核的运动。(1) 求氦离子（He⁺）的基态能量及电子的第一玻尔轨道半径；(2) μ⁻子质量约为电子的200倍，求μ⁻氦离子的基态能量及μ⁻子的第一玻尔轨道半径；(3) 氦原子中一个电子被μ⁻子取代后形成的原子处于基态：(a) 估算电子的第一玻尔轨道半径；(b) 估算该体系的能量；(c) 该原子的化学性质最类似于哪种化学元素，为什么？（结果保留两位有效数字，能量单位eV，半径单位nm）",
+  "problem_text_en": "1422 Bohr's hydrogen atom theory applies to the following, neglecting helium nucleus motion. (1) Find the ground state energy of He⁺ and the first Bohr radius of the electron; (2) The mass of a μ⁻ is ~200 times that of an electron. Find the ground state energy of μ⁻ helium ion and the first Bohr radius of the μ⁻; (3) An atom formed by replacing one electron in He with a μ⁻ is in the ground state: (a) Estimate the first Bohr radius of the electron; (b) Estimate the energy of the system; (c) Which chemical element does this atom most resemble, and why? (Results to 2 sig figs, energy in eV, radius in nm)",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) He⁺（$Z=2$）的基态能量$E_1 = -13.6Z^2\\ \\mathrm{eV}$，轨道半径$a_1 = a_0/Z$；(2) μ⁻氦离子中，$m \\to m_\\mu = 200m_e$，$E_1 = -13.6Z^2 \\cdot 200\\ \\mathrm{eV}$，$a_1 = a_0/(200Z)$；(3) (a) μ⁻子靠近氦核，电子感受到有效核电荷$Z^* \\approx 1$，故$a_1 \\approx a_0$；(b) 总能量为μ⁻子和电子基态能量之和；(c) 有效核电荷$Z^* \\approx 1$，外层有1个电子，类似氢元素。",
+  "problem_solution_en": "【Core Idea】(1) For He⁺ ($Z=2$), ground state energy $E_1 = -13.6Z^2\\ \\mathrm{eV}$, orbital radius $a_1 = a_0/Z$; (2) For μ⁻ helium ion, $m \\to m_\\mu = 200m_e$, so $E_1 = -13.6Z^2 \\cdot 200\\ \\mathrm{eV}$, $a_1 = a_0/(200Z)$; (3) (a) μ⁻ is close to the nucleus, electron sees effective charge $Z^* \\approx 1$, so $a_1 \\approx a_0$; (b) Total energy is sum of μ⁻ and electron ground state energies; (c) Effective charge $Z^* \\approx 1$ with one outer electron, resembling hydrogen.",
+  "problem_answer": "(1) He⁺基态能量$\\boldsymbol{E_1 = -54\\ \\mathrm{eV}}$，电子第一玻尔半径$\\boldsymbol{a_1 = 0.026\\ \\mathrm{nm}}$；(2) μ⁻氦离子基态能量$\\boldsymbol{E_1 = -1.1 \\times 10^4\\ \\mathrm{eV}}$，μ⁻子第一玻尔半径$\\boldsymbol{a_1 = 1.3 \\times 10^{-4}\\ \\mathrm{nm}}$；(3) (a) 电子第一玻尔半径$\\boldsymbol{a_1 = 0.053\\ \\mathrm{nm}}$；(b) 体系能量$\\boldsymbol{E = -1.1 \\times 10^4\\ \\mathrm{eV}}$；(c) 最类似**氢元素**，因为μ⁻子屏蔽了一个正电荷，有效核电荷$Z^* \\approx 1$，外层只有1个电子。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

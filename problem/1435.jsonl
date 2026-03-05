@@ -1,0 +1,14 @@
+{
+  "problem_id": "1435",
+  "problem_text_cn": "1435 测量一块长方形薄板的体积，使测量结果的准确度尽可能高。[可供仪器和量具] 米尺、千分尺、游标卡尺、待测薄板。[要求] (1) 正确选用量具测量物体长、宽、高，使实验结果为四位有效数字，长、宽、高只需要测一次。(2) 计算薄板的体积$V$，并估算实验测量结果的不确定度$U(V)$。(3) 测量结果用不确定度表达。",
+  "problem_text_en": "1435 Measure the volume of a rectangular thin plate to make the measurement result as accurate as possible. [Available instruments and tools] Meter stick, micrometer, vernier caliper, thin plate to be measured. [Requirements] (1) Correctly select instruments to measure the length, width, and height of the object so that the experimental result has four significant figures, and each of length, width, and height only needs to be measured once. (2) Calculate the volume $V$ of the thin plate and estimate the uncertainty $U(V)$ of the experimental measurement result. (3) Express the measurement result with uncertainty.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】长度$x = 14.01\\ \\mathrm{cm}$（米尺，分度1 mm），宽度$y = 4.998\\ \\mathrm{cm}$（游标卡尺，分度0.02 mm），厚度$z = 0.2491\\ \\mathrm{cm}$（千分尺，分度0.01 mm）。体积$V = xyz = 14.01 \\times 4.998 \\times 0.2491 = 17.44\\ \\mathrm{cm^3}$。不确定度$U(V) = V\\sqrt{\\left(\\frac{U(x)}{x}\\right)^2 + \\left(\\frac{U(y)}{y}\\right)^2 + \\left(\\frac{U(z)}{z}\\right)^2}$，按仪器分度估算后，结果以$V \\pm U(V)$表示。",
+  "problem_solution_en": "【Core Idea】Length $x = 14.01\\ \\mathrm{cm}$ (meter stick, division 1 mm), width $y = 4.998\\ \\mathrm{cm}$ (vernier caliper, division 0.02 mm), thickness $z = 0.2491\\ \\mathrm{cm}$ (micrometer, division 0.01 mm). Volume $V = xyz = 14.01 \\times 4.998 \\times 0.2491 = 17.44\\ \\mathrm{cm^3}$. Uncertainty $U(V) = V\\sqrt{\\left(\\frac{U(x)}{x}\\right)^2 + \\left(\\frac{U(y)}{y}\\right)^2 + \\left(\\frac{U(z)}{z}\\right)^2}$, estimated according to instrument divisions, and the result is expressed as $V \\pm U(V)$.",
+  "problem_answer": "薄板体积：$\\boldsymbol{17.44\\ \\mathrm{cm^3}}$；测量关键：按精度选量具，保证四位有效数字，用不确定度表达结果。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1414",
+  "problem_text_cn": "1414 SLAC曾用激光的低能光子束（可见光区）与20 GeV的电子束对头碰产生高能单色光子：(1) 设散射光子束与入射电子束的夹角为$\\theta$，求散射光子的能量与$\\theta$的函数关系；(2) 给出散射光子的最大能量近似值（用GeV表示）。",
+  "problem_text_en": "1414 SLAC used low-energy laser photons (visible light) colliding head-on with a 20 GeV electron beam to produce high-energy monochromatic photons: (1) Let $\\theta$ be the angle between the scattered photon beam and the incident electron beam. Find the energy of the scattered photon as a function of $\\theta$; (2) Give the approximate maximum energy of the scattered photon (in GeV).",
+  "problem_img": ["图1414_1", "图1414_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1414_1：电子和光子的初态$(E, p, p_y)$", "图1414_2：散射后动量守恒矢量图"],
+  "img_en": ["Fig. 1414_1: Initial state of electron and photon $(E, p, p_y)$", "Fig. 1414_2: Vector diagram for momentum conservation after scattering"],
+  "problem_solution_cn": "【核心思路】(1) 利用相对论能量守恒和动量守恒，联立消去电子散射后的动量，得到散射光子能量$h\\nu'$与$\\theta$的关系；(2) 当$\\theta=0$时，光子能量最大，代入$E \\approx pc$和$E-pc \\approx 6\\ \\mathrm{eV}$、$h\\nu \\approx 2.5\\ \\mathrm{eV}$，计算最大能量。",
+  "problem_solution_en": "【Core Idea】(1) Use relativistic energy and momentum conservation, eliminate the scattered electron momentum, and derive the relationship between the scattered photon energy $h\\nu'$ and $\\theta$; (2) The maximum photon energy occurs at $\\theta=0$. Substitute $E \\approx pc$, $E-pc \\approx 6\\ \\mathrm{eV}$, and $h\\nu \\approx 2.5\\ \\mathrm{eV}$ to calculate the maximum energy.",
+  "problem_answer": "(1) 散射光子能量$\\boldsymbol{h\\nu' = \\frac{(E + pc)h\\nu}{E + h\\nu + h\\nu\\cos\\theta - pc\\cos\\theta} \\approx \\frac{2h\\nu E}{h\\nu(1+\\cos\\theta) + E - pc\\cos\\theta}}$；(2) 最大能量$\\boldsymbol{(h\\nu')_{\\text{max}} = 9\\ \\mathrm{GeV}}$。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

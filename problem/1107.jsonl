@@ -1,0 +1,13 @@
+{
+  "problem_id": "1107",
+  "problem_text_cn": "1107 密度$\\rho$、黏度$\\eta$的黏性液体在半径$R$的竖直圆管道内由重力作定常流动，测得体积流量$Q_V$。推导液体黏度$\\eta$的表达式。",
+  "problem_text_en": "1107 A viscous liquid of density $\\rho$ and viscosity $\\eta$ flows steadily in a vertical circular pipe of radius $R$ under gravity, and the volume flow rate $Q_V$ is measured. Derive the expression for the liquid viscosity $\\eta$.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】取管道内同轴液体圆柱，由**重力与黏滞力平衡**建立微分方程，积分得到流速分布$v(r)$，再对流速分布积分得到体积流量$Q_V$，变形推导黏度$\\eta$。",
+  "problem_solution_en": "【Core Idea】Take a coaxial liquid cylinder in the pipe, establish a differential equation from the **balance between gravity and viscous force**, integrate to obtain the velocity distribution $v(r)$, then integrate the velocity distribution to get the volume flow rate $Q_V$, and rearrange to derive the viscosity $\\eta$.",
+  "problem_answer": "液体黏度表达式$\\boldsymbol{\\eta = \\dfrac{\\pi \\rho g R^4}{8 Q_V}}$",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

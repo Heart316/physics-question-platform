@@ -1,0 +1,13 @@
+{
+  "problem_id": "1100",
+  "problem_text_cn": "1100 倒立圆锥形容器高$H$，底面半径$R$，下方锥顶角处有面积$S$的小孔，求水面从$H$下降到$H/2$所需的时间$t$。",
+  "problem_text_en": "1100 An inverted conical container has a height $H$ and a bottom radius $R$. There is a small hole of area $S$ at the vertex of the lower cone. Find the time $t$ required for the water surface to drop from $H$ to $H/2$.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】利用**微元法**，结合圆锥体积的几何相似性与托里拆利公式，建立水面高度随时间变化的微分方程，通过定积分求解下降时间。",
+  "problem_solution_en": "【Core Idea】Using the **differential element method**, combine the geometric similarity of the cone volume with Torricelli's formula to establish a differential equation for the water surface height as a function of time, and solve for the drop time by definite integral.",
+  "problem_answer": "水面下降所需时间$\\boldsymbol{t = \\dfrac{\\pi R^2}{20S} \\sqrt{\\dfrac{H}{g}} (4\\sqrt{2} - 1)}$",
+  "difficulty": "5",
+  "problem_tags": ["Fluid Mechanics"]
+}

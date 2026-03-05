@@ -1,0 +1,14 @@
+{
+  "problem_id": "1430",
+  "problem_text_cn": "1430 根据阿基米德原理测量石蜡的密度。[可供仪器和用具] 物理天平、温度计、玻璃烧杯、细线、铜块、石蜡块、水等。[要求] 简要写出实验原理、实验步骤、记录数据及处理。(已知水的密度为1.000 g/cm³)",
+  "problem_text_en": "1430 Measure the density of paraffin wax according to Archimedes' principle. [Available instruments and tools] Physical balance, thermometer, glass beaker, thin wire, copper block, paraffin block, water, etc. [Requirements] Briefly write down the experimental principle, experimental steps, data recording and processing. (Known: density of water is 1.000 g/cm³)",
+  "problem_img": ["图1430_1", "图1430_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1430_1：石蜡块露出水面、铜块浸没水中示意图", "图1430_2：铜块和石蜡块均浸没水中示意图"],
+  "img_en": ["Fig. 1430_1: Schematic of paraffin block exposed to water, copper block submerged in water", "Fig. 1430_2: Schematic of both copper block and paraffin block submerged in water"],
+  "problem_solution_cn": "【核心思路】石蜡密度小于水，需悬挂铜块使其完全浸没。浮力等于排开水的重力，$F=(M_1-M_2)g=\\rho_0 Vg$，石蜡密度$\\rho=\\frac{M}{M_1-M_2}\\rho_0$（$M$为石蜡质量，$M_1$为铜块入水、石蜡露空时砝码质量，$M_2$为两者均入水时砝码质量）。",
+  "problem_solution_en": "【Core Idea】The density of paraffin is less than water, so a copper block needs to be hung to submerge it completely. Buoyancy equals the gravity of displaced water: $F=(M_1-M_2)g=\\rho_0 Vg$, and the density of paraffin is $\\rho=\\frac{M}{M_1-M_2}\\rho_0$ (where $M$ is the mass of paraffin, $M_1$ is the mass of weights when copper block is submerged and paraffin is exposed, $M_2$ is the mass of weights when both are submerged).",
+  "problem_answer": "石蜡密度计算公式：$\\boldsymbol{\\rho = \\frac{M}{M_1 - M_2} \\cdot \\rho_0}$；实验关键：保证石蜡完全浸没，天平测量时烧杯置于专用托架。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

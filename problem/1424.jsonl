@@ -1,0 +1,14 @@
+{
+  "problem_id": "1424",
+  "problem_text_cn": "1424 氦原子是最简单的多电子原子。(1) 如果电子间无相互作用，氦原子的基态能量为多大？(2) 利用粗糙模型估计考虑电子间库仑相互作用后氦原子基态的能量；(3) 若氦原子的一个电子被激发至$4f$态，另一电子仍处于$1s$态，这时氦原子的能量又为多大？",
+  "problem_text_en": "1424 Helium is the simplest multi-electron atom. (1) What is the ground state energy of He if there is no electron-electron interaction? (2) Use a rough model to estimate the ground state energy of He including electron-electron Coulomb repulsion; (3) If one electron in He is excited to the $4f$ state while the other remains in $1s$, what is the energy of the atom?",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 无相互作用时，两个电子均处于$1s$态，$E_1 = -2 \\times 13.6Z^2/n^2\\ \\mathrm{eV}$（$Z=2,n=1$）；(2) 粗略模型中，电子间距$r \\approx 2r_1$，库仑能$E_c = e^2/(4\\pi\\varepsilon_0 \\cdot 2r_1)$，总能量$E'_1 = E_1 + E_c$；(3) $4f$电子远离核，$Z^* \\approx 1$，$1s$电子$Z^* \\approx 2$，总能量为两电子能量之和。",
+  "problem_solution_en": "【Core Idea】(1) No interaction: both electrons in $1s$, $E_1 = -2 \\times 13.6Z^2/n^2\\ \\mathrm{eV}$ ($Z=2,n=1$); (2) Rough model: electron separation $r \\approx 2r_1$, Coulomb energy $E_c = e^2/(4\\pi\\varepsilon_0 \\cdot 2r_1)$, total energy $E'_1 = E_1 + E_c$; (3) $4f$ electron sees $Z^* \\approx 1$, $1s$ electron sees $Z^* \\approx 2$, total energy is sum of both electron energies.",
+  "problem_answer": "(1) 无相互作用基态能量$\\boldsymbol{-109\\ \\mathrm{eV}}$；(2) 考虑库仑相互作用后基态能量$\\boldsymbol{82\\ \\mathrm{eV}}$；(3) 激发态能量$\\boldsymbol{-55\\ \\mathrm{eV}}$。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

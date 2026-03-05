@@ -1,0 +1,14 @@
+{
+  "problem_id": "1112",
+  "problem_text_cn": "1112 已知流体二维速度场$v_x=-\\dfrac{cy}{x^2+y^2}$，$v_y=\\dfrac{cx}{x^2+y^2}$。求：（1）二维加速度场分布；（2）二维流线方程；（3）由质元迹线推导$(x,y)$处的加速度分量。",
+  "problem_text_en": "1112 Given the two-dimensional velocity field of a fluid $v_x=-\\dfrac{cy}{x^2+y^2}$, $v_y=\\dfrac{cx}{x^2+y^2}$. Find: (1) The distribution of the two-dimensional acceleration field; (2) The two-dimensional streamline equation; (3) Derive the acceleration components at $(x,y)$ from the particle path.",
+  "problem_img": ["图1112_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1112_1：流体的同心圆流线示意图"],
+  "img_en": ["Fig. 1112_1: Schematic of concentric circular streamlines of the fluid"],
+  "problem_solution_cn": "【核心思路】（1）由欧拉加速度公式$a=\\dfrac{\\partial v}{\\partial t}+(v\\cdot\\nabla)v$计算加速度分量；（2）流线微分方程$\\dfrac{dy}{dx}=\\dfrac{v_y}{v_x}$，积分得流线方程；（3）定常流动中迹线与流线重合，质元做匀速圆周运动，由向心加速度公式推导分量，与欧拉法结果一致。",
+  "problem_solution_en": "【Core Idea】(1) Calculate the acceleration components using the Euler acceleration formula $a=\\dfrac{\\partial v}{\\partial t}+(v\\cdot\\nabla)v$; (2) Use the streamline differential equation $\\dfrac{dy}{dx}=\\dfrac{v_y}{v_x}$ and integrate to obtain the streamline equation; (3) In steady flow, the path line coincides with the streamline, and the fluid particle moves in uniform circular motion. Derive the components from the centripetal acceleration formula, which is consistent with the result from the Euler method.",
+  "problem_answer": "（1）加速度分量$\\boldsymbol{a_x=-\\dfrac{c^2x}{(x^2+y^2)^2}}$，$\\boldsymbol{a_y=-\\dfrac{c^2y}{(x^2+y^2)^2}}$；（2）流线方程$\\boldsymbol{x^2+y^2=R^2}$（一系列同心圆）；（3）质元做匀速圆周运动，向心加速度分量与（1）结果一致",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

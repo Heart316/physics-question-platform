@@ -1,0 +1,14 @@
+{
+  "problem_id": "1429",
+  "problem_text_cn": "1429 卢瑟福弹性散射：入射$^4_2\\text{He}$（动能2 MeV）轰击静止$^1_1\\text{H}$。(1) 实验室系中$\\varphi_L = 30^\\circ$方向反冲氢核动能多大？(2) 该方向的卢瑟福微分散射截面多大？质心系微分散截面$\\sigma_C(\\theta_C) = \\left(\\frac{a}{4}\\right)^2\\frac{1}{\\sin^4(\\theta_C/2)}$，$a = \\frac{z_1z_2e^2}{4\\pi\\varepsilon_0E_C}$，$E_C$为质心系能量。",
+  "problem_text_en": "1429 Rutherford elastic scattering: incident $^4_2\\text{He}$ (KE 2 MeV) bombards stationary $^1_1\\text{H}$. (1) What is the recoil KE of $^1_1\\text{H}$ at $\\varphi_L = 30^\\circ$ in lab frame? (2) What is the Rutherford differential cross-section at this angle? CM frame cross-section $\\sigma_C(\\theta_C) = \\left(\\frac{a}{4}\\right)^2\\frac{1}{\\sin^4(\\theta_C/2)}$, $a = \\frac{z_1z_2e^2}{4\\pi\\varepsilon_0E_C}$, $E_C$ is CM energy.",
+  "problem_img": ["图1429_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1429_1：$^4\\text{He}$与$^1\\text{H}$弹性散射示意图"],
+  "img_en": ["Fig. 1429_1: Diagram of $^4\\text{He}$-$^1\\text{H}$ elastic scattering"],
+  "problem_solution_cn": "【核心思路】(1) 弹性散射中，反冲氢核速度$v_2' = 2v_C\\cos\\varphi_L$，$v_C = \\frac{M_1}{M_1+M_2}v_1$，动能$E_\\text{反冲} = \\frac{4M_1M_2}{(M_1+M_2)^2}E_\\text{入射}\\cos^2\\varphi_L$；(2) 质心系$\\theta_C = \\pi - \\varphi_C = \\pi - 2\\varphi_L$，微分散截面$\\sigma_L(\\varphi_L) = 4\\cos\\varphi_L \\cdot \\sigma_C(\\varphi_C)$，代入$a = 7.2 \\times 10^{-15}\\ \\mathrm{m}$得$\\sigma_L = 0.20\\ \\mathrm{b/sr}$。",
+  "problem_solution_en": "【Core Idea】(1) In elastic scattering, recoil $^1\\text{H}$ speed $v_2' = 2v_C\\cos\\varphi_L$, $v_C = \\frac{M_1}{M_1+M_2}v_1$, KE $E_\\text{recoil} = \\frac{4M_1M_2}{(M_1+M_2)^2}E_\\text{incident}\\cos^2\\varphi_L$; (2) CM frame $\\theta_C = \\pi - \\varphi_C = \\pi - 2\\varphi_L$, differential cross-section $\\sigma_L(\\varphi_L) = 4\\cos\\varphi_L \\cdot \\sigma_C(\\varphi_C)$, substitute $a = 7.2 \\times 10^{-15}\\ \\mathrm{m}$ to get $\\sigma_L = 0.20\\ \\mathrm{b/sr}$.",
+  "problem_answer": "(1) 反冲氢核动能$\\boldsymbol{0.96\\ \\mathrm{MeV}}$；(2) 微分散射截面$\\boldsymbol{0.20\\ \\mathrm{b/sr}}$（$1\\ \\mathrm{b} = 10^{-28}\\ \\mathrm{m^2}$）。",
+  "difficulty": "5",
+  "problem_tags": ["Modern Physics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1421",
+  "problem_text_cn": "1421 钠原子（$Z=11$）核外11个电子，10个内层电子构成原子实，价电子跃迁光谱中与氢赖曼系相似的谱线满足$\\frac{1}{\\lambda} = 0.378R - \\frac{R}{m^2}$（$R$为里德伯常量，$m$为整数）。(1) 说明公式成立的条件；(2) 用该公式计算钠的电离能。",
+  "problem_text_en": "1421 A sodium atom ($Z=11$) has 11 electrons, with 10 inner electrons forming an atomic core. The spectral lines similar to the hydrogen Lyman series in the valence electron transition spectrum satisfy $\\frac{1}{\\lambda} = 0.378R - \\frac{R}{m^2}$ ($R$ is the Rydberg constant, $m$ is an integer). (1) Explain the conditions for the formula to hold; (2) Calculate the ionization energy of sodium using this formula.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 当$m$很大时，价电子远离原子实，内层电子完全屏蔽原子核，有效核电荷$Z^* \\approx 1$，谱线项与氢谱形式一致；(2) 电离能对应$m\\to\\infty$，$E_\\infty = 0.378Rhc$。",
+  "problem_solution_en": "【Core Idea】(1) For large $m$, the valence electron is far from the core, inner electrons fully shield the nucleus, effective charge $Z^* \\approx 1$, making the line term match hydrogen; (2) Ionization energy corresponds to $m\\to\\infty$, $E_\\infty = 0.378Rhc$.",
+  "problem_answer": "(1) 公式在$m$很大（价电子处于高激发态，远离原子实，内层电子完全屏蔽原子核）时成立；(2) 钠的电离能$\\boldsymbol{E_\\infty = 5.14\\ \\mathrm{eV}}$。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

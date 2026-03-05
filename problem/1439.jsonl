@@ -1,0 +1,14 @@
+{
+  "problem_id": "1439",
+  "problem_text_cn": "1439 用焦利秤测定某固体的体积。[可供仪器和材料] FD-GLB-2 型新型焦利秤实验仪、烧杯、温度计、水和待测有机玻璃块，水密度随温度关系表。[要求] (1) 写出用新型焦利秤测量弹簧劲度系数实验步骤。(2) 测量弹簧劲度系数。(3) 测量有机玻璃块的体积。",
+  "problem_text_en": "1439 Determine the volume of a solid using a Jolly balance. [Available instruments and materials] FD-GLB-2 new type Jolly balance experimental instrument, beaker, thermometer, water, and organic glass block to be tested, table of water density vs temperature. [Requirements] (1) Write down the experimental steps for measuring the spring stiffness coefficient with the new Jolly balance. (2) Measure the spring stiffness coefficient. (3) Measure the volume of the organic glass block.",
+  "problem_img": ["图1439_1", "图1439_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1439_1：焦利秤及计数计时仪装置示意图", "图1439_2：M与y关系数据及逐差法处理结果"],
+  "img_en": ["Fig. 1439_1: Schematic diagram of Jolly balance and counting timer device", "Fig. 1439_2: M vs y relationship data and results of successive difference method"],
+  "problem_solution_cn": "【核心思路】测量弹簧劲度系数：调节焦利秤立柱垂直，挂弹簧与配重圆柱体，逐次加1 g砝码至10 g，记录指针位置，逐差法处理得每增加5.000 g砝码，弹簧平均伸长$\\Delta \\bar{y} = 10.780\\ \\mathrm{mm}$，由$\\Delta M \\cdot g = k \\cdot \\Delta y$得$k = 4.543\\ \\mathrm{N/m}$。有机玻璃块体积：利用弹簧挂物体测伸长量，结合阿基米德浮力称衡法，原理同题1430。",
+  "problem_solution_en": "【Core Idea】Measuring spring stiffness coefficient: Adjust the Jolly balance column to be vertical, hang the spring and counterweight cylinder, add 1 g weights successively to 10 g, record the pointer position, and process by successive difference method to get that for every 5.000 g weight increase, the average spring elongation $\\Delta \\bar{y} = 10.780\\ \\mathrm{mm}$. From $\\Delta M \\cdot g = k \\cdot \\Delta y$, we get $k = 4.543\\ \\mathrm{N/m}$. Volume of organic glass block: Use the spring to hang the object to measure the elongation, combined with Archimedes buoyancy weighing method, the principle is the same as problem 1430.",
+  "problem_answer": "弹簧劲度系数：$\\boldsymbol{4.543\\ \\mathrm{N/m}}$；有机玻璃块体积：利用浮力称衡法，由弹簧伸长量计算；测量关键：逐差法处理劲度系数，保证测量精度。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

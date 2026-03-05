@@ -1,0 +1,14 @@
+{
+  "problem_id": "1426",
+  "problem_text_cn": "1426 已知大气中$^{14}\\text{C}/^{12}\\text{C}$浓度比$\\eta = 1.2 \\times 10^{-12}$，$^{14}\\text{C}$半衰期$T_{1/2} = 5730$年。(1) 计算大气中碳的比放射性（1克碳每分钟的衰变次数）；(2) 古生物样品中$^{14}\\text{C}$含量为活生物的$1/1.831$，估算其年代；(3) 为使测量统计误差$\\delta = 1\\%$，需多少克古生物样品（1小时计数）？并估算年代精度。",
+  "problem_text_en": "1426 Given $^{14}\\text{C}/^{12}\\text{C}$ ratio $\\eta = 1.2 \\times 10^{-12}$ in atmosphere, $T_{1/2}(^{14}\\text{C}) = 5730$ y. (1) Calculate specific radioactivity of carbon (decays per gram per minute); (2) Ancient sample has $^{14}\\text{C}$ content $1/1.831$ of living matter, estimate its age; (3) For statistical error $\\delta = 1\\%$, what mass of sample is needed for 1-hour counting? Estimate age precision.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 比放射性$A' = \\lambda N(^{14}\\text{C}) = \\lambda \\cdot \\eta \\cdot \\frac{N_A}{12}$；(2) 年代$t = \\frac{1}{\\lambda}\\ln\\frac{A(0)}{A(t)}$；(3) $\\delta = 1/\\sqrt{N} \\Rightarrow N = 10^4$，由$14 \\times 60 \\times m / 1.831 = 10^4$得$m$，年代误差$\\Delta t = \\frac{1}{\\lambda}\\frac{\\Delta A}{A}$。",
+  "problem_solution_en": "【Core Idea】(1) Specific activity $A' = \\lambda N(^{14}\\text{C}) = \\lambda \\cdot \\eta \\cdot \\frac{N_A}{12}$; (2) Age $t = \\frac{1}{\\lambda}\\ln\\frac{A(0)}{A(t)}$; (3) $\\delta = 1/\\sqrt{N} \\Rightarrow N = 10^4$, solve $14 \\times 60 \\times m / 1.831 = 10^4$ for $m$, age error $\\Delta t = \\frac{1}{\\lambda}\\frac{\\Delta A}{A}$.",
+  "problem_answer": "(1) 比放射性$\\boldsymbol{14}$次/(克·分)；(2) 古生物年代约$\\boldsymbol{5000}$年；(3) 需样品$\\boldsymbol{22}$克，年代精度约$\\boldsymbol{\\pm 83}$年。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

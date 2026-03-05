@@ -1,0 +1,14 @@
+{
+  "problem_id": "1114",
+  "problem_text_cn": "1114 旋转对称水壶，壶底开半径$r_0$的小孔，要求液面下降速率$u$保持不变，求壶的表面形状（漏壶计时）。",
+  "problem_text_en": "1114 A water pot with a rotationally symmetric surface has a small hole of radius $r_0$ at the bottom. It is required that the rate of descent $u$ of the liquid surface remains constant. Find the surface shape of the pot (clepsydra timing).",
+  "problem_img": ["图1114_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1114_1：漏壶的旋转对称表面示意图"],
+  "img_en": ["Fig. 1114_1: Schematic of the rotationally symmetric surface of the clepsydra"],
+  "problem_solution_cn": "【核心思路】联立**伯努利方程**（液面与小孔）与**连续性方程**（体积流量守恒），消去小孔流速$v$，推导液面半径$r$与高度$z$的关系式，该曲线绕对称轴旋转即得壶的表面形状。",
+  "problem_solution_en": "【Core Idea】Simultaneously solve the **Bernoulli equation** (liquid surface and small hole) and the **continuity equation** (conservation of volume flow rate), eliminate the small hole velocity $v$, derive the relational expression between the liquid surface radius $r$ and height $z$, and the surface shape of the pot is obtained by rotating this curve around the axis of symmetry.",
+  "problem_answer": "壶的表面形状曲线方程$\\boldsymbol{z=\\dfrac{u^2(r^4-r_0^4)}{2gr_0^4}}$，为旋转对称的四次曲面",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

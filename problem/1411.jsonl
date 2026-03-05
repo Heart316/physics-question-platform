@@ -1,0 +1,14 @@
+{
+  "problem_id": "1411",
+  "problem_text_cn": "1411 以$\\lambda = 200\\ \\mathrm{nm}$的紫外光照射一清洁的金属表面，测得光电子的遏止电压是$2.6\\ \\mathrm{V}$。试问这种金属的功函数是多少？当改用$\\lambda = 300\\ \\mathrm{nm}$的紫外光照射时，遏止电压是多少？若用可见光照射，情况又将如何？（$hc = 1240\\ \\mathrm{eV \\cdot nm}$）",
+  "problem_text_en": "1411 Ultraviolet light with $\\lambda = 200\\ \\mathrm{nm}$ irradiates a clean metal surface, and the stopping voltage of photoelectrons is measured to be $2.6\\ \\mathrm{V}$. What is the work function of this metal? What is the stopping voltage when ultraviolet light of $\\lambda = 300\\ \\mathrm{nm}$ is used instead? What happens if visible light is used? ($hc = 1240\\ \\mathrm{eV \\cdot nm}$)",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】利用爱因斯坦光电效应方程$E_{\\text{kmax}} = h\\nu - \\phi_0 = eV_s$，先由已知条件求出功函数$\\phi_0$，再代入不同波长计算遏止电压，最后判断可见光是否能产生光电效应。",
+  "problem_solution_en": "【Core Idea】Use Einstein's photoelectric effect equation $E_{\\text{kmax}} = h\\nu - \\phi_0 = eV_s$. First, calculate the work function $\\phi_0$ from the given conditions, then substitute different wavelengths to find the stopping voltage, and finally determine if visible light can produce the photoelectric effect.",
+  "problem_answer": "金属的功函数为$\\boldsymbol{\\phi_0 = 3.6\\ \\mathrm{eV}}$；改用$\\lambda = 300\\ \\mathrm{nm}$的紫外光时，遏止电压为$\\boldsymbol{V_s = 0.53\\ \\mathrm{V}}$；可见光（波长$>400\\ \\mathrm{nm}$，光子能量$<3.1\\ \\mathrm{eV}$）的能量小于金属的功函数，**不能产生光电效应**。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

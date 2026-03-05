@@ -1,0 +1,14 @@
+{
+  "problem_id": "1410",
+  "problem_text_cn": "1410 为了观察太阳的单色光，瑞特发明了由一组双折射晶体(C)组成的双折射滤光器。从第一个晶体(厚度为$d$)起，后面一个晶体的厚度是前面一个晶体厚度的两倍。偏振膜(P)放在晶体之间和始末两端。所有晶体的光轴都放置得彼此平行，并与光的传播方向垂直。偏振膜的偏振轴也都平行，但与光轴的方向成$45^\\circ$角。对于由$s$个晶体组成的滤光器，试计算作为波长$\\lambda$的函数的传输系数，并求出能通过滤光器的带宽$\\Delta\\lambda$。",
+  "problem_text_en": "1410 To observe monochromatic light from the sun, Lyot invented a birefringent filter composed of a set of birefringent crystals (C). Starting from the first crystal (thickness $d$), each subsequent crystal has twice the thickness of the previous one. Polarizing films (P) are placed between the crystals and at both ends. All crystal optical axes are parallel to each other and perpendicular to the direction of light propagation. The polarization axes of all films are parallel, but at an angle of $45^\\circ$ to the crystal axes. For a filter composed of $s$ crystals, calculate the transmission coefficient as a function of wavelength $\\lambda$ and find the bandwidth $\\Delta\\lambda$ of the light that can pass through the filter.",
+  "problem_img": ["图1410_1", "图1410_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1410_1：双折射滤光器的晶体与偏振膜排列", "图1410_2：晶体光轴与偏振膜偏振轴的相对取向"],
+  "img_en": ["Fig. 1410_1: Arrangement of crystals and polarizing films in a birefringent filter", "Fig. 1410_2: Relative orientation of crystal axes and film polarization axes"],
+  "problem_solution_cn": "【核心思路】每个晶体引入相位差$\\phi=(n_+-n_-)kd/2$，厚度加倍使相位差加倍。利用三角恒等式$\\cos\\theta = \\sin2\\theta/(2\\sin\\theta)$，将传输系数化简为$T = \\left[\\frac{\\sin(2^s\\phi)}{2^s\\sin\\phi}\\right]^2$。最大透射发生在$\\phi=p\\pi$，带宽由$2^s\\Delta\\phi=2\\pi$得到。",
+  "problem_solution_en": "【Core Idea】Each crystal introduces a phase difference $\\phi=(n_+-n_-)kd/2$, and doubling the thickness doubles the phase difference. Using the trigonometric identity $\\cos\\theta = \\sin2\\theta/(2\\sin\\theta)$, the transmission coefficient is simplified to $T = \\left[\\frac{\\sin(2^s\\phi)}{2^s\\sin\\phi}\\right]^2$. Maximum transmission occurs at $\\phi=p\\pi$, and the bandwidth is obtained from $2^s\\Delta\\phi=2\\pi$.",
+  "problem_answer": "传输系数$\\boldsymbol{T = \\left[\\frac{\\sin(2^s\\phi)}{2^s\\sin\\phi}\\right]^2}$，其中$\\phi = \\frac{(n_+-n_-)\\pi d}{\\lambda}$；通光波长$\\boldsymbol{\\lambda = \\frac{(n_+-n_-)d}{p}}$（$p$为正整数），带宽$\\boldsymbol{\\Delta\\lambda = \\frac{\\lambda}{p2^{s-1}}}$",
+  "difficulty": "5",
+  "problem_tags": ["Optics"]
+}

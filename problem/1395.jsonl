@@ -1,0 +1,14 @@
+{
+  "problem_id": "1395",
+  "problem_text_cn": "1395 一人站在直长跑道上，因温差，跑道上方的空气折射率随高度线性变化，即$n = n_0(1 + \\alpha y)$，其中$|\\alpha| = 1.5 \\times 10^{-6}\\ \\mathrm{m^{-1}}$，结果他无法看清距离$d$远处的跑道（$y=0$）。若他的眼睛离地面高$1.7\\ \\mathrm{m}$，求$d$之值。又问，温度随高度如何变化？",
+  "problem_text_en": "1395 A person stands on a long straight runway. Due to temperature differences, the refractive index of the air above the runway varies linearly with height: $n = n_0(1 + \\alpha y)$, where $|\\alpha| = 1.5 \\times 10^{-6}\\ \\mathrm{m^{-1}}$. As a result, he cannot clearly see the runway ($y=0$) at a distance $d$. If his eyes are $1.7\\ \\mathrm{m}$ above the ground, find the value of $d$. Also, how does the temperature change with height?",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】由折射定律$n\\cos\\varphi = n_0$，结合$\\cos\\varphi = \\frac{1}{\\sqrt{1 + (\\frac{\\mathrm{d}y}{\\mathrm{d}x})^2}}$，代入$n = n_0(1 + \\alpha y)$，得$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\sqrt{2\\alpha y}$，积分得$2\\sqrt{y} = \\sqrt{2\\alpha}d$，故$d = \\frac{2\\sqrt{1.7}}{\\sqrt{2\\alpha}} = 1.5 \\times 10^3\\ \\mathrm{m}$。因$n \\propto T^{-1}$，$n$随高度增大，故温度随高度降低（海市蜃楼成因）。",
+  "problem_solution_en": "【Core Idea】From Snell's law $n\\cos\\varphi = n_0$, combine with $\\cos\\varphi = \\frac{1}{\\sqrt{1 + (\\frac{\\mathrm{d}y}{\\mathrm{d}x})^2}}$, substitute $n = n_0(1 + \\alpha y)$, get $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\sqrt{2\\alpha y}$, integrate to get $2\\sqrt{y} = \\sqrt{2\\alpha}d$, so $d = \\frac{2\\sqrt{1.7}}{\\sqrt{2\\alpha}} = 1.5 \\times 10^3\\ \\mathrm{m}$. Since $n \\propto T^{-1}$, $n$ increases with height, so temperature decreases with height (cause of mirage).",
+  "problem_answer": "距离$d$：$\\boldsymbol{1.5 \\times 10^3\\ \\mathrm{m}}$；温度随高度**降低**；测量关键：光线弯曲由折射率梯度引起，积分求最大可视距离。",
+  "difficulty": "4",
+  "problem_tags": ["Geometric Optics", "Atmospheric Optics"]
+}

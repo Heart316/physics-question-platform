@@ -1,0 +1,14 @@
+{
+  "problem_id": "1431",
+  "problem_text_cn": "1431 用比重瓶测量焊锡丝的密度。[可供仪器和用具] 物理天平、比重瓶、焊锡丝1小卷、剪刀、水、烧杯、抹布等。[要求] (1) 观察比重瓶结构，简述比重瓶中毛细管作用；(2) 阐述用比重瓶测量固体密度的原理，并写出计算公式，公式中各符号的含义须说明；(3) 测量某焊锡丝的密度$\\rho$，实验用水的密度$\\rho_0 = 1.000\\ \\mathrm{g/cm^3}$；(4) 测量天平在空载时的感量(或分度值)，写出计算公式和结果。",
+  "problem_text_en": "1431 Measure the density of solder wire using a pycnometer. [Available instruments and tools] Physical balance, pycnometer, 1 small roll of solder wire, scissors, water, beaker, rag, etc. [Requirements] (1) Observe the structure of the pycnometer and briefly describe the function of the capillary tube in the pycnometer; (2) Explain the principle of measuring solid density with a pycnometer and write down the calculation formula, with explanations of the meaning of each symbol in the formula; (3) Measure the density $\\rho$ of a certain solder wire, with the density of experimental water $\\rho_0 = 1.000\\ \\mathrm{g/cm^3}$; (4) Measure the sensitivity (or division value) of the balance at no-load and write down the calculation formula and result.",
+  "problem_img": ["图1431_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1431_1：比重瓶结构示意图（标注毛细管、磨口瓶塞）"],
+  "img_en": ["Fig. 1431_1: Schematic of pycnometer structure (marked with capillary tube and ground glass stopper)"],
+  "problem_solution_cn": "【核心思路】(1) 毛细管作用：注入液体后塞紧瓶塞，多余液体从毛细管流出，保证瓶内液体体积固定；(2) 原理：焊锡丝排开同体积水，总质量变化反映体积，公式$\\rho_x=\\rho_0\\frac{m_x}{m_x+m_0-m_1}$（$m_x$焊锡质量，$m_0$瓶+水质量，$m_1$瓶+水+焊锡质量）；(3) 代入数据得$\\rho_x=7.060\\times10^3\\ \\mathrm{kg/m^3}$；(4) 天平感量$=\\frac{\\Delta m}{\\Delta L}=0.010\\ \\mathrm{g/分度}$。",
+  "problem_solution_en": "【Core Idea】(1) Function of capillary tube: After injecting liquid and tightening the stopper, excess liquid flows out from the capillary tube to ensure a fixed volume of liquid in the bottle; (2) Principle: Solder wire displaces water of the same volume, and the change in total mass reflects the volume, formula $\\rho_x=\\rho_0\\frac{m_x}{m_x+m_0-m_1}$ (where $m_x$ is the mass of solder, $m_0$ is the mass of bottle + water, $m_1$ is the mass of bottle + water + solder); (3) Substitute data to get $\\rho_x=7.060\\times10^3\\ \\mathrm{kg/m^3}$; (4) Sensitivity of balance $=\\frac{\\Delta m}{\\Delta L}=0.010\\ \\mathrm{g/division}$.",
+  "problem_answer": "(1) 毛细管作用：$\\boldsymbol{保证瓶内液体体积恒定}$；(2) 密度公式：$\\boldsymbol{\\rho_x = \\rho_0 \\cdot \\frac{m_x}{m_x + m_0 - m_1}}$；(3) 焊锡丝密度：$\\boldsymbol{7.060\\times10^3\\ \\mathrm{kg/m^3}}$；(4) 天平感量：$\\boldsymbol{0.010\\ \\mathrm{g/分度}}$。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

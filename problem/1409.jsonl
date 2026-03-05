@@ -1,0 +1,14 @@
+{
+  "problem_id": "1409",
+  "problem_text_cn": "1409 一束单色部分椭圆偏振光沿$z$方向传播，通过一个线起偏器。当起偏器透射轴沿$x$方向时，透射强度最大，其值为$1.5I_0$；当透射轴沿$y$方向时，透射强度最小，其值为$I_0$。(1) 当透射轴与$x$轴成$\\theta$角时，透射强度是多少？你的答案与光束中的非偏振部分有关吗？(2) 使原来的光束先通过一个$1/4$波片然后通过线起偏器，$1/4$波片的轴沿$x$轴或$y$轴。现在发现当起偏器透射轴沿与$x$轴成$30^\\circ$角时，透射强度最大。求该最大光强，并求非偏振成分在入射光中的百分比。",
+  "problem_text_en": "1409 A beam of monochromatic partially elliptically polarized light propagates in the $z$-direction and passes through a linear polarizer. When the transmission axis of the polarizer is along the $x$-direction, the transmitted intensity is maximum, with a value of $1.5I_0$; when the transmission axis is along the $y$-direction, the transmitted intensity is minimum, with a value of $I_0$. (1) What is the transmitted intensity when the transmission axis makes an angle $\\theta$ with the $x$-axis? Is your answer related to the unpolarized part of the beam? (2) Let the original beam first pass through a quarter-wave plate (with its axes along the $x$ or $y$ axis) and then through a linear polarizer. Now it is found that the transmitted intensity is maximum when the transmission axis of the polarizer makes an angle of $30^\\circ$ with the $x$-axis. Find this maximum intensity and the percentage of the unpolarized component in the incident light.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 将光束分解为非偏振成分$I_u$和椭圆偏振成分$I_{ex}, I_{ey}$，利用马吕斯定律得到透射强度$I_\\theta = I_{ex}\\cos^2\\theta + I_{ey}\\sin^2\\theta + I_u$，与$I_u$无关；(2) $1/4$波片将椭圆偏振光变为线偏振光，最大透射方向给出$E_x/E_y = \\sqrt{3}$，联立方程求解各成分。",
+  "problem_solution_en": "【Core Idea】(1) Decompose the beam into an unpolarized component $I_u$ and elliptically polarized components $I_{ex}, I_{ey}$. Using Malus's law, the transmitted intensity is $I_\\theta = I_{ex}\\cos^2\\theta + I_{ey}\\sin^2\\theta + I_u$, independent of $I_u$. (2) The quarter-wave plate converts the elliptically polarized light into linearly polarized light. The direction of maximum transmission gives $E_x/E_y = \\sqrt{3}$, and the components are solved by simultaneous equations.",
+  "problem_answer": "(1) 透射强度$\\boldsymbol{I_\\theta = 1.5I_0\\cos^2\\theta + 1.0I_0\\sin^2\\theta}$，与非偏振部分无关；(2) 最大光强$\\boldsymbol{I = 1.75I_0}$，非偏振成分占比$\\boldsymbol{60\\%}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1400",
+  "problem_text_cn": "1400 一物置于薄凸透镜L左侧，物距为u，透镜焦距为f。在透镜右侧放置一凹面镜M（曲率半径为R），调节凹面镜位置，使物经透镜折射、凹面镜反射、再经透镜折射后所成的像与原物重合（放大率为+1）。(1) 证明存在两个凹面镜位置满足该条件；(2) 若u=10 cm，R=7 cm，两位置间距l=2 cm，求透镜焦距f。",
+  "problem_text_en": "1400 An object is placed on the left side of a thin convex lens L with object distance u and focal length f. A concave mirror M (curvature radius R) is placed on the right side of the lens. Adjust the position of the concave mirror so that the image formed by the object after refraction by the lens, reflection by the concave mirror, and refraction by the lens again coincides with the original object (magnification +1). (1) Prove that there are two positions of the concave mirror satisfying this condition; (2) If u=10 cm, R=7 cm, and the distance between the two positions l=2 cm, find the focal length f of the lens.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 逐次成像法：物经透镜成像，像距v₁=uf/(u-f)；凹面镜成像物距u₂=x-v₁，像距v₂=u₂·(R/2)/(u₂-R/2)；再经透镜成像物距u₃=x-v₂，总放大率k=k₁k₂k₃=1，化简得二次方程，解得两个位置x₁=uf/(u-f)（实像处）、x₂=f+R（球心与透镜后焦点重合）。(2) 由两位置间距|x₁-x₂|=2 cm，代入u=10 cm、R=7 cm，解得f=6 cm或f=5 cm（均为有效解）。",
+  "problem_solution_en": "【Core Idea】(1) Successive imaging method: Object is imaged by lens with image distance v₁=uf/(u-f); Object distance for concave mirror imaging u₂=x-v₁, image distance v₂=u₂·(R/2)/(u₂-R/2); Object distance for lens imaging again u₃=x-v₂, total magnification k=k₁k₂k₃=1, simplify to quadratic equation, solve to get two positions x₁=uf/(u-f) (real image position), x₂=f+R (center of curvature coincides with rear focal point of lens). (2) From the distance between two positions |x₁-x₂|=2 cm, substitute u=10 cm, R=7 cm, solve to get f=6 cm or f=5 cm (both valid solutions).",
+  "problem_answer": "透镜焦距：$\\boldsymbol{6\\ \\mathrm{cm}}$ 或 $\\boldsymbol{5\\ \\mathrm{cm}}$；关键结论：存在两个凹面镜位置（实像处、球心与透镜后焦点重合）使总放大率为+1；解题关键：逐次成像法推导位置方程，利用间距条件求解焦距。",
+  "difficulty": "4",
+  "problem_tags": ["Geometric Optics", "Lens-Mirror System"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1425",
+  "problem_text_cn": "1425 天然放射性系铀系从$^{238}\\text{U}$（半衰期$T_{1/2} = 4.468 \\times 10^9$年）开始，经一系列$\\alpha$和$\\beta$衰变到稳定核$^{206}\\text{Pb}$。现测得铀矿中$\\frac{N(^{238}\\text{U})}{N(^{206}\\text{Pb})} = 2.785$，推算地球的年龄。（子核中$^{234}\\text{U}$半衰期最长，$T_{1/2} = 2.45 \\times 10^5$年）",
+  "problem_text_en": "1425 The natural radioactive uranium series starts with $^{238}\\text{U}$ ($T_{1/2} = 4.468 \\times 10^9$ years) and decays via $\\alpha$ and $\\beta$ emissions to stable $^{206}\\text{Pb}$. The ratio $\\frac{N(^{238}\\text{U})}{N(^{206}\\text{Pb})} = 2.785$ in uranium ore. Estimate the age of the Earth. (The longest-lived daughter nucleus is $^{234}\\text{U}$ with $T_{1/2} = 2.45 \\times 10^5$ years)",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】铀系达到久期平衡后，稳定核$^{206}\\text{Pb}$的数目$N_D(t) = N_P(t)(e^{\\lambda t} - 1)$，其中$\\lambda = \\ln2/T_{1/2}(^{238}\\text{U})$。代入$N_D/N_P = 1/2.785$，解得$t = \\frac{1}{\\lambda}\\ln(1 + 1/2.785)$。",
+  "problem_solution_en": "【Core Idea】After secular equilibrium, stable nucleus $^{206}\\text{Pb}$ count $N_D(t) = N_P(t)(e^{\\lambda t} - 1)$, where $\\lambda = \\ln2/T_{1/2}(^{238}\\text{U})$. Substitute $N_D/N_P = 1/2.785$, solve for $t = \\frac{1}{\\lambda}\\ln(1 + 1/2.785)$.",
+  "problem_answer": "地球的年龄约为$\\boldsymbol{1.98 \\times 10^9}$年。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

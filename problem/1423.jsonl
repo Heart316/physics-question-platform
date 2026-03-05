@@ -1,0 +1,14 @@
+{
+  "problem_id": "1423",
+  "problem_text_cn": "1423 用粒子轰击氢原子使其激发，使氢原子发出Hₐ谱线（$n=3\\to n=2$跃迁），求下列情况下粒子的最小动能：(1) 电子与室温下的氢原子相碰撞；(2) 质子轰击原先静止的基态氢原子；(3) 质子与基态氢原子以相等速率相互趋近发生对心碰撞。",
+  "problem_text_en": "1423 Bombard hydrogen atoms with particles to excite them, causing Hₐ line emission ($n=3\\to n=2$ transition). Find the minimum kinetic energy of the particle in: (1) Electron collision with room-temperature hydrogen atoms; (2) Proton collision with initially stationary ground-state hydrogen; (3) Head-on collision of proton and ground-state hydrogen approaching at equal speeds.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】Hₐ谱线对应氢原子从$n=1$激发到$n=3$，所需激发能$\\Delta E = E_3 - E_1 = 12.09\\ \\mathrm{eV}$。利用约化质量$\\mu = \\frac{mM}{m+M}$，最大激发能$\\Delta E_{\\text{max}} = \\frac{1}{2}\\mu v_{\\text{相对}}^2$，分别计算三种碰撞下的最小动能。",
+  "problem_solution_en": "【Core Idea】Hₐ line corresponds to excitation from $n=1$ to $n=3$, requiring $\\Delta E = E_3 - E_1 = 12.09\\ \\mathrm{eV}$. Using reduced mass $\\mu = \\frac{mM}{m+M}$, maximum excitation energy $\\Delta E_{\\text{max}} = \\frac{1}{2}\\mu v_{\\text{relative}}^2$, calculate minimum KE for each collision case.",
+  "problem_answer": "(1) 电子最小动能$\\boldsymbol{12.09\\ \\mathrm{eV}}$；(2) 质子最小动能$\\boldsymbol{24.18\\ \\mathrm{eV}}$；(3) 质子最小动能$\\boldsymbol{6.05\\ \\mathrm{eV}}$。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

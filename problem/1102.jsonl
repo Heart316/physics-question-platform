@@ -1,0 +1,13 @@
+{
+  "problem_id": "1102",
+  "problem_text_cn": "1102 文丘里流量计宽段面积$S_1=0.08\\ \\mathrm{cm^2}$，细段面积$S_2=0.04\\ \\mathrm{cm^2}$，压强差$\\Delta p=25\\ \\mathrm{Pa}$，血液密度$\\rho=1060\\ \\mathrm{kg/m^3}$，求动脉血液的体积流量$Q_V$。",
+  "problem_text_en": "1102 The wide section area of a Venturi flowmeter is $S_1=0.08\\ \\mathrm{cm^2}$, the narrow section area is $S_2=0.04\\ \\mathrm{cm^2}$, the pressure difference is $\\Delta p=25\\ \\mathrm{Pa}$, and the blood density is $\\rho=1060\\ \\mathrm{kg/m^3}$. Find the volume flow rate $Q_V$ of the arterial blood.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】联立文丘里流量计的**伯努利方程**与**连续性方程**，将压强差$\\Delta p=\\rho gh$代入流量公式，化简后直接代入数值计算体积流量。",
+  "problem_solution_en": "【Core Idea】Simultaneously solve the **Bernoulli equation** and the **continuity equation** for the Venturi flowmeter, substitute the pressure difference $\\Delta p=\\rho gh$ into the flow rate formula, simplify and directly substitute the values to calculate the volume flow rate.",
+  "problem_answer": "动脉血液的体积流量$\\boldsymbol{Q_V = 1.0\\ \\mathrm{cm^3/s}}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

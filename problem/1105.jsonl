@@ -1,0 +1,13 @@
+{
+  "problem_id": "1105",
+  "problem_text_cn": "1105 大动脉内半径$r=4\\ \\mathrm{mm}$，平均血流速度$\\bar{v}=40\\ \\mathrm{mm/s}$，血液黏度$\\eta=4.0\\times10^{-3}\\ \\mathrm{Pa\\cdot s}$，密度与水相近。判断血液流动是层流还是湍流。（临界雷诺数$Re_c\\approx2000$）",
+  "problem_text_en": "1105 The inner radius of a large artery is $r=4\\ \\mathrm{mm}$, the average blood flow velocity is $\\bar{v}=40\\ \\mathrm{mm/s}$, the blood viscosity is $\\eta=4.0\\times10^{-3}\\ \\mathrm{Pa\\cdot s}$, and the density is close to that of water. Determine whether the blood flow is laminar or turbulent. (Critical Reynolds number $Re_c\\approx2000$)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】代入**雷诺数公式**$Re=\\rho\\bar{v}r/\\eta$计算，将结果与临界雷诺数比较，$Re<Re_c$则为层流。",
+  "problem_solution_en": "【Core Idea】Calculate by substituting into the **Reynolds number formula** $Re=\\rho\\bar{v}r/\\eta$, compare the result with the critical Reynolds number. If $Re<Re_c$, it is laminar flow.",
+  "problem_answer": "雷诺数$\\boldsymbol{Re=400<2000}$，大动脉内血液流动**为层流**",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

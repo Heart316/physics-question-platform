@@ -1,0 +1,13 @@
+{
+  "problem_id": "1109",
+  "problem_text_cn": "1109 玻璃球密度$\\rho_1=2.56\\ \\mathrm{g/cm^3}$、半径$r=3.0\\ \\mathrm{mm}$，在甘油中下落的终极速度$v_e=3.1\\ \\mathrm{cm/s}$，甘油密度$\\rho_2=1.26\\ \\mathrm{g/cm^3}$。求：（1）甘油黏度$\\eta$；（2）小球加速度为$g/2$时的速度$v$。",
+  "problem_text_en": "1109 A glass ball has a density of $\\rho_1=2.56\\ \\mathrm{g/cm^3}$ and a radius of $r=3.0\\ \\mathrm{mm}$, and its terminal velocity when falling in glycerin is $v_e=3.1\\ \\mathrm{cm/s}$. The density of glycerin is $\\rho_2=1.26\\ \\mathrm{g/cm^3}$. Find: (1) The viscosity of glycerin $\\eta$; (2) The velocity $v$ of the ball when its acceleration is $g/2$.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】（1）终极速度时**重力、浮力与斯托克斯力平衡**，代入公式求解$\\eta$；（2）由牛顿第二定律列动力学方程，结合终极速度的平衡条件，联立求解速度$v$。",
+  "problem_solution_en": "【Core Idea】(1) At terminal velocity, **gravity, buoyancy and Stokes force are balanced**, substitute into the formula to solve for $\\eta$; (2) List the dynamic equation from Newton's second law, and solve for the velocity $v$ simultaneously with the balance condition at terminal velocity.",
+  "problem_answer": "（1）甘油黏度$\\boldsymbol{\\eta=0.82\\ \\mathrm{Pa\\cdot s}}$；（2）小球加速度为$g/2$时的速度$\\boldsymbol{v=4.8\\times10^{-2}\\ \\mathrm{cm/s}}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

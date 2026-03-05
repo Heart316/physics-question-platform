@@ -1,0 +1,14 @@
+{
+  "problem_id": "1408",
+  "problem_text_cn": "1408 透镜的光阑为正方形，边长为$D$，单色点光源置于透镜的主光轴上。在过其几何像点且垂直于主光轴的平面上，求几何像点附近由于光阑边缘的衍射所得到的光强分布。",
+  "problem_text_en": "1408 The aperture of a lens is a square with side length $D$, and a monochromatic point source is placed on the principal optical axis of the lens. On the plane passing through its geometric image point and perpendicular to the principal optical axis, find the light intensity distribution near the geometric image point due to diffraction from the edges of the aperture.",
+  "problem_img": ["图1408_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1408_1：透镜光阑衍射的惠更斯原理应用"],
+  "img_en": ["Fig. 1408_1: Application of Huygens' principle to diffraction from a lens aperture"],
+  "problem_solution_cn": "【核心思路】以几何像点$O$为中心，应用惠更斯原理，将光阑处的球面波前分解为子波，在像平面上叠加。利用小角度近似和菲涅耳近似，积分得到振幅分布，再平方得到强度分布。结果与正方形孔的夫琅禾费衍射一致。",
+  "problem_solution_en": "【Core Idea】Centered at the geometric image point $O$, apply Huygens' principle to decompose the spherical wavefront at the aperture into secondary wavelets, which are then superposed on the image plane. Using small-angle and Fresnel approximations, the amplitude distribution is obtained by integration, and the intensity distribution is its square. The result is consistent with Fraunhofer diffraction from a square aperture.",
+  "problem_answer": "光强分布为$\\boldsymbol{I_P = \\left(\\frac{\\sin\\frac{2\\pi x}{\\lambda}\\alpha}{\\frac{2\\pi x}{\\lambda}\\alpha}\\right)^2 \\left(\\frac{\\sin\\frac{2\\pi y}{\\lambda}\\alpha}{\\frac{2\\pi y}{\\lambda}\\alpha}\\right)^2}$，其中$\\alpha = \\arctan\\frac{D}{2r_0} \\approx \\frac{D}{2r_0}$（$r_0$为透镜到像点的距离）；中央极大到第一极小的距离$\\boldsymbol{\\Delta x = \\Delta y = \\frac{\\lambda}{2\\alpha}}$，适用条件$\\boldsymbol{\\alpha \\gg \\sqrt{\\lambda/r_0}}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

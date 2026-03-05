@@ -1,0 +1,14 @@
+{
+  "problem_id": "1392",
+  "problem_text_cn": "1392 阿米西棱镜由两块直角棱镜（折射率$n_1$）和一块等腰棱镜（折射率$n_2$）拼接而成。（1）适当选取等腰棱镜的顶角$\\alpha$，可使在主截面内平行底面入射的光线不发生任何偏折地出射，而成直视棱镜，求$\\alpha$；（2）直角棱镜为冕牌玻璃，等腰棱镜为火石玻璃，对光线$F(\\lambda=4861\\ \\mathrm{\\AA})$计算$\\alpha$值，并算出$C(\\lambda=6563\\ \\mathrm{\\AA})$和$G(\\lambda=4341\\ \\mathrm{\\AA})$两种光线之间的色散角。",
+  "problem_text_en": "1392 An Amici prism is composed of two right-angle prisms (refractive index $n_1$) and an isosceles prism (refractive index $n_2$). (1) By appropriately selecting the apex angle $\\alpha$ of the isosceles prism, light incident parallel to the base in the principal section can exit without any deviation, forming a direct-vision prism. Find $\\alpha$; (2) The right-angle prisms are made of crown glass, and the isosceles prism is made of flint glass. Calculate the value of $\\alpha$ for light $F(\\lambda=4861\\ \\mathrm{\\AA})$, and find the dispersion angle between light $C(\\lambda=6563\\ \\mathrm{\\AA})$ and $G(\\lambda=4341\\ \\mathrm{\\AA})$.",
+  "problem_img": ["图1392_1", "图1392_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1392_1：阿米西棱镜的光线传播分析", "图1392_2：阿米西棱镜的色散角计算"],
+  "img_en": ["Fig. 1392_1: Analysis of light propagation in an Amici prism", "Fig. 1392_2: Calculation of dispersion angle in an Amici prism"],
+  "problem_solution_cn": "【核心思路】（1）光线在等腰棱镜中平行于底面传播，在两个界面应用折射定律，结合几何关系$i_1=\\frac{\\pi}{2}-\\frac{\\alpha}{2}$、$i_2=\\frac{\\pi}{2}-r_1$、$r_2=\\frac{\\alpha}{2}$，联立求解顶角$\\alpha$；（2）代入$F$光的折射率$n_1^F$、$n_2^F$计算$\\alpha$，再分别计算$C$、$G$光的出射角，两者之差即为色散角。",
+  "problem_solution_en": "【Core Idea】(1) Light propagates parallel to the base in the isosceles prism. Apply the law of refraction at the two interfaces, combine the geometric relationships $i_1=\\frac{\\pi}{2}-\\frac{\\alpha}{2}$, $i_2=\\frac{\\pi}{2}-r_1$, $r_2=\\frac{\\alpha}{2}$, and solve for the apex angle $\\alpha$ simultaneously; (2) Substitute the refractive indices $n_1^F$ and $n_2^F$ of light $F$ to calculate $\\alpha$, then calculate the exit angles of light $C$ and $G$ respectively, and the difference between them is the dispersion angle.",
+  "problem_answer": "（1）等腰棱镜顶角$\\boldsymbol{\\alpha = 2\\arcsin\\sqrt{\\dfrac{n_1^2-1}{n_2^2-1}}}$；（2）对$F$光，$\\boldsymbol{\\alpha=101.94^\\circ}$，$C$、$G$光之间的色散角可由各自出射角之差求得",
+  "difficulty": "5",
+  "problem_tags": ["Optics"]
+}

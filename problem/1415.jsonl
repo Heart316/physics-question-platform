@@ -1,0 +1,14 @@
+{
+  "problem_id": "1415",
+  "problem_text_cn": "1415 一个1 MeV的电子在云室中的径迹是一串小水滴，水滴的线度约为$10^{-5}\\ \\mathrm{m}$。试问电子的径迹会不会与直线有明显的差别？为什么？（电子静能$m_ec^2 = 0.511\\ \\mathrm{MeV}$，$hc = 12400\\ \\mathrm{eV \\cdot \\AA}$）",
+  "problem_text_en": "1415 A 1 MeV electron leaves a trail of small droplets in a cloud chamber, with droplet sizes of about $10^{-5}\\ \\mathrm{m}$. Will the electron's trajectory deviate significantly from a straight line? Why? (Electron rest energy $m_ec^2 = 0.511\\ \\mathrm{MeV}$, $hc = 12400\\ \\mathrm{eV \\cdot \\AA}$)",
+  "problem_img": ["图1415_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1415_1：电子径迹的角度不确定度"],
+  "img_en": ["Fig. 1415_1: Angular uncertainty of the electron's trajectory"],
+  "problem_solution_cn": "【核心思路】由不确定关系$\\Delta p_x \\approx \\hbar/\\Delta x$，估算横向动量不确定度，再与电子总动量$p_y$比较，得到角度不确定度$\\Delta\\theta \\approx 2.3 \\times 10^{-8}\\ \\mathrm{rad}$，远小于可观测范围；同时德布罗意波长$\\lambda = h/p \\ll 10^{-5}\\ \\mathrm{m}$，电子可视为经典粒子。",
+  "problem_solution_en": "【Core Idea】Using the uncertainty principle $\\Delta p_x \\approx \\hbar/\\Delta x$, estimate the transverse momentum uncertainty, compare it with the total electron momentum $p_y$, and find the angular uncertainty $\\Delta\\theta \\approx 2.3 \\times 10^{-8}\\ \\mathrm{rad}$, which is negligible. The de Broglie wavelength $\\lambda = h/p \\ll 10^{-5}\\ \\mathrm{m}$, so the electron can be treated as a classical particle.",
+  "problem_answer": "电子的径迹**不会与直线有明显差别**。因为由不确定关系得到的角度不确定度仅为$\\boldsymbol{2.3 \\times 10^{-8}\\ \\mathrm{rad}}$，且电子的德布罗意波长远小于水滴线度，可近似为经典粒子沿直线运动。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

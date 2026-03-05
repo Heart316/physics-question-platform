@@ -1,0 +1,13 @@
+{
+  "problem_id": "1111",
+  "problem_text_cn": "1111 半径$r=0.01\\ \\mathrm{mm}$的水滴，在速度$v_0=2\\ \\mathrm{cm/s}$的上升气流中是否会朝地面回落？（空气黏度$\\eta=1.8\\times10^{-5}\\ \\mathrm{Pa\\cdot s}$，水滴密度$\\rho_0=1.0\\times10^3\\ \\mathrm{kg/m^3}$，浮力可略）",
+  "problem_text_en": "1111 Will a water drop with radius $r=0.01\\ \\mathrm{mm}$ fall back to the ground in an upward air current with velocity $v_0=2\\ \\mathrm{cm/s}$? (Air viscosity $\\eta=1.8\\times10^{-5}\\ \\mathrm{Pa\\cdot s}$, water drop density $\\rho_0=1.0\\times10^3\\ \\mathrm{kg/m^3}$, buoyancy is negligible)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】以气流为参考系，水滴下落的终极速度由**重力与斯托克斯黏滞力平衡**决定；转换至地面系，比较气流速度与水滴终极速度的大小，判断水滴的运动方向。",
+  "problem_solution_en": "【Core Idea】In the reference frame of the air current, the terminal velocity of the falling water drop is determined by the **balance between gravity and Stokes viscous force**; convert to the ground frame, compare the magnitude of the air current velocity and the terminal velocity of the water drop to determine the direction of motion of the water drop.",
+  "problem_answer": "水滴向下的终极速度$\\boldsymbol{v_e=1.2\\ \\mathrm{cm/s}}$，地面系中水滴向上速度$\\boldsymbol{v=v_0-v_e=0.8\\ \\mathrm{cm/s}>0}$，因此**水滴不会朝地面回落**",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

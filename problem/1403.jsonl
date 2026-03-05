@@ -1,0 +1,14 @@
+{
+  "problem_id": "1403",
+  "problem_text_cn": "1403 一种用比累对切透镜观察干涉条纹的装置：焦距为$f$的透镜被切成相等的两半$L_1$和$L_2$，彼此沿主轴线方向移动距离$f$。波长为$\\lambda$的单色点光源$S$置于$L_1$左方光轴上，与$L_1$距离为$f$。在$L_2$右方$3f$处放一光屏观察干涉条纹。(1) 描述条纹形状，条纹中心是暗的还是亮的？(2) 计算第$m$级亮纹离轴的距离$x$。",
+  "problem_text_en": "1403 A device for observing interference fringes using a Billet split lens: a lens with focal length $f$ is cut into two equal halves $L_1$ and $L_2$, which are separated by a distance $f$ along the principal axis. A monochromatic point source $S$ of wavelength $\\lambda$ is placed on the optical axis to the left of $L_1$, at a distance $f$ from $L_1$. A screen is placed $3f$ to the right of $L_2$ to observe the interference fringes. (1) Describe the shape of the fringes, and whether the center of the fringe pattern is dark or bright; (2) Calculate the off-axis distance $x$ of the $m$-th bright fringe.",
+  "problem_img": ["图1403_1", "图1403_2", "图1403_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1403_1：比累对切透镜干涉的几何光路", "图1403_2：发散光波的半波带法位相分析", "图1403_3：会聚光波的$\\pi$位相突变分析"],
+  "img_en": ["Fig. 1403_1: Geometric optical path for Billet split lens interference", "Fig. 1403_2: Phase analysis of diverging wavefronts using the half-zone method", "Fig. 1403_3: Analysis of $\\pi$ phase jump for converging wavefronts"],
+  "problem_solution_cn": "【核心思路】(1) $S$经$L_1$成平行光，经$L_2$成像于像点$S'$，两束光干涉形成同心半圆条纹；中心$O$处因$S'$处的$\\pi$位相突变，光程差为$\\lambda/2$，故为暗纹；(2) 由光程差$\\Delta = \\sqrt{f^2+x^2} + \\lambda/2 - f = m\\lambda$，求解第$m$级亮纹位置。",
+  "problem_solution_en": "【Core Idea】(1) $S$ is collimated by $L_1$ and imaged at point $S'$ by $L_2$. The interference of the two beams forms concentric semicircular fringes. At the center $O$, due to the $\\pi$ phase jump at $S'$, the optical path difference is $\\lambda/2$, so it is a dark fringe; (2) From the optical path difference $\\Delta = \\sqrt{f^2+x^2} + \\lambda/2 - f = m\\lambda$, solve for the position of the $m$-th bright fringe.",
+  "problem_answer": "(1) 条纹为以光轴为中心的同心半圆，条纹中心是**暗的**；(2) 第$m$级亮纹离轴距离$\\boldsymbol{x = \\sqrt{\\left(m-\\frac{1}{2}\\right)^2\\lambda^2 + 2\\left(m-\\frac{1}{2}\\right)\\lambda f}}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

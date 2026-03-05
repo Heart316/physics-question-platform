@@ -1,0 +1,14 @@
+{
+  "problem_id": "1406",
+  "problem_text_cn": "1406 考虑一块反射光栅，槽是等间距的，间距为$d$，但有交替的反射本领$(1+\\alpha)$、$(1-\\alpha)$、$(1+\\alpha)$、$(1-\\alpha)$……，$\\alpha$为比1小得多的常量。试讨论衍射强度的角分布，在什么情况下，$\\alpha$的影响最显著？",
+  "problem_text_en": "1406 Consider a reflection grating with equally spaced grooves of spacing $d$, but with alternating reflectivities $(1+\\alpha)$, $(1-\\alpha)$, $(1+\\alpha)$, $(1-\\alpha)$..., where $\\alpha$ is a constant much smaller than 1. Discuss the angular distribution of the diffraction intensity. Under what conditions is the effect of $\\alpha$ most significant?",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】将总振幅分解为等幅光栅和交替调制光栅的叠加，强度分布为$I = I_0 \\frac{\\sin^2(N\\delta/2)}{N^2\\sin^2(\\delta/2)}[1 + \\alpha^2\\tan^2(\\delta/2)]$（$\\delta=2\\pi d\\sin\\theta/\\lambda$）。当$\\delta\\approx(2p+1)\\pi$（$p$为整数）时，$\\tan^2(\\delta/2)$最大，$\\alpha$的影响最显著。",
+  "problem_solution_en": "【Core Idea】Decompose the total amplitude into the superposition of an equal-amplitude grating and an alternating modulated grating, leading to the intensity distribution $I = I_0 \\frac{\\sin^2(N\\delta/2)}{N^2\\sin^2(\\delta/2)}[1 + \\alpha^2\\tan^2(\\delta/2)]$ ($\\delta=2\\pi d\\sin\\theta/\\lambda$). The effect of $\\alpha$ is most significant when $\\delta\\approx(2p+1)\\pi$ (for integer $p$), where $\\tan^2(\\delta/2)$ is maximized.",
+  "problem_answer": "衍射强度分布：$\\boldsymbol{I = I_0 \\frac{\\sin^2(N\\delta/2)}{N^2\\sin^2(\\delta/2)}[1 + \\alpha^2\\tan^2(\\delta/2)]}$；$\\alpha$影响最显著的情况：$\\boldsymbol{\\delta \\approx (2p+1)\\pi}$（$p$为整数），即$\\boldsymbol{\\sin\\theta \\approx (2p+1)\\lambda/(2d)}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

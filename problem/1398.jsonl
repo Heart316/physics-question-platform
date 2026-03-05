@@ -1,0 +1,14 @@
+{
+  "problem_id": "1398",
+  "problem_text_cn": "1398 一折射率为$n$，曲率半径为$R_1$和$R_2$的薄双凸透镜，放在折射率为$n_1$和$n_2$的介质之间，求透镜的焦距和物像公式。",
+  "problem_text_en": "1398 A thin biconvex lens with refractive index $n$ and curvature radii $R_1$ and $R_2$ is placed between media with refractive indices $n_1$ and $n_2$. Find the focal length and object-image formula of the lens.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】将透镜视为两个单球面的组合。左球面成像：$\\frac{n_1}{u} + \\frac{n}{v'} = \\frac{n - n_1}{R_1}$；右球面成像：$\\frac{n}{-v'} + \\frac{n_2}{v} = \\frac{n_2 - n}{-R_2}$。两式相加得物像公式：$\\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}$。物方焦距$f_1 = \\frac{n_1}{\\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}$，像方焦距$f_2 = \\frac{n_2}{\\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}$，用焦距表示为$\\frac{f_1}{u} + \\frac{f_2}{v} = 1$。",
+  "problem_solution_en": "【Core Idea】Treat the lens as a combination of two single spherical surfaces. Left surface imaging: $\\frac{n_1}{u} + \\frac{n}{v'} = \\frac{n - n_1}{R_1}$; right surface imaging: $\\frac{n}{-v'} + \\frac{n_2}{v} = \\frac{n_2 - n}{-R_2}$. Add the two equations to get the object-image formula: $\\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}$. Object focal length $f_1 = \\frac{n_1}{\\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}$, image focal length $f_2 = \\frac{n_2}{\\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}$, expressed in focal lengths as $\\frac{f_1}{u} + \\frac{f_2}{v} = 1$.",
+  "problem_answer": "物像公式：$\\boldsymbol{\\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}$；焦距：$\\boldsymbol{f_1 = \\frac{n_1}{\\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}}$，$\\boldsymbol{f_2 = \\frac{n_2}{\\frac{n - n_1}{R_1} + \\frac{n - n_2}{R_2}}}$；测量关键：逐次球面成像，消去中间像距。",
+  "difficulty": "4",
+  "problem_tags": ["Geometric Optics"]
+}

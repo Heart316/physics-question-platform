@@ -1,0 +1,14 @@
+{
+  "problem_id": "1397",
+  "problem_text_cn": "1397 一直径为$2a$，凸面曲率半径为$R$的平凸透镜水平放置，受到竖直向上的激光束照射。为使它能悬在空中而不下落，激光的功率$P$与强度$I$应为多少？已知透镜材料的折射率为$n$，密度为$\\rho$。设激光束充满透镜，并均视为近轴光。设$n = 1.50$，$R = 5\\ \\mathrm{mm}$，$a = 1\\ \\mathrm{mm}$，$\\rho = 2.5\\ \\mathrm{g \\cdot cm^{-3}}$，$g = 9.8\\ \\mathrm{m \\cdot s^{-2}}$，求出$P$与$I$之数值。",
+  "problem_text_en": "1397 A plano-convex lens with diameter $2a$ and convex curvature radius $R$ is placed horizontally and irradiated by a vertically upward laser beam. To make it suspend in the air without falling, what should be the laser power $P$ and intensity $I$? Given the refractive index of the lens material is $n$ and density is $\\rho$. Assume the laser beam fills the lens and is paraxial. Let $n = 1.50$, $R = 5\\ \\mathrm{mm}$, $a = 1\\ \\mathrm{mm}$, $\\rho = 2.5\\ \\mathrm{g \\cdot cm^{-3}}$, $g = 9.8\\ \\mathrm{m \\cdot s^{-2}}$, find the numerical values of $P$ and $I$.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】光子经透镜折射后动量改变，对透镜产生向上的力。透镜焦距$f = \\frac{R}{n-1}$，光子动量$p = \\frac{h\\nu}{c}$，离轴$r$处光子动量改变$p_y = p(1 - \\cos\\theta)$，积分得总作用力$F = \\frac{\\pi N h\\nu}{c}[a^2 - 2f^2(\\sqrt{1 + a^2/f^2} - 1)]$。透镜体积$V = \\frac{\\pi}{3}H^2(3R - H)$（$H = R - \\sqrt{R^2 - a^2}$），力平衡$F = V\\rho g$，得$P = \\pi a^2 N h\\nu = \\frac{\\pi c H^2(3R - H)\\rho g}{3[1 - 2\\frac{f^2}{a^2}(\\sqrt{1 + a^2/f^2} - 1)]}$，$I = \\frac{P}{\\pi a^2}$。代入数据得$P = 4.70 \\times 10^5\\ \\mathrm{W}$，$I = 1.50 \\times 10^{11}\\ \\mathrm{W/m^2}$。",
+  "problem_solution_en": "【Core Idea】Photon momentum changes after refraction by the lens, producing an upward force on the lens. Lens focal length $f = \\frac{R}{n-1}$, photon momentum $p = \\frac{h\\nu}{c}$, photon momentum change at off-axis $r$ is $p_y = p(1 - \\cos\\theta)$, integrate to get total force $F = \\frac{\\pi N h\\nu}{c}[a^2 - 2f^2(\\sqrt{1 + a^2/f^2} - 1)]$. Lens volume $V = \\frac{\\pi}{3}H^2(3R - H)$ ($H = R - \\sqrt{R^2 - a^2}$), force balance $F = V\\rho g$, get $P = \\pi a^2 N h\\nu = \\frac{\\pi c H^2(3R - H)\\rho g}{3[1 - 2\\frac{f^2}{a^2}(\\sqrt{1 + a^2/f^2} - 1)]}$, $I = \\frac{P}{\\pi a^2}$. Substitute data to get $P = 4.70 \\times 10^5\\ \\mathrm{W}$, $I = 1.50 \\times 10^{11}\\ \\mathrm{W/m^2}$.",
+  "problem_answer": "激光功率：$\\boldsymbol{4.70 \\times 10^5\\ \\mathrm{W}}$；激光强度：$\\boldsymbol{1.50 \\times 10^{11}\\ \\mathrm{W/m^2}}$；测量关键：光子动量改变产生光压，平衡透镜重力。",
+  "difficulty": "5",
+  "problem_tags": ["Geometric Optics", "Optical Forces"]
+}

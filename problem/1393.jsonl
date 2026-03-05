@@ -1,0 +1,14 @@
+{
+  "problem_id": "1393",
+  "problem_text_cn": "1393 将折射率为$n$和$n'$的两种均匀介质隔开的旋转曲面具有如下特性：由旋转轴上某定点$P$发出的光经曲面折射后无像差地会聚到同轴上另一点$P'$。这个表面称为笛卡儿卵形面。用通过轴的平面去截这个曲面，求截线方程。研究在什么情况下，这个曲线变为二次曲线。",
+  "problem_text_en": "1393 A rotating surface separating two homogeneous media with refractive indices $n$ and $n'$ has the property that light emitted from a fixed point $P$ on the axis of rotation is refracted by the surface and converges without aberration to another coaxial point $P'$. This surface is called a Cartesian oval. Use a plane passing through the axis to intersect this surface, find the equation of the intersection curve. Study under what conditions this curve becomes a conic section.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】由物、像等光程性（费马原理），截线方程为$n\\sqrt{(x-q)^2 + y^2} + n'\\sqrt{(x-q')^2 + y^2} = n'q' - nq$，去根号后为四次方程。变为二次曲线的三种情况：\n1) $n^2 - n'^2 = 0$（即$n + n' = 0$，面镜情况）：方程化为椭圆或双曲线；\n2) $q = \\infty$（$P$在无穷远）：当$n' > n$时为椭圆，$n' < n$时为双曲线；\n3) $qn = q'n'$：方程退化为圆，对应球面（齐明点情况）。",
+  "problem_solution_en": "【Core Idea】From the optical path equality (Fermat's principle), the intersection curve equation is $n\\sqrt{(x-q)^2 + y^2} + n'\\sqrt{(x-q')^2 + y^2} = n'q' - nq$, which becomes a quartic equation after rationalization. Three cases for it to become a conic section:\n1) $n^2 - n'^2 = 0$ (i.e., $n + n' = 0$, mirror case): the equation reduces to an ellipse or hyperbola;\n2) $q = \\infty$ ($P$ at infinity): an ellipse if $n' > n$, a hyperbola if $n' < n$;\n3) $qn = q'n'$: the equation degenerates to a circle, corresponding to a spherical surface (aplanatic points).",
+  "problem_answer": "截线方程：$\\boldsymbol{n\\sqrt{(x-q)^2 + y^2} + n'\\sqrt{(x-q')^2 + y^2} = n'q' - nq}$；二次曲线情况：面镜（$n + n' = 0$）、物在无穷远（$q = \\infty$）、球面（$qn = q'n'$）。",
+  "difficulty": "4",
+  "problem_tags": ["Geometric Optics"]
+}

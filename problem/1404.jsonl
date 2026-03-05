@@ -1,0 +1,14 @@
+{
+  "problem_id": "1404",
+  "problem_text_cn": "1404 (1) 一平面电磁波垂直入射到两介质分界面，从介质1到2的振幅反射、透射系数为$r$、$t$；从介质2到1为$r'$、$t'$。利用叠加原理和时间反演不变性，导出斯塔克关系式$r^2 + tt' = 1$，$r = -r'$。(2) 一平面电磁波由真空垂直入射到厚度为$d$、折射率为$n_1$的薄膜上，衬底折射率为$n_2$，$\\mu_r=1$。用$n_1$、$n_2$和真空波长$\\lambda$表示反射到真空中的波的表式，并求反射波为零的条件。",
+  "problem_text_en": "1404 (1) A plane electromagnetic wave is normally incident on the interface between two media. The amplitude reflection and transmission coefficients from medium 1 to 2 are $r$ and $t$, and from medium 2 to 1 are $r'$ and $t'$. Using the superposition principle and time-reversal invariance, derive the Stark relations $r^2 + tt' = 1$, $r = -r'$. (2) A plane electromagnetic wave is normally incident from vacuum on a thin film of thickness $d$ and refractive index $n_1$, with a substrate of refractive index $n_2$ and $\\mu_r=1$. Express the wave reflected back to vacuum in terms of $n_1$, $n_2$, and the vacuum wavelength $\\lambda$, and find the conditions for zero reflected wave.",
+  "problem_img": ["图1404_1", "图1404_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1404_1：斯塔克关系式的时间反演与叠加原理图示", "图1404_2：薄膜多次反射的振幅叠加"],
+  "img_en": ["Fig. 1404_1: Diagram for Stark relations via time reversal and superposition", "Fig. 1404_2: Amplitude superposition for multiple reflections in a thin film"],
+  "problem_solution_cn": "【核心思路】(1) 时间反演要求入射、反射、透射波可逆向传播，叠加原理将其分解为正向与反向过程，对比振幅得到斯塔克关系；(2) 薄膜上下表面多次反射，利用等比数列求和得到总反射振幅，再用斯塔克关系化简，令分子为零得到消反条件。",
+  "problem_solution_en": "【Core Idea】(1) Time reversal requires that incident, reflected, and transmitted waves can propagate backward. The superposition principle decomposes them into forward and reverse processes, and comparing amplitudes gives the Stark relations; (2) Multiple reflections at the top and bottom surfaces of the film are summed as a geometric series to get the total reflected amplitude, simplified using the Stark relations, and setting the numerator to zero gives the anti-reflection conditions.",
+  "problem_answer": "(1) 斯塔克关系式：$\\boldsymbol{r^2 + tt' = 1}$，$\\boldsymbol{r = -r'}$；(2) 反射振幅比$\\boldsymbol{\\frac{A_R}{A} = \\frac{r_1 + r_2 e^{-2ikd}}{1 + r_1 r_2 e^{-2ikd}}}$（$k=2\\pi n_1/\\lambda$，$r_1=(1-n_1)/(1+n_1)$，$r_2=(n_1-n_2)/(n_1+n_2)$）；反射波为零的条件：①$\\boldsymbol{n_2=1}$且$\\boldsymbol{n_1d/\\lambda=p/2}$（$p$为正整数），或②$\\boldsymbol{n_2=n_1^2}$且$\\boldsymbol{n_1d/\\lambda=(2p-1)/4}$（$p$为正整数）",
+  "difficulty": "5",
+  "problem_tags": ["Optics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1428",
+  "problem_text_cn": "1428 (1) 写出液滴模型下核结合能半经验公式（魏扎克公式），指出各项物理意义及量子效应项；(2) 镜核$^{11}_5\\text{B}$和$^{11}_6\\text{C}$的原子质量分别为$11.00931\\ \\mathrm{u}$和$11.01143\\ \\mathrm{u}$，用结合能公式求核半径公式$R = r_0A^{1/3}$中的$r_0$。已知：$M(^1\\text{H}) = 1.007825\\ \\mathrm{u}$，$m_n = 1.008665\\ \\mathrm{u}$，$e^2/(4\\pi\\varepsilon_0) = 1.44\\ \\mathrm{MeV \\cdot fm}$，$1\\ \\mathrm{u}c^2 = 931.5\\ \\mathrm{MeV}$。",
+  "problem_text_en": "1428 (1) Write semi-empirical mass formula (Weizsäcker formula) for nuclear binding energy, explain each term and quantum terms; (2) Mirror nuclei $^{11}_5\\text{B}$ and $^{11}_6\\text{C}$ have masses $11.00931\\ \\mathrm{u}$ and $11.01143\\ \\mathrm{u}$. Use binding energy formula to find $r_0$ in $R = r_0A^{1/3}$. Given: $M(^1\\text{H}) = 1.007825\\ \\mathrm{u}$, $m_n = 1.008665\\ \\mathrm{u}$, $e^2/(4\\pi\\varepsilon_0) = 1.44\\ \\mathrm{MeV \\cdot fm}$, $1\\ \\mathrm{u}c^2 = 931.5\\ \\mathrm{MeV}$.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 魏扎克公式：$B(Z,A) = a_VA - a_sA^{2/3} - a_cZ^2/A^{1/3} - a_a\\frac{(N-Z)^2}{A} + B_P$，其中$B_P$（对能）和对称能$a_a\\frac{(N-Z)^2}{A}$为量子效应项；(2) 镜核质量差由库仑能差决定，$\\Delta M c^2 = (M(^1\\text{H}) - m_n)c^2 + \\frac{3}{5}\\frac{Z_2(Z_2-1) - Z_1(Z_1-1)}{r_0A^{1/3}} \\cdot \\frac{e^2}{4\\pi\\varepsilon_0}$，解得$r_0 = 1.41\\ \\mathrm{fm}$。",
+  "problem_solution_en": "【Core Idea】(1) Weizsäcker formula: $B(Z,A) = a_VA - a_sA^{2/3} - a_cZ^2/A^{1/3} - a_a\\frac{(N-Z)^2}{A} + B_P$, where $B_P$ (pairing) and symmetry energy $a_a\\frac{(N-Z)^2}{A}$ are quantum terms; (2) Mirror nucleus mass difference comes from Coulomb energy difference, $\\Delta M c^2 = (M(^1\\text{H}) - m_n)c^2 + \\frac{3}{5}\\frac{Z_2(Z_2-1) - Z_1(Z_1-1)}{r_0A^{1/3}} \\cdot \\frac{e^2}{4\\pi\\varepsilon_0}$, solve for $r_0 = 1.41\\ \\mathrm{fm}$.",
+  "problem_answer": "(1) 魏扎克公式：$\\boldsymbol{B(Z,A) = a_VA - a_sA^{2/3} - a_cZ^2/A^{1/3} - a_a\\frac{(N-Z)^2}{A} + B_P}$，其中$\\boldsymbol{a_VA}$为体积能，$\\boldsymbol{a_sA^{2/3}}$为表面能，$\\boldsymbol{a_cZ^2/A^{1/3}}$为库仑能，$\\boldsymbol{a_a\\frac{(N-Z)^2}{A}}$为对称能（量子），$\\boldsymbol{B_P}$为对能（量子）；(2) $\\boldsymbol{r_0 = 1.41\\ \\mathrm{fm}}$。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

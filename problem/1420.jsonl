@@ -1,0 +1,14 @@
+{
+  "problem_id": "1420",
+  "problem_text_cn": "1420 μ⁻子被铅核（$^{208}\\text{Pb}$，$Z=82$）俘获，形成铅μ⁻原子。μ⁻子质量是电子的207倍，铅核电荷均匀分布在半径$R = 7.7\\ \\mathrm{fm}$的球体内。按玻尔理论求：(1) μ⁻子的头两个玻尔轨道半径；(2) 铅μ⁻原子的头两个能级的能量；(3) 铅μ⁻原子的赖曼系第一条谱线的波长；(4) 若将铅核视为点电荷，结果又如何？",
+  "problem_text_en": "1420 A $\\mu^-$ meson is captured by a lead nucleus ($^{208}\\text{Pb}$, $Z=82$), forming a lead $\\mu^-$ atom. The mass of the $\\mu^-$ is 207 times that of an electron, and the lead nucleus has a uniform charge distribution within a sphere of radius $R = 7.7\\ \\mathrm{fm}$. Using Bohr theory, find: (1) The first two Bohr orbital radii of the $\\mu^-$; (2) The first two energy levels of the lead $\\mu^-$ atom; (3) The wavelength of the first line in the Lyman series of the lead $\\mu^-$ atom; (4) What are the results if the lead nucleus is treated as a point charge?",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 核内（$r<R$）和核外（$r>R$）分别用不同的势能公式，由角动量量子化和向心力公式解得轨道半径；(2) 代入轨道半径得能级能量；(3) 赖曼系第一条谱线对应$n=2\\to n=1$跃迁，$\\lambda = \\frac{hc}{E_2 - E_1}$；(4) 点电荷模型下，$r>R$的能级公式适用，重新计算能级和波长。",
+  "problem_solution_en": "【Core Idea】(1) Use different potential formulas for inside ($r<R$) and outside ($r>R$) the nucleus, solve for orbital radii from angular momentum quantization and centripetal force; (2) Substitute radii to find energy levels; (3) First Lyman line corresponds to $n=2\\to n=1$ transition, $\\lambda = \\frac{hc}{E_2 - E_1}$; (4) For point charge model, use $r>R$ energy level formula and recalculate levels and wavelength.",
+  "problem_answer": "(1) 头两个轨道半径：$\\boldsymbol{r_1 = 6.14\\ \\mathrm{fm}}$（核内），$\\boldsymbol{r_2 = 12.48\\ \\mathrm{fm}}$（核外）；(2) 头两个能级能量：$\\boldsymbol{E_1 = -13.25\\ \\mathrm{MeV}}$，$\\boldsymbol{E_2 = -4.73\\ \\mathrm{MeV}}$；(3) 赖曼系第一条谱线波长$\\boldsymbol{\\lambda = 1.46 \\times 10^{-4}\\ \\mathrm{nm}}$；(4) 点电荷模型下，$\\boldsymbol{E_1' = -18.93\\ \\mathrm{MeV}}$，$\\boldsymbol{E_2 = -4.73\\ \\mathrm{MeV}}$，波长$\\boldsymbol{\\lambda' = 8.73 \\times 10^{-5}\\ \\mathrm{nm}}$。",
+  "difficulty": "5",
+  "problem_tags": ["Modern Physics"]
+}

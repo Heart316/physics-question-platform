@@ -1,0 +1,14 @@
+{
+  "problem_id": "1394",
+  "problem_text_cn": "1394 根据笛卡儿理论，虹是由太阳光线经水滴的折射和反射而形成的。虹的角半径可由入射光线在水滴内反射一次再折射后出射时获得最大强度的要求来确定。将水滴看成球形，折射率为$n$，求虹的角半径$\\alpha$。已知水对红光和紫光的折射率分别为$n_{\\text{红}} = 1.329$，$n_{\\text{紫}} = 1.343$，试求虹对红光的角半径$\\alpha_{\\text{红}}$和紫光的角半径$\\alpha_{\\text{紫}}$的值。",
+  "problem_text_en": "1394 According to Cartesian theory, a rainbow is formed by the refraction and reflection of sunlight by water droplets. The angular radius of the rainbow can be determined by the requirement that the outgoing light after one internal reflection and refraction has maximum intensity. Treat the water droplet as a sphere with refractive index $n$, find the angular radius $\\alpha$ of the rainbow. Given that the refractive indices of water for red and violet light are $n_{\\text{red}} = 1.329$ and $n_{\\text{violet}} = 1.343$ respectively, find the angular radii $\\alpha_{\\text{red}}$ and $\\alpha_{\\text{violet}}$ for the rainbow.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】由$\\frac{\\mathrm{d}\\alpha}{\\mathrm{d}i} = 0$确定最大强度条件，结合折射定律$\\sin i = n\\sin r$，得$\\cos i = \\frac{1}{2}n\\cos r$，解得$\\cos i = \\sqrt{\\frac{n^2 - 1}{3}}$，代入$\\alpha = 4r - 2i$，得$\\alpha = 4\\arcsin\\sqrt{\\frac{4 - n^2}{3n^2}} - 2\\arcsin\\sqrt{\\frac{4 - n^2}{3}}$。代入$n_{\\text{红}} = 1.329$，得$\\alpha_{\\text{红}} = 42^\\circ40'$；代入$n_{\\text{紫}} = 1.343$，得$\\alpha_{\\text{紫}} = 40^\\circ39'$。",
+  "problem_solution_en": "【Core Idea】Determine the maximum intensity condition by $\\frac{\\mathrm{d}\\alpha}{\\mathrm{d}i} = 0$, combine with Snell's law $\\sin i = n\\sin r$, get $\\cos i = \\frac{1}{2}n\\cos r$, solve to get $\\cos i = \\sqrt{\\frac{n^2 - 1}{3}}$, substitute into $\\alpha = 4r - 2i$, get $\\alpha = 4\\arcsin\\sqrt{\\frac{4 - n^2}{3n^2}} - 2\\arcsin\\sqrt{\\frac{4 - n^2}{3}}$. Substitute $n_{\\text{red}} = 1.329$, get $\\alpha_{\\text{red}} = 42^\\circ40'$; substitute $n_{\\text{violet}} = 1.343$, get $\\alpha_{\\text{violet}} = 40^\\circ39'$.",
+  "problem_answer": "红光角半径：$\\boldsymbol{42^\\circ40'}$；紫光角半径：$\\boldsymbol{40^\\circ39'}$；测量关键：由$\\frac{\\mathrm{d}\\alpha}{\\mathrm{d}i} = 0$确定最大强度条件。",
+  "difficulty": "4",
+  "problem_tags": ["Geometric Optics"]
+}

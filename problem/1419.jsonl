@@ -1,0 +1,14 @@
+{
+  "problem_id": "1419",
+  "problem_text_cn": "1419 μ⁻介子（电荷$-e$，质量$m_\\mu = 106\\ \\mathrm{MeV/c^2}$）和$\\pi^+$介子（电荷$+e$，质量$m_\\pi = 140\\ \\mathrm{MeV/c^2}$）组成“奇特原子”，两粒子视为点粒子，求：(1) 原子的最低能量；(2) 基态时两介子之间的距离；(3) 略去原子整体运动，基态时μ⁻介子的运动速率。",
+  "problem_text_en": "1419 A \"strange atom\" is formed by a $\\mu^-$ meson (charge $-e$, mass $m_\\mu = 106\\ \\mathrm{MeV/c^2}$) and a $\\pi^+$ meson (charge $+e$, mass $m_\\pi = 140\\ \\mathrm{MeV/c^2}$), treated as point particles. Find: (1) The minimum energy of the atom; (2) The distance between the two mesons in the ground state; (3) Neglecting overall motion, the speed of the $\\mu^-$ meson in the ground state.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】引入约化质量$\\mu = \\frac{m_\\mu m_\\pi}{m_\\mu + m_\\pi}$，类氢原子基态能量$E_1 = -\\frac{1}{2}\\mu(\\alpha c)^2$，基态半径$r_1 = \\frac{a_0 m_e}{\\mu}$；由动量守恒$m_\\pi v_\\pi = m_\\mu v_\\mu$和相对速率$v_1 = \\alpha c = v_\\pi + v_\\mu$，解得$v_\\mu = \\frac{\\alpha c m_\\pi}{m_\\mu + m_\\pi}$。",
+  "problem_solution_en": "【Core Idea】Introduce reduced mass $\\mu = \\frac{m_\\mu m_\\pi}{m_\\mu + m_\\pi}$. Ground state energy $E_1 = -\\frac{1}{2}\\mu(\\alpha c)^2$, ground state radius $r_1 = \\frac{a_0 m_e}{\\mu}$. From momentum conservation $m_\\pi v_\\pi = m_\\mu v_\\mu$ and relative speed $v_1 = \\alpha c = v_\\pi + v_\\mu$, solve for $v_\\mu = \\frac{\\alpha c m_\\pi}{m_\\mu + m_\\pi}$.",
+  "problem_answer": "(1) 最低能量$\\boldsymbol{E_1 = -1.60\\ \\mathrm{keV}}$；(2) 基态距离$\\boldsymbol{r_1 = 4.48 \\times 10^{-4}\\ \\mathrm{nm}}$；(3) μ⁻介子速率$\\boldsymbol{v_\\mu = 1.25 \\times 10^6\\ \\mathrm{m/s}}$。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

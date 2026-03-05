@@ -1,0 +1,14 @@
+{
+  "problem_id": "1405",
+  "problem_text_cn": "1405 波长为$\\lambda$的单色缝光源$S$位于透镜$L_1$焦平面上，经透镜分为两束平行光，经两个盛有液体的细管道后，又经透镜$L_2$聚焦于焦平面$S'$观察干涉条纹。两管道中液体折射率均为$n$，上管道中液体以速度$u$运动，下管道中液体静止，两管道长度均为$L$。问当$u$至少为何值时，$S'$处发生相消干涉？",
+  "problem_text_en": "1405 A monochromatic slit source $S$ of wavelength $\\lambda$ is at the focal plane of lens $L_1$, split into two parallel beams by the lens, passing through two thin tubes filled with liquid (refractive index $n$ for both). The liquid in the upper tube moves at speed $u$, while the liquid in the lower tube is stationary. Both tubes have length $L$. What is the minimum value of $u$ for which destructive interference occurs at $S'$?",
+  "problem_img": ["图1405_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1405_1：运动液体中光程差干涉装置"],
+  "img_en": ["Fig. 1405_1: Interference setup for optical path difference in moving liquid"],
+  "problem_solution_cn": "【核心思路】上管道中光的传播速度由相对论速度叠加得到，等效折射率$n'$与静止时$n$不同，产生光程差$\\Delta = L(n-n')$。当$\\Delta=(2p-1)\\lambda/2$时相消，取$p=1$得到最小$u$。",
+  "problem_solution_en": "【Core Idea】The speed of light in the upper tube is given by relativistic velocity addition, leading to an effective refractive index $n'$ different from the stationary $n$, creating an optical path difference $\\Delta = L(n-n')$. Destructive interference occurs when $\\Delta=(2p-1)\\lambda/2$, and the minimum $u$ is found for $p=1$.",
+  "problem_answer": "最小速度$\\boldsymbol{u_{\\text{min}} = \\frac{\\lambda c}{2L(n^2 - 1)}}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

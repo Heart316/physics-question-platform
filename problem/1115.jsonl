@@ -1,0 +1,14 @@
+{
+  "problem_id": "1115",
+  "problem_text_cn": "1115 两块无穷大平行平板相距$2H$，宽度$L$，黏度$\\eta$的流体在板间定常流动，两端压强$p_1、p_2$，板接触处流速为零。求流速分布$v=v(x)$（以中央为原点）。",
+  "problem_text_en": "1115 Two infinite parallel plates are separated by $2H$ with width $L$. A fluid of viscosity $\\eta$ flows steadily between the plates, with pressures $p_1$ and $p_2$ at the two ends, and the velocity at the plate contact is zero. Find the velocity distribution $v=v(x)$ (with the center as the origin).",
+  "problem_img": ["图1115_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1115_1：平行平板间的流体流动分析"],
+  "img_en": ["Fig. 1115_1: Analysis of fluid flow between parallel plates"],
+  "problem_solution_cn": "【核心思路】取柱形流体微元，由**压强差与黏滞力平衡**建立微分方程，结合边界条件$x=\\pm H$时$v=0$，积分求解流速分布，结果为抛物线分布。",
+  "problem_solution_en": "【Core Idea】Take a cylindrical fluid element, establish a differential equation from the **balance between pressure difference and viscous force**, integrate to solve the velocity distribution combined with the boundary condition $v=0$ at $x=\\pm H$, and the result is a parabolic distribution.",
+  "problem_answer": "板间流速分布$\\boldsymbol{v=\\dfrac{p_1-p_2}{2\\eta L}(H^2-x^2)}$",
+  "difficulty": "4",
+  "problem_tags": ["Fluid Mechanics"]
+}

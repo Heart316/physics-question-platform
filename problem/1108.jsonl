@@ -1,0 +1,13 @@
+{
+  "problem_id": "1108",
+  "problem_text_cn": "1108 空气密度$\\rho_A=1.3\\ \\mathrm{kg/m^3}$、黏度$\\eta=1.81\\times10^{-5}\\ \\mathrm{Pa\\cdot s}$，求半径$r_1=1.0\\times10^{-3}\\ \\mathrm{mm}$和$r_2=5.0\\times10^{-2}\\ \\mathrm{mm}$的雨滴下落的终极速度$v_{e1}$、$v_{e2}$。（雨滴密度$\\rho_0=1.0\\times10^3\\ \\mathrm{kg/m^3}$，浮力可略）",
+  "problem_text_en": "1108 The density of air is $\\rho_A=1.3\\ \\mathrm{kg/m^3}$ and the viscosity is $\\eta=1.81\\times10^{-5}\\ \\mathrm{Pa\\cdot s}$. Find the terminal velocities $v_{e1}$ and $v_{e2}$ of raindrops with radii $r_1=1.0\\times10^{-3}\\ \\mathrm{mm}$ and $r_2=5.0\\times10^{-2}\\ \\mathrm{mm}$ when falling. (Density of raindrops $\\rho_0=1.0\\times10^3\\ \\mathrm{kg/m^3}$, buoyancy is negligible)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】雨滴终极速度满足**重力与斯托克斯黏滞力平衡**，由$\\dfrac{4}{3}\\pi r^3 \\rho_0 g = 6\\pi r \\eta v_e$化简得$v_e=2\\rho_0 r^2 g/(9\\eta)$，代入不同半径计算，利用$r_2=50r_1$得$v_{e2}=50^2 v_{e1}$。",
+  "problem_solution_en": "【Core Idea】The terminal velocity of a raindrop satisfies the **balance between gravity and Stokes viscous force**. Simplify from $\\dfrac{4}{3}\\pi r^3 \\rho_0 g = 6\\pi r \\eta v_e$ to get $v_e=2\\rho_0 r^2 g/(9\\eta)$, substitute different radii for calculation, and use $r_2=50r_1$ to obtain $v_{e2}=50^2 v_{e1}$.",
+  "problem_answer": "雨滴终极速度$\\boldsymbol{v_{e1}=1.2\\times10^{-4}\\ \\mathrm{m/s}=1.2\\times10^{-2}\\ \\mathrm{cm/s}}$，$\\boldsymbol{v_{e2}=30\\ \\mathrm{cm/s}}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

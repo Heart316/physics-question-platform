@@ -1,0 +1,13 @@
+{
+  "problem_id": "1110",
+  "problem_text_cn": "1110 小空气泡半径$r=0.10\\ \\mathrm{cm}$，在密度$\\rho=0.72\\times10^3\\ \\mathrm{kg/m^3}$、黏度$\\eta=0.11\\ \\mathrm{Pa\\cdot s}$的液体中上升，求其上升的终极速度。（气泡重力可略）",
+  "problem_text_en": "1110 A small air bubble has a radius of $r=0.10\\ \\mathrm{cm}$ and rises in a liquid with density $\\rho=0.72\\times10^3\\ \\mathrm{kg/m^3}$ and viscosity $\\eta=0.11\\ \\mathrm{Pa\\cdot s}$. Find its terminal velocity when rising. (The gravity of the bubble is negligible)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】气泡上升的终极速度满足**浮力与斯托克斯黏滞力平衡**，由$\\dfrac{4}{3}\\pi r^3 \\rho g = 6\\pi r \\eta v_e$化简得$v_e=2\\rho r^2 g/(9\\eta)$，代入数值计算。",
+  "problem_solution_en": "【Core Idea】The terminal velocity of the rising bubble satisfies the **balance between buoyancy and Stokes viscous force**. Simplify from $\\dfrac{4}{3}\\pi r^3 \\rho g = 6\\pi r \\eta v_e$ to get $v_e=2\\rho r^2 g/(9\\eta)$, and substitute the values for calculation.",
+  "problem_answer": "空气泡上升的终极速度$\\boldsymbol{v_e=1.4\\times10^{-2}\\ \\mathrm{m/s}=1.4\\ \\mathrm{cm/s}}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

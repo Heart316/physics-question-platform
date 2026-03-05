@@ -1,0 +1,14 @@
+{
+  "problem_id": "1438",
+  "problem_text_cn": "1438 测量薄板受拉力时，中心位置的位移量及薄板的尺寸，计算得薄板材料的杨氏模量。[可供仪器和用具] FD-HY-1型霍耳位置传感器法杨氏模量测定仪（型号中FD表示复旦天欣科教仪器公司生产）、砝码10.00 g、游标卡尺、千分尺、黄铜和铸铁样品各一块。[要求] (1) 用读数显微镜测量黄铜样品在受力时，中心位置的位移量，测量样品的尺寸，计算黄铜的杨氏模量。(2) 对霍耳位置传感器定标，求得其灵敏度。(3) 用霍耳位置传感器测铸铁的杨氏模量。",
+  "problem_text_en": "1438 Measure the displacement of the center position and the dimensions of the thin plate when it is under tension, and calculate the Young's modulus of the thin plate material. [Available instruments and tools] FD-HY-1 Hall position sensor method Young's modulus measuring instrument (FD in the model indicates produced by Fudan Tianxin Scientific Instrument Co., Ltd.), weights 10.00 g, vernier caliper, micrometer, one brass and one cast iron sample each. [Requirements] (1) Use a reading microscope to measure the displacement of the center position of the brass sample under force, measure the sample dimensions, and calculate the Young's modulus of brass. (2) Calibrate the Hall position sensor and find its sensitivity. (3) Measure the Young's modulus of cast iron with the Hall position sensor.",
+  "problem_img": ["图1438_1", "图1438_2", "图1438_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1438_1：杨氏模量测定装置示意图", "图1438_2：霍耳位置传感器结构示意图", "图1438_3：测量数据及杨氏模量计算"],
+  "img_en": ["Fig. 1438_1: Schematic diagram of Young's modulus measuring device", "Fig. 1438_2: Schematic diagram of Hall position sensor structure", "Fig. 1438_3: Measurement data and Young's modulus calculation"],
+  "problem_solution_cn": "【核心思路】杨氏模量公式$E = \\frac{d^3mg}{4a^3b\\Delta z}$（$d$为两刀口间距，$a$为梁厚，$b$为梁宽，$m$为砝码质量，$\\Delta z$为中心位移）。霍耳传感器$\\Delta U_H = KI\\frac{dB}{dz} \\cdot \\Delta z$，灵敏度$\\frac{\\Delta U}{\\Delta z} = 218\\ \\mathrm{mV/mm}$。代入黄铜数据$d = 23.10\\ \\mathrm{cm}$，$a = 1.001\\ \\mathrm{mm}$，$b = 2.299\\ \\mathrm{cm}$，$\\bar{\\Delta z} = 0.484\\ \\mathrm{mm}$，得$E = 10.8 \\times 10^{10}\\ \\mathrm{N/m^2}$，与公认值$10.55 \\times 10^{10}\\ \\mathrm{N/m^2}$的百分差为2.4%。",
+  "problem_solution_en": "【Core Idea】Young's modulus formula $E = \\frac{d^3mg}{4a^3b\\Delta z}$ (where $d$ is the distance between two knife edges, $a$ is the beam thickness, $b$ is the beam width, $m$ is the weight mass, $\\Delta z$ is the center displacement). Hall sensor $\\Delta U_H = KI\\frac{dB}{dz} \\cdot \\Delta z$, sensitivity $\\frac{\\Delta U}{\\Delta z} = 218\\ \\mathrm{mV/mm}$. Substituting brass data $d = 23.10\\ \\mathrm{cm}$, $a = 1.001\\ \\mathrm{mm}$, $b = 2.299\\ \\mathrm{cm}$, $\\bar{\\Delta z} = 0.484\\ \\mathrm{mm}$, we get $E = 10.8 \\times 10^{10}\\ \\mathrm{N/m^2}$, with a percentage difference of 2.4% from the accepted value $10.55 \\times 10^{10}\\ \\mathrm{N/m^2}$.",
+  "problem_answer": "黄铜杨氏模量：$\\boldsymbol{10.8 \\times 10^{10}\\ \\mathrm{N/m^2}}$；霍耳传感器灵敏度：$\\boldsymbol{218\\ \\mathrm{mV/mm}}$；测量关键：用读数显微镜测位移，传感器定标后测铸铁杨氏模量。",
+  "difficulty": "5",
+  "problem_tags": ["Mechanics", "Electromagnetism"]
+}

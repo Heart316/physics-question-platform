@@ -1,0 +1,14 @@
+{
+  "problem_id": "1418",
+  "problem_text_cn": "1418 氢气中混有氦气，氢原子光谱中混入了氦离子（He⁺）谱线。在不测量谱线波长的情况下，直接从照片上判断哪些是氢光谱，哪些是He⁺光谱，并说明判断依据。",
+  "problem_text_en": "1418 Hydrogen gas is mixed with helium, causing He⁺ ion lines to appear in the hydrogen atomic spectrum. Without measuring the wavelengths of the spectral lines, determine which lines belong to hydrogen and which to He⁺ directly from the photograph, and explain the basis for your judgment.",
+  "problem_img": ["图1418_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1418_1：毕克林线系与氢巴耳末线系对比"],
+  "img_en": ["Fig. 1418_1: Comparison of Pickering series and hydrogen Balmer series"],
+  "problem_solution_cn": "【核心思路】氢原子波数公式$\\tilde{\\nu}_\\text{H} = R_\\text{H}\\left(\\frac{1}{m^2} - \\frac{1}{n^2}\\right)$，He⁺的波数公式为$\\tilde{\\nu}_\\text{He} = R_\\text{He}Z^2\\left(\\frac{1}{m^2} - \\frac{1}{n^2}\\right) = R_\\text{He}\\left(\\frac{1}{(m/2)^2} - \\frac{1}{(n/2)^2}\\right)$（$Z=2$）。当He⁺的量子数$(m/2)_\\text{He} = (m)_\\text{H}$、$(n/2)_\\text{He} = (n)_\\text{H}$时，谱线几乎重合，但He⁺的波数略大；其余He⁺谱线位于氢谱线之间，且光谱强度和间隔向波数大方向递减，可据此区分。",
+  "problem_solution_en": "【Core Idea】The hydrogen wavenumber formula is $\\tilde{\\nu}_\\text{H} = R_\\text{H}\\left(\\frac{1}{m^2} - \\frac{1}{n^2}\\right)$, while for He⁺ it is $\\tilde{\\nu}_\\text{He} = R_\\text{He}Z^2\\left(\\frac{1}{m^2} - \\frac{1}{n^2}\\right) = R_\\text{He}\\left(\\frac{1}{(m/2)^2} - \\frac{1}{(n/2)^2}\\right)$ ($Z=2$). When He⁺ quantum numbers satisfy $(m/2)_\\text{He} = (m)_\\text{H}$ and $(n/2)_\\text{He} = (n)_\\text{H}$, lines nearly coincide but He⁺ wavenumbers are slightly larger. Other He⁺ lines lie between hydrogen lines, and intensity/interval decrease toward larger wavenumbers, allowing distinction.",
+  "problem_answer": "几乎重合的双线中，波数略小的是氢谱线，略大的是He⁺谱线；位于氢谱线之间的谱线均为He⁺光谱。依据是He⁺的波数公式中$Z=2$，导致其谱线位置与氢谱线部分重合但波数略大，且额外谱线填充在氢谱线之间。",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

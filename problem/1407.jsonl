@@ -1,0 +1,14 @@
+{
+  "problem_id": "1407",
+  "problem_text_cn": "1407 一个水手每步长度为$L$，方向随意，走$N$步后，平均而言，他离酒店多远？",
+  "problem_text_en": "1407 A sailor takes steps of length $L$ in random directions. After $N$ steps, on average, how far is he from the hotel?",
+  "problem_img": ["图1407_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1407_1：醉汉行走的矢量叠加"],
+  "img_en": ["Fig. 1407_1: Vector superposition for the drunkard's walk"],
+  "problem_solution_cn": "【核心思路】用矢量$\\boldsymbol{L}_i$表示每步位移，总位移$\\boldsymbol{R}=\\sum\\boldsymbol{L}_i$，模平方$R^2=\\sum L_i^2 + 2\\sum_{i<j}\\boldsymbol{L}_i\\cdot\\boldsymbol{L}_j$。因方向随机，交叉项抵消，$R^2=NL^2$，故$R=\\sqrt{N}L$。若每步时间相同，$N\\propto t$，则$R\\propto\\sqrt{t}L$。",
+  "problem_solution_en": "【Core Idea】Represent each step as a vector $\\boldsymbol{L}_i$, total displacement $\\boldsymbol{R}=\\sum\\boldsymbol{L}_i$, with squared magnitude $R^2=\\sum L_i^2 + 2\\sum_{i<j}\\boldsymbol{L}_i\\cdot\\boldsymbol{L}_j$. Due to random directions, cross terms cancel, $R^2=NL^2$, so $R=\\sqrt{N}L$. If each step takes the same time, $N\\propto t$, then $R\\propto\\sqrt{t}L$.",
+  "problem_answer": "平均距离$\\boldsymbol{R = \\sqrt{N}L}$；若每步时间相同，则$\\boldsymbol{R \\propto \\sqrt{t}L}$（$t$为行走时间）",
+  "difficulty": "3",
+  "problem_tags": ["Modern Physics"]
+}

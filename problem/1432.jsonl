@@ -1,0 +1,14 @@
+{
+  "problem_id": "1432",
+  "problem_text_cn": "1432 测量混合物中物体与所含某单一杂质体积之比。有两个带有悬线的体积相同的圆柱体，其中一个用蜡制成，另一个用蜡制成但含有重金属杂质，已知该重金属杂质的密度为$\\rho_\\text{金} = 7.67\\ \\mathrm{g/cm^3}$，求混合物圆柱体中所含重金属杂质和蜡的体积比$n$。[可供仪器和用具] 蜡质圆柱体、含有重金属杂质的蜡圆柱体、物理天平和砝码、盛有水的烧杯（水的密度为1.000 g/cm³）。[要求] (1) 写出原理和测量公式。(2) 测量并记录数据，写出实验结果。",
+  "problem_text_en": "1432 Measure the volume ratio of an object to a single impurity contained in a mixture. There are two cylinders of the same volume with suspension wires, one made of wax and the other made of wax but containing heavy metal impurities. The density of the heavy metal impurity is known as $\\rho_\\text{metal} = 7.67\\ \\mathrm{g/cm^3}$. Find the volume ratio $n$ of heavy metal impurities to wax in the mixture cylinder. [Available instruments and tools] Wax cylinder, wax cylinder containing heavy metal impurities, physical balance and weights, beaker with water (density of water is 1.000 g/cm³). [Requirements] (1) Write down the principle and measurement formula. (2) Measure and record data, and write down the experimental result.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】设纯蜡柱质量$M_1$、混合柱质量$M_2$，蜡密度$\\rho_1$（由1430法测得），重金属密度$\\rho_2=7.67\\ \\mathrm{g/cm^3}$。由$V_1\\rho_1+V_2\\rho_2=M_2$、$V\\rho_1=M_1$（$V=V_1+V_2$）联立，得体积比$n=\\frac{V_2}{V_1}=\\frac{(M_2-M_1)\\rho_1}{M_1\\rho_2-M_2\\rho_1}$。",
+  "problem_solution_en": "【Core Idea】Let $M_1$ be the mass of pure wax cylinder, $M_2$ be the mass of mixture cylinder, $\\rho_1$ be the density of wax (measured by method 1430), and $\\rho_2=7.67\\ \\mathrm{g/cm^3}$ be the density of heavy metal. From $V_1\\rho_1+V_2\\rho_2=M_2$ and $V\\rho_1=M_1$ ($V=V_1+V_2$), the volume ratio is derived as $n=\\frac{V_2}{V_1}=\\frac{(M_2-M_1)\\rho_1}{M_1\\rho_2-M_2\\rho_1}$.",
+  "problem_answer": "体积比计算公式：$\\boldsymbol{n = \\frac{(M_2 - M_1)\\rho_1}{M_1\\rho_2 - M_2\\rho_1}}$；实验关键：先测纯蜡密度$\\rho_1$，再测$M_1$和$M_2$代入公式计算。",
+  "difficulty": "4",
+  "problem_tags": ["Mechanics"]
+}

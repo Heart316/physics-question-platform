@@ -1,0 +1,13 @@
+{
+  "problem_id": "1113",
+  "problem_text_cn": "1113 灭火器唧筒向上喷水，喷口截面积$S=1.5\\ \\mathrm{cm^2}$，体积流量$Q_V=1\\ \\mathrm{dm^3/s}$。同学估算2m高处水柱截面积为$4.35\\ \\mathrm{cm^2}$，分析其估算方法并评论合理性。",
+  "problem_text_en": "1113 A fire extinguisher pump sprays water upward, with a nozzle cross-sectional area $S=1.5\\ \\mathrm{cm^2}$ and a volume flow rate $Q_V=1\\ \\mathrm{dm^3/s}$. A student estimates that the cross-sectional area of the water column at a height of 2m is $4.35\\ \\mathrm{cm^2}$. Analyze the estimation method and comment on its rationality.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】同学的方法：假设**机械能守恒**+**连续性方程**，先由流量求喷口流速，再由动能定理求2m高处流速，最后得截面积；合理性评论：该方法为理想模型，实际中水柱会碎裂成水珠，机械能不守恒，且速度为零的水珠分布在空间区域，截面积不会趋于无穷大。",
+  "problem_solution_en": "【Core Idea】Student's method: Assume **conservation of mechanical energy** + **continuity equation**, first find the nozzle velocity from the flow rate, then find the velocity at 2m from the work-energy theorem, and finally obtain the cross-sectional area; Rationality comment: This method is an ideal model. In reality, the water column breaks into droplets, mechanical energy is not conserved, and droplets with zero velocity are distributed in a spatial region, so the cross-sectional area will not tend to infinity.",
+  "problem_answer": "同学估算方法：理想流体模型下，$\\boldsymbol{S_h=Q_V/\\sqrt{v^2-2gh}=4.35\\ \\mathrm{cm^2}}$；评论：**方法不合理**，未考虑水柱碎裂、水珠碰撞等实际因素，理想模型在接近最高点时失效",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

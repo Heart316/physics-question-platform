@@ -1,0 +1,14 @@
+{
+  "problem_id": "1427",
+  "problem_text_cn": "1427 (1) 写出$\\beta^-$衰变的表示式及衰变能计算公式（用原子质量表示）；(2) $^{17}\\text{N}$经$\\beta^-$衰变到$^{17}\\text{O}^*$（最大电子动能3.72 MeV），$^{17}\\text{O}^*$发射中子到$^{16}\\text{O}$的基态或激发态（$^{16}\\text{O}$激发态能量3.05, 6.13, 6.90 MeV）。求中子动能可能的大小（考虑$^{16}\\text{O}$反冲）。已知：$M(^{17}\\text{N}) = 17.008449\\ \\mathrm{u}$，$M(^{16}\\text{O}) = 15.994915\\ \\mathrm{u}$，$m_n = 1.008665\\ \\mathrm{u}$，$1\\ \\mathrm{u}c^2 = 931.5\\ \\mathrm{MeV}$。",
+  "problem_text_en": "1427 (1) Write $\\beta^-$ decay equation and decay energy formula (in terms of atomic masses); (2) $^{17}\\text{N}$ decays to $^{17}\\text{O}^*$ via $\\beta^-$ (max electron KE 3.72 MeV), $^{17}\\text{O}^*$ emits neutron to $^{16}\\text{O}$ ground or excited states (3.05, 6.13, 6.90 MeV). Find possible neutron KE (consider $^{16}\\text{O}$ recoil). Given: $M(^{17}\\text{N}) = 17.008449\\ \\mathrm{u}$, $M(^{16}\\text{O}) = 15.994915\\ \\mathrm{u}$, $m_n = 1.008665\\ \\mathrm{u}$, $1\\ \\mathrm{u}c^2 = 931.5\\ \\mathrm{MeV}$.",
+  "problem_img": ["图1427_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1427_1：$^{17}\\text{N}$衰变及中子发射示意图"],
+  "img_en": ["Fig. 1427_1: Diagram of $^{17}\\text{N}$ decay and neutron emission"],
+  "problem_solution_cn": "【核心思路】(1) $\\beta^-$衰变：$^A_Z\\text{X} \\to ^A_{Z+1}\\text{Y} + e^- + \\bar{\\nu}_e$，衰变能$E_d = [M(\\text{X}) - M(\\text{Y})]c^2$；(2) 由$E_d(\\beta^-) = 3.72\\ \\mathrm{MeV}$得$M(^{17}\\text{O}^*)c^2 = M(^{17}\\text{N})c^2 - 3.72\\ \\mathrm{MeV}$，再由$M(^{17}\\text{O}^*)c^2 - [M(^{16}\\text{O})c^2 + E^*(^{16}\\text{O})] - m_nc^2 > 0$判断，仅$E^* = 0$可行，中子动能$E_n = 0.82 \\times \\frac{16}{17} \\approx 0.77\\ \\mathrm{MeV}$。",
+  "problem_solution_en": "【Core Idea】(1) $\\beta^-$ decay: $^A_Z\\text{X} \\to ^A_{Z+1}\\text{Y} + e^- + \\bar{\\nu}_e$, decay energy $E_d = [M(\\text{X}) - M(\\text{Y})]c^2$; (2) From $E_d(\\beta^-) = 3.72\\ \\mathrm{MeV}$, get $M(^{17}\\text{O}^*)c^2 = M(^{17}\\text{N})c^2 - 3.72\\ \\mathrm{MeV}$. Only $E^* = 0$ satisfies $M(^{17}\\text{O}^*)c^2 - [M(^{16}\\text{O})c^2 + E^*] - m_nc^2 > 0$, neutron KE $E_n = 0.82 \\times \\frac{16}{17} \\approx 0.77\\ \\mathrm{MeV}$.",
+  "problem_answer": "(1) $\\beta^-$衰变：$^A_Z\\text{X} \\to ^A_{Z+1}\\text{Y} + e^- + \\bar{\\nu}_e$，衰变能$\\boldsymbol{E_d = [M(\\text{X}) - M(\\text{Y})]c^2}$；(2) 中子动能仅有一种可能，$\\boldsymbol{0.77\\ \\mathrm{MeV}}$（对应$^{16}\\text{O}$基态）。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

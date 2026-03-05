@@ -1,0 +1,13 @@
+{
+  "problem_id": "1106",
+  "problem_text_cn": "1106 油泵将黏度$\\eta=0.30\\ \\mathrm{Pa\\cdot s}$的油通过半径$R=0.10\\ \\mathrm{m}$、长度$l=100\\ \\mathrm{m}$的水平钢管输送，体积流量$Q_V=0.05\\ \\mathrm{m^3/s}$。求：（1）管道两端压强差$\\Delta p$；（2）油泵消耗的功率$P$。",
+  "problem_text_en": "1106 An oil pump transports oil with viscosity $\\eta=0.30\\ \\mathrm{Pa\\cdot s}$ through a horizontal steel pipe with radius $R=0.10\\ \\mathrm{m}$ and length $l=100\\ \\mathrm{m}$, with a volume flow rate $Q_V=0.05\\ \\mathrm{m^3/s}$. Find: (1) The pressure difference $\\Delta p$ between the two ends of the pipe; (2) The power $P$ consumed by the oil pump.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】（1）应用**泊肃叶公式**$\\Delta p=8\\eta l Q_V/(\\pi R^4)$计算压强差；（2）油泵功率等于单位时间内克服黏滞阻力做的功，即$P=\\Delta p \\cdot Q_V$。",
+  "problem_solution_en": "【Core Idea】(1) Calculate the pressure difference using the **Poiseuille's formula** $\\Delta p=8\\eta l Q_V/(\\pi R^4)$; (2) The power of the oil pump is equal to the work done against viscous resistance per unit time, i.e., $P=\\Delta p \\cdot Q_V$.",
+  "problem_answer": "（1）管道两端压强差$\\boldsymbol{\\Delta p=4.0\\times10^5\\ \\mathrm{Pa}}$；（2）油泵消耗的功率$\\boldsymbol{P=2.0\\times10^4\\ \\mathrm{W}}$（注：原文印刷为$2.0\\times10^5$，按公式计算应为$2.0\\times10^4$）",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

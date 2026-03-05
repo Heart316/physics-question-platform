@@ -1,0 +1,13 @@
+{
+  "problem_id": "1104",
+  "problem_text_cn": "1104 输油管直径$305\\ \\mathrm{mm}$，隔片开口面积为原面积的$1/5$，石油体积流量$Q_V=70\\times10^{-3}\\ \\mathrm{m^3/s}$，运动黏度$\\eta/\\rho=1.0\\times10^{-4}\\ \\mathrm{m^2/s}$。判断石油经过隔片时是否为湍流。（临界雷诺数$Re_c\\approx2000$）",
+  "problem_text_en": "1104 The diameter of an oil pipeline is $305\\ \\mathrm{mm}$, the opening area of the diaphragm is $1/5$ of the original area, the volume flow rate of oil is $Q_V=70\\times10^{-3}\\ \\mathrm{m^3/s}$, and the kinematic viscosity is $\\eta/\\rho=1.0\\times10^{-4}\\ \\mathrm{m^2/s}$. Determine whether the oil is in turbulent flow when passing through the diaphragm. (Critical Reynolds number $Re_c\\approx2000$)",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】计算隔片处的流速$v=Q_V/S$，代入**雷诺数公式**$Re=\\rho vr/\\eta=vr/(\\eta/\\rho)$，将计算结果与临界雷诺数比较，$Re>Re_c$则为湍流。",
+  "problem_solution_en": "【Core Idea】Calculate the velocity at the diaphragm $v=Q_V/S$, substitute into the **Reynolds number formula** $Re=\\rho vr/\\eta=vr/(\eta/\\rho)$, compare the calculated result with the critical Reynolds number. If $Re>Re_c$, it is turbulent flow.",
+  "problem_answer": "雷诺数$\\boldsymbol{Re=3300>2000}$，石油经过隔片时**为湍流**",
+  "difficulty": "2",
+  "problem_tags": ["Fluid Mechanics"]
+}

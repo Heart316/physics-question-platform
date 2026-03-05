@@ -1,0 +1,14 @@
+{
+  "problem_id": "1391",
+  "problem_text_cn": "1391 光从顶角为$A$的棱镜的主截面内入射，入射角为$i$，经两次折射后出射，棱镜材料的折射率为$n$。（1）求出射光与入射光的偏向角$\\delta$；（2）在什么情况下偏向角$\\delta$最小？并求此最小偏向角$\\delta_m$。",
+  "problem_text_en": "1391 Light is incident from the principal section of a prism with apex angle $A$ at an angle of incidence $i$, and exits after two refractions. The refractive index of the prism material is $n$. (1) Find the deviation angle $\\delta$ between the outgoing light and the incident light; (2) Under what conditions is the deviation angle $\\delta$ minimized? And find this minimum deviation angle $\\delta_m$.",
+  "problem_img": ["图1391_1", "图1391_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1391_1：棱镜两次折射的偏向角分析", "图1391_2：对称光路的极值证明"],
+  "img_en": ["Fig. 1391_1: Analysis of the deviation angle for two refractions in a prism", "Fig. 1391_2: Proof of extremum for symmetric light path"],
+  "problem_solution_cn": "【核心思路】（1）偏向角$\\delta$为两次折射偏向角之和，结合几何关系$r+i'=A$与折射定律，推导出$\\delta$与入射角$i$的函数关系；（2）对$\\delta(i)$求导，令$\\frac{d\\delta}{di}=0$，结合折射定律微分形式，证明当入射光与出射光对称（$i=r'$，$r=i'$）时，$\\delta$取极小值$\\delta_m$。",
+  "problem_solution_en": "【Core Idea】(1) The deviation angle $\\delta$ is the sum of the deviation angles of the two refractions. Combining the geometric relationship $r+i'=A$ and the law of refraction, derive the functional relationship between $\\delta$ and the incident angle $i$; (2) Differentiate $\\delta(i)$ and set $\\frac{d\\delta}{di}=0$. Combining the differential form of the law of refraction, prove that when the incident light is symmetric to the outgoing light ($i=r'$, $r=i'$), $\\delta$ takes the minimum value $\\delta_m$.",
+  "problem_answer": "（1）偏向角$\\boldsymbol{\\delta = i + \\arcsin\\left(\\sin A\\sqrt{n^2-\\sin^2 i} - \\cos A\\sin i\\right) - A}$；（2）当入射光与出射光对称时，偏向角最小，最小偏向角$\\boldsymbol{\\delta_m = 2\\arcsin\\left(n\\sin\\frac{A}{2}\\right) - A}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

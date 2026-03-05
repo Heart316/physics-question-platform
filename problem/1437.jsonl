@@ -1,0 +1,14 @@
+{
+  "problem_id": "1437",
+  "problem_text_cn": "1437 用光杠杆测量薄板厚度。[可供仪器和材料] 光杠杆、支架、铅垂线、待测薄板。[要求] (1) 正确调节光杠杆，使标尺与反射镜镜面平行，望远镜主轴与标尺垂直。(2) 望远镜调焦正确。(3) 测量薄板厚度$h$。",
+  "problem_text_en": "1437 Measure the thickness of a thin plate with an optical lever. [Available instruments and materials] Optical lever, support, plumb line, thin plate to be measured. [Requirements] (1) Correctly adjust the optical lever so that the scale is parallel to the mirror surface of the reflector, and the main axis of the telescope is perpendicular to the scale. (2) Correctly focus the telescope. (3) Measure the thickness $h$ of the thin plate.",
+  "problem_img": ["图1437_1", "图1437_2"],
+  "problem_img_process": [],
+  "img_cn": ["图1437_1：光杠杆装置示意图", "图1437_2：光杠杆测量数据及厚度计算"],
+  "img_en": ["Fig. 1437_1: Schematic diagram of optical lever device", "Fig. 1437_2: Optical lever measurement data and thickness calculation"],
+  "problem_solution_cn": "【核心思路】光杠杆原理：$\\frac{h}{z} = \\tan\\theta$，$\\tan(2\\theta) = \\frac{\\Delta m}{D}$，小角度近似$\\tan\\theta \\approx \\theta$，得$h = \\frac{z \\cdot \\Delta m}{2D} \\cdot \\left[1 - \\frac{1}{3}\\left(\\frac{\\Delta m}{D}\\right)^2\\right]$。代入数据$\\bar{z} = 5.03\\ \\mathrm{cm}$，$\\bar{\\Delta m} = 1.6\\ \\mathrm{mm}$，$\\bar{D} = 173.3\\ \\mathrm{cm}$，得$h = 0.023\\ \\mathrm{mm}$。",
+  "problem_solution_en": "【Core Idea】Optical lever principle: $\\frac{h}{z} = \\tan\\theta$, $\\tan(2\\theta) = \\frac{\\Delta m}{D}$, small angle approximation $\\tan\\theta \\approx \\theta$, so $h = \\frac{z \\cdot \\Delta m}{2D} \\cdot \\left[1 - \\frac{1}{3}\\left(\\frac{\\Delta m}{D}\\right)^2\\right]$. Substituting data $\\bar{z} = 5.03\\ \\mathrm{cm}$, $\\bar{\\Delta m} = 1.6\\ \\mathrm{mm}$, $\\bar{D} = 173.3\\ \\mathrm{cm}$, we get $h = 0.023\\ \\mathrm{mm}$.",
+  "problem_answer": "薄板厚度：$\\boldsymbol{0.023\\ \\mathrm{mm}}$；测量关键：正确调节光杠杆和望远镜，小角度近似计算。",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

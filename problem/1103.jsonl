@@ -1,0 +1,13 @@
+{
+  "problem_id": "1103",
+  "problem_text_cn": "1103 喷泉竖直喷高$H$，喷嘴上截面直径$d$、下截面直径$D$、喷嘴高$h$。求：（1）水的体积流量$Q_V$；（2）喷嘴下截面处水的压强$p_D$。",
+  "problem_text_en": "1103 A fountain sprays water vertically to a height $H$. The upper section diameter of the nozzle is $d$, the lower section diameter is $D$, and the nozzle height is $h$. Find: (1) The volume flow rate $Q_V$ of water; (2) The water pressure $p_D$ at the lower section of the nozzle.",
+  "problem_img": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】（1）由竖直上抛运动得喷嘴出口流速$v=\\sqrt{2gH}$，结合上截面面积求体积流量；（2）对喷嘴上下截面列**伯努利方程**，结合连续性方程$v_D S_D = v_d S_d$求解下截面压强。",
+  "problem_solution_en": "【Core Idea】(1) Obtain the nozzle outlet velocity $v=\\sqrt{2gH}$ from the vertical upward projectile motion, and find the volume flow rate combined with the upper section area; (2) List the **Bernoulli equation** for the upper and lower sections of the nozzle, and solve for the lower section pressure combined with the continuity equation $v_D S_D = v_d S_d$.",
+  "problem_answer": "（1）体积流量$\\boldsymbol{Q_V = \\dfrac{\\pi d^2}{4}\\sqrt{2gH}}$；（2）下截面压强$\\boldsymbol{p_D = p_0 + \\rho gH \\dfrac{D^4 - d^4}{D^4} + \\rho gh}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}

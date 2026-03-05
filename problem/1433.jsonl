@@ -1,0 +1,14 @@
+{
+  "problem_id": "1433",
+  "problem_text_cn": "1433 用所提供的仪器和材料，用两种方法，测盐水的密度。[可供仪器和材料] 物理天平和砝码、500 mL烧杯2只、底部有孔的塑料圆筒、钢球若干、尼龙线、纯水、比重瓶、温度计、纱布、待测盐水、水在不同温度下的密度表。[要求] (1) 写出两种测量盐水密度的方法和公式，说明公式中各量的含义。(2) 测量结果要求有四位有效数字。",
+  "problem_text_en": "1433 Measure the density of salt water by two methods using the provided instruments and materials. [Available instruments and materials] Physical balance and weights, 2 500 mL beakers, plastic cylinder with a hole at the bottom, several steel balls, nylon thread, pure water, pycnometer, thermometer, gauze, salt water to be measured, density table of water at different temperatures. [Requirements] (1) Write down two methods and formulas for measuring the density of salt water, and explain the meaning of each quantity in the formulas. (2) The measurement result is required to have four significant figures.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】方法1（静力称衡法）：$\\rho_x=\\frac{M-M_2}{M-M_1}\\rho_0$（$M$为圆筒+钢球质量，$M_1$为浸没纯水视质量，$M_2$为浸没盐水视质量）；方法2（比重瓶法）：$\\rho_x=\\frac{m_2-M}{m_1-M}\\rho_0$（$M$为比重瓶质量，$m_1$为瓶+水质量，$m_2$为瓶+盐水质量）。保证测量值四位有效数字：增大测量体积、精准控温查水密度表。",
+  "problem_solution_en": "【Core Idea】Method 1 (Static weighing method): $\\rho_x=\\frac{M-M_2}{M-M_1}\\rho_0$ (where $M$ is the mass of cylinder + steel balls, $M_1$ is the apparent mass when submerged in pure water, $M_2$ is the apparent mass when submerged in salt water); Method 2 (Pycnometer method): $\\rho_x=\\frac{m_2-M}{m_1-M}\\rho_0$ (where $M$ is the mass of pycnometer, $m_1$ is the mass of bottle + water, $m_2$ is the mass of bottle + salt water). Ensure four significant figures: increase measurement volume, accurately control temperature and check water density table.",
+  "problem_answer": "方法1公式：$\\boldsymbol{\\rho_x = \\frac{M - M_2}{M - M_1}\\rho_0}$；方法2公式：$\\boldsymbol{\\rho_x = \\frac{m_2 - M}{m_1 - M}\\rho_0}$；结果要求：$\\boldsymbol{四位有效数字}$。",
+  "difficulty": "3",
+  "problem_tags": ["Mechanics"]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": "1402",
+  "problem_text_cn": "1402 (1) 菲涅耳双棱镜的折射率为$n$，折射棱角为$\\alpha$（$\\alpha \\ll 1$），位于对称轴上的单色光缝$S$（波长为$\\lambda$）与棱镜相距$a$，观察屏与棱镜相距$b$，求干涉图形中心到第$m$级亮条纹的距离$x$的表达式；(2) 若狭缝光源$S$沿垂直主轴方向稍许上移距离$h$，那么零级条纹将向哪个方向移动？移动的距离$y$是多少？",
+  "problem_text_en": "1402 (1) A Fresnel biprism has a refractive index $n$ and a refracting angle $\\alpha$ ($\\alpha \\ll 1$). A monochromatic slit $S$ (wavelength $\\lambda$) on the axis of symmetry is at a distance $a$ from the prism, and the observation screen is at a distance $b$ from the prism. Find the expression for the distance $x$ from the center of the interference pattern to the $m$-th bright fringe; (2) If the slit light source $S$ is slightly moved upward by a distance $h$ in the direction perpendicular to the principal axis, in which direction will the zero-order fringe move? What is the distance $y$ of the movement?",
+  "problem_img": ["图1402_1", "图1402_2", "图1402_3"],
+  "problem_img_process": [],
+  "img_cn": ["图1402_1：菲涅耳双棱镜的光线偏向角分析", "图1402_2：双棱镜干涉的相干光源与光程差", "图1402_3：光源上移对零级条纹位置的影响"],
+  "img_en": ["Fig. 1402_1: Analysis of the deviation angle of light in a Fresnel biprism", "Fig. 1402_2: Coherent light sources and optical path difference in biprism interference", "Fig. 1402_3: Effect of upward movement of the light source on the position of the zero-order fringe"],
+  "problem_solution_cn": "【核心思路】(1) 小角近似下，光线经双棱镜的偏向角为$\\delta=(n-1)\\alpha$，形成两个相干虚光源，间距为$\\overline{S_1S_2}=2a(n-1)\\alpha$，由光程差$\\Delta=m\\lambda$求条纹位置；(2) 光源上移使零级条纹下移，通过等效薄片法计算移动距离$y$。",
+  "problem_solution_en": "【Core Idea】(1) Under the small-angle approximation, the deviation angle of light through the biprism is $\\delta=(n-1)\\alpha$, forming two coherent virtual sources with a separation $\\overline{S_1S_2}=2a(n-1)\\alpha$. The fringe position is found from the optical path difference $\\Delta=m\\lambda$; (2) An upward movement of the light source causes the zero-order fringe to move downward, and the movement distance $y$ is calculated using the equivalent thin film method.",
+  "problem_answer": "(1) 第$m$级亮条纹距离$\\boldsymbol{x = \\dfrac{m\\lambda(a+b)}{2a(n-1)\\alpha}}$；(2) 零级条纹向**下方**移动，移动距离$\\boldsymbol{y = \\dfrac{b}{a}h}$",
+  "difficulty": "4",
+  "problem_tags": ["Optics"]
+}

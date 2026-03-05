@@ -1,0 +1,14 @@
+{
+  "problem_id": "1416",
+  "problem_text_cn": "1416 一离子的核电荷数为$z$，核外只有一个静止质量为$m$的电子。利用不确定关系$\\Delta x\\Delta p \\geqslant \\hbar$估算：(1) 非相对论情况下类氢离子的基态能量；(2) 相对论情况下类氢离子的基态能量；(3) 两种结果的联系。",
+  "problem_text_en": "1416 An ion has nuclear charge $z$ and a single electron of rest mass $m$. Use the uncertainty principle $\\Delta x\\Delta p \\geqslant \\hbar$ to estimate: (1) The ground state energy of the hydrogen-like ion in the non-relativistic case; (2) The ground state energy in the relativistic case; (3) The relationship between the two results.",
+  "problem_img": [],
+  "problem_img_process": [],
+  "img_cn": [],
+  "img_en": [],
+  "problem_solution_cn": "【核心思路】(1) 设$\\Delta x = r$，$\\Delta p \\approx \\hbar/r$，代入非相对论能量$E = \\frac{p^2}{2m} - \\frac{ze^2}{4\\pi\\varepsilon_0 r}$，求导得最小值；(2) 代入相对论能量$E = \\sqrt{p^2c^2 + m^2c^4} - \\frac{ze^2}{4\\pi\\varepsilon_0 r}$，求导得最小值；(3) 当$\\frac{Ze^2}{4\\pi\\varepsilon_0\\hbar c} \\ll 1$时，相对论结果展开后与非相对论结果相差常数$mc^2$，后者是前者的经典极限。",
+  "problem_solution_en": "【Core Idea】(1) Let $\\Delta x = r$, $\\Delta p \\approx \\hbar/r$, substitute into the non-relativistic energy $E = \\frac{p^2}{2m} - \\frac{ze^2}{4\\pi\\varepsilon_0 r}$, and find the minimum by differentiation; (2) Substitute into the relativistic energy $E = \\sqrt{p^2c^2 + m^2c^4} - \\frac{ze^2}{4\\pi\\varepsilon_0 r}$ and find the minimum; (3) When $\\frac{Ze^2}{4\\pi\\varepsilon_0\\hbar c} \\ll 1$, the relativistic result expands to the non-relativistic result plus a constant $mc^2$, which is the classical limit of the former.",
+  "problem_answer": "(1) 非相对论基态能量$\\boldsymbol{E_1 = -\\frac{mZ^2e^4}{2(4\\pi\\varepsilon_0\\hbar)^2}}$；(2) 相对论基态能量$\\boldsymbol{E_1' = mc^2\\sqrt{1 - \\left(\\frac{Ze^2}{4\\pi\\varepsilon_0\\hbar c}\\right)^2}}$；(3) 当$\\frac{Ze^2}{4\\pi\\varepsilon_0\\hbar c} \\ll 1$时，$\\boldsymbol{E_1' \\approx mc^2 + E_1}$，$E_1$是$E_1'$的经典极限，$Z$小时可用非相对论近似。",
+  "difficulty": "4",
+  "problem_tags": ["Modern Physics"]
+}

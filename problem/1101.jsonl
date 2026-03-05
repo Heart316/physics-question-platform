@@ -1,0 +1,14 @@
+{
+  "problem_id": "1101",
+  "problem_text_cn": "1101 水平圆柱形桶内水深$h_1=50\\ \\mathrm{cm}$，虹吸下端$C$在桶底下方$h_2=40\\ \\mathrm{cm}$处，打开$C$处活塞后，求：（1）$C$处水流速度$v_C$；（2）右侧弯管稳定水面$Q$与$C$的高度差$h_{QC}$。",
+  "problem_text_en": "1101 The water depth in a horizontal cylindrical bucket is $h_1=50\\ \\mathrm{cm}$, and the lower end $C$ of the siphon is $h_2=40\\ \\mathrm{cm}$ below the bottom of the bucket. After opening the piston at $C$, find: (1) The water flow velocity $v_C$ at $C$; (2) The height difference $h_{QC}$ between the stable water surface $Q$ of the right elbow and $C$.",
+  "problem_img": ["图1101_1"],
+  "problem_img_process": [],
+  "img_cn": ["图1101_1：虹吸管的伯努利方程应用示意图"],
+  "img_en": ["Fig. 1101_1: Schematic of the application of Bernoulli's equation for a siphon"],
+  "problem_solution_cn": "【核心思路】（1）由**托里拆利公式**，$C$处流速由总水头$h_1+h_2$决定；（2）对虹吸管连接处$B$分别列运动流体伯努利方程和右侧静止流体静压强方程，联立得$B$到$Q$与$B$到$C$的高度相等，故$Q、C$等高。",
+  "problem_solution_en": "【Core Idea】(1) According to **Torricelli's formula**, the velocity at $C$ is determined by the total head $h_1+h_2$; (2) List the Bernoulli equation for the moving fluid and the hydrostatic pressure equation for the stationary fluid on the right at the siphon connection point $B$ respectively. Simultaneous solution shows that the height from $B$ to $Q$ is equal to that from $B$ to $C$, so $Q$ and $C$ are at the same height.",
+  "problem_answer": "（1）$C$处水流速度$\\boldsymbol{v_C = \\sqrt{2g(h_1+h_2)} = 4.2\\ \\mathrm{m/s}}$；（2）$Q$与$C$的高度差$\\boldsymbol{h_{QC} = 0}$",
+  "difficulty": "3",
+  "problem_tags": ["Fluid Mechanics"]
+}
