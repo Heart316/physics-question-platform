@@ -2422,5 +2422,841 @@
     ],
     "difficulty": 4,
     "has_image": true
+  },
+  {
+    "id": 1001,
+    "problem_id": "1001",
+    "title_preview": "4-20 一陨石在地表上方高为的圆形轨道...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1002,
+    "problem_id": "1002",
+    "title_preview": "4-21 行星绕着恒星S作圆周运动，设S...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1003,
+    "problem_id": "1003",
+    "title_preview": "4-22 宇宙飞船在距火星表面高度处作匀...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1004,
+    "problem_id": "1004",
+    "title_preview": "4-23 以圆锥摆摆球为讨论对象，取悬挂...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1005,
+    "problem_id": "1005",
+    "title_preview": "4-24 质量均为的小球1,2用长的柔软...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1006,
+    "problem_id": "1006",
+    "title_preview": "4-25 光滑水平面上有一小孔，轻细线穿...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1007,
+    "problem_id": "1007",
+    "title_preview": "4-26 约束在某参考系  平面上运动的...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1008,
+    "problem_id": "1008",
+    "title_preview": "4-27 如图4-25所示，在光滑的水平...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1009,
+    "problem_id": "1009",
+    "title_preview": "4-28 质量相同的两个小球和相连在一根...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1010,
+    "problem_id": "1010",
+    "title_preview": "4-29 五根相同的匀质细杆，用质量与线...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1011,
+    "problem_id": "1011",
+    "title_preview": "4-30 在行星的轨道运动中引入隆格‑楞...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1012,
+    "problem_id": "1012",
+    "title_preview": "4‑31 质量为  的宇航站和质量为  ...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1013,
+    "problem_id": "1013",
+    "title_preview": "4-32 如图4-32所示，质量的飞船在...",
+    "tags": [
+      "Mechanics",
+      "Kinematics"
+    ],
+    "difficulty": 5,
+    "has_image": true
+  },
+  {
+    "id": 1014,
+    "problem_id": "1014",
+    "title_preview": "4-33 一质量为的行星绕质量为的恒星运...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": false
+  },
+  {
+    "id": 1030,
+    "problem_id": "1030",
+    "title_preview": "1030 用质量线密度为常量的细丝构成无...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1031,
+    "problem_id": "1031",
+    "title_preview": "1031 质量线密度相同，但长度未必相同...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1032,
+    "problem_id": "1032",
+    "title_preview": "1032 人的质量设为，每个小球的质量同...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1033,
+    "problem_id": "1033",
+    "title_preview": "1033 两小球质量相同，轻绳一半在水平...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1034,
+    "problem_id": "1034",
+    "title_preview": "1034 系统如图所示，开始时两个物块都...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1035,
+    "problem_id": "1035",
+    "title_preview": "1035 各边长为、质量为的匀质刚性正方...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1036,
+    "problem_id": "1036",
+    "title_preview": "1036 两个滑冰运动员质量都是，在两条...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1037,
+    "problem_id": "1037",
+    "title_preview": "1037 质量分别为的两个质点构成的系统...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1038,
+    "problem_id": "1038",
+    "title_preview": "1038 内外半径几乎同为、质量为的匀质...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1039,
+    "problem_id": "1039",
+    "title_preview": "1039 两个质量相同的小球A、B，用长...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1040,
+    "problem_id": "1040",
+    "title_preview": "1040 已知质量m、半径R的匀质薄球壳...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1041,
+    "problem_id": "1041",
+    "title_preview": "1041 钟摆由质量m、长l的匀质细杆和...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1042,
+    "problem_id": "1042",
+    "title_preview": "1042 质量m的匀质细丝，在平面上弯曲...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1043,
+    "problem_id": "1043",
+    "title_preview": "1043 两根质量同为m、长度同为l的匀...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1044,
+    "problem_id": "1044",
+    "title_preview": "1044 在薄平板刚体中，P₁和P₂两点...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1045,
+    "problem_id": "1045",
+    "title_preview": "1045 匀质正方形薄板质量为m、各边长...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1046,
+    "problem_id": "1046",
+    "title_preview": "1046 物块与水平桌面间无摩擦，轻绳与...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1047,
+    "problem_id": "1047",
+    "title_preview": "1047 两个匀质圆盘质量分别为m₁、m...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1048,
+    "problem_id": "1048",
+    "title_preview": "1048 竖直平面内有一半径为R的固定半...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1049,
+    "problem_id": "1049",
+    "title_preview": "1049 某刚体可绕过其A点的水平固定轴...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1051,
+    "problem_id": "1051",
+    "title_preview": "1051 长度为2的刚性细杆AB两端约束...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1052,
+    "problem_id": "1052",
+    "title_preview": "1052 半径R、质量m的匀质球体静止于...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1053,
+    "problem_id": "1053",
+    "title_preview": "1053 半径r、质量m的匀质轮子以角速...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1054,
+    "problem_id": "1054",
+    "title_preview": "1054 质量m的平板受水平力F作用沿水...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1055,
+    "problem_id": "1055",
+    "title_preview": "1055 倾角θ的斜面上，质量m、半径r...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1056,
+    "problem_id": "1056",
+    "title_preview": "1056 两个相同的匀质球体A、B，初始...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 2,
+    "has_image": false
+  },
+  {
+    "id": 1057,
+    "problem_id": "1057",
+    "title_preview": "1057 质量、长的匀质细杆在水平桌面上...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1058,
+    "problem_id": "1058",
+    "title_preview": "1058 匀质细杆初始竖直靠墙静止在水平...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1059,
+    "problem_id": "1059",
+    "title_preview": "1059 光滑水平桌面上的匀质细杆与小球...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1060,
+    "problem_id": "1060",
+    "title_preview": "1060 光滑水平桌面上的匀质细杆静止，...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1061,
+    "problem_id": "1061",
+    "title_preview": "1061 轻轴一端装回转仪轮子（质量，自...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1062,
+    "problem_id": "1062",
+    "title_preview": "1062 用夹子夹持半径的对称球体，夹子...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1063,
+    "problem_id": "1063",
+    "title_preview": "1063 用物理方法（质心原理）证明任意...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1064,
+    "problem_id": "1064",
+    "title_preview": "1064 质量均为m的滑板装置A（底板长...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1065,
+    "problem_id": "1065",
+    "title_preview": "1065 轻质细杆两端固定小球A、B，B...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1066,
+    "problem_id": "1066",
+    "title_preview": "1067 动能为E₀的⁴He核轰击静止的...",
+    "tags": [
+      "Modern Physics"
+    ],
+    "difficulty": 2,
+    "has_image": false
+  },
+  {
+    "id": 1067,
+    "problem_id": "1067",
+    "title_preview": "1067 不考虑地球自转，取地心系为平动...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1068,
+    "problem_id": "1068",
+    "title_preview": "1068 质量为m、边长为a的匀质立方体...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": true
+  },
+  {
+    "id": 1069,
+    "problem_id": "1069",
+    "title_preview": "1069 半长轴a、半短轴b、质量m的椭...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 2,
+    "has_image": false
+  },
+  {
+    "id": 1070,
+    "problem_id": "1070",
+    "title_preview": "1070 质量为、截面半径为、长为的匀质...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1071,
+    "problem_id": "1071",
+    "title_preview": "1071 质量为、长为的匀质长棒，手握一...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1072,
+    "problem_id": "1072",
+    "title_preview": "1072 质量，半径的两个匀质圆盘，分别...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1073,
+    "problem_id": "1073",
+    "title_preview": "1073 半径为的均匀圆木以平动速度匀速...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1074,
+    "problem_id": "1074",
+    "title_preview": "1074 刚体在参考系S中作平面平行运动...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1075,
+    "problem_id": "1075",
+    "title_preview": "1075 光滑水平地面上，质量、半径的匀...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1076,
+    "problem_id": "1076",
+    "title_preview": "1076 半径、质量的匀质球壳，初始以角...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1077,
+    "problem_id": "1077",
+    "title_preview": "1077 质量、半径的匀质圆环静止在水平...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1078,
+    "problem_id": "1078",
+    "title_preview": "1078 质量、半径的匀质球置于倾角的斜...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1079,
+    "problem_id": "1079",
+    "title_preview": "1079 光滑桌面上两个半径均为、质量均...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1080,
+    "problem_id": "1080",
+    "title_preview": "1080 匀质细杆端约束在光滑水平横梁上...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1081,
+    "problem_id": "1081",
+    "title_preview": "1081 质量的匀质细杆静止在光滑水平面...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1082,
+    "problem_id": "1082",
+    "title_preview": "1082 匀质刚性圆盘中间切割出半径为原...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1083,
+    "problem_id": "1083",
+    "title_preview": "1083 质量、半径的匀质小球从半径的圆...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1084,
+    "problem_id": "1084",
+    "title_preview": "1084 质量、半径的匀质圆筒直立于光滑...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1085,
+    "problem_id": "1085",
+    "title_preview": "1085 硬币在水平桌面纯滚并走出半径为...",
+    "tags": [
+      "Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1086,
+    "problem_id": "1086",
+    "title_preview": "1086 两端开口的U型试管内盛有水银，...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1087,
+    "problem_id": "1087",
+    "title_preview": "1087 西藏布达拉宫海拔，不计大气温度...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1088,
+    "problem_id": "1088",
+    "title_preview": "1088 长、宽、高均为的方形容器盛有密...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1089,
+    "problem_id": "1089",
+    "title_preview": "1089 将两个半径的半球壳合成“马德堡...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1090,
+    "problem_id": "1090",
+    "title_preview": "1090 细管横截面积，容器横截面积、高...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1091,
+    "problem_id": "1091",
+    "title_preview": "1091 金字塔形（正四棱锥）冰山密度为...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1092,
+    "problem_id": "1092",
+    "title_preview": "1092 长、密度、横截面积的匀质细杆，...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1093,
+    "problem_id": "1093",
+    "title_preview": "1093 截面积的水管接有一段弯管，管轴...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1094,
+    "problem_id": "1094",
+    "title_preview": "1094 直立容器盛水高度，两处横截面积...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1095,
+    "problem_id": "1095",
+    "title_preview": "1095 圆桶形油箱内盛水和石油，水厚，...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1096,
+    "problem_id": "1096",
+    "title_preview": "1096 桶底部有一洞，水面距桶底，当桶...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1097,
+    "problem_id": "1097",
+    "title_preview": "1097 火车挂弯水管于水槽中，水箱与水...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 4,
+    "has_image": true
+  },
+  {
+    "id": 1098,
+    "problem_id": "1098",
+    "title_preview": "1098 以流量匀速向大盆注水，盆底小孔...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
+  },
+  {
+    "id": 1099,
+    "problem_id": "1099",
+    "title_preview": "1099 直径很大的圆柱形水桶壁近底部有...",
+    "tags": [
+      "Fluid Mechanics"
+    ],
+    "difficulty": 3,
+    "has_image": false
   }
 ]
